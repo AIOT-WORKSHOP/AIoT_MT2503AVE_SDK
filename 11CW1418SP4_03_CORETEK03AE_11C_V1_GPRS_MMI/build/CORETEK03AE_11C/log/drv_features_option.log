@@ -72,7 +72,7 @@ All Feature count = 1179
 [D] DRV_IDP_SUPPORT                                                                  
 [D] DRV_KBD_48KEYS_ABOVE                                                             
 [D] DRV_KBD_55_KEYS                                                                  
-[D] DRV_KBD_COL_ROW_SEL                                                              0x60
+[D] DRV_KBD_COL_ROW_SEL                                                              0x40
 [D] DRV_KBD_MUX_WITH_GPIO                                                            
 [D] DRV_KBD_PWRKEY_FROM_EINT                                                         
 [D] DRV_KBD_PWRKEY_SATUS_0048                                                        

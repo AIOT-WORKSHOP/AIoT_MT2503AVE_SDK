@@ -452,6 +452,13 @@ void feed_watchdog_stop()
     GPIO_WriteIO(1,21);
 }
 
+void aiot_relay_ctrl(kal_bool onoff)
+{
+	GPIO_ModeSetup(AIOT_GPIO_RELAY, 0);
+	GPIO_InitIO(OUTPUT, AIOT_GPIO_RELAY);
+	GPIO_WriteIO(onoff, AIOT_GPIO_RELAY);
+}
+
 void init_drv()
 {
 	kal_uint32 save_mask;
@@ -491,12 +498,8 @@ void init_drv()
 	GPIO_InitIO(1, 41);
 	GPIO_WriteIO(0, 41);
 
-	//GPS LDO power 3.3V Enable
-	/*
-	GPIO_ModeSetup(19, 0);
-	GPIO_InitIO(1, 19);
-	GPIO_WriteIO(1, 19);
-	*/
+	aiot_relay_ctrl(KAL_FALSE);
+	
 	#ifdef __NSK_ECG__
 	ECG_PWR_OFF();
 	#endif

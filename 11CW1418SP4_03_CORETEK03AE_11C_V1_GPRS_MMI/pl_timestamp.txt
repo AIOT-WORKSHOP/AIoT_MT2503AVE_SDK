@@ -26,7 +26,7 @@ gfx_drv.lib 1557284642
 gps.lib 1557284310
 inet_app.lib 1557284247
 init.lib 1557284252
-iotlock.lib 1557382411
+iotlock.lib 1559650562
 l1_ext.lib 1557284313
 l4misc.lib 1557284426
 matv.lib 1557284362
@@ -50,7 +50,7 @@ system.lib 1557285366
 usb.lib 1557285238
 usb_driver.lib 1557285172
 vendorapp.lib 1557285236
-verno.lib 1557382413
+verno.lib 1559650560
 video.lib 1557285352
 video_codec.lib 1557285331
 video_sec.lib 1557285457

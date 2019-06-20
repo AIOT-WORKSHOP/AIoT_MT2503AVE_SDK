@@ -1,4 +1,4 @@
-ARRAY(0xcb180)
+ARRAY(0x17b160)
  0 ltable_entry_struct logical_data_item_table_cust[] =  
 NVRAM_EF_PHONY_LID                                    "CT00"
 
@@ -994,4 +994,4 @@ NVRAM_EF_RESERVED_SENSOR20_LID                                  "SR20"
 NVRAM_EF_TOUCHPANEL_PARA_LID                                    "TP00"                                                          
 NVRAM_EF_DCC_SENSOR_LK_LID                                      "TRLK"                                                          
 NVRAM_EF_DCC_SENSOR_SRV_LID                                     "TRSV"                                                          
-Nvram_pre_gen Check spend time: 1 
+Nvram_pre_gen Check spend time: 0 

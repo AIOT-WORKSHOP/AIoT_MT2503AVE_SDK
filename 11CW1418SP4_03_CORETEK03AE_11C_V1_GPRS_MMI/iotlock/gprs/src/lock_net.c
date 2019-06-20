@@ -1947,6 +1947,14 @@ void check_file_exist_and_delete_temp_file(void)
 
 void nwow_gsm_state_kpled_callback(void)
 {
+	static kal_bool relay_ctrl = KAL_FALSE;
+
+	//hello world test
+	//kal_prompt_trace(MOD_MMI, "AIOT hello world:  %s line:%d ", __FUNCTION__, __LINE__);
+
+	//relay_ctrl = !relay_ctrl;
+	//aiot_relay_ctrl(relay_ctrl);
+	
 	if (get_gsm_state() == GSM_SUCCESS){
 		spronser_led_ctrl(2, 100, 3);
 	}else{
@@ -1954,6 +1962,7 @@ void nwow_gsm_state_kpled_callback(void)
 	}
 
 	if(get_gps_count()>0){
+		lock_debug_print(MOD_MMI, "iotlock: get_gps_count is %d", get_gps_count());
 		spronser_led_ctrl(1, 100, 3);
 	}else{
 		spronser_led_ctrl(1, 500, 1);

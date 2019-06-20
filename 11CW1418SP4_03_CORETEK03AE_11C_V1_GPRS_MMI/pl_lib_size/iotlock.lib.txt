@@ -11,10 +11,10 @@
       2494         40          0          0       1509   epb_MmBp.obj
       2720        196          0         32       1606   iotlock.obj
        708          0          0          0        370   linked_list.obj
-      7776        754          2        664       5564   lock_drv.obj
+      7814        754          2        664       5623   lock_drv.obj
       7568        770          8        127       2712   lock_gps.obj
-     13496       1108         46       2388       3222   lock_net.obj
+     13616       1140         46       2388       3222   lock_net.obj
      21974       1683          0      18579       7458   lock_utils.obj
        650        112          0          0        455   md5.obj
-     81062       6572        189      24196      32488   TOTAL
+     81220       6604        189      24196      32547   TOTAL
 

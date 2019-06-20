@@ -16,7 +16,7 @@ kal_char* release_hw_ver(void)
 } 
 kal_char* build_date_time(void) 
 { 
-   static kal_char build_date_time_str[] = "20190509-1412"; 
+   static kal_char build_date_time_str[] = "20190604-2015"; 
    return build_date_time_str; 
 } 
 kal_char* release_build(void) 

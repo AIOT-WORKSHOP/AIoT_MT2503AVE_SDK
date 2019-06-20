@@ -1,6 +1,6 @@
 #ifndef __LOCK_DRV_H__
 #define __LOCK_DRV_H__
-
+#include "gpio_drv.h"
 //#define OPEN_LOCK_WAIT_3S
 
 #define MOTO_GPIO1   3
@@ -12,6 +12,8 @@
 #define 	IN_LED1_GPIO		0
 #define 	IN_LED2_GPIO		27
 #define 	IN_SPK_GPIO		1
+
+#define AIOT_GPIO_RELAY 16
 
 typedef enum{
 	ATA_FAIL,
@@ -91,4 +93,6 @@ void iot_find_bike_led_flash(void);
 void gprs_and_sms_find_bike_led_flash(void);
 void gprs_and_sms_find_bike_speaker_led_flash(void);
 void open_lock_ata(void);
+void aiot_relay_ctrl(kal_bool onoff);
+
 #endif

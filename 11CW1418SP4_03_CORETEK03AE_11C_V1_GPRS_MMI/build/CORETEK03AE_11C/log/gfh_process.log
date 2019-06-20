@@ -17,7 +17,7 @@ Opening .\build\CORETEK03AE_11C\CORETEK03AE_11C_PCB01_gprs_MT2502_S00.SPROCOMM_O
 Found GFH_FILE_INFO
 Signature type is NONE
 Signature length = 0
-File length = 4473956
+File length = 4474140
 Jump addr exists, offset=0x2d8, based of the load address
 Skip GFH idx=0x20f
 Skip GFH idx=0x102

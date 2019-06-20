@@ -200,6 +200,10 @@ void mmi_iot_init(void)
 
 	nwow_gsm_state_kpled_init();
 	StartTimer(LOCK_HEART_BEAT_TIMER, 10*1000, ecu_login_test);
+
+	
+
+
 	
 	//spronser_led_ctrl(1,200,200);
 	//spronser_led_ctrl(2,500,200);
