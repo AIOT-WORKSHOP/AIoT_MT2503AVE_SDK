@@ -5862,6 +5862,15 @@ RESOURCE_BASE_TABLE_ITEM_PATH(SRV_PDMS, ".\\Service\\GattSrv\\pedometer\\res\\")
 RESOURCE_BASE_TABLE_ITEM_PATH(SRV_IOT_LOCK, "..\\iotlock\\res\\")
 #endif 
 
+/****************************************************************************
+* SRV_AIOT_ECU
+*****************************************************************************/
+#ifdef __AIOT_ECU__
+#define SRV_AIOT_ECU_BASE                ((U16) GET_RESOURCE_BASE(SRV_AIOT_ECU))
+#define SRV_AIOT_ECU_BASE_MAX            ((U16) GET_RESOURCE_MAX(SRV_AIOT_ECU))
+RESOURCE_BASE_TABLE_ITEM_PATH(SRV_AIOT_ECU, "..\\aiot_ecu\\ecu_res\\")
+#endif
+
 
 /*****************************************************************************/
 /* please add new resource base table above this line */

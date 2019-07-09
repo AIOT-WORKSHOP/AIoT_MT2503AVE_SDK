@@ -1337,9 +1337,15 @@ MMI_BOOTUP_INIT_REG_BEGIN(EVT_ID_SRV_BOOTUP_COMPLETED)
 #if defined(__MMI_NCENTER_SUPPORT__) && defined(__MMI_KEY_ONLY_NCENTER__)
     MMI_BOOTUP_INIT_REG(vapp_ncenter_pure_key_bootup_handler)
 #endif
+
 #ifdef __IOT_LOCK__
     MMI_BOOTUP_INIT_REG(mmi_iot_init)
 #endif
+
+#ifdef __AIOT_ECU__
+    MMI_BOOTUP_INIT_REG(AIOT_ECU_Init)
+#endif
+
     /*****************please add before this line*********************************/
     MMI_BOOTUP_INIT_REG(mmi_frm_nvram_bootup_write_request)
 #ifndef __MTK_TARGET__ /* on MODIS */

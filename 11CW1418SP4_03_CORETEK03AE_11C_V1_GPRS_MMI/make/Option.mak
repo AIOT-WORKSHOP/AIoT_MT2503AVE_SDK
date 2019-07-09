@@ -13712,3 +13712,12 @@ ifdef NSK_ECG
     endif
 endif
 
+ifdef AIOT_ECU
+    ifeq ($(strip $(AIOT_ECU)), TRUE)
+       COM_DEFS += __AIOT_ECU__
+       COM_DEFS += __POPULATE_NO_IMAGE_DATA__
+       COM_DEFS += __POPULATE_NO_STRING_DATA__
+       COMPLIST += aiot_ecu
+       CUS_REL_SRC_COMP += aiot_ecu
+    endif
+endif

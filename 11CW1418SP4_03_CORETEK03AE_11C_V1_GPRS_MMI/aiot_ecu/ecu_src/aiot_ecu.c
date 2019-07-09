@@ -30,7 +30,11 @@
 /*****************************************************************************
  * Include                                                                     
  ****************************************************************************/
-
+#include "aiot_ecu.h"
+#include "kal_trace.h"
+#include "nvram_common_defs.h"
+#include "mmi_frm_nvram_gprot.h"
+#include "common_nvram_editor_data_item.h"
 
 /*****************************************************************************
  * Define                                                                      
@@ -56,18 +60,35 @@
  * Extern Global Function                                                      
  ****************************************************************************/
 
+/*****************************************************************************
+ * FUNCTION
+ *  UT_timer
+ * DESCRIPTION
+ *  Unit testing Case  
+ * PARAMETERS
+ * 
+ * RETURNS
+ * 
+ *****************************************************************************/
+
+void UT_Case1_timer(void)
+{
+	ecu_debug_print("UT case 1: ECU timer, 10s");
+	StartTimer(ECU_UT_TIMER, 10*1000, UT_Case1_timer);
+}
+
 
 /*****************************************************************************
  * FUNCTION
- *
+ *  AIOT_ECU_Init
  * DESCRIPTION
- * 
+ *  The main fuction of AIOT ECU 
  * PARAMETERS
  * 
  * RETURNS
  *
  ****************************************************************************/
-void ECU_Init(void)
+void AIOT_ECU_Init(void)
 {
 	/*----------------------------------------------------------------*/
 	/* Local Variables                                                */
@@ -76,6 +97,6 @@ void ECU_Init(void)
 	/*----------------------------------------------------------------*/
 	/* Code Body                                                      */
  	/*----------------------------------------------------------------*/
-
+	StartTimer(ECU_UT_TIMER, 10*1000, UT_Case1_timer);
 }
 

@@ -29,6 +29,17 @@
 
 #ifndef __AIOT_ECU_H__
 #define __AIOT_ECU_H__
+#include <stdlib.h>
+#include "MMI_features.h"
+#include "MMIDataType.h"
+#include "kal_general_types.h"
+#include "dcl.h"
+#include "Mmi_rp_srv_aiot_ecu_def.h"
+#include "ProfilesSrv.h"
+#include "resource_audio.h"
+#include "mdi_datatype.h"
+#include "mmi_rp_srv_prof_def.h"
+#include "bmt_utility.h"
 
 /*****************************************************************************
  * Type Definitions
@@ -41,7 +52,12 @@
 /*****************************************************************************
  * Macros Without Parameters
  ****************************************************************************/
-
+#define ECU_DEBUG
+#ifdef ECU_DEBUG
+#define ecu_debug_print	kal_prompt_trace
+#else
+#define ecu_debug_print(...)
+#endif
 /*****************************************************************************
  * Macros With Parameters
  ****************************************************************************/

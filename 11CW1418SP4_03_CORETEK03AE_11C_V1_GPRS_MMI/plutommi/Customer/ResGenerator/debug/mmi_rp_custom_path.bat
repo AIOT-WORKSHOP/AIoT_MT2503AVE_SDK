@@ -10,6 +10,8 @@ xcopy /y plutommi\..\custom\common\CharsetRes\*.res %1\plutommi\..\custom\common
 xcopy /y plutommi\..\custom\common\CharsetRes\*.txt %1\plutommi\..\custom\common\CharsetRes\
 xcopy /y plutommi\..\iotlock\res\*.res %1\plutommi\..\iotlock\res\
 xcopy /y plutommi\..\iotlock\res\*.txt %1\plutommi\..\iotlock\res\
+xcopy /y plutommi\..\aiot_ecu\ecu_res\*.res %1\plutommi\..\aiot_ecu\ecu_res\
+xcopy /y plutommi\..\aiot_ecu\ecu_res\*.txt %1\plutommi\..\aiot_ecu\ecu_res\
 xcopy /y plutommi\..\mre\res\*.res %1\plutommi\..\mre\res\
 xcopy /y plutommi\..\mre\res\*.txt %1\plutommi\..\mre\res\
 xcopy /y plutommi\..\plutommi\Framework\InputMethod\res\*.res %1\plutommi\..\plutommi\Framework\InputMethod\res\
