@@ -14,5 +14,5 @@
 	<TIMER id="ECU_KPLED_GREEN_LED_TIMER"/>
 </APP>
 
-#endif /* __NWOW_ECU__ */
+#endif /* __AIOT__ECU__ */
 

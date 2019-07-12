@@ -3145,6 +3145,9 @@ RESOURCE_BASE_RANGE(SRV_GATT_APP, 6),
 	RESOURCE_BASE_RANGE(SRV_IOT_LOCK, 300),
 #endif
 
+#ifdef __AIOT_ECU__
+	RESOURCE_BASE_RANGE(SRV_AIOT_ECU, 300),
+#endif
     /**************************************************************************************
      * Declare resource ID range above 
      **************************************************************************************/
