@@ -73,7 +73,9 @@
 
 void UT_Case1_timer(void)
 {
-	ecu_debug_print("UT case 1: ECU timer, 10s");
+	static kal_uint16 UT_Case1_timer_count = 0;
+	
+	ecu_debug_print(MOD_MMI, "UT_case1_timer %d: ECU_UT_TIMER, 10s", ++UT_Case1_timer_count);
 	StartTimer(ECU_UT_TIMER, 10*1000, UT_Case1_timer);
 }
 

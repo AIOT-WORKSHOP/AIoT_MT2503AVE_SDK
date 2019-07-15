@@ -45,7 +45,7 @@
  *
  * Description:
  * ------------
- *   The file implements   testcases for  verifying UART  HW design 
+ *   The file implements   testcases for  verifying UART  HW design
  *
  * Author:
  * -------
@@ -86,11 +86,11 @@
 
 ilm_struct* pUartRxIlm; /* the msg which other module sent */
 
-// control uart variable 
+// control uart variable
 
 static DCL_HANDLE hgDVTuart;      /* UART device handle  */
 static DCL_HANDLE hgUARTgpio;     /* handle for UART GPIO's */
-static DCL_DEV     eTstUARTportNo = uart_port2; /* UART Test Port Number */
+static DCL_DEV     eTstUARTportNo = uart_port1; /* UART Test Port Number */
 UART_CONFIG_T		 rConfigUART;			/* Variable to configure the UART */
 kal_uint16			 u2LoopCnt; 			/* For Loop Count */
 
@@ -115,9 +115,9 @@ static kal_uint16 u2DetectAutoB;
 
  extern kal_uint8 send_Txilm[];
  extern kal_uint8 send_Rxilm[];
- static kal_bool   fgUARTOpen[UART_TOTAL_CNT]; 
+ static kal_bool   fgUARTOpen[UART_TOTAL_CNT];
  static kal_uint32 u4OwenrId[UART_TOTAL_CNT];
- 
+
  static PFN_DCL_CALLBACK pfUARTTxCallback[UART_TOTAL_CNT];
  static PFN_DCL_CALLBACK pfUARTRxCallback[UART_TOTAL_CNT];
 
@@ -153,7 +153,7 @@ kal_uint32  debug_count=0;
 
  void  alloc_uart_tx_rx_buffer ()
    	{
-      
+
     /* create Application Data Memroy for UART Data Buffers */
             pDvtUartAdmId= kal_adm_create(cDvtUartHeap, (12 * 1024), NULL,KAL_FALSE);
             if (pDvtUartAdmId == NULL)
@@ -181,12 +181,12 @@ kal_uint32  debug_count=0;
   *  None
   *
   *************************************************************************/
- 
- 
- 
+
+
+
   void	free_uart_tx_rx_buffer ()
 	 {
-	   
+
 	    /* release the memroy allocated for TX & RX data Buffer */
             kal_adm_free(pDvtUartAdmId, pu1TxData);
             kal_adm_free(pDvtUartAdmId, pu1RxData);
@@ -217,25 +217,25 @@ void uart_test_input(kal_uint16 *value,UART_PORT port)
 {
 	kal_uint32 result = 0;
 		kal_uint8 str[30], input, offset;
-	
+
 		offset = 0;
-	
+
 		while (1)
 		{
 			input = U_GetUARTByte(port);
-	
+
 			if (input == 0x0d || input == 0x0a)
 				break;
-	
+
 			if (input == ESCKEY)
 				return;
-	
+
 			str[offset++] = input;
 			dbg_print("%c", input);
 		}
-	
+
 		str[offset] = 0;
-	
+
 		dbg_print("\r\n");
 		sscanf(str, "%d", value);
 
@@ -285,11 +285,11 @@ void init_TxRx_buf(kal_uint16 u2RemTxDataLen, kal_uint8 *pu1TxBuf, kal_uint8 *pu
 *
 * DESCRIPTION
 *
-*  This function  makes user can get which uart port are used right now 
+*  This function  makes user can get which uart port are used right now
 *
 *
 * PARAMETERS
-*   the handle 
+*   the handle
 *
 * RETURNS
 *  None
@@ -310,11 +310,11 @@ DCL_DEV UART_Get_Port(DCL_HANDLE handle)
 *
 * DESCRIPTION
 *
-*  This function makes user know  whether it is uart handle 
+*  This function makes user know  whether it is uart handle
 *
 *
 * PARAMETERS
-*   the handle 
+*   the handle
 *
 * RETURNS
 *  None
@@ -334,11 +334,11 @@ kal_uint32 UART_Is_Handle_Magic(DCL_HANDLE handle)
 *
 * DESCRIPTION
 *
-*  This function makes UART HW init 
+*  This function makes UART HW init
 *
 *
 * PARAMETERS
-*   void  
+*   void
 *
 * RETURNS
 *  None
@@ -351,24 +351,24 @@ DCL_STATUS DclUART_Initialize(void)
    static kal_bool uart_initialized = KAL_FALSE;
    kal_uint32 i;
 
-   
+
    if (uart_initialized == KAL_FALSE)
    {
 
 
 	if(COMMUNICATE_PORT == uart_port1)
 	{
-     UART_HWInit(uart_port2);
-     UART_Register(uart_port2,&UartDriver);
-    }
+		UART_HWInit(uart_port1);
+		UART_Register(uart_port1,&UartDriver);
+	}
 	else
-	   {
-		 UART_HWInit(uart_port1);
-		 UART_Register(uart_port1,&UartDriver);
-	   }
+	{
+		UART_HWInit(uart_port2);
+		UART_Register(uart_port2,&UartDriver);
+	}
 
-	
-#ifdef __UART3_SUPPORT__		 
+
+#ifdef __UART3_SUPPORT__
       UART_HWInit(uart_port3);
 
 	  UART_Register(uart_port3,&UartDriver);
@@ -395,7 +395,7 @@ DCL_STATUS DclUART_Initialize(void)
 *
 * DESCRIPTION
 *
-*  This function  is default callback function if user did not register specific function 
+*  This function  is default callback function if user did not register specific function
 *
 *
 * PARAMETERS
@@ -418,7 +418,7 @@ static void UART_Defaul_Callback(UART_PORT port)
 *
 * DESCRIPTION
 *
-*  This function  is uart txrx hisr CALLBACK FUNCTION 
+*  This function  is uart txrx hisr CALLBACK FUNCTION
 *
 *
 * PARAMETERS
@@ -529,7 +529,7 @@ DCL_HANDLE DclUART_Open(DCL_DEV eDev, DCL_FLAGS flags)
          fgUseVfifo = KAL_TRUE;
       }
       ownerid = (module_type)(flags & ~(FLAGS_UART_USE_VFIFO));
-#ifdef __UART3_SUPPORT__		 
+#ifdef __UART3_SUPPORT__
       if ((port >= uart_port1) && (port <= uart_port3))
 #else
       ASSERT((port==uart_port1)||(port==uart_port2));
@@ -541,7 +541,7 @@ DCL_HANDLE DclUART_Open(DCL_DEV eDev, DCL_FLAGS flags)
 #endif
       {
          fgRet = UART_UseVFIFO(port, fgUseVfifo);
-         if (KAL_TRUE == fgRet)  
+         if (KAL_TRUE == fgRet)
          {
 	         if(KAL_TRUE == fgUseVfifo) /* UART IS IN VFIFO DMA MODE */
             {
@@ -563,20 +563,20 @@ DCL_HANDLE DclUART_Open(DCL_DEV eDev, DCL_FLAGS flags)
       }
       else
       {
-         fgRet = U_Open(port, ownerid); 
- 
+         fgRet = U_Open(port, ownerid);
+
       }
    }
-   
+
    if (KAL_TRUE == fgRet)
    {
       fgUARTOpen[port] = KAL_TRUE;
       u4OwenrId[port] = ownerid;
       if((port <= uart_port3) && (ownerid == MOD_NIL))
       {
-      
+
 		  data1.u4OwenrId = MOD_NIL;
-		  data1.func = UART_Defaul_Callback;	  
+		  data1.func = UART_Defaul_Callback;
 		  handle = DclSerialPort_Open(port,0);
 		  DclSerialPort_Control(handle,SIO_CMD_REG_TX_CB, (DCL_CTRL_DATA_T*)&data1);
 		  data2.u4OwenrId = MOD_NIL;
@@ -605,7 +605,7 @@ DCL_HANDLE DclUART_Open(DCL_DEV eDev, DCL_FLAGS flags)
 *
 * RETURNS
 
-*  STATUS_OK  
+*  STATUS_OK
 *
 *************************************************************************/
 
@@ -645,7 +645,7 @@ DCL_STATUS DclUART_WriteData(DCL_HANDLE handle, DCL_BUFF *buff, DCL_BUFF_LEN *bu
    {
        	for (bp= data.puBuffaddr; *bp; bp++)
 	{
-		//PutUARTByte(DBG_PRINT_PORT,*bp);	
+		//PutUARTByte(DBG_PRINT_PORT,*bp);
 	data1.uData = *bp;
 	DclSerialPort_Control(handle,SIO_CMD_PUT_UART_BYTE, (DCL_CTRL_DATA_T*)&data1);
 	debug_count++;
@@ -672,7 +672,7 @@ DCL_STATUS DclUART_WriteData(DCL_HANDLE handle, DCL_BUFF *buff, DCL_BUFF_LEN *bu
 *
 * RETURNS
 
-*  STATUS_OK  
+*  STATUS_OK
 *
 *************************************************************************/
 
@@ -682,7 +682,7 @@ DCL_STATUS DclUART_ReadData(DCL_HANDLE handle, DCL_BUFF *buff, DCL_BUFF_LEN *buf
    kal_uint16 u2RetLen;
    DCL_DEV  port;
    UART_CTRL_GET_BYTES_T data;
-    UART_CTRL_GET_UART_BYTE_T data_read; 
+    UART_CTRL_GET_UART_BYTE_T data_read;
     DCL_BUFF *bp;
     port = UART_Get_Port(handle);
    if (!UART_Is_Handle_Magic(handle))
@@ -723,7 +723,7 @@ DCL_STATUS DclUART_ReadData(DCL_HANDLE handle, DCL_BUFF *buff, DCL_BUFF_LEN *buf
 	   break;
 	   	}
    	}
-	
+
    return STATUS_OK;
 }
 /*************************************************************************
@@ -740,7 +740,7 @@ DCL_STATUS DclUART_ReadData(DCL_HANDLE handle, DCL_BUFF *buff, DCL_BUFF_LEN *buf
 * port,RX buffer address, data length, status, owner_id
 * RETURNS
 
-*  STATUS_OK  
+*  STATUS_OK
 *
 *************************************************************************/
 
@@ -771,10 +771,10 @@ kal_uint16 UART_GetBytes(UART_PORT port, kal_uint8 *Buffaddr, kal_uint16 Length,
 *
 * PARAMETERS
 *
-*  handle, configurate variable 
+*  handle, configurate variable
 * RETURNS
 
-*  STATUS_OK  
+*  STATUS_OK
 *
 *************************************************************************/
 
@@ -784,8 +784,8 @@ DCL_STATUS DclUART_Configure(DCL_HANDLE handle, UART_CONFIG_T *configure)
 {
    DCL_DEV port;
    UART_CTRL_DCB_T data;
-	
-   
+
+
    if (!UART_Is_Handle_Magic(handle))
    {
       ASSERT(0);
@@ -886,7 +886,7 @@ static void UART_Rx_Callback(UART_PORT port)
 *  handle, event, callback function point
 * RETURNS
 
-*  STATUS_OK  
+*  STATUS_OK
 *
 *************************************************************************/
 
@@ -913,7 +913,7 @@ DCL_STATUS DclUART_RegisterCallback(DCL_HANDLE handle, DCL_EVENT event, PFN_DCL_
    {
       return STATUS_NOT_OPENED;
    }
-   
+
    validEvent = KAL_FALSE;
    if (event & EVENT_UART_TX_READY_TO_WRITE)
    {
@@ -927,7 +927,7 @@ DCL_STATUS DclUART_RegisterCallback(DCL_HANDLE handle, DCL_EVENT event, PFN_DCL_
    if (event & EVENT_UART_RX_READY_TO_READ)
    {
       pfUARTRxCallback[port] = callback;
-     
+
 	  data1.u4OwenrId = u4OwenrId[port];
 	  data1.func = UART_Rx_Callback;
 	  DclSerialPort_Control(handle,SIO_CMD_REG_RX_CB, (DCL_CTRL_DATA_T*)&data1);
@@ -953,7 +953,7 @@ DCL_STATUS DclUART_RegisterCallback(DCL_HANDLE handle, DCL_EVENT event, PFN_DCL_
 *  port,ownerid
 * RETURNS
 
-*  KAL_TRUE 
+*  KAL_TRUE
 *
 *************************************************************************/
 
@@ -961,14 +961,14 @@ kal_bool UART_Open(UART_PORT port, module_type ownerid)
 {
 	DCL_HANDLE handle;
     UART_CTRL_OPEN_T data;
-	
+
 	DCL_STATUS status;
 	data.u4OwenrId = ownerid;
 	handle = DclSerialPort_Open(port,0);
    	status = DclSerialPort_Control(handle,SIO_CMD_OPEN, (DCL_CTRL_DATA_T*)&data);
 	 if(STATUS_OK != status)
 		return KAL_FALSE;
-	
+
 }
 
 
@@ -1043,7 +1043,7 @@ void UART_Register_RX_cb(UART_PORT port, module_type ownerid, UART_RX_FUNC func)
 *
 * DESCRIPTION
 *
-*  This function  is to close UART ,release UART handle 
+*  This function  is to close UART ,release UART handle
 *
 *
 * PARAMETERS
@@ -1074,7 +1074,7 @@ DCL_STATUS DclUART_Close(DCL_HANDLE handle)
    {
       return STATUS_NOT_OPENED;
    }
-   
+
    data.u4OwenrId = u4OwenrId[port];
    DclSerialPort_Control(handle,SIO_CMD_CLOSE, (DCL_CTRL_DATA_T*)&data);
    u4OwenrId[port] = MOD_NIL;
@@ -1106,7 +1106,7 @@ void UART_Close(UART_PORT port, module_type ownerid)
 	UART_CTRL_CLOSE_T data;
 	data.u4OwenrId = ownerid;
 	 handle = DclSerialPort_Open(port,0);
-	DclSerialPort_Control(handle,SIO_CMD_CLOSE, (DCL_CTRL_DATA_T*)&data);		 
+	DclSerialPort_Control(handle,SIO_CMD_CLOSE, (DCL_CTRL_DATA_T*)&data);
 }
 /*************************************************************************
 * FUNCTION
@@ -1132,7 +1132,7 @@ void UART_set_FIFO_trigger_(DCL_DEV port, kal_uint16 tx_level, kal_uint16 rx_lev
 		UART_CTRL_SFT_T data;
 		data.tx_level = tx_level;
 		data.rx_level = rx_level;
-		
+
 		handle = DclSerialPort_Open(port,0);
 		DclSerialPort_Control(handle,UART_CMD_SET_FIFO_TRIGGER,(DCL_CTRL_DATA_T*)&data);
 }
@@ -1161,7 +1161,7 @@ void UART_SetBaudRate(UART_PORT port, UART_baudrate baudrate, module_type owneri
 	UART_CTRL_BAUDRATE_T data;
 	data.u4OwenrId = ownerid;
 	data.baudrate = baudrate;
-	
+
 	handle = DclSerialPort_Open(port,0);
 	DclSerialPort_Control(handle,SIO_CMD_SET_BAUDRATE, (DCL_CTRL_DATA_T*)&data);
 
@@ -1221,14 +1221,14 @@ void Uart_test_init(kal_uint32 test_mode)
 
     DclUART_Initialize();
 
-	
+
    /* Open the UART port for UART Testing with MCU mode(0) or  VIFIO Enable (1)*/
    if(test_mode==0)
                 hgDVTuart = DclUART_Open(eTstUARTportNo,  MOD_DVT_UART );
    if(test_mode==1)
    hgDVTuart = DclUART_Open(eTstUARTportNo,  ( MOD_DVT_UART |FLAGS_UART_USE_VFIFO) );
 
-   
+
                 if(hgDVTuart == DCL_HANDLE_INVALID)
                 {
                   dbg_print(" TEST FAILURE\r\n");
@@ -1285,14 +1285,14 @@ void Uart_test_config_start(kal_uint32 test_id,kal_uint32  TX_RX_FLAG)
 	      rConfigUART.u4Baud = (kal_uint32)3000000;
 		else
 		  rConfigUART.u4Baud = (kal_uint32)115200;
-		 
+
 		   rConfigUART.u1DataBits	  = LEN_8;
 		   rConfigUART.u1Parity 	  = PA_NONE;
 		   rConfigUART.u1StopBits	  = SB_1;
 		 if (test_id==3)
 		   rConfigUART.u1FlowControl  = FC_SW;
 		else
-			rConfigUART.u1FlowControl  = FC_NONE;	
+			rConfigUART.u1FlowControl  = FC_NONE;
 		   rConfigUART.fgDSRCheck	  = KAL_FALSE;
 		   rConfigUART.ucXoffChar	  = 0x13;
 		   rConfigUART.ucXonChar	  = 0x11;
@@ -1318,7 +1318,7 @@ void Uart_test_config_start(kal_uint32 test_id,kal_uint32  TX_RX_FLAG)
 			   u2RemTxDataLen = 0;
                  dbg_print(" TEST SUCCESS\r\n");
 			}
-		
+
 		   else /* if No of bytes written is not equal to Length Of data to be Tx, the increament the TX data buff pointer accordingly */
 		   {
 			   /* Move the RX data buffer base pointer */
@@ -1326,7 +1326,7 @@ void Uart_test_config_start(kal_uint32 test_id,kal_uint32  TX_RX_FLAG)
 			   /* Caliculate Length of Data still to be TX */
 			   u2RemTxDataLen = u2RemTxDataLen-u2DataWritten;
 			   u2DataWritten  = u2RemTxDataLen;
-		   } 
+		   }
 
 		   	}
 
@@ -1364,8 +1364,8 @@ void uart_testcase1(ilm_struct* pUartRxIlm)
 
 	Uart_test_init(0);
     Uart_test_config_start(0,0); /* Tx  test */
-   
-   
+
+
     free_uart_tx_rx_buffer ();
 }
 
@@ -1376,8 +1376,8 @@ void uart_testcase2(ilm_struct* pUartRxIlm)
 
 	Uart_test_init(0);
     Uart_test_config_start(0,1); /*Rx  test */
-   
-   
+
+
     free_uart_tx_rx_buffer ();
 }
 
@@ -1389,8 +1389,8 @@ void uart_testcase3(ilm_struct* pUartRxIlm)
 
 	Uart_test_init(0);
     Uart_test_config_start(3,1); /*SW flow control for RX   test */
-   
-   
+
+
     free_uart_tx_rx_buffer ();
 }
 
@@ -1401,8 +1401,8 @@ void uart_testcase4(ilm_struct* pUartRxIlm)
 
 	Uart_test_init(0);
     Uart_test_config_start(3,0); /*/*SW flow control for TX   test */
-   
-   
+
+
     free_uart_tx_rx_buffer ();
 }
 
@@ -1413,8 +1413,8 @@ void uart_testcase5(ilm_struct* pUartRxIlm)
 
 	Uart_test_init(1);
     Uart_test_config_start(0,0); /*VFIFO DMA   test */
-   
-   
+
+
     free_uart_tx_rx_buffer ();
 }
 
@@ -1425,8 +1425,8 @@ void uart_testcase6(ilm_struct* pUartRxIlm)
 
 	Uart_test_init(0);
     Uart_test_config_start(6,0); /*High baudrate Test */
-   
-   
+
+
     free_uart_tx_rx_buffer ();
 }
 
@@ -1437,7 +1437,7 @@ void uart_testcase6(ilm_struct* pUartRxIlm)
 * DESCRIPTION
 *
 *  This function is the  task 's entry function ,also  all testcases are listed in it, user can
-*  select testcases by inputing number 
+*  select testcases by inputing number
 *
 *
 * PARAMETERS
@@ -1451,116 +1451,111 @@ void uart_testcase6(ilm_struct* pUartRxIlm)
 
 void ssdbg1_main_uart(task_entry_struct *task_entry_ptr)
 {
-  
+
     ilm_struct current_ilm;
-  
+
     kal_uint32 my_index;
 	kal_uint32 testcase_id=999;
-	kal_uint32 addr;  
-    kal_uint16 input=999;  //the input testcase  number 
+	kal_uint32 addr;
+    kal_uint16 input=999;  //the input testcase  number
     //kal_get_my_task_index (&my_index);
 
 
    //ASSERT(task_info_g[task_entry_ptr->task_indx].task_ext_qid != KAL_NILQ_ID);
 
-	   
+
 	   while (1)
+	   {
+
+
+			 /* Receive msg (ilm) from any Module task */
+			 receive_msg_ext_q(task_info_g[task_entry_ptr->task_indx].task_ext_qid,
+							   &current_ilm);
+
+		   /* log the ilm msg in Global Data */
+			   pUartRxIlm=&current_ilm;
+
+		  // stack_set_active_module_id ( my_index, MOD_SSDBG1 );
+
+       // stack_set_active_module_id(my_index, (*pUartRxIlm).dest_mod_id);
+
+
+		   dbg_print("\r\n");
+		   dbg_print("*********************************************************\r\n");
+		   dbg_print("* 													  *\r\n");
+		   dbg_print("* 			   MT6280 UART Basicload				  *\r\n");
+		   dbg_print("* 													  *\r\n");
+		   dbg_print("*********************************************************\r\n");
+
+		   dbg_print("============================\r\n");
+		   dbg_print(" 1  UART TX setting Test(data valid)... \r\n");
+		   dbg_print(" 2  UART RX setting Test(data valid)... \r\n");
+		   dbg_print(" 3  UART TX SW Flow Control Test(data valid)...\r\n");
+		   dbg_print(" 4  UART RX SW Flow Control Test(data valid)...\r\n");
+		   dbg_print(" 5  UART Auto Baudrate(110-115200) Test...\r\n");
+		   dbg_print(" 6  UART HIGH BAUDRATE Test(3M)...\r\n");
+		   dbg_print(" 7  UART FIFO threshold trigger Test...\r\n");
+		   dbg_print(" 8  UART SW Flow Control(0X13,0X11) Test...\r\n");
+
+
+			dbg_print("input:");
+		   uart_test_input(&input,COMMUNICATE_PORT);
+		   dbg_print("%d\r\n", input);
+
+
+		   switch (input)
 		   {
+			   case 1:
 
+                       dbg_print("this is the TX test case\r\n");
+					    uart_testcase1(pUartRxIlm);
+				   //uart_testcase1(pUartRxIlm);
+				   /* the test case function here*/;
+				   break;
 
-				 /* Receive msg (ilm) from any Module task */
-				 receive_msg_ext_q(task_info_g[task_entry_ptr->task_indx].task_ext_qid,
-								   &current_ilm);
-			   
-			   /* log the ilm msg in Global Data */
-				   pUartRxIlm=&current_ilm;  
-			   
-			  // stack_set_active_module_id ( my_index, MOD_SSDBG1 );
+			   case 2:
 
-	       // stack_set_active_module_id(my_index, (*pUartRxIlm).dest_mod_id);
-	   
-	   
-			   dbg_print("\r\n");
-			   dbg_print("*********************************************************\r\n");
-			   dbg_print("* 													  *\r\n");
-			   dbg_print("* 			   MT6280 UART Basicload				  *\r\n");
-			   dbg_print("* 													  *\r\n");
-			   dbg_print("*********************************************************\r\n");
-	   
-			   dbg_print("============================\r\n");
-			   dbg_print(" 1  UART TX setting Test(data valid)... \r\n");
-			   dbg_print(" 2  UART RX setting Test(data valid)... \r\n");
-			   dbg_print(" 3  UART TX SW Flow Control Test(data valid)...\r\n");
-			   dbg_print(" 4  UART RX SW Flow Control Test(data valid)...\r\n");
-			   dbg_print(" 5  UART Auto Baudrate(110-115200) Test...\r\n");
-			   dbg_print(" 6  UART HIGH BAUDRATE Test(3M)...\r\n");
-			   dbg_print(" 7  UART FIFO threshold trigger Test...\r\n");
-			   dbg_print(" 8  UART SW Flow Control(0X13,0X11) Test...\r\n");
-	   
-	   
-				dbg_print("input:");
-			   uart_test_input(&input,COMMUNICATE_PORT);
-			   dbg_print("%d\r\n", input);
-	   
-	   
-			   switch (input)
-			   {
-				   case 1:
-                           
-                           dbg_print("this is the TX test case\r\n");
-						    uart_testcase1(pUartRxIlm);
-					   //uart_testcase1(pUartRxIlm);
-					   /* the test case function here*/;
-					   break;
-	   
-				   case 2:
-                       
-                          dbg_print("this is the RX test case\r\n");
-						  uart_testcase2(pUartRxIlm);
-						/* the test case function here*/;
-					   break;
-	   
-				   case 3:
-                           uart_testcase3(pUartRxIlm);
-					   /* the test case function here*/;
-					   break;
-	   
-				   case 4:
-                            uart_testcase4(pUartRxIlm);
-						 /* the test case function here*/;
-					   break;
-	   
-				   case 5:
-                          uart_testcase5(pUartRxIlm);
-					   /* the test case function here*/;
-					   break;
-	   
-				   case 6:
-                           uart_testcase6(pUartRxIlm);
-						 /* the test case function here*/;
-					   break;
-	   
-				   case 7:
-					  /* the test case function here*/;
-					   break;
-				  default:
-					   break;
-		   
+                      dbg_print("this is the RX test case\r\n");
+					  uart_testcase2(pUartRxIlm);
+					/* the test case function here*/;
+				   break;
+
+			   case 3:
+                       uart_testcase3(pUartRxIlm);
+				   /* the test case function here*/;
+				   break;
+
+			   case 4:
+                        uart_testcase4(pUartRxIlm);
+					 /* the test case function here*/;
+				   break;
+
+			   case 5:
+                      uart_testcase5(pUartRxIlm);
+				   /* the test case function here*/;
+				   break;
+
+			   case 6:
+                       uart_testcase6(pUartRxIlm);
+					 /* the test case function here*/;
+				   break;
+
+			   case 7:
+				  /* the test case function here*/;
+				   break;
+			  default:
+				   break;
+
+   			}
+
+         //  free_ilm(pUartRxIlm);
 	   }
 
-             //  free_ilm(pUartRxIlm);
-			   }
- 
-   
+}
 
-	  }
-
-#else //#if defined(__MAUI_BASIC__) 
+#else //#if defined(__MAUI_BASIC__)
 void ssdbg1_main_uart(task_entry_struct *task_entry_ptr)
 {
  ;//for dummy function when DRV_UART_BASIC_LOAD_TEST is off
 }
 #endif
-
-
-

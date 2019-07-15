@@ -61,7 +61,7 @@
     </CACHEDATA>
 
     <CACHEDATA type="byte" id="NVRAM_BT_POWER_STATUS" restore_flag="true">
-        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
         <DESCRIPTION> Bluetooth setting </DESCRIPTION>
     </CACHEDATA>
 </APP>
@@ -922,15 +922,6 @@
     <CACHEDATA type="byte" id="NVRAM_SETTING_AUTOUPDATE_DT_TIME_STATUS" restore_flag="true">
         <DEFAULT_VALUE> [0x02] </DEFAULT_VALUE>
         <DESCRIPTION> auto update date and time state </DESCRIPTION>
-    </CACHEDATA>
-</APP>
-
-
-<APP id="APP_ADUPS">
-
-    <CACHEDATA type="byte" id="NVRAM_ADUPS_SETTING_LID" restore_flag="true">
-        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
-        <DESCRIPTION> ADUPS REMIDER SET </DESCRIPTION>
     </CACHEDATA>
 </APP>
 

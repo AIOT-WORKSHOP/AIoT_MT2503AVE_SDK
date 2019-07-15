@@ -92,6 +92,7 @@
 #include "ProfilesSrv.h"
 
 
+#if defined(__IOT_LOCK__)
 extern	kal_bool ata_led1_check(void);
 extern	kal_bool ata_led2_check(void);
 extern	kal_bool ata_speaker_check(void);
@@ -103,6 +104,8 @@ extern void gps_open();
 extern kal_uint32 iot_get_battery_voltage(void);
 extern kal_int16 iot_get_battery_temperature(void);
 extern kal_int16 iot_get_battery_vcharger(void);
+#endif
+
 
 extern unsigned char addrbuffer[6];
 
@@ -543,9 +546,9 @@ custom_rsp_type_enum ata_led_hdlr_v2(custom_cmdLine * commandBuffer_p)
 	
 	para = ata_get_at_para(commandBuffer_p);
 
-	//add by wpf
+#if defined(__IOT_LOCK__)
 	open_LED2_test();
-	//end
+#endif
 	
 	sprintf (buffer, "\r\n+ELEDV2:OK\r\n");
 	rmmi_write_to_uart((kal_uint8*)buffer, strlen(buffer), KAL_TRUE);
@@ -562,9 +565,9 @@ custom_rsp_type_enum ata_led_hdlr_v1(custom_cmdLine * commandBuffer_p)
 	
 	para = ata_get_at_para(commandBuffer_p);
 
-	//add by wpf
-	open_LED1_test();
-	//end
+#if defined(__IOT_LOCK__)
+	open_LED1_test();	
+#endif
 	
 	sprintf (buffer, "\r\n+ELEDV1:OK\r\n");
 	rmmi_write_to_uart((kal_uint8*)buffer, strlen(buffer), KAL_TRUE);
@@ -955,7 +958,9 @@ custom_rsp_type_enum ata_Tadc_hdlr(custom_cmdLine * commandBuffer_p)
 	char buffer[MAX_UART_LEN+1];
 	kal_int32 tadc=0;
 
+#if defined(__IOT_LOCK__)
 	tadc=iot_get_battery_vcharger();
+#endif
 	kal_prompt_trace(MOD_MMI, "tadc=%d",tadc);
 
 	sprintf(buffer, "\r\n+ETADC:%d\r\n",tadc);
@@ -970,8 +975,10 @@ custom_rsp_type_enum ata_Ladc_hdlr(custom_cmdLine * commandBuffer_p)
 {
 	char buffer[MAX_UART_LEN+1];
 	kal_int32 ladc=0;
-
+	
+#if defined(__IOT_LOCK__)
 	ladc=iot_get_battery_voltage();
+#endif
 	kal_prompt_trace(MOD_MMI, "ladc=%d",ladc);
 
 	sprintf(buffer, "\r\n+ELADC:%d\r\n",ladc);
@@ -985,8 +992,10 @@ custom_rsp_type_enum ata_Temp_hdlr(custom_cmdLine * commandBuffer_p)
 {
 	char buffer[MAX_UART_LEN+1];
 	kal_int32 temp=0;
-
+	
+#if defined(__IOT_LOCK__)
 	temp=iot_get_battery_temperature();
+#endif
 	kal_prompt_trace(MOD_MMI, "temp=%d",temp);
 
 	sprintf(buffer, "\r\n+ETEMP:%d\r\n",temp);

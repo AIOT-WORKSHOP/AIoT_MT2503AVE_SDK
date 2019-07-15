@@ -40,6 +40,13 @@
 #include "mdi_datatype.h"
 #include "mmi_rp_srv_prof_def.h"
 #include "bmt_utility.h"
+#include "soc_api.h"
+#include "common_nvram_editor_data_item.h"
+#include "gpio_drv.h"
+#include "nbr_public_struct.h"
+#include "mdi_gps.h"
+
+
 
 /*****************************************************************************
  * Type Definitions

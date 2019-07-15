@@ -262,8 +262,9 @@
 
 extern void kal_monitor_buffer(kal_uint32 index);
 extern kal_bool twomicnr_command_hdlr(char *full_cmd_string);
+#if defined(__IOT_LOCK__)
 extern kal_bool is_ata_port_flag; 
-
+#endif
 /*****************************************************************************
 * CUSTOM_SYMBOL:
 *	customer can modify this symbol.
@@ -610,13 +611,17 @@ kal_bool custom_command_hdlr(char *full_cmd_string)
     cmd_name[index] = '\0' ;    
 
     //ata test tool
+#if defined(__IOT_LOCK__)
     ata_srv_app_notify_cb(cmd_name,strlen(cmd_name));
+
 	if(is_ata_port_flag==KAL_TRUE)
 	{
 		is_ata_port_flag=KAL_FALSE;
         return KAL_TRUE;
 	}
 	//end
+#endif
+
 	
     for (i = 0 ; custom_cmd_table[i].commandString != NULL; i++ )
     {

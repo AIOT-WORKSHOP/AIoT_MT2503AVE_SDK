@@ -14,6 +14,7 @@
 #define 	IN_SPK_GPIO		1
 
 #define AIOT_GPIO_RELAY 16
+#define AIOT_GPIO_RS485_DE_RE 21
 
 typedef enum{
 	ATA_FAIL,

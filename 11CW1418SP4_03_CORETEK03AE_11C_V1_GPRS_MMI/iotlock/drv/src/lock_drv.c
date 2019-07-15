@@ -108,11 +108,12 @@ static  kal_bool is_vib_warn_state = KAL_FALSE;
 
 #ifdef 		__NSK_ECG__
 
-#define 				ECG_UART_PORT    		uart_port1
-#define 				ECG_OWNER_ID     		MOD_MMI
-#define 				MAX_ECG_PACKET_LEN 		2048
-#define 				MAX_ECG_RESULT_LEN 		2048
-#define 				CALCULATION_COUNT 		30
+#define                                 ECG_UART_PORT                   uart_port1
+#define                                 ECG_OWNER_ID                    MOD_MMI
+#define                                 MAX_ECG_PACKET_LEN              2048
+#define                                 MAX_ECG_RESULT_LEN              2048
+#define                                 CALCULATION_COUNT               30
+
 
 kal_uint8				ECG_RESULT_BUFF[MAX_ECG_RESULT_LEN];
 extern kal_uint8	 	g_ecg_result_buff[MAX_ECG_RESULT_LEN];
@@ -459,6 +460,35 @@ void aiot_relay_ctrl(kal_bool onoff)
 	GPIO_WriteIO(onoff, AIOT_GPIO_RELAY);
 }
 
+void aiot_rs485_DE_enable(void)
+{
+	GPIO_ModeSetup(AIOT_GPIO_RS485_DE_RE, 0);
+	GPIO_InitIO(OUTPUT, AIOT_GPIO_RS485_DE_RE);
+	GPIO_WriteIO(1, AIOT_GPIO_RS485_DE_RE);
+}
+
+void aiot_rs485_RE_enable(void)
+{
+	GPIO_ModeSetup(AIOT_GPIO_RS485_DE_RE, 0);
+	GPIO_InitIO(OUTPUT, AIOT_GPIO_RS485_DE_RE);
+	GPIO_WriteIO(0, AIOT_GPIO_RS485_DE_RE);
+}
+
+void testcase_ECG_uart1(void)
+{
+	kal_uint8 uart1_write_len = 0;
+	kal_uint8 buf[]="hello ecg uart1";
+
+	aiot_rs485_DE_enable();
+	uart1_write_len = ECG_UART_Write(buf, sizeof(buf)-1, ECG_UART_PORT, ECG_OWNER_ID);
+	lock_debug_print(MOD_MMI, "ECG ECU iotlock:  %s, uart1_write_len=%d", __FUNCTION__, uart1_write_len);
+	
+	StartTimer(LOCK_MOVE_TIMER, 5*1000, testcase_ECG_uart1);
+
+	Spconser_Delayms(100);
+	aiot_rs485_RE_enable();
+}
+
 void init_drv()
 {
 	kal_uint32 save_mask;
@@ -501,7 +531,10 @@ void init_drv()
 	aiot_relay_ctrl(KAL_FALSE);
 	
 	#ifdef __NSK_ECG__
-	ECG_PWR_OFF();
+	ECG_PWR_ON();
+
+	StartTimer(LOCK_MOVE_TIMER, 5*1000, testcase_ECG_uart1);
+	
 	#endif
 #ifdef __UART_SLEEP_WAKEUP__
 	iot_system_sleep_mode_switch();
@@ -1865,7 +1898,7 @@ void ECG_UART_handler(void *msg)
 		return;
 
 	gwLenUartBuffer = ECG_UART_Read(gabyUartBuffer, sizeof(gabyUartBuffer), ECG_UART_PORT, ECG_OWNER_ID);
-	kal_prompt_trace(MOD_MMI,"ecg recv len:%d", gwLenUartBuffer);
+	kal_prompt_trace(MOD_MMI,"ecg recv len:%d, %s", gwLenUartBuffer, gabyUartBuffer);
 	for(i=0;i<gwLenUartBuffer;i++)
 	{
 		ECG_raw_data_buf[i] = gabyUartBuffer[i];

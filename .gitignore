@@ -1,0 +1,11 @@
+*.log
+*.bin
+*.orig
+*.elf
+*.obj
+*.dep
+*.det
+*.ade
+*.inc
+*.x
+*.o
