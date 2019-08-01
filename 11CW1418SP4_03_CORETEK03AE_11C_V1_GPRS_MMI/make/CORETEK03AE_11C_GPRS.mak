@@ -36,10 +36,10 @@
 
 
 ################ADUPS START##################
-ADUPS_FOTA_DIFF_ENABLE = FALSE	# benny
-ADUPS_FOTA_DIFF_LIB	= FALSE
-ADUPS_FOTA_SOC_ENABLE = FALSE
-ADUPS_FOTA_GPS_ENABLE=FALSE
+ADUPS_FOTA_DIFF_ENABLE = TRUE	# benny
+ADUPS_FOTA_DIFF_LIB	= TRUE
+ADUPS_FOTA_SOC_ENABLE = TRUE
+ADUPS_FOTA_GPS_ENABLE= TRUE
 ################ADUPS END##################
 # Generated at 2016-11-23 10:08:15
 # ------------------------------ ARM
@@ -5704,11 +5704,11 @@ LINE_IN_SUPPORT = FALSE
 
 MEGAPHONE_SUPPORT = FALSE
 
-IOT_LOCK = FALSE
+IOT_LOCK = TRUE
 
-AIOT_ECU = TRUE
+AIOT_ECU = FALSE
 
-NSK_ECG = FALSE
+NSK_ECG = TRUE
 
 # *************************************************************************
 # Release Setting Section
