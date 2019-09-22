@@ -1,5 +1,0 @@
-"hal\drv_def\drv_features_2502.h", line 86: Warning:  #1-D: last line of file ends without a newline
-   
-   ^
-config\src\hal\syscomp_config.c: 1 warning, 0 errors
-[Info]: bb chip folder .\custom\system\CORETEK03AE_11C_BB

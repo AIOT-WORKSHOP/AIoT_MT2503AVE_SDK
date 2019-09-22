@@ -1,2 +1,0 @@
-init.lib:	init\src\code_decompression.c \
-		init\src\l6478e.s

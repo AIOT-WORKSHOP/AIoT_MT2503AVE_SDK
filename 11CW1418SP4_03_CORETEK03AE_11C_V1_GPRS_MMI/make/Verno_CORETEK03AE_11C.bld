@@ -64,7 +64,7 @@
 # *************************************************************************
 #
 
-VERNO   =   SPROCOMM_ofoV1.0.9
-HW_VER  =   SPROCOMM_MERCURY_V01
+VERNO   =   AIOT_WORKSHOP_SW_V0.0.1
+HW_VER  =   AIOT_WORKSHOP_HW_V0.0.3
 BUILD   =   BUILD_NO
 BRANCH  =   11CW1418SP4_03

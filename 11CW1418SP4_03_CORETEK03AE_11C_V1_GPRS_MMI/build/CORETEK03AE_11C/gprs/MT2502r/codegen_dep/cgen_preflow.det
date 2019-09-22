@@ -1,2 +1,0 @@
-.\build\CORETEK03AE_11C\gprs\MT2502r\codegen_dep\cgen_preflow.det: tools\CreateEmptyTrcGenFiles.exe .\tst\database\TrcGen.lst make\CORETEK03AE_11C_gprs.mak make\Option.mak make\Option_HAL.mak make\MODEM.mak 
-.\build\CORETEK03AE_11C\gprs\MT2502r\codegen_dep\cgen_preflow.det: 

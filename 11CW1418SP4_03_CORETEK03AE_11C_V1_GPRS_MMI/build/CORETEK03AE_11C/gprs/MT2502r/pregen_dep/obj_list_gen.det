@@ -1,9 +1,0 @@
-.\build\CORETEK03AE_11C\gprs\MT2502r\pregen_dep\obj_list_gen.det:	tools\objListGen.pl \
-		tools\pack_dep_gen.pm \
-		tools\sysGenUtility.pm \
-		tools\objListHelper.pm \
-		tools\sysgenUtility.pm \
-		tools\FileInfoParser.pm \
-		tools\CommonUtility.pm \
-		tools\scatFrame.pm \
-		make\CORETEK03AE_11C_gprs.mak

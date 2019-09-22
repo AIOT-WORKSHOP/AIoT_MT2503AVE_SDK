@@ -1,6 +1,0 @@
-#UPDATE#
-code_decompression.obj:	init\src\code_decompression.c
-#ENDUPDATE#
-#UPDATE#
-l6478e.obj:	init\src\l6478e.s
-#ENDUPDATE#
