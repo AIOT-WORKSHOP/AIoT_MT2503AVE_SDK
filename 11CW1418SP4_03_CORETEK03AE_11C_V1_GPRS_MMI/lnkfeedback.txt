@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, RVCT3.1 [Build 569]: Last Updated: Tue Jun 04 20:16:12 2019
+;#<FEEDBACK># ARM Linker, RVCT3.1 [Build 569]: Last Updated: Sun Sep 22 14:04:48 2019
 ;VERSION 0.2
 ;FILE ADIE_Eint.obj
 ADIE_EINT_Get_Mask <= USED 0
@@ -4611,6 +4611,7 @@ app1ParserQueryTIFFHeader <= USED 0
 ;FILE ext_drv_assert_hdlr_if.obj
 ;FILE extra.obj
 ;FILE f32k_clk.obj
+;FILE fft.obj
 ;FILE filemgrcommon.obj
 mmi_fmgri_get_menu_link <= USED 0
 mmi_fmgri_prepare_forward_option <= USED 0
@@ -6428,6 +6429,8 @@ gui_layer_show_animation_file <= USED 0
 gui_layer_transparent <= USED 0
 gui_set_multilayer_mask <= USED 0
 ;FILE gv.obj
+;FILE ha.obj
+nel_heart_age <= USED 0
 ;FILE hci.obj
 HCI_ReadyToSendCommand <= USED 0
 HCI_Reset <= USED 0
@@ -6508,11 +6511,13 @@ mmi_set_orderly_exit_screen <= USED 0
 restore_small_screen <= USED 0
 set_active_history_node_id <= USED 0
 whether_no_small_screen <= USED 0
+;FILE hrv.obj
 ;FILE http_parser.obj
 http_body_is_final <= USED 0
 http_method_str <= USED 0
 http_parser_pause <= USED 0
 http_parser_version <= USED 0
+;FILE htz.obj
 ;FILE i2c.obj
 CameraSccbPadEnable <= USED 0
 ;FILE i2c_drv.obj
@@ -6645,6 +6650,9 @@ idp_resz_crz_stop_real <= USED 0
 ;FILE idp_resz_mt6252.obj
 ;FILE if.obj
 bearer_to_tcpip_profile_id <= USED 0
+;FILE imath.obj
+nel_imean <= USED 0
+nel_ivariance <= USED 0
 ;FILE in.obj
 ;FILE in_pcb.obj
 soreserve <= USED 0
@@ -7846,12 +7854,14 @@ llc_remove_abm_sapi <= USED 0
 ;FILE llc_unackmode.obj
 ;FILE llc_xid.obj
 ;FILE lock_drv.obj
+ECG_data_handler3 <= USED 0
 aging_test_callback <= USED 0
 bike_break <= USED 0
 bike_slope_callback <= USED 0
 close_led1_ctrl <= USED 0
 close_led2_ctrl <= USED 0
 close_lock_test <= USED 0
+dump_uart_data <= USED 0
 feed_watchdog_stop <= USED 0
 iot_acc_sensor_get_xyz_test <= USED 0
 led_ctrl <= USED 0
@@ -7865,9 +7875,7 @@ gps_open_test <= USED 0
 ecu_heartbeat_test <= USED 0
 ;FILE lock_utils.obj
 check_device_id <= USED 0
-ecg_msg_upload <= USED 0
 enter_low_energy_mode <= USED 0
-open_lock_ecg_msg_upload <= USED 0
 reset_fota_status <= USED 0
 save_order_num_info_to_nvram <= USED 0
 save_the_current_version <= USED 0
@@ -8649,6 +8657,8 @@ Media_A2V_Video_GetPlayTime <= USED 0
 Media_A2V_Video_GetPlayTime_S <= USED 0
 media_a2v_start_dsp <= USED 0
 media_a2v_stop_dsp <= USED 0
+;FILE median.obj
+quick_select_median <= USED 0
 ;FILE meeir.obj
 ;FILE meif.obj
 ME_CheckCreatingLink <= USED 0
@@ -8986,6 +8996,8 @@ vm_pmng_get_app_handle <= USED 0
 L4GetClockTime <= USED 0
 L4SetClock <= USED 0
 StartNonAlignTimer <= USED 0
+;FILE mood.obj
+nel_mood_init <= USED 0
 ;FILE motion_sensor.obj
 motion_sensor_write_cali_to_nvram <= USED 0
 motion_sensor_cali_cb_registration <= USED 0
@@ -9046,6 +9058,19 @@ mmi_nitz_get_curr_nitz_string <= USED 0
 ;FILE nld_central_ctrl.obj
 ;FILE nli_arb.obj
 NLI_ARB_init <= USED 0
+;FILE noise.obj
+;FILE nsk_ecg_core.obj
+nsk_ecg_get_ecg_delayed <= USED 0
+nsk_ecg_get_hr_robust <= USED 0
+nsk_ecg_get_lib_signature <= USED 0
+nsk_ecg_get_lib_version_string <= USED 0
+nsk_ecg_get_sample_count <= USED 0
+nsk_ecg_get_state <= USED 0
+nsk_ecg_rescale_adc <= USED 0
+;FILE nsk_ecg_core_state.obj
+;FILE nsk_ecg_ext.obj
+nsk_ecg_compute_heart_age <= USED 0
+nsk_ecg_compute_respiratory_rate <= USED 0
 ;FILE nstd_alloc_bitmap_pun.obj
 alloc_struct_bits <= USED 0
 alloc_struct_pack <= USED 0
@@ -9407,6 +9432,7 @@ Backlight_Enable <= USED 0
 ;FILE populateres.obj
 PopulateResGetBaseIDTable <= USED 0
 ;FILE preferedinputmethodsetting.obj
+;FILE prep.obj
 ;FILE psi_msg_decode.obj
 ;FILE psi_si_utils.obj
 ;FILE pwic_cust.obj
@@ -9617,6 +9643,7 @@ has_full_recv_buffer <= USED 0
 lowater_additions <= USED 0
 total_recvbuffs <= USED 0
 ;FILE resample_main.o
+;FILE resampler.obj
 ;FILE resource_world_clock_city.obj
 ;FILE restore.obj
 mmi_get_current_restore_status <= USED 0
@@ -9686,6 +9713,7 @@ rgb_rotator_drv_start <= USED 0
 sw_rgb_rotator_query_working_memory <= USED 0
 sw_rgb_rotator_set_working_memory <= USED 0
 sw_rgb_rotator_start <= USED 0
+;FILE rhr.obj
 ;FILE rlc.obj
 ;FILE rlc_ctrl_msg_hdlr.obj
 ;FILE rlc_dl_ctrl_msg_hdlr.obj
@@ -9887,6 +9915,7 @@ rmpc_rmc_resume_genrl_procedures <= USED 0
 ;FILE rmpc_gprs_branch_funcs.obj
 ;FILE rmpc_nbr_cell.obj
 rmc_trigger_bsic_decoding_for_nbcch_reading <= USED 0
+;FILE rpeak.obj
 ;FILE rr_create.obj
 ;FILE rr_data_ind.obj
 rr_ctrl_msg_reassembler_reset <= USED 0
@@ -9956,6 +9985,7 @@ rrm_mpal_rr_set_rat_service_cnf_trns_hdlr <= USED 0
 che_rsa_free <= USED 0
 che_rsa_private <= USED 0
 che_rsa_public <= USED 0
+nel_rsa_compute <= USED 0
 rsa_check_privkey <= USED 0
 rsa_check_pubkey <= USED 0
 rsa_gen_key <= USED 0
@@ -10389,6 +10419,7 @@ l1sp_updateSpeUsrMask <= USED 0
 SPE_LoadDmnrCoeffs <= USED 0
 SPE_LoadWbDmnrCoeffs <= USED 0
 ;FILE spe_custom_drv.obj
+;FILE spectr.obj
 ;FILE spi.obj
 spi_activate <= USED 0
 spi_clear_fifo <= USED 0
@@ -10434,6 +10465,7 @@ spi_slave_write <= USED 0
 spi_slv_set_clock_format <= USED 0
 spi_slv_set_clock_polarity <= USED 0
 spi_slv_set_msb <= USED 0
+;FILE sq.obj
 ;FILE srctab_gen.o
 ;FILE sst_concurrent_utility.obj
 Set_Monitor_Master <= USED 0
@@ -10470,6 +10502,7 @@ stack_time_out_messages_in_queue <= USED 0
 stack_create_timer <= USED 0
 ;FILE stack_utils.obj
 ;FILE staut_pgen.obj
+;FILE stress.obj
 ;FILE string.obj
 ;FILE sublcdhistory.obj
 AddSubLCDHistory <= USED 0

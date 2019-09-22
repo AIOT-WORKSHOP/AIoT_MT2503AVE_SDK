@@ -5,12 +5,12 @@
          6          0          0        520        104   dspsys_statistics.obj
        128          0          0          0        188   gv.obj
          0          0         12          0          0   gvtbl.obj
-      4486         24          1    1048624       1860   tst_assert.obj
+      4922         24          1    1048624       1872   tst_assert.obj
       2098         32         79      66814       1068   tst_create.obj
       1552         24          0         20        600   tst_ext.obj
-      1498          0         20          0       2680   tst_hal_wrapper_layer.obj
+      1516          0         20          0       2688   tst_hal_wrapper_layer.obj
        744          0          0          0        512   tst_log.obj
-      5024         81          0         17       1780   tst_mod_func.obj
+      5172         81          0         17       1776   tst_mod_func.obj
          4          0          0          0         52   tst_querysimid.obj
       1508         32          2        315        680   tst_reader_create.obj
       2136          0          0         32       1720   tst_reader_trace_utility.obj
@@ -18,5 +18,5 @@
       3858          0          0        160       2584   tst_trace.obj
          0          0          0          0          0   tst_viti_logging.obj
         12          0          0          0        208   tst_viti_usb_logging.obj
-     24710        193        208    1117083      15720   TOTAL
+     25312        193        208    1117083      15736   TOTAL
 

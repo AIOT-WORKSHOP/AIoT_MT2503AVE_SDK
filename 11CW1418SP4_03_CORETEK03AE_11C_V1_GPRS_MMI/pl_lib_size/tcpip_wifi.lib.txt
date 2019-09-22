@@ -1,9 +1,9 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      3490         12          0         48       1484   arp.obj
+      4864         12          0         48       1508   arp.obj
          0          0          0          0          0   nat_mem.obj
          0          0          0          0          0   tcpip_nat.obj
          0          0          0          0          0   tcpip_nat_ftp.obj
          0          0          0          0          0   tcpip_nat_smedia.obj
-      3490         12          0         48       1484   TOTAL
+      4864         12          0         48       1508   TOTAL
 

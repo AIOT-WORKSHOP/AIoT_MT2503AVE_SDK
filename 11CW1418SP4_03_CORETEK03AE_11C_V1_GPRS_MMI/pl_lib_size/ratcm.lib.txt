@@ -3,8 +3,8 @@
        236          0          0          0        308   ratcm_ctrl_cb.obj
         40          0          0          0        120   ratcm_loop_mode.obj
        588         20          0         13        292   ratcm_main.obj
-      1408          0          0          0       1704   ratcm_plmn_search.obj
-       652          0          0          0        704   ratcm_send_ilm.obj
-      1814          0          0          0       1920   ratcm_signalling.obj
-      4738         20          0         13       5048   TOTAL
+      1644          0          0          0       1708   ratcm_plmn_search.obj
+       676          0          0          0        704   ratcm_send_ilm.obj
+      2138          2          0          0       1920   ratcm_signalling.obj
+      5322         22          0         13       5052   TOTAL
 

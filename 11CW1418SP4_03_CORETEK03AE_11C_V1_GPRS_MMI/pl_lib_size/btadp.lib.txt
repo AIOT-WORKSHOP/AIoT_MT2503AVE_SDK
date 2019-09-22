@@ -1,21 +1,21 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
         10          0          0          0        208   Bt_Virtual_Sniffer.obj
-      5168          0          0         44       3216   bt_adp_bm.obj
+      5708          0          0         44       3216   bt_adp_bm.obj
        836          0          0          0        132   bt_adp_bm_event.obj
       1000       1010        582         44        524   bt_adp_cust.obj
-       364          0          0          0        128   bt_adp_em.obj
+       400          0          0          0        128   bt_adp_em.obj
       1398          0          0        680        968   bt_adp_fs.obj
-      4542          0          0          0       3200   bt_adp_gattc.obj
-      2410          0          0          0       1904   bt_adp_gatts.obj
-       904          0          0          0        196   bt_adp_main.obj
+      4650          0          0          0       3216   bt_adp_gattc.obj
+      2498          0          0          0       1912   bt_adp_gatts.obj
+       944          0          0          0        196   bt_adp_main.obj
       2274          0          0          0       1152   bt_adp_maui_utility.obj
        214          0          0          0        248   bt_adp_msg.obj
         22          0          0          0        172   bt_adp_profile_init.obj
         52          0          0          0        300   bt_adp_sys_event.obj
-      2036          0          0          1       2144   bt_adp_system.obj
+      2132          0          0          1       2144   bt_adp_system.obj
          0          0          0          0          0   bt_adp_utility.obj
-      5632        125        312       8500       3880   bt_ddb4w.obj
+      6832        125        312       8500       3932   bt_ddb4w.obj
        192         20          4         48        232   bt_main.obj
          0          0          0          0          0   bt_osal.obj
       2736        136          0       1200       1556   bt_osal_charset.obj
@@ -24,7 +24,7 @@
         60          0          0          0        360   bt_uart.obj
        352          0          0          0        248   bt_uart_drv.obj
       1074         16          0          0       1176   bt_ucs2.obj
-        36          0          0          0        116   bt_utility.obj
+        86          0          0          0        128   bt_utility.obj
       4326         16          0          0       4736   btosapi.obj
          0        324          0          0          0   btrom.obj
        710         85          0          0        584   btutils.obj
@@ -32,8 +32,8 @@
          0          0          0          0          0   debug.obj
       1966         17          0          0       1168   qp.obj
        708          0          0          0        696   ring.obj
-       338          0          0          0        304   rxbuff.obj
+       354          0          0          0        304   rxbuff.obj
        994          0          0          0       1840   utils.obj
       2876        480          0       5548       1168   vcard.obj
-     45982       2365        898      17265      34748   TOTAL
+     48156       2365        898      17265      34836   TOTAL
 

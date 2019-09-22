@@ -2,14 +2,14 @@
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
          2          0          0          0         52   flc2_callback.obj
          0         62       1000      77176          0   flc2_config.obj
-       596          0          0          0        940   flc2_debug_functions.obj
-      3290          0          0          0       1036   flc2_ent_functions.obj
+      2040          0          0          0       1060   flc2_debug_functions.obj
+      3966          0          0          0       1044   flc2_ent_functions.obj
        332          0          0          0        124   flc2_init.obj
-      1620          0          0          0        580   flc2_mem_mngr_adm_adp.obj
-       416          0          0          0        180   flc2_mem_mngr_config.obj
+      1680          0          0          0        580   flc2_mem_mngr_adm_adp.obj
+       480          0          0          0        184   flc2_mem_mngr_config.obj
        150          0          0          0        188   flc2_mem_mngr_ctrl_buff_adp.obj
          0          0          0          0          0   flc2_mem_mngr_fix_size.obj
-       240          0          0          0        116   flc2_mem_mngr_init.obj
+       328          0          0          0        128   flc2_mem_mngr_init.obj
          0          0          0          0          0   flc2_test.obj
-      6646         62       1000      77176       3216   TOTAL
+      8978         62       1000      77176       3360   TOTAL
 

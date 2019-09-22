@@ -2,7 +2,7 @@
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
        820          0          0        192        272   SCD_eng.obj
        828          0          0          0        316   SwDecodeFrameHeader.obj
-      2196          0          0          0        852   video_fluency_control.obj
+      2312          0          0          0        848   video_fluency_control.obj
        716          2          0          0        104   video_smooth_display.obj
-      4560          2          0        192       1544   TOTAL
+      4676          2          0        192       1540   TOTAL
 

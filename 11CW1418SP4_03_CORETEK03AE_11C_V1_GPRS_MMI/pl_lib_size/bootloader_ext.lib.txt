@@ -8,9 +8,9 @@
        520        134          0          0        898   adups_file.obj
         48          0          0          0        392   adups_flash.obj
        146          5         40          0        115   adups_mcu.obj
-       976          0          0          0       1328   arm_unaligned.obj
+       976          0          0          0       1388   arm_unaligned.obj
          8         40          0          0        104   bl_Alg.obj
-        96          0          4       4096       1044   bl_BOOTARM.obj
+        96          0          4       4096       1124   bl_BOOTARM.obj
         70          0          0      16384        274   bl_Cache.obj
        574          0          1        554        330   bl_DBGPRINT.obj
          0          0          0          0          0   bl_FOTA.obj
@@ -32,7 +32,7 @@
          0          0          0          0          0   bl_Update.obj
          4          0          0          0         52   bl_pdn.obj
       1030          0          0          0       1207   bl_portingfunc.obj
-       408          0          0          0        605   bl_regioninit.obj
+       408          0          0          0        645   bl_regioninit.obj
          0          9          0          0          0   bl_verno.obj
        412          0         52          0        863   bmt_bl_chr_setting.obj
        124        244          0          0        125   bmt_hw.obj
@@ -80,7 +80,7 @@
       1048        104          0          2       1467   gpio.obj
          8          0          0          1         59   gpio_drv.obj
        512        180         16          0        908   gpio_setting.obj
-         0       1331          0          0          0   gpio_var.obj
+         0       1332          0          0          0   gpio_var.obj
       1114         26          0          4        896   gps_uart.obj
        166         20          0          0        426   init_comm.obj
        264          0          1          8        359   keypad_bl.obj
@@ -115,5 +115,5 @@
          0          0          0          0          0   usbdl_usb_resource.obj
          0          0          0          0          0   usbdl_usbacm_adap.obj
          0          0          0          0          0   usbdl_usbacm_drv.obj
-     74346      11052      12779      72179      49572   TOTAL
+     74346      11053      12779      72179      49752   TOTAL
 

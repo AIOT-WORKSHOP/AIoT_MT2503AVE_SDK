@@ -1,65 +1,65 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-       360          0          0         16        432   BtAccCtrl.obj
-       658          0          0       3864        248   Btbm.obj
-       170          0          0          0        192   BtbmBlocklist.obj
-      5382        207          4          5       3244   BtbmCon.obj
-      6560         15          0         28       3064   BtbmDev.obj
-      3380          0          0       1620       2244   BtbmGatt.obj
+       884          0          0         16        512   BtAccCtrl.obj
+       758          0          0       3864        248   Btbm.obj
+       268          0          0          0        208   BtbmBlocklist.obj
+      7084        207          4          5       3284   BtbmCon.obj
+      8752         15          0         28       3104   BtbmDev.obj
+      4310          0          0       1620       2292   BtbmGatt.obj
       1660         68          0         36        964   BtbmLEAdv.obj
-       204          0          0          0        188   BtbmProfilesCtrl.obj
-       644         71          0          0        384   BtbmSdp.obj
-      5864         66          0          0       2500   BtbmSec.obj
-      1524          0          0          0       1296   BtbmSetting.obj
-      2042          0          0         44       1184   MeRadio.obj
-      5998         12          0         76       3548   att.obj
-       986          0          0         32        796   att_state.obj
-      7490          0          0          0       3012   att_utl.obj
+       284          0          0          0        200   BtbmProfilesCtrl.obj
+       696         71          0          0        384   BtbmSdp.obj
+      7204         66          0          0       2568   BtbmSec.obj
+      1728          0          0          0       1312   BtbmSetting.obj
+      2274          0          0         44       1208   MeRadio.obj
+      7146         12          0         76       3584   att.obj
+      1122          0          0         32        800   att_state.obj
+      7554          0          0          0       3012   att_utl.obj
         68        345         10        256        364   bt_parseopts.obj
-       200          0          0          0         64   bt_wifi_coexist_setting.obj
+       280          0          0          0         68   bt_wifi_coexist_setting.obj
        316          0          0      86480        236   btalloc.obj
-      5816         64          0        192       3316   conmgr.obj
-       598          0          0         20        680   eventmgr.obj
-      2118          0          0      30724        744   gatt.obj
-      7240          0          0          0       1876   gatt_hdl.obj
+      6912         64          0        192       3320   conmgr.obj
+       646          0          0         20        680   eventmgr.obj
+      2352          0          0      30724        756   gatt.obj
+      8484          0          0          0       1876   gatt_hdl.obj
          0          0          0          0          0   gatt_state.obj
-       696          0          0          0       2076   gatt_utl.obj
-      8564          0          4         64       1740   hci.obj
-      1582          0          0          0        600   hci_evnt.obj
+       778          0          0          0       2080   gatt_utl.obj
+      8680          0          4         64       1772   hci.obj
+      1786          0          0          0        608   hci_evnt.obj
        648          0          0          0        568   hci_meta.obj
-      4442         33          0          0       1336   hci_proc.obj
-       572          0          0          0        276   hci_util.obj
-      4800          0          0          0       3064   l2cap.obj
-      1754          0          0          0       1688   l2cap_enhanced.obj
-      6322          0          0          0       1252   l2cap_if.obj
-      7726        201          0          0       1324   l2cap_sm.obj
-      8336         90          0          0       4096   l2cap_utl.obj
-     15220        476         72          1       5516   me.obj
-       348          0          0          0        188   meacc.obj
-     10850         74          0          0       4688   mecon.obj
-      1672         80          0          0        396   medev.obj
-       960          0          0          0        684   meeir.obj
-      9228         75          0          0       5728   meif.obj
-     14492        925          0         62       5552   mele.obj
-      2714          0          0          0       1196   mesco.obj
+      4698         33          0          0       1348   hci_proc.obj
+       632          0          0          0        276   hci_util.obj
+      5868          0          0          0       3100   l2cap.obj
+      2492          2          0          0       1748   l2cap_enhanced.obj
+      7456          0          0          0       1328   l2cap_if.obj
+      9108        201          0          0       1420   l2cap_sm.obj
+     10318         90          0          0       4136   l2cap_utl.obj
+     16600        476         72          1       5536   me.obj
+       540          0          0          0        196   meacc.obj
+     13942         74          0          0       4880   mecon.obj
+      1896         80          0          0        396   medev.obj
+      1132          0          0          0        688   meeir.obj
+     10846         75          0          0       5780   meif.obj
+     16482        925          0         62       5760   mele.obj
+      3210          0          0          0       1264   mesco.obj
          0          0          0          0          0   mescodat.obj
-       776          0          0          0        492   mescoif.obj
-      6944         36          0          0       3164   mesec.obj
-       752          0          0          0        504   radiomgr.obj
-      3544          0          0          0       1288   rfc_ctl.obj
+       796          0          0          0        492   mescoif.obj
+      9192         36          0          0       3280   mesec.obj
+      1540          0          0          0        516   radiomgr.obj
+      3820          0          0          0       1312   rfc_ctl.obj
         88          0          0          0        124   rfc_fcs.obj
-      4362         88          0          0       1344   rfc_sm.obj
-      3978          0          0          0       1628   rfc_util.obj
-      3494         86          0          0       1908   rfcomm.obj
-      8902        544        212       1404       2496   sdap.obj
-       868         90          0        696        384   sdap_devdb.obj
+      5756         88          0          0       1464   rfc_sm.obj
+      4522          0          0          0       1652   rfc_util.obj
+      3990         90          0          0       1924   rfcomm.obj
+     10158        544        212       1404       2496   sdap.obj
+       948         90          0        696        384   sdap_devdb.obj
         28          0          0          0        120   sdp.obj
-      2818         62          0          0        796   sdpclient.obj
-      4584         59        108          6       1864   sdpserv.obj
-      1252          0          0          0        676   sdputil.obj
-      8174        154         43       1168       2504   sm.obj
-      1926          0          0         60       1716   smp.obj
-        56          0          0          0        124   transprt.obj
-      2312          0          0       1384       1064   uarttran.obj
-    215062       3921        453     128238      94740   TOTAL
+      3066         62          0          0        796   sdpclient.obj
+      5672         59        108          6       1880   sdpserv.obj
+      1340          0          0          0        676   sdputil.obj
+      9476        158         43       1168       2612   sm.obj
+      2530          0          0         60       1748   smp.obj
+        70          0          0          0        124   transprt.obj
+      2452          0          0       1384       1076   uarttran.obj
+    253338       3931        453     128238      96540   TOTAL
 

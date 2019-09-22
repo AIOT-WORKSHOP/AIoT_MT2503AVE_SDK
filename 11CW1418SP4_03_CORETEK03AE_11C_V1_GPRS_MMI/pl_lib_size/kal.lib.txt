@@ -5,27 +5,30 @@
       2420          0          0          0        512   bitstream.obj
        152          0          0         16        172   data_buff_pool.obj
        728          0          0          0       1020   dlist.obj
-      1626          0          0          4        928   event_shed.obj
+      1670          0          0          4        928   event_shed.obj
        156         32          0          0        364   kal_active_module.obj
       7034         40         36          4       2620   kal_adm.obj
       3126          0          0          0       1012   kal_afm.obj
         76          0          0          0        480   kal_compatible.obj
         10          0          0          0        208   kal_cpu_usage_profile.obj
-         0          0          0          0          0   kal_debug_nucleus_non_exported.obj
-       778          0          0         85        904   kal_error_handling.obj
+       138          0          0        484        184   kal_debug_buff_mngr.obj
+       246          0         16          4        432   kal_debug_error_handling.obj
+       236          0          0          0        196   kal_debug_nucleus_non_exported.obj
+        44          0          0          0         64   kal_debug_reset.obj
+       826          0          0         85        912   kal_error_handling.obj
         80          0          0          0         64   kal_hisr_initialize.obj
       1724         52          0          0       1568   kal_lib_funcs.obj
-       638          0          8         48        652   kal_mem_mgr.obj
-       628          0          0          0        560   kal_nucleus_buff_mgr.obj
-      1628         84          0        193        448   kal_nucleus_error_handling.obj
-       184          0          0         60        200   kal_nucleus_evshed_buff_mgr.obj
+       716          0          8         64        768   kal_mem_mgr.obj
+      1184          0          0          0        636   kal_nucleus_buff_mgr.obj
+      2432         84          0        193        448   kal_nucleus_error_handling.obj
+       232          0          0         64        200   kal_nucleus_evshed_buff_mgr.obj
         22          0          0          0        260   kal_nucleus_flmm.obj
-       140          0          0          0        172   kal_nucleus_initialize.obj
-      2552          0          0         36       1312   kal_nucleus_itc.obj
+       196          0          0          4        172   kal_nucleus_initialize.obj
+      2748          0          0         36       1312   kal_nucleus_itc.obj
          0          0          0          0          0   kal_nucleus_slmm.obj
-      1618          0         49        165       2088   kal_nucleus_tasks.obj
-      1024          0         32          4        560   kal_nucleus_timer.obj
-       902          8          0       3092        564   kal_task_lifecycle.obj
+      1822          0         49        165       2108   kal_nucleus_tasks.obj
+      1072          0         32          4        564   kal_nucleus_timer.obj
+      1010          8          0       3092        564   kal_task_lifecycle.obj
        152          0          0          0        172   kal_task_ops.obj
         20          0          0          8         52   lcd.obj
        406          0          0          0        840   lcd_cqueue.obj
@@ -33,10 +36,10 @@
       1698          0          0          0       1340   lcd_lqueue.obj
        474          0          0          0        544   mlib_dll.obj
        584          0          0          0        684   stack_buff_pool.obj
-      1780          0          0          0        824   stack_ltlcom.obj
+      1792          0          0          0        824   stack_ltlcom.obj
       1274          0          0          0       1460   stack_ltlcom_newapi.obj
-       442          0          0          0        544   stack_timer.obj
+       512          0          0          0        544   stack_timer.obj
         16          0          0          0        120   stack_utils.obj
        452          0          0          0        196   tst_ltlcom.obj
-     36376        216        125       3715      25020   TOTAL
+     39312        216        141       4227      26120   TOTAL
 

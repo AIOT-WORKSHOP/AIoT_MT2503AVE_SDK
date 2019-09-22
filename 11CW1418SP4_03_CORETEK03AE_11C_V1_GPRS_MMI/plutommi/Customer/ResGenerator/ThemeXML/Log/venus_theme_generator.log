@@ -1,7 +1,7 @@
-[Dependency] D:\MTK\MTK2503\MTK2503\11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI\plutommi\Customer\ResGenerator\..\CustResource\PlutoAppIcon1.xml 
+[Dependency] D:\github\AIOT_WORKSHOP\AIoT_MT2503AVE_SDK\11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI\plutommi\Customer\ResGenerator\..\CustResource\PlutoAppIcon1.xml 
 [ThemeGen] Load ..\CustResource\VenusSysThemeCFG.xml 
 [makeopt] The output file is latest
-[prexml] Read option count: 548
+[prexml] Read option count: 549
 [ThemeGen] Load debug\venus_theme_log.txt 
 [ThemeGen] Load debug\resgen_xml_all_enum_IDs.log 
 [ThemeGen] Output ..\CustResource\CustVenusThemeId.h 

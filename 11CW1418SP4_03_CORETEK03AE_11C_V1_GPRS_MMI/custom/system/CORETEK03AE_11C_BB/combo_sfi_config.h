@@ -51,7 +51,7 @@
  * -------
  *   Chun-Hung Wu(mtk03818)   EMI auto generator V8.268
  *
- *   Memory Device database last modified on 2017/9/4
+ *   Memory Device database last modified on 2019/9/9
  *
  *============================================================================
  *             HISTORY

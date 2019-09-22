@@ -1,23 +1,23 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
         84         20          0          0        116   cc_create.obj
-      2402          0          0          0       1224   cc_disc_proc.obj
-      2048          0          0          0       1480   cc_dtmf_proc.obj
-      3098          0          0          0       2120   cc_estab_proc.obj
-      4396          0          0          0       2384   cc_facility_proc.obj
+      2682          0          0          0       1220   cc_disc_proc.obj
+      2236          0          0          0       1488   cc_dtmf_proc.obj
+      3632          0          0          0       2128   cc_estab_proc.obj
+      4680          0          0          0       2388   cc_facility_proc.obj
        768        268          0          0        248   cc_fsm_main.obj
-      1052          0          0          0        972   cc_hold_proc.obj
+      1532          0          0          0        992   cc_hold_proc.obj
       2222          0          0          0       2700   cc_ie_err_chk_proc.obj
       1226          0          0          0       2360   cc_ie_form.obj
        596          0          0          0        884   cc_init.obj
-       836          0          0       1052        308   cc_main.obj
-       580          0          0          0        460   cc_misc_proc.obj
-      1224          0          0          0        788   cc_modify_proc.obj
-      1380          0          0          0       1316   cc_mpty_proc.obj
-      2170          0          0          0       1752   cc_msg_form.obj
-       424          0          0          0        500   cc_reestab_proc.obj
-       348          0          0          0        432   cc_timer.obj
-      2740          0          0          0       2220   cc_utility.obj
-         8          0          0          0        104   cc_uus_proc.obj
-     27602        288          0       1052      22368   TOTAL
+      1184          0          0       1052        320   cc_main.obj
+       736          0          0          0        464   cc_misc_proc.obj
+      1424          0          0          0        800   cc_modify_proc.obj
+      1524          0          0          0       1316   cc_mpty_proc.obj
+      2192          0          0          0       1752   cc_msg_form.obj
+       436          0          0          0        500   cc_reestab_proc.obj
+       432          0          0          0        436   cc_timer.obj
+      2924          0          0          0       2244   cc_utility.obj
+        40          0          0          0        120   cc_uus_proc.obj
+     30550        288          0       1052      22476   TOTAL
 

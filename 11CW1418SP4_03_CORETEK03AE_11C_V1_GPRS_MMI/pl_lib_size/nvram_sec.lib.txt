@@ -1,5 +1,5 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      1052         13          0         16        944   nvram_sec.obj
-      1052         13          0         16        944   TOTAL
+      1084         13          0         16        944   nvram_sec.obj
+      1084         13          0         16        944   TOTAL
 

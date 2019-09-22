@@ -1,0 +1,6 @@
+gdi_arm\src\gui_effect_arm_oem.c
+plutommi\Framework\GDI\GDISrc\gd_primitive_arm.c
+plutommi\Framework\GDI\gdisrc\gd_primitive_pargb6666.c
+plutommi\Framework\GDI\gdisrc\gdi_blending.c
+plutommi\Framework\GDI\gdisrc\gdi_image_alpha_bmp_v2_core.c
+plutommi\Framework\GDI\gdisrc\gdi_image_alpha_bmp_v2_speed.cpp

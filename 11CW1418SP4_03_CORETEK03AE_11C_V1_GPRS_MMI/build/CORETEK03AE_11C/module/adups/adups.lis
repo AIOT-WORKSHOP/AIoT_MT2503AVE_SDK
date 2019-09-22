@@ -1,0 +1,10 @@
+adups\hal\src\adups_debug.c
+adups\hal\src\adups_device.c
+adups\hal\src\adups_display.c
+adups\hal\src\adups_file.c
+adups\hal\src\adups_flash.c
+adups\hal\src\adups_md5.c
+adups\hal\src\adups_net.c
+adups\hal\src\adups_stdlib.c
+adups\hal\src\adups_thread.c
+adups\hal\src\adups_timer.c

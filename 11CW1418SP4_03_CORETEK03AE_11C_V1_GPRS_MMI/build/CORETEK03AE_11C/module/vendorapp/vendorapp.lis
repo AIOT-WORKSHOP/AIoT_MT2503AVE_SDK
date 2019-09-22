@@ -1,0 +1,10 @@
+plutommi\VendorApp\DevApp\DevAppSrc\DevApp.c
+plutommi\VendorApp\DevConfig\DevConfigSrc\DevConfig.c
+plutommi\VendorApp\DevResource\Resources\DevAppAdoMap.c
+plutommi\VendorApp\DevResource\Resources\DevAppAdoRes.c
+plutommi\VendorApp\DevResource\Resources\DevAppImgMap.c
+plutommi\VendorApp\DevResource\Resources\DevAppImgRes.c
+plutommi\VendorApp\DevResource\Resources\DevAppMenuRes.c
+plutommi\VendorApp\DevResource\Resources\DevAppStrMap.c
+plutommi\VendorApp\DevResource\Resources\DevAppStrRes.c
+plutommi\VendorApp\ResGenerator\DevApp_ReadRes.c

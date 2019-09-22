@@ -9,12 +9,31 @@
        188          0          0         44        349   ble_wechat_util.obj
        928          0          0          0       1940   epb.obj
       2494         40          0          0       1509   epb_MmBp.obj
-      2720        196          0         32       1606   iotlock.obj
+       548        384          0          0        145   fft.obj
+       504          0          0          0        126   ha.obj
+       940          0          0          0        185   hrv.obj
+       332          0          0          0         74   htz.obj
+       346          0          0          0        181   imath.obj
+      2724        196          0         32       1606   iotlock.obj
        708          0          0          0        370   linked_list.obj
-      7814        754          2        664       5623   lock_drv.obj
+     11238        878          8       6824       6570   lock_drv.obj
       7568        770          8        127       2712   lock_gps.obj
-     13616       1140         46       2388       3222   lock_net.obj
-     21974       1683          0      18579       7458   lock_utils.obj
+     13544       1108         46       2388       3222   lock_net.obj
+     22050       1683          0      18579       7458   lock_utils.obj
        650        112          0          0        455   md5.obj
-     81220       6604        189      24196      32547   TOTAL
+       380          0          0          0        130   median.obj
+       106          0          0          0        111   mood.obj
+       592          0          0          0        124   noise.obj
+       308          0        852        512        860   nsk_ecg_core.obj
+       664          0          0          0        275   nsk_ecg_core_state.obj
+       474          0          0          0        397   nsk_ecg_ext.obj
+        74        200          0          0        124   prep.obj
+       164          0          0          0        128   resampler.obj
+       174          0          0          0        117   rhr.obj
+       506          0          0          0        131   rpeak.obj
+       222          0          0          0        183   rsa.obj
+       414         66          0          0        136   spectr.obj
+      1006         64          0          0        260   sq.obj
+       492        412          0          0        125   stress.obj
+     92898       7822       1047      30868      37306   TOTAL
 

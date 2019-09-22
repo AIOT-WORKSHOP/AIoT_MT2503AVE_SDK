@@ -1,28 +1,28 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-       320          0          0          0        288   cipher_api.obj
-      1640          0          0          0        772   llc_abm.obj
-       876          0          0          0        516   llc_abm_sapi.obj
-       696          0          0          0        264   llc_arq.obj
-      1416          0          0          0        420   llc_arqrx.obj
-      2564          0          0          0        984   llc_arqtx.obj
-      1562          0          0          0        576   llc_cipherrsp.obj
+       472          0          0          0        288   cipher_api.obj
+      1992          0          0          0        776   llc_abm.obj
+      1088          0          0          0        516   llc_abm_sapi.obj
+       764          0          0          0        276   llc_arq.obj
+      1748          0          0          0        428   llc_arqrx.obj
+      2910          0          0          0        992   llc_arqtx.obj
+      1956          0          0          0        568   llc_cipherrsp.obj
          0          0          0          0          0   llc_config.obj
-      1476         13          0          0        632   llc_construct.obj
+      1636         13          0          0        632   llc_construct.obj
         84         20          0          0        116   llc_create.obj
-        76          0          0          0         64   llc_deinit.obj
+        92          0          0          0         64   llc_deinit.obj
        282          0          0          0        432   llc_flowctrl.obj
        220          0          0       1312        128   llc_init.obj
-       830          0          0          0        592   llc_lcdiplqueue.obj
-      1708          0          0          0        828   llc_llerx.obj
-       744          0          0          0        452   llc_lletx.obj
-      1532          0          0          0        592   llc_llme.obj
-       272          0          0          0         60   llc_main.obj
-       926          0          0          0        288   llc_mux.obj
-      1820          2          0          0        892   llc_other_funcs.obj
+       948          0          0          0        596   llc_lcdiplqueue.obj
+      2178          0          0          0        852   llc_llerx.obj
+      1012          0          0          0        460   llc_lletx.obj
+      1720          2          0          0        600   llc_llme.obj
+       300          0          0          0         60   llc_main.obj
+       998          0          0          0        292   llc_mux.obj
+      2012          2          0          0        896   llc_other_funcs.obj
          0          0          0          0          0   llc_reset.obj
-      1140          0          0          0        648   llc_timer.obj
-       840          0          0          0        204   llc_unackmode.obj
-      5790         48          1          0       2548   llc_xid.obj
-     26814         83          1       1312      12296   TOTAL
+      1384          0          0          0        656   llc_timer.obj
+      1064          0          0          0        212   llc_unackmode.obj
+      6914         48          1          0       2604   llc_xid.obj
+     31774         85          1       1312      12444   TOTAL
 

@@ -2,12 +2,12 @@
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
          0       1176          0          0          0   sim_const.obj
        200         20          0          0        240   sim_create.obj
-      7774          0          0          0       3356   sim_driver_interfaces.obj
-     14840         80          0          0       5992   sim_handler.obj
+     10986          0          0          0       3364   sim_driver_interfaces.obj
+     16206         80          0          0       5840   sim_handler.obj
        420          0          0       1000        256   sim_init.obj
        592          0          0          0         80   sim_main.obj
-     24566          0          0          0       7156   sim_toolkit.obj
-      1184          0          0          0        828   usim_fcp_parser.obj
-      5420         70          0          0       1128   usim_handler.obj
-     54996       1346          0       1000      19036   TOTAL
+     26834         22          0          0       7212   sim_toolkit.obj
+      1560          0          0          0        840   usim_fcp_parser.obj
+      5744         70          0          0       1128   usim_handler.obj
+     62542       1368          0       1000      18960   TOTAL
 

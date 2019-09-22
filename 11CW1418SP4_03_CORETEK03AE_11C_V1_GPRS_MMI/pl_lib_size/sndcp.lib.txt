@@ -1,13 +1,13 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      6584          0          0          0       4116   snd_common.obj
+      8470          6          0          0       4164   snd_common.obj
         84         20          0          0        116   snd_create.obj
-       808          0          0          0        444   snd_flc.obj
+      1084          0          0          0        444   snd_flc.obj
        376          6          0        756         68   snd_init.obj
-       254          0          0          0        112   snd_main.obj
-      2362          0          0          0        468   snd_nsapi.obj
-      4796          0          0          0       1056   snd_sapi.obj
-       488          0          0          0        264   snd_timer.obj
-      2070          0          0          0       1304   snd_xid.obj
-     17822         26          0        756       7948   TOTAL
+       330          0          0          0        112   snd_main.obj
+      3408          0          0          0        492   snd_nsapi.obj
+      6788          0          0          0       1060   snd_sapi.obj
+       652          0          0          0        264   snd_timer.obj
+      2596          2          0          0       1388   snd_xid.obj
+     23788         34          0        756       8108   TOTAL
 

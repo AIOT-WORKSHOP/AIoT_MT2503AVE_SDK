@@ -7,12 +7,12 @@
          0          0          0          0          0   boot_cert_interface.obj
         60          0          0          0        248   boot_fail_handler.obj
        536          0          0          0        520   ex_hdlr.obj
-      5008        369          4        768       1416   ex_item.obj
+      9108        369          4        768       1456   ex_item.obj
          2          0          0          0         52   gdb_rsp_server.obj
-       334          0          0        264        248   memoryTest.obj
+       338          0          0        264        248   memoryTest.obj
       2854        239          0       3608       1672   softwareLA.obj
        272          0          0         20        232   sst_concurrent_utility.obj
        432          0          0          4        140   sst_unwind.obj
        612          0          0        104        444   swtr.obj
-     10542        608          4       4828       5496   TOTAL
+     14646        608          4       4828       5536   TOTAL
 

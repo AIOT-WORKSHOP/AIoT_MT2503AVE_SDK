@@ -36,11 +36,11 @@
 # 82 "../../../kal/include/kal_general_types.h"
 # 1 "../../../kal/include/clib.h" 1
 # 100 "../../../kal/include/clib.h"
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/setjmp.h" 1 3
-# 32 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/setjmp.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/_mingw.h" 1 3
-# 33 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/setjmp.h" 2 3
-# 49 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/setjmp.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/setjmp.h" 1 3
+# 32 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/setjmp.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/_mingw.h" 1 3
+# 33 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/setjmp.h" 2 3
+# 49 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/setjmp.h" 3
 typedef int jmp_buf[16];
 
 
@@ -65,46 +65,46 @@ char *strtok_r(char *s1, const char *s2, char **ptr);
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 1 3
-# 37 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 1 3
+# 37 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 220 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 220 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
 typedef unsigned int size_t;
-# 332 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
+# 332 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
 typedef short unsigned int wchar_t;
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 38 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 2 3
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 38 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 2 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/sys/types.h" 1 3
-# 38 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/sys/types.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/sys/types.h" 1 3
+# 38 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/sys/types.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 158 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 158 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
 typedef int ptrdiff_t;
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 39 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/sys/types.h" 2 3
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 39 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/sys/types.h" 2 3
 
 
 
 
 
 typedef long time_t;
-# 53 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/sys/types.h" 3
+# 53 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/sys/types.h" 3
 typedef long _off_t;
 
 
@@ -172,10 +172,10 @@ typedef long _ssize_t;
 
 
 typedef _ssize_t ssize_t;
-# 44 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 2 3
-# 69 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
+# 44 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 2 3
+# 69 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
 typedef long clock_t;
-# 78 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
+# 78 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
 struct tm
 {
         int tm_sec;
@@ -198,7 +198,7 @@ struct tm
  time_t __attribute__((__cdecl__)) time (time_t*);
  double __attribute__((__cdecl__)) difftime (time_t, time_t);
  time_t __attribute__((__cdecl__)) mktime (struct tm*);
-# 111 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
+# 111 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
  char* __attribute__((__cdecl__)) asctime (const struct tm*);
  char* __attribute__((__cdecl__)) ctime (const time_t*);
  struct tm* __attribute__((__cdecl__)) gmtime (const time_t*);
@@ -218,7 +218,7 @@ extern void __attribute__((__cdecl__)) tzset (void);
 
  char* __attribute__((__cdecl__)) _strdate(char*);
  char* __attribute__((__cdecl__)) _strtime(char*);
-# 142 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
+# 142 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
 extern int* __attribute__((__cdecl__)) __p__daylight (void);
 extern long* __attribute__((__cdecl__)) __p__timezone (void);
 extern char** __attribute__((__cdecl__)) __p__tzname (void);
@@ -226,7 +226,7 @@ extern char** __attribute__((__cdecl__)) __p__tzname (void);
 extern __attribute__((dllimport)) int _daylight;
 extern __attribute__((dllimport)) long _timezone;
 extern __attribute__((dllimport)) char *_tzname[2];
-# 180 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
+# 180 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/time.h" 3
 extern __attribute__((dllimport)) int daylight;
 extern __attribute__((dllimport)) long timezone;
 extern __attribute__((dllimport)) char *tzname[2];
@@ -244,32 +244,32 @@ struct tm *localtime_r(const time_t *timer, struct tm *result);
 struct tm *gmtime_r(const time_t *timer, struct tm *result);
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 1 3
-# 42 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 1 3
+# 42 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 361 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 361 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
 typedef short unsigned int wint_t;
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 43 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 2 3
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 43 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 2 3
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 1 3
-
-
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 1 3
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 1 3 4
-# 44 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 3 4
+
+
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 1 3 4
+# 44 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 2 3
-# 45 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 2 3
-# 151 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 2 3
+# 45 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 2 3
+# 151 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
 typedef struct _iobuf
 {
         char* _ptr;
@@ -281,9 +281,9 @@ typedef struct _iobuf
         int _bufsiz;
         char* _tmpfname;
 } FILE;
-# 176 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 176 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
 extern __attribute__((dllimport)) FILE _iob[];
-# 191 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 191 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
  FILE* __attribute__((__cdecl__)) fopen (const char*, const char*);
  FILE* __attribute__((__cdecl__)) freopen (const char*, const char*, FILE*);
  int __attribute__((__cdecl__)) fflush (FILE*);
@@ -384,7 +384,7 @@ extern __inline__ int __attribute__((__cdecl__)) putchar(int __c)
   return (--(&_iob[1])->_cnt >= 0)
     ? (int)(*(&_iob[1])->_ptr++ = (char)__c)
     : _flsbuf (__c, (&_iob[1]));}
-# 305 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 305 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
  size_t __attribute__((__cdecl__)) fread (void*, size_t, size_t, FILE*);
  size_t __attribute__((__cdecl__)) fwrite (const void*, size_t, size_t, FILE*);
 
@@ -395,7 +395,7 @@ extern __inline__ int __attribute__((__cdecl__)) putchar(int __c)
  int __attribute__((__cdecl__)) fseek (FILE*, long, int);
  long __attribute__((__cdecl__)) ftell (FILE*);
  void __attribute__((__cdecl__)) rewind (FILE*);
-# 338 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 338 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
 typedef long long fpos_t;
 
 
@@ -447,7 +447,7 @@ typedef long long fpos_t;
  int __attribute__((__cdecl__)) fputchar (int);
  FILE* __attribute__((__cdecl__)) fdopen (int, const char*);
  int __attribute__((__cdecl__)) fileno (FILE*);
-# 400 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 400 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
  int __attribute__((__cdecl__)) fwprintf (FILE*, const wchar_t*, ...);
  int __attribute__((__cdecl__)) wprintf (const wchar_t*, ...);
  int __attribute__((__cdecl__)) swprintf (wchar_t*, const wchar_t*, ...);
@@ -494,7 +494,7 @@ int __attribute__((__cdecl__)) vfwscanf (FILE * __restrict__,
                        const wchar_t * __restrict__, __gnuc_va_list);
 int __attribute__((__cdecl__)) vswscanf (const wchar_t * __restrict__,
                        const wchar_t * __restrict__, __gnuc_va_list);
-# 454 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 454 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
  FILE* __attribute__((__cdecl__)) wpopen (const wchar_t*, const wchar_t*);
 
 
@@ -513,31 +513,31 @@ int __attribute__((__cdecl__)) vswscanf (const wchar_t * __restrict__,
  int __attribute__((__cdecl__)) getw (FILE*);
  int __attribute__((__cdecl__)) putw (int, FILE*);
 # 122 "../../../kal/include/clib.h" 2
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 1 3 4
-# 118 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 3 4
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 1 3 4
+# 118 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 3 4
 typedef __gnuc_va_list va_list;
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 2 3
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 2 3
 # 123 "../../../kal/include/clib.h" 2
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 1 3
-# 33 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 1 3
-# 36 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 1 3
+# 33 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 1 3
+# 36 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 37 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 2 3
-# 62 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 37 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 2 3
+# 62 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
  int __attribute__((__cdecl__)) isalnum(int);
  int __attribute__((__cdecl__)) isalpha(int);
  int __attribute__((__cdecl__)) iscntrl(int);
@@ -557,7 +557,7 @@ typedef __gnuc_va_list va_list;
 
  int __attribute__((__cdecl__)) tolower(int);
  int __attribute__((__cdecl__)) toupper(int);
-# 92 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
+# 92 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
  int __attribute__((__cdecl__)) _tolower(int);
  int __attribute__((__cdecl__)) _toupper(int);
 
@@ -568,11 +568,11 @@ typedef __gnuc_va_list va_list;
 
 
    extern __attribute__((dllimport)) int __mb_cur_max;
-# 120 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
+# 120 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
 extern __attribute__((dllimport)) unsigned short _ctype[];
 
   extern __attribute__((dllimport)) unsigned short* _pctype;
-# 187 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
+# 187 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
 typedef wchar_t wctype_t;
 
 
@@ -596,30 +596,30 @@ typedef wchar_t wctype_t;
  wchar_t __attribute__((__cdecl__)) towupper(wchar_t);
 
  int __attribute__((__cdecl__)) isleadbyte (int);
-# 231 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
+# 231 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
 int __attribute__((__cdecl__)) __isascii (int);
 int __attribute__((__cdecl__)) __toascii (int);
 int __attribute__((__cdecl__)) __iscsymf (int);
 int __attribute__((__cdecl__)) __iscsym (int);
-# 245 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
+# 245 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/ctype.h" 3
 int __attribute__((__cdecl__)) isascii (int);
 int __attribute__((__cdecl__)) toascii (int);
 int __attribute__((__cdecl__)) iscsymf (int);
 int __attribute__((__cdecl__)) iscsym (int);
-# 34 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 2 3
+# 34 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 2 3
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 1 3
-# 38 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
-
-
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 1 3
+# 38 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 39 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 2 3
-# 88 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+
+
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 39 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 2 3
+# 88 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 extern int _argc;
 extern char** _argv;
 
@@ -629,19 +629,19 @@ extern char** _argv;
 extern int* __attribute__((__cdecl__)) __p___argc(void);
 extern char*** __attribute__((__cdecl__)) __p___argv(void);
 extern wchar_t*** __attribute__((__cdecl__)) __p___wargv(void);
-# 154 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 154 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
  int* __attribute__((__cdecl__)) _errno(void);
 
 
  int* __attribute__((__cdecl__)) __doserrno(void);
-# 166 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 166 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
   extern char *** __attribute__((__cdecl__)) __p__environ(void);
   extern wchar_t *** __attribute__((__cdecl__)) __p__wenviron(void);
-# 189 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 189 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
   extern __attribute__((dllimport)) int _sys_nerr;
-# 213 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 213 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 extern __attribute__((dllimport)) char* _sys_errlist[];
-# 226 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 226 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 extern unsigned __attribute__((__cdecl__)) int* __p__osver(void);
 extern unsigned __attribute__((__cdecl__)) int* __p__winver(void);
 extern unsigned __attribute__((__cdecl__)) int* __p__winmajor(void);
@@ -657,13 +657,13 @@ extern __attribute__((dllimport)) unsigned int _osver;
 extern __attribute__((dllimport)) unsigned int _winver;
 extern __attribute__((dllimport)) unsigned int _winmajor;
 extern __attribute__((dllimport)) unsigned int _winminor;
-# 277 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 277 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
  char** __attribute__((__cdecl__)) __p__pgmptr(void);
 
  wchar_t** __attribute__((__cdecl__)) __p__wpgmptr(void);
-# 310 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 310 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 extern __attribute__((dllimport)) int _fmode;
-# 326 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 326 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
  double __attribute__((__cdecl__)) atof (const char*);
  int __attribute__((__cdecl__)) atoi (const char*);
  long __attribute__((__cdecl__)) atol (const char*);
@@ -727,7 +727,7 @@ int __attribute__((__cdecl__)) atexit (void (*)(void));
 
  int __attribute__((__cdecl__)) abs (int);
  long __attribute__((__cdecl__)) labs (long);
-# 398 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 398 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 typedef struct { int quot, rem; } div_t;
 typedef struct { long quot, rem; } ldiv_t;
 
@@ -803,7 +803,7 @@ _onexit_t __attribute__((__cdecl__)) _onexit( _onexit_t );
  char* __attribute__((__cdecl__)) ecvt (double, int, int*, int*);
  char* __attribute__((__cdecl__)) fcvt (double, int, int*, int*);
  char* __attribute__((__cdecl__)) gcvt (double, int, char*);
-# 483 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 483 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 void __attribute__((__cdecl__)) _Exit(int) __attribute__ ((noreturn));
 
 extern __inline__ void __attribute__((__cdecl__)) _Exit(int status)
@@ -843,19 +843,19 @@ extern __inline__ wchar_t* __attribute__((__cdecl__)) lltow (long long _n, wchar
         { return _i64tow (_n, _w, _i); }
 extern __inline__ wchar_t* __attribute__((__cdecl__)) ulltow (unsigned long long _n, wchar_t * _w, int _i)
         { return _ui64tow (_n, _w, _i); }
-# 36 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 2 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 1 3
-# 40 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 36 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 2 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 1 3
+# 40 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 41 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 2 3
-# 52 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 41 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 2 3
+# 52 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
  void* __attribute__((__cdecl__)) memchr (const void*, int, size_t);
  int __attribute__((__cdecl__)) memcmp (const void*, const void*, size_t);
  void* __attribute__((__cdecl__)) memcpy (void*, const void*, size_t);
@@ -926,7 +926,7 @@ extern __inline__ wchar_t* __attribute__((__cdecl__)) ulltow (unsigned long long
  wchar_t* __attribute__((__cdecl__)) wcsstr(const wchar_t*, const wchar_t*);
  wchar_t* __attribute__((__cdecl__)) wcstok(wchar_t*, const wchar_t*);
  size_t __attribute__((__cdecl__)) wcsxfrm(wchar_t*, const wchar_t*, size_t);
-# 131 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
+# 131 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
  wchar_t* __attribute__((__cdecl__)) _wcsdup (const wchar_t*);
  int __attribute__((__cdecl__)) _wcsicmp (const wchar_t*, const wchar_t*);
  int __attribute__((__cdecl__)) _wcsicoll (const wchar_t*, const wchar_t*);
@@ -940,7 +940,7 @@ extern __inline__ wchar_t* __attribute__((__cdecl__)) ulltow (unsigned long long
 
  int __attribute__((__cdecl__)) _wcsncoll(const wchar_t*, const wchar_t*, size_t);
  int __attribute__((__cdecl__)) _wcsnicoll(const wchar_t*, const wchar_t*, size_t);
-# 159 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
+# 159 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
  void* __attribute__((__cdecl__)) memccpy (void*, const void*, int, size_t);
  int __attribute__((__cdecl__)) memicmp (const void*, const void*, size_t);
  char* __attribute__((__cdecl__)) strdup (const char*);
@@ -976,7 +976,7 @@ wcscmpi (const wchar_t * __ws1, const wchar_t * __ws2)
  wchar_t* __attribute__((__cdecl__)) wcsrev (wchar_t*);
  wchar_t* __attribute__((__cdecl__)) wcsset (wchar_t*, wchar_t);
  wchar_t* __attribute__((__cdecl__)) wcsupr (wchar_t*);
-# 37 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 2 3
+# 37 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 2 3
 
 
 
@@ -984,16 +984,16 @@ wcscmpi (const wchar_t * __ws1, const wchar_t * __ws2)
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 45 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 2 3
-# 59 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 45 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 2 3
+# 59 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
 typedef unsigned long _fsize_t;
 
 
@@ -1015,7 +1015,7 @@ struct _wfinddatai64_t {
     long long size;
     wchar_t name[(260)];
 };
-# 88 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
+# 88 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
  int __attribute__((__cdecl__)) _waccess (const wchar_t*, int);
  int __attribute__((__cdecl__)) _wchmod (const wchar_t*, int);
  int __attribute__((__cdecl__)) _wcreat (const wchar_t*, int);
@@ -1027,13 +1027,13 @@ struct _wfinddatai64_t {
  wchar_t* __attribute__((__cdecl__)) _wmktemp (wchar_t*);
  long __attribute__((__cdecl__)) _wfindfirsti64 (const wchar_t*, struct _wfinddatai64_t*);
  int __attribute__((__cdecl__)) _wfindnexti64 (long, struct _wfinddatai64_t*);
-# 159 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
+# 159 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
  int __attribute__((__cdecl__)) _wchdir (const wchar_t*);
  wchar_t* __attribute__((__cdecl__)) _wgetcwd (wchar_t*, int);
  wchar_t* __attribute__((__cdecl__)) _wgetdcwd (int, wchar_t*, int);
  int __attribute__((__cdecl__)) _wmkdir (const wchar_t*);
  int __attribute__((__cdecl__)) _wrmdir (const wchar_t*);
-# 176 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
+# 176 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
 struct _stat
 {
         _dev_t st_dev;
@@ -1088,9 +1088,9 @@ struct _stati64 {
 
  int __attribute__((__cdecl__)) _wstat (const wchar_t*, struct _stat*);
  int __attribute__((__cdecl__)) _wstati64 (const wchar_t*, struct _stati64*);
-# 247 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
+# 247 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
  wchar_t* __attribute__((__cdecl__)) _wsetlocale (int, const wchar_t*);
-# 288 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
+# 288 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/wchar.h" 3
 typedef int mbstate_t;
 typedef wchar_t _Wint_t;
 

@@ -1,17 +1,17 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      5136          4          0          0       1960   soc_abm.obj
-      5226          0          0          0       3292   soc_api.obj
-      2110          0          0          0       1092   soc_app.obj
-      7586          0          0          0       3000   soc_common.obj
+      6156          4          0          0       1996   soc_abm.obj
+      6938          0          0          0       3324   soc_api.obj
+      2234          0          0          0       1096   soc_app.obj
+      8614          0          0          0       3056   soc_common.obj
         84         20          0          0        116   soc_create.obj
-      5160          0          0          0       2144   soc_dns.obj
+      5618          0          0          0       2144   soc_dns.obj
          0          0          4          0          0   soc_feature.obj
-       200          0          0          0        192   soc_flc.obj
-       304          0          0       1624        192   soc_main.obj
+       288          0          0          0        192   soc_flc.obj
+       324          0          0       1624        192   soc_main.obj
          0          0          0          0          0   soc_sms.obj
-      2776          0          0          0       1460   soc_tcpip.obj
-       764          0          0          0        520   soc_timer.obj
+      3420          0          0          0       1464   soc_tcpip.obj
+       968          0          0          0        524   soc_timer.obj
          0          0          0          0          0   soc_ut.obj
-     29346         24          4       1624      13968   TOTAL
+     34644         24          4       1624      14104   TOTAL
 

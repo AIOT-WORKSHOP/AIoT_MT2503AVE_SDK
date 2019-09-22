@@ -1,16 +1,16 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      2796         32          0          0       2252   supl_conn.obj
+      3486         32          0          0       2292   supl_conn.obj
       8212          0          0          0       3276   supl_decode.obj
       5136          0         65          0       2392   supl_encode.obj
-      3200         24          0         82       1844   supl_fsm.obj
-       324          0          0          0        488   supl_l4c_hdlr.obj
-       494          0          0          0        392   supl_lcsp_hdlr.obj
-      1086         20          1       1396        804   supl_main.obj
+      3624         26          0         82       1884   supl_fsm.obj
+       390          0          0          0        500   supl_l4c_hdlr.obj
+       534          0          0          0        396   supl_lcsp_hdlr.obj
+      1226         20          1       1396        820   supl_main.obj
        218         44          0      12288        364   supl_mem.obj
-       708          0          0          0        408   supl_mmi_hdlr.obj
-       420          0          0          0        448   supl_timer.obj
-      6340         24          0          0       3096   supl_ulp_hdlr.obj
+       756          0          0          0        408   supl_mmi_hdlr.obj
+       520          0          0          0        456   supl_timer.obj
+      7570         30          0          0       3152   supl_ulp_hdlr.obj
       1336         24          4      43692        876   supl_xyssl.obj
-     30270        168         70      57458      16640   TOTAL
+     33008        176         70      57458      16816   TOTAL
 

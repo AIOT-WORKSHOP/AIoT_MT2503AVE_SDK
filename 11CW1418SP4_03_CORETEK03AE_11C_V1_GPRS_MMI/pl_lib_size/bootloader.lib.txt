@@ -1,7 +1,7 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-       976          0          0          0       1328   arm_unaligned.obj
-       188          0          4       4096       1074   bl_BOOTARM.obj
+       976          0          0          0       1388   arm_unaligned.obj
+       188          0          4       4096       1154   bl_BOOTARM.obj
          8          0          0          0        208   bl_Cache.obj
        402          0          1        533        332   bl_DBGPRINT.obj
        294          0         48          0        665   bl_FTL.obj
@@ -15,7 +15,7 @@
          0          0          0          0          0   bl_SNAND_V2.obj
        140          0         20          0        260   bl_UART.obj
       1034          0          0          0       1259   bl_portingfunc.obj
-       364          0          0          0        599   bl_regioninit.obj
+       364          0          0          0        639   bl_regioninit.obj
          0          9          0          0          0   bl_verno.obj
        204          0          0          0        118   br_GFH_file_info.obj
        194          0          0          0        192   br_GFH_parser.obj
@@ -50,5 +50,5 @@
          2          0          0          0         52   pmic_adpt_bl.obj
        178          0          0          0        187   pwic_cust.obj
       1680          0         68         26       1002   pwm.obj
-     18806        796        413      40220      20333   TOTAL
+     18806        796        413      40220      20513   TOTAL
 

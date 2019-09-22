@@ -51,7 +51,7 @@
  * -------
  *   custom\system\CORETEK03AE_11C_BB\custom_sfi_clock.hEMI auto generator V8.268
  *
- *   Memory Device database last modified on 2017/9/4
+ *   Memory Device database last modified on 2019/9/9
  *
  *============================================================================
  *             HISTORY

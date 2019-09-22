@@ -1,4 +1,4 @@
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 1
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 1
 
 
    1              		.file	"ABMLoader.c"
@@ -58,7 +58,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  486 0068 04000000 		.long	LC1
  487 006c 04       		.byte	4
  488 006d 000000   		.space 3
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 2
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 2
 
 
  489 0070 08000000 		.long	LC2
@@ -118,7 +118,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  543 0100 4F000000 		.long	LC20
  544 0104 43       		.byte	67
  545 0105 000000   		.space 3
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 3
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 3
 
 
  638              		.align 2
@@ -178,7 +178,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
   37:../../MMI/Resource/ABMLoader.c ****  * Filename:
   38:../../MMI/Resource/ABMLoader.c ****  * ---------
   39:../../MMI/Resource/ABMLoader.c ****  *  ABMLoader.c
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 4
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 4
 
 
   40:../../MMI/Resource/ABMLoader.c ****  *
@@ -238,7 +238,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
   94:../../MMI/Resource/ABMLoader.c ****  * removed!
   95:../../MMI/Resource/ABMLoader.c ****  * removed!
   96:../../MMI/Resource/ABMLoader.c ****  * removed!
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 5
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 5
 
 
   97:../../MMI/Resource/ABMLoader.c ****  *
@@ -298,7 +298,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  151:../../MMI/Resource/ABMLoader.c ****  * removed!
  152:../../MMI/Resource/ABMLoader.c ****  * removed!
  153:../../MMI/Resource/ABMLoader.c ****  *
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 6
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 6
 
 
  154:../../MMI/Resource/ABMLoader.c ****  * removed!
@@ -358,7 +358,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  208:../../MMI/Resource/ABMLoader.c ****  * removed!
  209:../../MMI/Resource/ABMLoader.c ****  *
  210:../../MMI/Resource/ABMLoader.c ****  * removed!
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 7
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 7
 
 
  211:../../MMI/Resource/ABMLoader.c ****  * removed!
@@ -418,7 +418,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  265:../../MMI/Resource/ABMLoader.c ****  *
  266:../../MMI/Resource/ABMLoader.c ****  * removed!
  267:../../MMI/Resource/ABMLoader.c ****  * removed!
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 8
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 8
 
 
  268:../../MMI/Resource/ABMLoader.c ****  * removed!
@@ -478,7 +478,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  322:../../MMI/Resource/ABMLoader.c ****  *------------------------------------------------------------------------------
  323:../../MMI/Resource/ABMLoader.c ****  * Upper this line, this part is controlled by PVCS VM. DO NOT MODIFY!!
  324:../../MMI/Resource/ABMLoader.c ****  *============================================================================
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 9
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 9
 
 
  325:../../MMI/Resource/ABMLoader.c ****  ****************************************************************************/
@@ -538,7 +538,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  379:../../MMI/Resource/ABMLoader.c ****     #define ABMLDR_LOG_V(format, ...) printf((format), ##__VA_ARGS__)
  380:../../MMI/Resource/ABMLoader.c ****     #define ABMLDR_LOG_W(format, ...) printf((format), ##__VA_ARGS__)
  381:../../MMI/Resource/ABMLoader.c ****     #define ABMLDR_LOG_E(format, ...) printf((format), ##__VA_ARGS__)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 10
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 10
 
 
  382:../../MMI/Resource/ABMLoader.c **** #endif  //__RESOURCE_GEN_
@@ -598,7 +598,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  436:../../MMI/Resource/ABMLoader.c **** #define RGB565(r, g, b)             (((r) << 11) | ((g) << 5) | (b))
  437:../../MMI/Resource/ABMLoader.c **** #define RGB3553(r, g, b)            (((r) << 3) | ((b) << 8) | ((g) >> 3) | (((g) & 0x7) << 13))
  438:../../MMI/Resource/ABMLoader.c ****     
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 11
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 11
 
 
  439:../../MMI/Resource/ABMLoader.c **** #define ARGB8888_TO_RGB565(c)       RGB565(R_OF_ARGB8888(c) >> 3, G_OF_ARGB8888(c) >> 2, B_OF_ARGB8
@@ -658,7 +658,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  493:../../MMI/Resource/ABMLoader.c **** #define ABM_MAX_COLOR_NUM               384000                   /* ABM supports up to 800*480 colo
  494:../../MMI/Resource/ABMLoader.c **** #define ABM_HEADER_SIZE                 12
  495:../../MMI/Resource/ABMLoader.c **** 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 12
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 12
 
 
  496:../../MMI/Resource/ABMLoader.c **** #if defined(MAIN_MEDIA_LAYER_BITS_PER_PIXEL) && (MAIN_MEDIA_LAYER_BITS_PER_PIXEL == 24) && defined(
@@ -718,7 +718,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  550:../../MMI/Resource/ABMLoader.c ****  * Static Declaration
  551:../../MMI/Resource/ABMLoader.c ****  *****************************************************************************/
  552:../../MMI/Resource/ABMLoader.c **** /* file buffer to keep the whole bitmap file */
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 13
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 13
 
 
  553:../../MMI/Resource/ABMLoader.c **** /* color index table */
@@ -778,7 +778,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  592:../../MMI/Resource/ABMLoader.c ****         return c &= 0xFFF8FCF8;
  677              	LM3:
  678 0143 816508F8 		andl	$-459528, 8(%ebp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 14
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 14
 
 
  678      FCF8FF
@@ -838,7 +838,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  727 017a 83B83C74 		cmpl	$16, 1537084(%eax)
  727      170010
  728 0181 7510     		jne	L37
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 15
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 15
 
 
  729 0183 8B4508   		movl	8(%ebp), %eax
@@ -898,7 +898,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  763 01b4 48       		decl	%eax
  764 01b5 8945F8   		movl	%eax, -8(%ebp)
  638:../../MMI/Resource/ABMLoader.c **** 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 16
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 16
 
 
  639:../../MMI/Resource/ABMLoader.c ****     while (start_idx <= end_idx) 
@@ -958,7 +958,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  813              	L45:
  651:../../MMI/Resource/ABMLoader.c ****         }
  652:../../MMI/Resource/ABMLoader.c ****         else
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 17
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 17
 
 
  653:../../MMI/Resource/ABMLoader.c ****         {
@@ -1018,7 +1018,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  681:../../MMI/Resource/ABMLoader.c ****     S32     i;
  682:../../MMI/Resource/ABMLoader.c **** 
  683:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 18
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 18
 
 
  684:../../MMI/Resource/ABMLoader.c ****     /* Code Body                                                      */
@@ -1078,7 +1078,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  698:../../MMI/Resource/ABMLoader.c ****     abm_context->color_idx_tab.color_num++;    
  897              	LM33:
  898 0286 8B4510   		movl	16(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 19
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 19
 
 
  899 0289 FF803474 		incl	1537076(%eax)
@@ -1138,7 +1138,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  726:../../MMI/Resource/ABMLoader.c ****         insert_idx = abm_context->color_idx_tab.last_search_idx;
  937              	LM38:
  938 02b6 8B450C   		movl	12(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 20
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 20
 
 
  939 02b9 8B803874 		movl	1537080(%eax), %eax
@@ -1198,7 +1198,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  976 0309 C3       		ret
  980              	Lscope5:
  985              	_get_normal_color_num:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 21
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 21
 
 
  743:../../MMI/Resource/ABMLoader.c **** 
@@ -1258,7 +1258,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1014              	LM49:
  1015              	L61:
  1016 0340 8D45FC   		leal	-4(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 22
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 22
 
 
  1017 0343 FF00     		incl	(%eax)
@@ -1318,7 +1318,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1050              	LM54:
  1051 0360 C7442408 		movl	$2, 8(%esp)
  1051      02000000 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 23
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 23
 
 
  1052 0368 C7442404 		movl	$0, 4(%esp)
@@ -1378,7 +1378,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1093 03a9 89E5     		movl	%esp, %ebp
  1094 03ab 53       		pushl	%ebx
  1095 03ac 83EC28   		subl	$40, %esp
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 24
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 24
 
 
  825:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/
@@ -1438,7 +1438,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1127 03f1 09C2     		orl	%eax, %edx
  1128 03f3 8B4508   		movl	8(%ebp), %eax
  1129 03f6 83C005   		addl	$5, %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 25
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 25
 
 
  1130 03f9 0FB600   		movzbl	(%eax), %eax
@@ -1498,7 +1498,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1172 045a 8B4508   		movl	8(%ebp), %eax
  1173 045d 83C012   		addl	$18, %eax
  1174 0460 0FB610   		movzbl	(%eax), %edx
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 26
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 26
 
 
  1175 0463 8B4508   		movl	8(%ebp), %eax
@@ -1558,7 +1558,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1227 04e6 837DF008 		cmpl	$8, -16(%ebp)
  1228 04ea 7418     		je	L70
  1229 04ec 837DF018 		cmpl	$24, -16(%ebp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 27
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 27
 
 
  1230 04f0 7412     		je	L70
@@ -1618,7 +1618,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  884:../../MMI/Resource/ABMLoader.c ****     compression = GET_32(bmp_data_p + 30);
  1265              	LM76:
  1266 053e 8B4508   		movl	8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 28
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 28
 
 
  1267 0541 83C01E   		addl	$30, %eax
@@ -1678,7 +1678,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1314 05b5 C1E010   		sall	$16, %eax
  1315 05b8 09C2     		orl	%eax, %edx
  1316 05ba 8B4508   		movl	8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 29
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 29
 
 
  1317 05bd 83C031   		addl	$49, %eax
@@ -1738,7 +1738,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1353              	LM87:
  1354 0608 8B5510   		movl	16(%ebp), %edx
  1355 060b 8B45F8   		movl	-8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 30
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 30
 
 
  1356 060e 83C007   		addl	$7, %eax
@@ -1798,7 +1798,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  927:../../MMI/Resource/ABMLoader.c ****     pal_first_color = GET_32(pal_color_p);
  1402              	LM94:
  1403 066f 8B45DC   		movl	-36(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 31
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 31
 
 
  1404 0672 0FB610   		movzbl	(%eax), %edx
@@ -1858,7 +1858,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1453 06f4 8B45EC   		movl	-20(%ebp), %eax
  1454 06f7 C1E002   		sall	$2, %eax
  1455 06fa 0345DC   		addl	-36(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 32
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 32
 
 
  1456 06fd 83C003   		addl	$3, %eax
@@ -1918,7 +1918,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  948:../../MMI/Resource/ABMLoader.c ****     }
  949:../../MMI/Resource/ABMLoader.c **** 
  950:../../MMI/Resource/ABMLoader.c ****     /* bitmap pixel start offset */
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 33
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 33
 
 
  951:../../MMI/Resource/ABMLoader.c ****     abm_context->abm_enc.bmp_pixel_start_p = bmp_data_p + GET_32(bmp_data_p + 10);
@@ -1978,7 +1978,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1548      0000
  1549              	LC24:
  1550 07e0 5B41424D 		.ascii "[ABM enc] over buffer size: %s\0"
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 34
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 34
 
 
  1550      20656E63 
@@ -2038,7 +2038,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  981:../../MMI/Resource/ABMLoader.c ****     fp = fopen(filename, "rb");
  1574              	LM107:
  1575 084d C7442404 		movl	$LC21, 4(%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 35
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 35
 
 
  1575      A9070000 
@@ -2098,7 +2098,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  995:../../MMI/Resource/ABMLoader.c **** 
  996:../../MMI/Resource/ABMLoader.c ****         ABMLDR_LOG_E("[ABM enc] over buffer size: %s", filename);
  1613              	LM114:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 36
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 36
 
 
  1614 08ba 8B450C   		movl	12(%ebp), %eax
@@ -2158,7 +2158,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1006:../../MMI/Resource/ABMLoader.c ****         return 0;
  1651              	LM119:
  1652 093d C745F400 		movl	$0, -12(%ebp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 37
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 37
 
 
  1652      000000
@@ -2218,7 +2218,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1690              	LM125:
  1691 09a6 8B45F8   		movl	-8(%ebp), %eax
  1692 09a9 8945F4   		movl	%eax, -12(%ebp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 38
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 38
 
 
 1021:../../MMI/Resource/ABMLoader.c **** }
@@ -2278,7 +2278,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1732 09d8 8945F8   		movl	%eax, -8(%ebp)
 1048:../../MMI/Resource/ABMLoader.c ****     y2 = abm_context->abm_enc.y2;
  1734              	LM131:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 39
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 39
 
 
  1735 09db 8B4510   		movl	16(%ebp), %eax
@@ -2338,7 +2338,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1071:../../MMI/Resource/ABMLoader.c ****         y2 = y;
  1774              	LM139:
  1775 0a19 8B450C   		movl	12(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 40
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 40
 
 
  1776 0a1c 8945F0   		movl	%eax, -16(%ebp)
@@ -2398,7 +2398,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1094:../../MMI/Resource/ABMLoader.c ****     /* Local Variables                                                */
 1095:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/
 1096:../../MMI/Resource/ABMLoader.c ****     S32     w, h, bottom_right_off_w, bottom_right_off_h;
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 41
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 41
 
 
 1097:../../MMI/Resource/ABMLoader.c **** 
@@ -2458,7 +2458,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1854 0aa3 8B902004 		movl	1056(%eax), %edx
  1854      0000
  1855 0aa9 8B45FC   		movl	-4(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 42
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 42
 
 
  1856 0aac 29D0     		subl	%edx, %eax
@@ -2518,7 +2518,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1128:../../MMI/Resource/ABMLoader.c **** }
  1899              	LM160:
  1900              	L98:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 43
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 43
 
 
  1901 0b08 C9       		leave
@@ -2578,7 +2578,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1160:../../MMI/Resource/ABMLoader.c ****     bmp_bpp = abm_context->abm_enc.bmp_bpp;
  1938              	LM165:
  1939 0b2d 8B4508   		movl	8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 44
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 44
 
 
  1940 0b30 8B4008   		movl	8(%eax), %eax
@@ -2638,7 +2638,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  1977      000000
  1978              	L104:
  1979 0b89 8B45F8   		movl	-8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 45
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 45
 
 
  1980 0b8c 3B45F0   		cmpl	-16(%ebp), %eax
@@ -2698,7 +2698,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2024      000000
  2025 0bf1 7409     		je	L113
 1190:../../MMI/Resource/ABMLoader.c ****                 {
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 46
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 46
 
 
 1191:../../MMI/Resource/ABMLoader.c ****                     c |= 0xFF000000;
@@ -2758,7 +2758,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1204:../../MMI/Resource/ABMLoader.c ****                 if (abm_context->abm_enc.src_key_color_enable && (c == TRANSPARENT_COLOR_24))
  2067              	LM186:
  2068 0c54 8B4508   		movl	8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 47
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 47
 
 
  2069 0c57 83B82804 		cmpl	$0, 1064(%eax)
@@ -2818,7 +2818,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1225:../../MMI/Resource/ABMLoader.c ****                 }
 1226:../../MMI/Resource/ABMLoader.c ****                 else
 1227:../../MMI/Resource/ABMLoader.c ****                 {
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 48
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 48
 
 
 1228:../../MMI/Resource/ABMLoader.c ****                     last_nibble = 0;
@@ -2878,7 +2878,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2147 0cee 89C2     		movl	%eax, %edx
  2148 0cf0 8B4508   		movl	8(%ebp), %eax
  2149 0cf3 89442404 		movl	%eax, 4(%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 49
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 49
 
 
  2150 0cf7 891424   		movl	%edx, (%esp)
@@ -2938,7 +2938,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2190 0d52 E946FEFF 		jmp	L108
  2190      FF
  2191              	L109:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 50
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 50
 
 
 1259:../../MMI/Resource/ABMLoader.c ****             }
@@ -2998,7 +2998,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2234              	LM212:
  2235 0db3 8B5508   		movl	8(%ebp), %edx
  2236 0db6 8B4508   		movl	8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 51
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 51
 
 
  2237 0db9 8B801804 		movl	1048(%eax), %eax
@@ -3058,7 +3058,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1295:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/   
 1296:../../MMI/Resource/ABMLoader.c ****     S32     i;
 1297:../../MMI/Resource/ABMLoader.c **** 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 52
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 52
 
 
 1298:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/
@@ -3118,7 +3118,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1320:../../MMI/Resource/ABMLoader.c ****  * RETURNS
 1321:../../MMI/Resource/ABMLoader.c ****  *  void
 1322:../../MMI/Resource/ABMLoader.c ****  *****************************************************************************/
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 53
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 53
 
 
 1323:../../MMI/Resource/ABMLoader.c **** static GDI_IMAGE_AB2_INLINE void ab2_bs_init(ab2_bs_struct *bs, U8 *mem_ptr)
@@ -3178,7 +3178,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1377:../../MMI/Resource/ABMLoader.c **** }
 1378:../../MMI/Resource/ABMLoader.c **** 
 1379:../../MMI/Resource/ABMLoader.c **** 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 54
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 54
 
 
 1380:../../MMI/Resource/ABMLoader.c **** /*****************************************************************************
@@ -3238,7 +3238,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2359 0e5c 8902     		movl	%eax, (%edx)
 1408:../../MMI/Resource/ABMLoader.c ****     }
 1409:../../MMI/Resource/ABMLoader.c **** }
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 55
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 55
 
 
  2361              	LM230:
@@ -3298,7 +3298,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1454:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/
 1455:../../MMI/Resource/ABMLoader.c ****     /* Local Variables                                                */
 1456:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 56
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 56
 
 
 1457:../../MMI/Resource/ABMLoader.c ****     mycolor a, r, g, b;
@@ -3358,7 +3358,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1477:../../MMI/Resource/ABMLoader.c ****         if (B_OF_ARGB8888(color) == 0xFF)
  2415              	LM236:
  2416 0eb1 8B4508   		movl	8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 57
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 57
 
 
  2417 0eb4 C1E018   		sall	$24, %eax
@@ -3418,7 +3418,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2460              	LM243:
  2461 0f0c 8B45F4   		movl	-12(%ebp), %eax
  2462 0f0f 89C2     		movl	%eax, %edx
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 58
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 58
 
 
  2463 0f11 0FAF55FC 		imull	-4(%ebp), %edx
@@ -3478,7 +3478,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1511:../../MMI/Resource/ABMLoader.c **** {
  2514              	LM247:
  2515 0f62 55       		pushl	%ebp
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 59
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 59
 
 
  2516 0f63 89E5     		movl	%esp, %ebp
@@ -3538,7 +3538,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2551              	LM253:
  2552 0fb1 C745F405 		movl	$5, -12(%ebp)
  2552      000000
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 60
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 60
 
 
  2553 0fb8 EB43     		jmp	L145
@@ -3598,7 +3598,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2586              	LM260:
  2587 0ff6 C745F402 		movl	$2, -12(%ebp)
  2587      000000
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 61
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 61
 
 
 1554:../../MMI/Resource/ABMLoader.c ****     }
@@ -3658,7 +3658,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1600:../../MMI/Resource/ABMLoader.c ****         last_nibble = x % 2;
 1601:../../MMI/Resource/ABMLoader.c ****     }
 1602:../../MMI/Resource/ABMLoader.c ****     else
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 62
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 62
 
 
 1603:../../MMI/Resource/ABMLoader.c ****     {
@@ -3718,7 +3718,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1657:../../MMI/Resource/ABMLoader.c ****             /* Last nibble contains the color index */
 1658:../../MMI/Resource/ABMLoader.c ****             pixel_nibble_index = (U8)((*pixel_ptr) & 0x0F);
 1659:../../MMI/Resource/ABMLoader.c ****         }
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 63
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 63
 
 
 1660:../../MMI/Resource/ABMLoader.c ****         color = abm_context->abm_enc.bmp_palette[pixel_nibble_index];
@@ -3778,7 +3778,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2618              	LM264:
  2619              	L175:
  2620 100f 8B4514   		movl	20(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 64
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 64
 
 
  2621 1012 3B45FC   		cmpl	-4(%ebp), %eax
@@ -3838,7 +3838,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2665 1078 8B4510   		movl	16(%ebp), %eax
  2666 107b 89442408 		movl	%eax, 8(%esp)
  2667 107f 8B450C   		movl	12(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 65
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 65
 
 
  2668 1082 89442404 		movl	%eax, 4(%esp)
@@ -3898,7 +3898,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2704 10a3 8B801804 		movl	1048(%eax), %eax
  2704      0000
  2705 10a9 8945F8   		movl	%eax, -8(%ebp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 66
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 66
 
 
 1749:../../MMI/Resource/ABMLoader.c ****     U32 x1 = abm_context->abm_enc.x2;
@@ -3958,7 +3958,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2746 1104 890424   		movl	%eax, (%esp)
  2747 1107 E8231B00 		call	_ab2enc_get_img_color_idx
  2747      00
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 67
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 67
 
 
  2748 110c 8945EC   		movl	%eax, -20(%ebp)
@@ -4018,7 +4018,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2793 1158 0F848200 		je	L179
  2793      0000
 1778:../../MMI/Resource/ABMLoader.c ****     {
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 68
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 68
 
 
 1779:../../MMI/Resource/ABMLoader.c ****         ab2_bs_write(os, 0x80 | (cnt - 1), 8);
@@ -4078,7 +4078,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2839 11c6 8B450C   		movl	12(%ebp), %eax
  2840 11c9 3B45F4   		cmpl	-12(%ebp), %eax
  2841 11cc 760B     		jbe	L191
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 69
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 69
 
 
 1789:../../MMI/Resource/ABMLoader.c ****             {
@@ -4138,7 +4138,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2891      0000
  2892 11f1 8945E4   		movl	%eax, -28(%ebp)
 1816:../../MMI/Resource/ABMLoader.c ****     U32 boundary_top    = abm_context->abm_enc.y1;
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 70
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 70
 
 
  2894              	LM300:
@@ -4198,7 +4198,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2934      0C000000 
  2935 1258 8B450C   		movl	12(%ebp), %eax
  2936 125b 8B00     		movl	(%eax), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 71
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 71
 
 
  2937 125d 89442404 		movl	%eax, 4(%esp)
@@ -4258,7 +4258,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  2980 12e9 890424   		movl	%eax, (%esp)
  2981 12ec E8BE1800 		call	_ab2_bs_write
  2981      00
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 72
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 72
 
 
 1836:../../MMI/Resource/ABMLoader.c ****     
@@ -4318,7 +4318,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3037              	_ab2enc_rle_encode_header:
 1848:../../MMI/Resource/ABMLoader.c **** 
 1849:../../MMI/Resource/ABMLoader.c **** 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 73
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 73
 
 
 1850:../../MMI/Resource/ABMLoader.c **** /*****************************************************************************
@@ -4378,7 +4378,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1879:../../MMI/Resource/ABMLoader.c ****     
 1880:../../MMI/Resource/ABMLoader.c ****     ab2_bs_write(&os, normal_color_cnt, 16);
  3065              	LM322:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 74
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 74
 
 
  3066 1391 C7442408 		movl	$16, 8(%esp)
@@ -4438,7 +4438,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3107 1404 C7442408 		movl	$16, 8(%esp)
  3107      10000000 
  3108 140c 8B45D8   		movl	-40(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 75
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 75
 
 
  3109 140f C1E008   		sall	$8, %eax
@@ -4498,7 +4498,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1895:../../MMI/Resource/ABMLoader.c ****         }
 1896:../../MMI/Resource/ABMLoader.c ****         else
 1897:../../MMI/Resource/ABMLoader.c ****         {
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 76
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 76
 
 
 1898:../../MMI/Resource/ABMLoader.c ****             return 0;
@@ -4558,7 +4558,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 1913:../../MMI/Resource/ABMLoader.c ****         mycolor color = ab2enc_color_preprocess(abm_context->color_idx_tab.color_table[i], abm_cont
  3195              	LM337:
  3196              	LBB23:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 77
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 77
 
 
  3197 14dd 8B450C   		movl	12(%ebp), %eax
@@ -4618,7 +4618,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3242      00
  3243 156c EB4F     		jmp	L207
  3244              	L209:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 78
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 78
 
 
 1919:../../MMI/Resource/ABMLoader.c ****         }
@@ -4678,7 +4678,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3284 15ca 890424   		movl	%eax, (%esp)
  3285 15cd E850F8FF 		call	_ab2_bs_flush
  3285      FF
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 79
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 79
 
 
 1933:../../MMI/Resource/ABMLoader.c **** 
@@ -4738,7 +4738,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3329 15f8 8B801804 		movl	1048(%eax), %eax
  3329      0000
  3330 15fe 8945D0   		movl	%eax, -48(%ebp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 80
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 80
 
 
 1963:../../MMI/Resource/ABMLoader.c ****     U32 y0 = abm_context->abm_enc.y1;
@@ -4798,7 +4798,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3363 164a E89FF7FF 		call	_log2_ceiling
  3363      FF
  3364 164f 8945E0   		movl	%eax, -32(%ebp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 81
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 81
 
 
 1986:../../MMI/Resource/ABMLoader.c ****     min_repeat_cnt  = 1 + ((8 + (color_idx_bits - 1)) / color_idx_bits);
@@ -4858,7 +4858,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3407 16aa E9480100 		jmp	L215
  3407      00
  3408              	L217:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 82
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 82
 
 
 2001:../../MMI/Resource/ABMLoader.c ****     {
@@ -4918,7 +4918,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3452              	L223:
 2014:../../MMI/Resource/ABMLoader.c ****                 }
 2015:../../MMI/Resource/ABMLoader.c ****                 else
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 83
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 83
 
 
 2016:../../MMI/Resource/ABMLoader.c ****                 {
@@ -4978,7 +4978,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2035:../../MMI/Resource/ABMLoader.c ****                                     discount_start_y,
 2036:../../MMI/Resource/ABMLoader.c ****                                     abm_context);
 2037:../../MMI/Resource/ABMLoader.c ****                             ab2_encode_rle_repeat_code(
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 84
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 84
 
 
  3490              	LM375:
@@ -5038,7 +5038,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3525              	LM380:
  3526 17bc C745D400 		movl	$0, -44(%ebp)
  3526      000000
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 85
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 85
 
 
  3527              	L228:
@@ -5098,7 +5098,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3565              	LM388:
  3566 17f7 837DB400 		cmpl	$0, -76(%ebp)
  3567 17fb 7445     		je	L230
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 86
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 86
 
 
 2079:../../MMI/Resource/ABMLoader.c ****     {
@@ -5158,7 +5158,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3607 1852 89442408 		movl	%eax, 8(%esp)
  3608 1856 8B45D8   		movl	-40(%ebp), %eax
  3609 1859 89442404 		movl	%eax, 4(%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 87
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 87
 
 
  3610 185d 8D45E8   		leal	-24(%ebp), %eax
@@ -5218,7 +5218,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2125:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/
 2126:../../MMI/Resource/ABMLoader.c ****     /* Local Variables                                                */
 2127:../../MMI/Resource/ABMLoader.c ****     /*----------------------------------------------------------------*/
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 88
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 88
 
 
 2128:../../MMI/Resource/ABMLoader.c ****     U32 ab2_header_size = 0;
@@ -5278,7 +5278,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2146:../../MMI/Resource/ABMLoader.c ****     {
 2147:../../MMI/Resource/ABMLoader.c ****         return 0xffffffff;
  3703              	LM407:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 89
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 89
 
 
  3704 18df C745ECFF 		movl	$-1, -20(%ebp)
@@ -5338,7 +5338,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3746 1933 C745ECFF 		movl	$-1, -20(%ebp)
  3746      FFFFFF
  3747 193a EB18     		jmp	L233
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 90
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 90
 
 
  3748              	L237:
@@ -5398,7 +5398,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2192:../../MMI/Resource/ABMLoader.c ****     U8      *img_p, *mem8_p;
 2193:../../MMI/Resource/ABMLoader.c ****     U32     p;
 2194:../../MMI/Resource/ABMLoader.c ****     U32     bpp;
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 91
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 91
 
 
 2195:../../MMI/Resource/ABMLoader.c ****     U16     *mem16_p;
@@ -5458,7 +5458,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3818      00
  3819              	L239:
 2220:../../MMI/Resource/ABMLoader.c ****     }
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 92
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 92
 
 
 2221:../../MMI/Resource/ABMLoader.c **** 
@@ -5518,7 +5518,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3863      000000
  3864 1a01 7411     		je	L240
 2236:../../MMI/Resource/ABMLoader.c ****     {
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 93
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 93
 
 
 2237:../../MMI/Resource/ABMLoader.c ****         mem16_p[0] |= 0x8000;
@@ -5578,7 +5578,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  3908 1a64 89C1     		movl	%eax, %ecx
  3909 1a66 0FB78218 		movzwl	1048(%edx), %eax
  3909      040000
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 94
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 94
 
 
  3910 1a6d 09C8     		orl	%ecx, %eax
@@ -5638,7 +5638,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2260:../../MMI/Resource/ABMLoader.c ****     {
 2261:../../MMI/Resource/ABMLoader.c ****         c = abm_context->color_idx_tab.color_table[i];
  3957              	LM447:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 95
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 95
 
 
  3958 1acd 8B550C   		movl	12(%ebp), %edx
@@ -5698,7 +5698,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2272:../../MMI/Resource/ABMLoader.c ****             }
 2273:../../MMI/Resource/ABMLoader.c ****         }
 2274:../../MMI/Resource/ABMLoader.c ****         else
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 96
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 96
 
 
 2275:../../MMI/Resource/ABMLoader.c ****         {   /* 24-bit and 32-bit ABM both use 24-bit palette */
@@ -5758,7 +5758,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4050 1b94 0FAF55A0 		imull	-96(%ebp), %edx
  4051 1b98 89D0     		movl	%edx, %eax
  4052 1b9a C1E008   		sall	$8, %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 97
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 97
 
 
  4053 1b9d 01D0     		addl	%edx, %eax
@@ -5818,7 +5818,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4101 1c15 C1E803   		shrl	$3, %eax
  4102 1c18 09D0     		orl	%edx, %eax
  4103 1c1a 668901   		movw	%ax, (%ecx)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 98
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 98
 
 
 2296:../../MMI/Resource/ABMLoader.c ****             mem8_p += 2;
@@ -5878,7 +5878,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4151              	L256:
 2307:../../MMI/Resource/ABMLoader.c ****     {
 2308:../../MMI/Resource/ABMLoader.c ****         /* inverted alpha due to precalculation */
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 99
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 99
 
 
 2309:../../MMI/Resource/ABMLoader.c ****         *mem8_p++ = 255 - A_OF_ARGB8888(abm_context->color_idx_tab.color_table[i]);
@@ -5938,7 +5938,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4194              	LM475:
  4195 1cbe 8B450C   		movl	12(%ebp), %eax
  4196 1cc1 8B801004 		movl	1040(%eax), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 100
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 100
 
 
  4196      0000
@@ -5998,7 +5998,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2334:../../MMI/Resource/ABMLoader.c ****     /* 2nd pass, output ABM packed pixels, and do vertical flipping (BMP nature) */
 2335:../../MMI/Resource/ABMLoader.c ****     for (y = abm_context->abm_enc.y1; y <= abm_context->abm_enc.y2; y++)
  4236              	LM480:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 101
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 101
 
 
  4237 1d36 8B450C   		movl	12(%ebp), %eax
@@ -6058,7 +6058,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4280 1da7 0910     		orl	%edx, (%eax)
  4281 1da9 8B55C8   		movl	-56(%ebp), %edx
  4282 1dac 8D4580   		leal	-128(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 102
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 102
 
 
  4283 1daf 0110     		addl	%edx, (%eax)
@@ -6118,7 +6118,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4332 1e17 8B45E0   		movl	-32(%ebp), %eax
  4333 1e1a 0FAF45DC 		imull	-36(%ebp), %eax
  4334 1e1e 0FAF45C8 		imull	-56(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 103
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 103
 
 
  4335 1e22 83C00F   		addl	$15, %eax
@@ -6178,7 +6178,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2377:../../MMI/Resource/ABMLoader.c ****     U32 normal_color_cnt, alpha_color_cnt;
 2378:../../MMI/Resource/ABMLoader.c ****     U32 color_index_bits;
 2379:../../MMI/Resource/ABMLoader.c ****     
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 104
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 104
 
 
 2380:../../MMI/Resource/ABMLoader.c ****     U32 palette_size;
@@ -6238,7 +6238,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4443 1eb3 8945EC   		movl	%eax, -20(%ebp)
 2393:../../MMI/Resource/ABMLoader.c ****     
 2394:../../MMI/Resource/ABMLoader.c ****     palette_size = 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 105
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 105
 
 
  4445              	LM496:
@@ -6298,7 +6298,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2411:../../MMI/Resource/ABMLoader.c ****  * PARAMETERS
 2412:../../MMI/Resource/ABMLoader.c ****  *  width           [IN]    width of image
 2413:../../MMI/Resource/ABMLoader.c ****  *  height          [IN]    height of image
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 106
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 106
 
 
 2414:../../MMI/Resource/ABMLoader.c ****  *  bpp             [IN]    bits per pixel of image
@@ -6358,7 +6358,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4539      000000
 2439:../../MMI/Resource/ABMLoader.c ****     S32     file_size = 0;
  4541              	LM507:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 107
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 107
 
 
  4542 1f3e C745F800 		movl	$0, -8(%ebp)
@@ -6418,7 +6418,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4575 1f8a 8B45FC   		movl	-4(%ebp), %eax
  4576 1f8d 890424   		movl	%eax, (%esp)
  4577 1f90 E8000000 		call	_fclose
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 108
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 108
 
 
  4577      00
@@ -6478,7 +6478,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4614 1ff3 EB0C     		jmp	L277
  4615              	L278:
 2475:../../MMI/Resource/ABMLoader.c ****         {
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 109
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 109
 
 
 2476:../../MMI/Resource/ABMLoader.c ****             ret = 0;
@@ -6538,7 +6538,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4657 2057 09C2     		orl	%eax, %edx
  4658 2059 8B45F4   		movl	-12(%ebp), %eax
  4659 205c 83C010   		addl	$16, %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 110
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 110
 
 
  4660 205f 0FB600   		movzbl	(%eax), %eax
@@ -6598,7 +6598,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4702 20b9 8B45F4   		movl	-12(%ebp), %eax
  4703 20bc 890424   		movl	%eax, (%esp)
  4704 20bf E8000000 		call	_free
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 111
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 111
 
 
  4704      00
@@ -6658,7 +6658,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2535:../../MMI/Resource/ABMLoader.c ****         S32 *size,
 2536:../../MMI/Resource/ABMLoader.c ****         S32 *width,
 2537:../../MMI/Resource/ABMLoader.c ****         S32 *height,
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 112
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 112
 
 
 2538:../../MMI/Resource/ABMLoader.c ****         MMI_BOOL is9slice,
@@ -6718,7 +6718,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2570:../../MMI/Resource/ABMLoader.c ****     abm_context = malloc(sizeof(ABM_Context));
  4767              	LM537:
  4768 2147 C7042440 		movl	$1537088, (%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 113
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 113
 
 
  4768      741700
@@ -6778,7 +6778,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2581:../../MMI/Resource/ABMLoader.c ****     {
 2582:../../MMI/Resource/ABMLoader.c ****        abm_context->abm_enc.src_key_color_enable = 1;
  4806              	LM544:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 114
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 114
 
 
  4807 21c1 8B45EC   		movl	-20(%ebp), %eax
@@ -6838,7 +6838,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4844              	LM551:
  4845 221d 8B45EC   		movl	-20(%ebp), %eax
  4846 2220 890424   		movl	%eax, (%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 115
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 115
 
 
  4847 2223 E8000000 		call	_free
@@ -6898,7 +6898,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4877 2271 7705     		ja	L292
  4878 2273 E9110100 		jmp	L291
  4878      00
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 116
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 116
 
 
  4879              	L292:
@@ -6958,7 +6958,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2629:../../MMI/Resource/ABMLoader.c ****         abm_context->abm_enc.is_fully_opaque = 1;
  4918              	LM564:
  4919 22ed 8B45EC   		movl	-20(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 117
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 117
 
 
  4920 22f0 C7803004 		movl	$1, 1072(%eax)
@@ -7018,7 +7018,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4956 234b E8E9E4FF 		call	_load_bmp_file
  4956      FF
  4957 2350 8945F8   		movl	%eax, -8(%ebp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 118
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 118
 
 
 2646:../../MMI/Resource/ABMLoader.c ****         if (input_bmp_file_size == 0)
@@ -7078,7 +7078,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  4997 23a1 837DF403 		cmpl	$3, -12(%ebp)
  4998 23a5 7445     		je	L298
 2662:../../MMI/Resource/ABMLoader.c ****     {
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 119
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 119
 
 
 2663:../../MMI/Resource/ABMLoader.c ****         free(file_buf);
@@ -7138,7 +7138,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2680:../../MMI/Resource/ABMLoader.c ****         break;
 2681:../../MMI/Resource/ABMLoader.c ****     }  
 2682:../../MMI/Resource/ABMLoader.c ****     #endif
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 120
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 120
 
 
 2683:../../MMI/Resource/ABMLoader.c ****     
@@ -7198,7 +7198,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5074      FF
  5075 244a 8945DC   		movl	%eax, -36(%ebp)
 2701:../../MMI/Resource/ABMLoader.c ****         if (abm_size < ret_size)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 121
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 121
 
 
  5077              	LM592:
@@ -7258,7 +7258,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2721:../../MMI/Resource/ABMLoader.c ****                 if (input_bmp_file_size < ret_size)
  5115              	LM597:
  5116 2498 8B45F8   		movl	-8(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 122
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 122
 
 
  5117 249b 3B45F0   		cmpl	-16(%ebp), %eax
@@ -7318,7 +7318,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5133 24b3 8B4520   		movl	32(%ebp), %eax
  5134 24b6 C7000000 		movl	$0, (%eax)
  5134      0000
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 123
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 123
 
 
 2763:../../MMI/Resource/ABMLoader.c ****         *height = 0;
@@ -7378,7 +7378,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5179              	L285:
  5180              	LBE33:
  5181 2511 8B45D8   		movl	-40(%ebp), %eax
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 124
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 124
 
 
  5182 2514 C9       		leave
@@ -7438,7 +7438,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5236              	_ABMLoader:
 2776:../../MMI/Resource/ABMLoader.c **** 
 2777:../../MMI/Resource/ABMLoader.c **** 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 125
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 125
 
 
 2778:../../MMI/Resource/ABMLoader.c **** /* 
@@ -7498,7 +7498,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2832:../../MMI/Resource/ABMLoader.c ****  *  ABM loader
 2833:../../MMI/Resource/ABMLoader.c ****  * PARAMETERS
 2834:../../MMI/Resource/ABMLoader.c ****  *  in_filename     [IN] input filename
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 126
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 126
 
 
 2835:../../MMI/Resource/ABMLoader.c ****  *  out_filename    [IN] output filename
@@ -7558,7 +7558,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5263 2613 E8000000 		call	_reslog_adaptor_log
  5263      00
  5264              	L315:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 127
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 127
 
 
 2864:../../MMI/Resource/ABMLoader.c ****     }
@@ -7618,7 +7618,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5297      00
  5298 2683 8945D0   		movl	%eax, -48(%ebp)
 2880:../../MMI/Resource/ABMLoader.c ****         if ((in_filename[l - 1] == 'M') &&
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 128
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 128
 
 
  5300              	LM623:
@@ -7678,7 +7678,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5346 26e5 034508   		addl	8(%ebp), %eax
  5347 26e8 48       		decl	%eax
  5348 26e9 803841   		cmpb	$65, (%eax)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 129
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 129
 
 
  5349 26ec 752E     		jne	L317
@@ -7738,7 +7738,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5379 2734 89442418 		movl	%eax, 24(%esp)
  5380 2738 8D45F0   		leal	-16(%ebp), %eax
  5381 273b 89442414 		movl	%eax, 20(%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 130
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 130
 
 
  5382 273f 8B45FC   		movl	-4(%ebp), %eax
@@ -7798,7 +7798,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5418              	LM635:
  5419 278b 8B45FC   		movl	-4(%ebp), %eax
  5420 278e 890424   		movl	%eax, (%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 131
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 131
 
 
  5421 2791 E8000000 		call	_free
@@ -7858,7 +7858,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2953:../../MMI/Resource/ABMLoader.c ****     if (enfb_ret != ENFB_IMAGE_NONE)
 2954:../../MMI/Resource/ABMLoader.c ****     {
 2955:../../MMI/Resource/ABMLoader.c ****         processData->enfb_flag = 1;
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 132
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 132
 
 
 2956:../../MMI/Resource/ABMLoader.c ****         if (enfb_ret == ENFB_IMAGE_ASSOCIATE)
@@ -7918,7 +7918,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2973:../../MMI/Resource/ABMLoader.c ****     }
 2974:../../MMI/Resource/ABMLoader.c **** 
 2975:../../MMI/Resource/ABMLoader.c ****     data_size = size;
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 133
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 133
 
 
  5493              	LM647:
@@ -7978,7 +7978,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2989:../../MMI/Resource/ABMLoader.c ****         fprintf(dest_file, "%c", 0x01);
  5532              	LM654:
  5533 28b7 C7442408 		movl	$1, 8(%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 134
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 134
 
 
  5533      01000000 
@@ -8038,7 +8038,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 2996:../../MMI/Resource/ABMLoader.c ****                 (width_height & 0x0000ff00) >> 8,
 2997:../../MMI/Resource/ABMLoader.c ****                 (width_height & 0x00ff0000) >> 16);
 2998:../../MMI/Resource/ABMLoader.c **** 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 135
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 135
 
 
 2999:../../MMI/Resource/ABMLoader.c ****         if (is9slice)
@@ -8098,7 +8098,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5611 29ab E9B30100 		jmp	L338
  5611      00
  5612              	L337:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 136
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 136
 
 
 3011:../../MMI/Resource/ABMLoader.c ****         {
@@ -8158,7 +8158,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 3048:../../MMI/Resource/ABMLoader.c ****                 (data_size & 0x000000ff),
 3049:../../MMI/Resource/ABMLoader.c ****                 (data_size & 0x0000ff00) >> 8,
 3050:../../MMI/Resource/ABMLoader.c ****                 (data_size & 0x00ff0000) >> 16);
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 137
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 137
 
 
 3051:../../MMI/Resource/ABMLoader.c ****         fprintf(enfb_img_data_file,
@@ -8218,7 +8218,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
 3091:../../MMI/Resource/ABMLoader.c ****                 fprintf(outfile, "0x%02X, ", IMAGE_TYPE_9SLICE);
  5644              	LM668:
  5645 29f9 C7442408 		movl	$62, 8(%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 138
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 138
 
 
  5645      3E000000 
@@ -8278,7 +8278,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5687 2a8c 8944240C 		movl	%eax, 12(%esp)
  5688 2a90 0FB645D8 		movzbl	-40(%ebp),%eax
  5689 2a94 89442408 		movl	%eax, 8(%esp)
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 139
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 139
 
 
  5690 2a98 C7442404 		movl	$LC37, 4(%esp)
@@ -8338,7 +8338,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5726              	L341:
 3112:../../MMI/Resource/ABMLoader.c ****             }
 3113:../../MMI/Resource/ABMLoader.c **** 
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 140
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 140
 
 
 3114:../../MMI/Resource/ABMLoader.c ****             for (i = 0; i < size; i++)
@@ -8398,7 +8398,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5770 2b5b 890424   		movl	%eax, (%esp)
  5771 2b5e E8000000 		call	_fprintf
  5771      00
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 141
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 141
 
 
  5772              	L338:
@@ -8458,7 +8458,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5850              	LM692:
  5851 2bad 5D       		popl	%ebp
  5852 2bae C3       		ret
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 142
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 142
 
 
  5853              	Lscope29:
@@ -8518,7 +8518,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5922              	Lscope30:
  5928              	_ab2_bs_offset:
  5930              	LM702:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 143
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 143
 
 
  5931 2c20 55       		pushl	%ebp
@@ -8578,7 +8578,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  5997 2c92 8945EC   		movl	%eax, -20(%ebp)
  5999              	LM710:
  6000 2c95 8B4D10   		movl	16(%ebp), %ecx
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 144
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 144
 
 
  6001 2c98 8B4510   		movl	16(%ebp), %eax
@@ -8638,7 +8638,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  6057 2d1c 0FB600   		movzbl	(%eax), %eax
  6058 2d1f C1E010   		sall	$16, %eax
  6059 2d22 09C2     		orl	%eax, %edx
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 145
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 145
 
 
  6060 2d24 8B45F4   		movl	-12(%ebp), %eax
@@ -8698,7 +8698,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  6112 2da9 7412     		je	L164
  6113 2dab 817DE80C 		cmpl	$658188, -24(%ebp)
  6113      0B0A00
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 146
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 146
 
 
  6114 2db2 7509     		jne	L164
@@ -8758,7 +8758,7 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  6175 2e22 EB3A     		jmp	L154
  6176              	L162:
  6178              	LM732:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 147
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 147
 
 
  6179 2e24 8B45E8   		movl	-24(%ebp), %eax
@@ -8794,46 +8794,46 @@ GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl
  6218              	Lscope32:
  6222              		.text
  6224              	Letext:
-GAS LISTING d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s 			page 148
+GAS LISTING d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s 			page 148
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ABMLoader.c
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:482    .text:00000060 _image_resource_info
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:639    .text:00000108 _log2_table
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:659    .text:00000126 _COLOR_REDUCE_24_TO_16
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:699    .text:00000164 _COLOR_REDUCE_24_TO_18
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:718    .text:00000171 _COLOR_REDUCE
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:749    .text:0000019e _search_color
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:848    .text:0000022c _insert_color_at
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:917    .text:00000295 _add_color_if_new
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:985    .text:0000030a _get_normal_color_num
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:1036   .text:0000034c _get_file_size
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:1089   .text:000003a8 _parse_bitmap
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:1560   .text:00000839 _load_bmp_file
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:1711   .text:000009b1 _update_image_bounding_box
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:1814   .text:00000a51 _limit_image_bounding_box
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:1915   .text:00000b0a _abmenc_build_color_index_table
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:2280   .text:00000dee _log2_ceiling
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:2328   .text:00000e22 _ab2_bs_flush
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:2371   .text:00000e60 _ab2enc_color_preprocess
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:2512   .text:00000f62 _ab2enc_get_pixel_format
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:2607   .text:00001002 _ab2_encode_rle_repeat_code
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:2691   .text:00001093 _ab2_encode_rle_discount_code
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:2881   .text:000011e2 _ab2enc_encode_header
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:3037   .text:0000135a _ab2enc_rle_encode_header
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:3319   .text:000015ec _ab2enc_rle_encode_body
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:3661   .text:00001887 _ab2enc_encode
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:3782   .text:00001959 _abmenc_encode
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:4398   .text:00001e4f _caculate_abm_size
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:4501   .text:00001f06 _caculate_pbm_size
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:4530   .text:00001f31 _is16BitBMP
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:4742   .text:0000211b _ABM_load
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:5236   .text:000025d7 _ABMLoader
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:5831   .text:00002b8e _ab2_bs_init
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:5860   .text:00002baf _ab2_bs_write
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:5928   .text:00002c20 _ab2_bs_offset
-d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/ccScdaaa.s:5950   .text:00002c2f _ab2enc_get_img_color_idx
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:482    .text:00000060 _image_resource_info
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:639    .text:00000108 _log2_table
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:659    .text:00000126 _COLOR_REDUCE_24_TO_16
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:699    .text:00000164 _COLOR_REDUCE_24_TO_18
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:718    .text:00000171 _COLOR_REDUCE
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:749    .text:0000019e _search_color
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:848    .text:0000022c _insert_color_at
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:917    .text:00000295 _add_color_if_new
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:985    .text:0000030a _get_normal_color_num
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:1036   .text:0000034c _get_file_size
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:1089   .text:000003a8 _parse_bitmap
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:1560   .text:00000839 _load_bmp_file
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:1711   .text:000009b1 _update_image_bounding_box
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:1814   .text:00000a51 _limit_image_bounding_box
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:1915   .text:00000b0a _abmenc_build_color_index_table
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:2280   .text:00000dee _log2_ceiling
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:2328   .text:00000e22 _ab2_bs_flush
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:2371   .text:00000e60 _ab2enc_color_preprocess
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:2512   .text:00000f62 _ab2enc_get_pixel_format
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:2607   .text:00001002 _ab2_encode_rle_repeat_code
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:2691   .text:00001093 _ab2_encode_rle_discount_code
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:2881   .text:000011e2 _ab2enc_encode_header
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:3037   .text:0000135a _ab2enc_rle_encode_header
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:3319   .text:000015ec _ab2enc_rle_encode_body
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:3661   .text:00001887 _ab2enc_encode
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:3782   .text:00001959 _abmenc_encode
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:4398   .text:00001e4f _caculate_abm_size
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:4501   .text:00001f06 _caculate_pbm_size
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:4530   .text:00001f31 _is16BitBMP
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:4742   .text:0000211b _ABM_load
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:5236   .text:000025d7 _ABMLoader
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:5831   .text:00002b8e _ab2_bs_init
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:5860   .text:00002baf _ab2_bs_write
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:5928   .text:00002c20 _ab2_bs_offset
+d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/plutommi/Customer/ResGenerator/gcctmp/cc4Wgaaa.s:5950   .text:00002c2f _ab2enc_get_img_color_idx
 
 UNDEFINED SYMBOLS
 _toolFlag

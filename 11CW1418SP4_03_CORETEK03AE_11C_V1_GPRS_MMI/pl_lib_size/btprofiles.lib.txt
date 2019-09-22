@@ -1,16 +1,16 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      4338          0          0      14836       2228   attdbmain.obj
-        68         31         36         40        120   attsdpdb.obj
-      5932         16          0         32       3364   ble_utils.obj
+      4954          0          0      14836       2248   attdbmain.obj
+       100         31         36         40        120   attsdpdb.obj
+      6788         16          0         32       3392   ble_utils.obj
       1396          0          0         36        592   bleservice_db.obj
         56          0          0          0        120   bt_profile_init.obj
         60         67          0          0         60   gapattdb.obj
-       116          0          0          0        192   gatt_util.obj
-     11672        227          0      36052       5140   gattc.obj
-      3944          0          0          0       1420   gattc_channel.obj
-      3852        110          0       1364       2200   gatts.obj
-      3126         12         84          0       1696   gatts_svc.obj
-        40          0          0          0        268   sdpdb.obj
-     34600        463        120      52360      17400   TOTAL
+       164          2          0          0        192   gatt_util.obj
+     13432        227          0      36052       5376   gattc.obj
+      4680          0          0          0       1500   gattc_channel.obj
+      4506        110          0       1364       2340   gatts.obj
+      4102         12         84          0       1752   gatts_svc.obj
+        58          0          0          0        276   sdpdb.obj
+     40296        465        120      52360      17968   TOTAL
 

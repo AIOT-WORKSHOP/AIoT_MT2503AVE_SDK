@@ -1,7 +1,7 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-     12544          0          0       4104       4700   gps_agps_process.obj
-     18978        416          8      37160       6384   gps_uart_hdlr.obj
-      5248        362         24       6568       3768   wepodownload.obj
-     36770        778         32      47832      14852   TOTAL
+     14086          0          0       4104       4812   gps_agps_process.obj
+     23200        488          8      37160       6672   gps_uart_hdlr.obj
+      6528        362         24       6568       3812   wepodownload.obj
+     43814        850         32      47832      15296   TOTAL
 

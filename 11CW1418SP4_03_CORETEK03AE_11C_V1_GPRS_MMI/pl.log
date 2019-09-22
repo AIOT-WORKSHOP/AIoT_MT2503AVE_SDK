@@ -1,5 +1,5 @@
-06/04/2019 Tue 
-08:16 PM
+2019/09/22 周日 
+14:04
 [tools\partialLink.pl:main:2495] [tools\partialLink.pl --armlink=C:\ARM\RVCT\Programs\3.1\569\win_32-pentium\armlink.exe --armar=C:\ARM\RVCT\Programs\3.1\569\win_32-pentium\armar.exe --lib-dir=.\build\CORETEK03AE_11C\gprs\MT2502o\lib --lib-dir=mtk_lib\MT2502\S00\gprs\KAL_TRACE_OUTPUT\FULL --no-update --scatter-file=custom\system\CORETEK03AE_11C_BB\scatCORETEK03AE_11C.txt --link-option-file=.\make\~sortedLibs.tmp --readelf=.\tools\MinGW\bin\arm-none-eabi-readelf.exe --nm=.\tools\MinGW\bin\arm-none-eabi-nm.exe --link-err-file=.\build\CORETEK03AE_11C\MT2502.log --strip=.\tools\MinGW\bin\arm-none-eabi-strip.exe]
 [tools\partialLink.pl:main:2497] Dumping options...
 [tools\partialLink.pl:dumpOpt:1967] -> stripDebugCount
@@ -33,7 +33,7 @@ $VAR1 = 0;
 [tools\partialLink.pl:dumpOpt:1967] -> update
 $VAR1 = 0;
 [tools\partialLink.pl:dumpOpt:1967] -> fileLinkErr
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/build/CORETEK03AE_11C/MT2502.log';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/build/CORETEK03AE_11C/MT2502.log';
 [tools\partialLink.pl:dumpOpt:1967] -> cmd_armar
 $VAR1 = 'C:/ARM/RVCT/Programs/3.1/569/win_32-pentium/armar.exe';
 [tools\partialLink.pl:dumpOpt:1967] -> ptrAryUserExclusionFile
@@ -41,27 +41,158 @@ $VAR1 = [];
 [tools\partialLink.pl:dumpOpt:1967] -> cmd_armlink
 $VAR1 = 'C:/ARM/RVCT/Programs/3.1/569/win_32-pentium/armlink.exe';
 [tools\partialLink.pl:dumpOpt:1967] -> dirInfo
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI';
 [tools\partialLink.pl:dumpOpt:1967] -> fileLinkOption
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/make/~sortedLibs.tmp';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/make/~sortedLibs.tmp';
 [tools\partialLink.pl:dumpOpt:1967] -> cmd_nm
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/tools/MinGW/bin/arm-none-eabi-nm.exe';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/tools/MinGW/bin/arm-none-eabi-nm.exe';
 [tools\partialLink.pl:dumpOpt:1967] -> dirTemp
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI';
 [tools\partialLink.pl:dumpOpt:1967] -> ptrAryLibDir
 $VAR1 = [
-          'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/build/CORETEK03AE_11C/gprs/MT2502o/lib',
-          'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/mtk_lib/MT2502/S00/gprs/KAL_TRACE_OUTPUT/FULL'
+          'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/build/CORETEK03AE_11C/gprs/MT2502o/lib',
+          'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/mtk_lib/MT2502/S00/gprs/KAL_TRACE_OUTPUT/FULL'
         ];
 [tools\partialLink.pl:dumpOpt:1967] -> fileScatter
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/custom/system/CORETEK03AE_11C_BB/scatCORETEK03AE_11C.txt';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/custom/system/CORETEK03AE_11C_BB/scatCORETEK03AE_11C.txt';
 [tools\partialLink.pl:dumpOpt:1967] -> cmd_strip
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/tools/MinGW/bin/arm-none-eabi-strip.exe';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/tools/MinGW/bin/arm-none-eabi-strip.exe';
 [tools\partialLink.pl:dumpOpt:1967] -> cmd_readelf
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/tools/MinGW/bin/arm-none-eabi-readelf.exe';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/tools/MinGW/bin/arm-none-eabi-readelf.exe';
 [tools\partialLink.pl:dumpOpt:1967] -> dirSave
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI';
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for adups.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for applib.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for applib_asn1.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for audio.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for bmt.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for bootloader.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for bootloader_ext.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for btdrv_common.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for cct.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for config.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for conn_app.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for custom.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drv_display.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drv_idp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fluency.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fmr.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fmt.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fs.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ft.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ftc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gdi.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gdi_arm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gfx_drv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gps.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for inet_app.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for init.lib
 [tools\partialLink.pl:generateLibSize:2240] Generating size info for iotlock.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for l1_ext.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for l4misc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for matv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for media.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for media_app.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mm_comm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_app.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_core.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_framework.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_service.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmiresource.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mpl.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mtd.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ntpd.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for nvram.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for peripheral.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for provider.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sim_driver.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for system.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for usb.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for usb_driver.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for vendorapp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for video.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for video_codec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for video_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for xmlp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for xyssl_adp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for abm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for abm_custom.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ap_tssec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for applib_inet.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for asn1_re.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ata.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for btadp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for btdrv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for btnotification_conn.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for btprofiles.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for btstack.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for cc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for che.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for cipher.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ciss.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for data.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for dhcp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for dp_engine.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for drv_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for dsp_ram.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ems.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for event_info.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fdm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fdm_bl.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for flc2.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for fluency_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gdi_g2d.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gfx_core16.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gfx_core32.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for gps_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for interface_classb.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for iperf.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for kal.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for l1_classb_g2.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for l4_classb.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for llc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for lqt.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mcd.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mcsv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mm_classb2.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mmi_device_control.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mt5931.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for mtkdebug.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for nucleus.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for nucleus_critical_data.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for nucleus_ctrl_code.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for nucleus_debug.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for nucleus_int.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for nvram_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for oriverno.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for provider_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ratcm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for ratdm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for rr_classb2.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for rrlp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for scsi.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sim2.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sleep_drv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sm.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sms.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for smslib.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sndcp.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for soc.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sst.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sst_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for supl.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sys_int.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for sys_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for tcpip.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for tcpip_wifi.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for tst.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for video_codec_sec.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for wmt.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for wndrv.lib
+[tools\partialLink.pl:generateLibSize:2240] Generating size info for xyssl.lib
 [tools\partialLink.pl:dumpOpt:1967] -> ptrHahOnOff
 $VAR1 = {
           'force_partial_link' => [
@@ -98,7 +229,7 @@ $VAR1 = {
                       ]
         };
 [tools\partialLink.pl:dumpOpt:1967] -> file
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl.ini';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl.ini';
 [tools\partialLink.pl:dumpOpt:1967] -> flag
 $VAR1 = 0;
 [tools\partialLink.pl:dumpOpt:1967] -> ptrHahValue
@@ -130,8 +261,8 @@ $VAR1 = '__PARTIAL_LINK_SRC_BACKUP';
 $VAR1 = {};
 [tools\partialLink.pl:dumpOpt:1967] -> ptrAryLibDir
 $VAR1 = [
-          'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/build/CORETEK03AE_11C/gprs/MT2502o/lib',
-          'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/mtk_lib/MT2502/S00/gprs/KAL_TRACE_OUTPUT/FULL'
+          'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/build/CORETEK03AE_11C/gprs/MT2502o/lib',
+          'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/mtk_lib/MT2502/S00/gprs/KAL_TRACE_OUTPUT/FULL'
         ];
 [tools\partialLink.pl:dumpOpt:1967] -> suffix_dbg
 $VAR1 = '__PARTIAL_LINK_DBG';
@@ -146,17 +277,148 @@ $VAR1 = '__PARTIAL_LINK_TEMPORARY';
 [tools\partialLink.pl:dumpOpt:1967] -> suffix_save
 $VAR1 = '__PARTIAL_LINK';
 [tools\partialLink.pl:dumpOpt:1967] -> fileTimestamp
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_timestamp.txt';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_timestamp.txt';
 [tools\partialLink.pl:dumpOpt:1967] -> dirLibSize
-$VAR1 = 'D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_lib_size';
+$VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_lib_size';
 [tools\partialLink.pl:dumpOpt:1967] -> ptrHahLibUpdate
 $VAR1 = {
-          'iotlock.lib' => 1
+          'applib_inet.lib' => 1,
+          'llc.lib' => 1,
+          'iperf.lib' => 1,
+          'nvram.lib' => 1,
+          'cc.lib' => 1,
+          'abm_custom.lib' => 1,
+          'wmt.lib' => 1,
+          'fluency.lib' => 1,
+          'inet_app.lib' => 1,
+          'fmr.lib' => 1,
+          'custom.lib' => 1,
+          'supl.lib' => 1,
+          'dsp_ram.lib' => 1,
+          'tst.lib' => 1,
+          'nucleus_debug.lib' => 1,
+          'dp_engine.lib' => 1,
+          'config.lib' => 1,
+          'video_codec.lib' => 1,
+          'fs.lib' => 1,
+          'gdi_arm.lib' => 1,
+          'btnotification_conn.lib' => 1,
+          'mmiresource.lib' => 1,
+          'drv.lib' => 1,
+          'media_app.lib' => 1,
+          'applib.lib' => 1,
+          'sst.lib' => 1,
+          'ratdm.lib' => 1,
+          'l1_classb_g2.lib' => 1,
+          'adups.lib' => 1,
+          'gdi.lib' => 1,
+          'mtd.lib' => 1,
+          'fluency_sec.lib' => 1,
+          'event_info.lib' => 1,
+          'sim_driver.lib' => 1,
+          'ata.lib' => 1,
+          'peripheral.lib' => 1,
+          'btadp.lib' => 1,
+          'cct.lib' => 1,
+          'gfx_core16.lib' => 1,
+          'drm.lib' => 1,
+          'soc.lib' => 1,
+          'mcsv.lib' => 1,
+          'kal.lib' => 1,
+          'drv_display.lib' => 1,
+          'gps_sec.lib' => 1,
+          'ratcm.lib' => 1,
+          'mt5931.lib' => 1,
+          'mmi_framework.lib' => 1,
+          'mm_comm.lib' => 1,
+          'gdi_g2d.lib' => 1,
+          'audio.lib' => 1,
+          'flc2.lib' => 1,
+          'btdrv.lib' => 1,
+          'system.lib' => 1,
+          'drv_idp.lib' => 1,
+          'bmt.lib' => 1,
+          'l1_ext.lib' => 1,
+          'fmt.lib' => 1,
+          'sm.lib' => 1,
+          'sst_sec.lib' => 1,
+          'mmi_service.lib' => 1,
+          'btprofiles.lib' => 1,
+          'nucleus_critical_data.lib' => 1,
+          'gfx_core32.lib' => 1,
+          'rrlp.lib' => 1,
+          'bootloader_ext.lib' => 1,
+          'provider_sec.lib' => 1,
+          'provider.lib' => 1,
+          'conn_app.lib' => 1,
+          'tcpip.lib' => 1,
+          'sim2.lib' => 1,
+          'media.lib' => 1,
+          'sleep_drv.lib' => 1,
+          'nucleus.lib' => 1,
+          'btdrv_common.lib' => 1,
+          'gfx_drv.lib' => 1,
+          'nvram_sec.lib' => 1,
+          'smslib.lib' => 1,
+          'mmi_core.lib' => 1,
+          'mmi_app.lib' => 1,
+          'xmlp.lib' => 1,
+          'xyssl.lib' => 1,
+          'mc.lib' => 1,
+          'mtkdebug.lib' => 1,
+          'ap_tssec.lib' => 1,
+          'xyssl_adp.lib' => 1,
+          'l4misc.lib' => 1,
+          'lqt.lib' => 1,
+          'wndrv.lib' => 1,
+          'oriverno.lib' => 1,
+          'mpl.lib' => 1,
+          'drv_sec.lib' => 1,
+          'usb.lib' => 1,
+          'init.lib' => 1,
+          'sms.lib' => 1,
+          'gps.lib' => 1,
+          'mmi_device_control.lib' => 1,
+          'ciss.lib' => 1,
+          'data.lib' => 1,
+          'nucleus_int.lib' => 1,
+          'video.lib' => 1,
+          'bootloader.lib' => 1,
+          'sys_int.lib' => 1,
+          'interface_classb.lib' => 1,
+          'asn1_re.lib' => 1,
+          'ft.lib' => 1,
+          'abm.lib' => 1,
+          'cipher.lib' => 1,
+          'nucleus_ctrl_code.lib' => 1,
+          'scsi.lib' => 1,
+          'vendorapp.lib' => 1,
+          'video_codec_sec.lib' => 1,
+          'mm_classb2.lib' => 1,
+          'video_sec.lib' => 1,
+          'applib_asn1.lib' => 1,
+          'fdm.lib' => 1,
+          'rr_classb2.lib' => 1,
+          'che.lib' => 1,
+          'usb_driver.lib' => 1,
+          'l4_classb.lib' => 1,
+          'sndcp.lib' => 1,
+          'fdm_bl.lib' => 1,
+          'sys_sec.lib' => 1,
+          'iotlock.lib' => 1,
+          'matv.lib' => 1,
+          'mcd.lib' => 1,
+          'ftc.lib' => 1,
+          'ems.lib' => 1,
+          'tcpip_wifi.lib' => 1,
+          'dhcp.lib' => 1,
+          'ntpd.lib' => 1,
+          'btstack.lib' => 1
         };
 [tools\partialLink.pl:main:2624] Trying normal link...
-[tools\partialLink.pl:finalLink:1491] Executing "C:/ARM/RVCT/Programs/3.1/569/win_32-pentium/armlink.exe  --via D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/make/~sortedLibs.tmp --errors D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_error_normal.log"
-[tools\partialLink.pl:parseErrorFile:1414] Parsing linking error from D:/AIOT-WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_error_normal.log
+[tools\partialLink.pl:finalLink:1491] Executing "C:/ARM/RVCT/Programs/3.1/569/win_32-pentium/armlink.exe  --via D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/make/~sortedLibs.tmp --errors D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_error_normal.log"
+[tools\partialLink.pl:parseErrorFile:1414] Parsing linking error from D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_error_normal.log
 [tools\partialLink.pl:main:2656] Succeed to link
 [tools\partialLink.pl:generateLibTimestamp:2416] Generating library timestamp
-06/04/2019 Tue 
-08:16 PM
+2019/09/22 周日 
+14:04

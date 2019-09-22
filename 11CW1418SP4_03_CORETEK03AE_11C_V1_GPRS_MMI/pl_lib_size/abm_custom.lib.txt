@@ -1,5 +1,5 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      9244          0          4         68       4016   abm_wifi_main.obj
-      9244          0          4         68       4016   TOTAL
+      9920          0          4         68       4048   abm_wifi_main.obj
+      9920          0          4         68       4048   TOTAL
 

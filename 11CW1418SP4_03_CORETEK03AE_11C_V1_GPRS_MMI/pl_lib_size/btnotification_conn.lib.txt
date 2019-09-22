@@ -1,8 +1,8 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      8228        148        204       1300       4372   BTNotiAncsSrv.obj
-       252          0          0        244        208   BTNotiSrvDisp.obj
-     13364        270          8      15372       7388   BTNotiSrvRecv.obj
-      3578          0          0       2516       1196   MreInstallerSrv.obj
-     25422        418        212      19432      13164   TOTAL
+      9718        150        204       1300       4416   BTNotiAncsSrv.obj
+       344          0          0        244        220   BTNotiSrvDisp.obj
+     17514       1528          8      15372       8056   BTNotiSrvRecv.obj
+      4770       1982          0       2516       1204   MreInstallerSrv.obj
+     32346       3660        212      19432      13896   TOTAL
 

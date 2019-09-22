@@ -1,19 +1,19 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-       264          0          0          0        240   sms_cm.obj
-       900          0          0          0        944   sms_cm_dl_funcs.obj
-       934        200          0          0        704   sms_cm_fsm.obj
-       888          0          0          0       1084   sms_cm_ul_funcs.obj
+       356          0          0          0        256   sms_cm.obj
+      1228          0          0          0        956   sms_cm_dl_funcs.obj
+      1176        200          0          0        724   sms_cm_fsm.obj
+      1244          0          0          0       1104   sms_cm_ul_funcs.obj
         84         20          0          0        116   sms_create.obj
-       324          0          0       4940        128   sms_main.obj
-       620          0          0          0        676   sms_other_funcs.obj
-      1520          0          0          0        692   sms_rl_dl_funcs.obj
-      1082        160          0          0        808   sms_rl_fsm.obj
-      1036          0          0          0        920   sms_rl_ul_funcs.obj
-      1272         32          0          0        944   sms_timer.obj
-       308          0          0          0        304   sms_tl.obj
-      1030          0          0          0        924   sms_tl_dl_funcs.obj
-       112         80          0          0        244   sms_tl_fsm.obj
-       856          0          0          0        572   sms_tl_ul_funcs.obj
-     11230        492          0       4940       9300   TOTAL
+       344          0          0       4940        128   sms_main.obj
+       640          0          0          0        676   sms_other_funcs.obj
+      1828          0          0          0        692   sms_rl_dl_funcs.obj
+      1240        160          0          0        824   sms_rl_fsm.obj
+      1312          0          0          0        928   sms_rl_ul_funcs.obj
+      1508         32          0          0        960   sms_timer.obj
+       328          0          0          0        304   sms_tl.obj
+      1086          0          0          0        928   sms_tl_dl_funcs.obj
+       188         80          0          0        252   sms_tl_fsm.obj
+      1132          0          0          0        600   sms_tl_ul_funcs.obj
+     13694        492          0       4940       9448   TOTAL
 

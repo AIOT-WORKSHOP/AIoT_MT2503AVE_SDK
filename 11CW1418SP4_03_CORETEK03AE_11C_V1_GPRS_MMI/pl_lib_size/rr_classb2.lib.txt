@@ -1,56 +1,56 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      1432          0          0          0        460   acs_common_access_proc.obj
-       980          0          0          0        492   acs_common_ctrl_hdlr.obj
-      2776          0          0          0        784   acs_dedi_access_proc.obj
-      2532          0          0          0        612   acs_pkt_access_proc.obj
+      1536          0          0          0        460   acs_common_access_proc.obj
+      1040          0          0          0        492   acs_common_ctrl_hdlr.obj
+      2988          0          0          0        792   acs_dedi_access_proc.obj
+      2924          0          0          0        612   acs_pkt_access_proc.obj
        898          0          0          0        648   acs_utils.obj
       1922          0          0          0       2596   csn_common.obj
        142          0          0          0        372   csn_memory.obj
       2972          0          8          0       1216   csn_special.obj
-      1448          0          0          0        528   csrr_ded_access.obj
-      4746          0          0          0       1608   csrr_ded_proc.obj
-      2244          0          0          0        724   csrr_recv_lapdm_mesgs.obj
+      1696          0          0          0        536   csrr_ded_access.obj
+      4826          0          0          0       1608   csrr_ded_proc.obj
+      2744          0          0          0        732   csrr_recv_lapdm_mesgs.obj
          0          0          0          0          0   csrr_recv_mac_mesgs.obj
-       998          0          0          0        444   csrr_recv_mm_mesgs.obj
-      2128          0          0          0        732   csrr_recv_mpal_mesgs.obj
-       488          0          0          0        632   csrr_send_ext_msg.obj
-      3882          0          0          0       1900   csrr_send_int_msg.obj
-      4102          0          0          0       2296   csrr_utils.obj
+      1050          0          0          0        448   csrr_recv_mm_mesgs.obj
+      2544          0          0          0        732   csrr_recv_mpal_mesgs.obj
+       528          0          0          0        632   csrr_send_ext_msg.obj
+      4046          0          0          0       1900   csrr_send_int_msg.obj
+      4566          0          0          0       2316   csrr_utils.obj
       1288          0          0          0       1844   gprs_rlcmac_common_rest.obj
      19704          0          0          0      14264   gprs_rlcmac_dl_rest.obj
      13888          0          0          0      12440   gprs_rlcmac_peer_rest.obj
       8672          0          0          0       6720   gprs_rlcmac_ul_rest.obj
-      1502          0          0          0        272   lapdm_frame_funcs.obj
+      1750          0          0          0        272   lapdm_frame_funcs.obj
        656        360          0        632        380   lapdm_main.obj
-      6338         23          0          0       1344   lapdm_recv_mpal_msgs.obj
-      2772          0          0          0       1280   lapdm_recv_rr_msgs.obj
+      6940         23          0          0       1344   lapdm_recv_mpal_msgs.obj
+      3268          0          0          0       1284   lapdm_recv_rr_msgs.obj
       1028          0          0          0        428   mac_alloc_mode_hdlr.obj
-      3976          0          0          0       3012   mac_common_ctrl_hdlr.obj
-      5540          0          0          0       1032   mac_data_blk_hdlr.obj
-      3938          0          0          0       1264   mac_dl_ctrl_hdlr.obj
-      1652        480          0        984       1256   mac_main.obj
-      1640          0          0          0        432   mac_pa_ctrl_hdlr.obj
-      2682          0          0          0       1896   mac_sendmsgs.obj
-      2108         16          0          0       1484   mac_timer_hdlr.obj
-      3892          0          0          0       1320   mac_ul_ctrl_hdlr.obj
-      5608          0          0          0       1176   mac_ul_dl_ctrl_hdlr.obj
-      6412        215          0          0       4256   mac_utils.obj
+      4474          2          0          0       3064   mac_common_ctrl_hdlr.obj
+      6912          0          0          0       1028   mac_data_blk_hdlr.obj
+      4154          0          0          0       1268   mac_dl_ctrl_hdlr.obj
+      1964        484          0        984       1276   mac_main.obj
+      2520          0          0          0        432   mac_pa_ctrl_hdlr.obj
+      2750          0          0          0       1896   mac_sendmsgs.obj
+      2960         16          0          0       1516   mac_timer_hdlr.obj
+      4408         76          0          0       1320   mac_ul_ctrl_hdlr.obj
+      7264          0          0          0       1184   mac_ul_dl_ctrl_hdlr.obj
+      7020        215          0          0       4332   mac_utils.obj
        872          0          0       2036        204   meas_config.obj
          0          0          0          0          0   meas_funcs.obj
       1584          0          0          0       1832   meascell_rest.obj
       1234          0          0          0       1064   mpal_gprs_common_func.obj
-      2688          4          0          0        548   mpal_gprs_dl_func.obj
-      1360          0          0          0       1020   mpal_gprs_dl_msg_hdlr.obj
+      3052          4          0          0        548   mpal_gprs_dl_func.obj
+      1564          0          0          0       1020   mpal_gprs_dl_msg_hdlr.obj
       3192          0          0          0        924   mpal_gprs_ul_func.obj
-      1478          0          0          0       1120   mpal_gprs_ul_msg_hdlr.obj
+      1538          0          0          0       1124   mpal_gprs_ul_msg_hdlr.obj
        186          0          0          0        180   mpal_gsm_common_func.obj
        612         20          0          0        748   mpal_gsm_dl_func.obj
-      1972          0          0          0       2304   mpal_gsm_dl_msg_hdlr.obj
-       108          0          0          0        184   mpal_gsm_timer_hdlr.obj
+      2564          0          0          0       2316   mpal_gsm_dl_msg_hdlr.obj
+       124          0          0          0        184   mpal_gsm_timer_hdlr.obj
       1118         33          0          0        980   mpal_gsm_ul_func.obj
       2564          0          0          0       2136   mpal_gsm_ul_msg_hdlr.obj
-       740        376          0        835        580   mpal_main.obj
+       848        376          0        835        592   mpal_main.obj
        434          0          0          0        436   nstd_alloc_bitmap_pun.obj
        294          0          0          0        316   nstd_extension_bit_pun.obj
       1876          0          0          0       2184   nstd_mobile_alloc_peer_pun.obj
@@ -58,51 +58,51 @@
       1608          0          0          0       1652   nstd_pmo_pun.obj
          0          0          0          0          0   psi.obj
          0          0          0          0          0   psi_config.obj
-       882          0          0          0        196   psi_msg_decode.obj
+       994          0          0          0        196   psi_msg_decode.obj
       1694          0          0          0        776   psi_si_utils.obj
-      9200          0          0          0       3716   rcs_cell.obj
-       944          0          0         88        820   rcs_init.obj
-      2852          0          0          0       1244   rcs_plmn.obj
-      1088          0          0          0        512   rcs_process.obj
-      2310          0         53          0        548   reasm_llc_pdu_hdlr.obj
+     10808          0          0          0       3724   rcs_cell.obj
+      1216          6          0         88        880   rcs_init.obj
+      3484          0          0          0       1268   rcs_plmn.obj
+      1228          0          0          0        512   rcs_process.obj
+      2774          0         53          0        556   reasm_llc_pdu_hdlr.obj
        266         32          0         36        344   reasm_main.obj
-       314          0          0          2        200   reasm_sendmsgs.obj
-      2508          0          0          0        684   rlc_ctrl_msg_hdlr.obj
-       764          0          0          0        320   rlc_dl_ctrl_msg_hdlr.obj
-      1494          0          0          0        396   rlc_dl_data_blk_hdlr.obj
+       478          0          0          2        208   reasm_sendmsgs.obj
+      2808          0          0          0        684   rlc_ctrl_msg_hdlr.obj
+       800          0          0          0        324   rlc_dl_ctrl_msg_hdlr.obj
+      2158          0          0          0        400   rlc_dl_data_blk_hdlr.obj
          4          0          0          0        104   rlc_halfduplex_hdlr.obj
-      4264          0          0          0       1596   rlc_llc_pdu_hdlr.obj
-      1586         72          0       7350       1036   rlc_main.obj
+      5086          0          0          0       1632   rlc_llc_pdu_hdlr.obj
+      1678         72          0       7350       1040   rlc_main.obj
        600        432          0          0       1004   rlc_msg_hdlr.obj
-      2824          0          0          0        500   rlc_segment.obj
-      3594          0          0          0       1396   rlc_sendmsgs.obj
-      1566          0          0          0        560   rlc_test_mode.obj
-       796          0          0          0        696   rlc_timer_hdlr.obj
-      4096          0          0          0       1392   rlc_ul_data_blk_hdlr.obj
+      3164          0          0          0        496   rlc_segment.obj
+      3872          0          0          0       1408   rlc_sendmsgs.obj
+      1870          0          0          0        560   rlc_test_mode.obj
+      1076          0          0          0        716   rlc_timer_hdlr.obj
+      4664          0          0          0       1400   rlc_ul_data_blk_hdlr.obj
        144          0          0          0        288   rlc_util.obj
        262        417          0          0        144   rmc_cb.obj
-      4234          0          0          0       1564   rmc_cell_resel.obj
-      2634          0          0          0        900   rmc_common_access.obj
-      3774          0          0          0        692   rmc_dedicated_meas.obj
-       708          0          0          0        408   rmc_dedicated_proc.obj
+      4672          0          0          0       1584   rmc_cell_resel.obj
+      3516          0          0          0        904   rmc_common_access.obj
+      4190          0          0          0        712   rmc_dedicated_meas.obj
+       728          0          0          0        408   rmc_dedicated_proc.obj
       1238          0          0          0        420   rmc_gmm_procs.obj
-      6292          0          0          0       2080   rmc_gprs_cell_resel.obj
-      4540          0          0          0       2320   rmc_gprs_meas_funcs.obj
-      1412          0          0          0        856   rmc_gprs_nbr_cell.obj
-       980          0          0          0        384   rmc_gprs_pkt_access.obj
+      6848          0          0          0       2088   rmc_gprs_cell_resel.obj
+      4692          0          0          0       2336   rmc_gprs_meas_funcs.obj
+      1712          0          0          0        864   rmc_gprs_nbr_cell.obj
+      1040          0          0          0        388   rmc_gprs_pkt_access.obj
        570          0          0          0        492   rmc_gprs_sendmsgs.obj
-      2932          0          0          0        624   rmc_gprs_si13_decode.obj
-      3710          0          0          0       3664   rmc_gprs_timer_hdlr.obj
+      3332          0          0          0        632   rmc_gprs_si13_decode.obj
+      4986          0          0          0       3732   rmc_gprs_timer_hdlr.obj
       1230          0          0       1184        248   rmc_main.obj
-      1838          0          0          0        952   rmc_meas.obj
-       496          0          0          0        136   rmc_mpal_interface.obj
-      2220          0          0          0        424   rmc_mpal_nbcch_req.obj
+      2082          0          0          0        968   rmc_meas.obj
+       564          0          0          0        140   rmc_mpal_interface.obj
+      2320          0          0          0        432   rmc_mpal_nbcch_req.obj
       4570          0          0          0       3776   rmc_peer_dl_rest.obj
         72          0          0          0        120   rmc_rrm_procs.obj
-       476          0          0          0        316   rmc_send_msgs.obj
-      4736          0          0          0       1472   rmc_serv_nbr_meas.obj
-      2460          0          0          0       1960   rmc_timer.obj
-      2846          0          0          0        992   rmc_update_rla_meas.obj
+       504          0          0          0        316   rmc_send_msgs.obj
+      6068          0          0          0       1504   rmc_serv_nbr_meas.obj
+      3316          0          0          0       1976   rmc_timer.obj
+      3102          0          0          0        996   rmc_update_rla_meas.obj
          0          0          0          0          0   rmp_cell_resel.obj
          0          0          0          0          0   rmp_ctrlmsghdlr.obj
          0          0          0          0          0   rmp_init.obj
@@ -111,26 +111,26 @@
          0          0          0          0          0   rmp_pktacc.obj
          0          0          0          0          0   rmp_sendmsgs_to_mpal.obj
          0          0          0          0          0   rmp_timerhdlr.obj
-      5112          0          0          0       3012   rmpc_common_func.obj
-      2174          0          0          0       1116   rmpc_gprs_branch_funcs.obj
-      7968          0          0          0       2780   rmpc_nbr_cell.obj
+      5504          0          0          0       3044   rmpc_common_func.obj
+      2874          2          0          0       1132   rmpc_gprs_branch_funcs.obj
+      8536          0          0          0       2792   rmpc_nbr_cell.obj
        382         20          0       1568        236   rr_create.obj
-      3656          0          0       1040       2484   rr_data_ind.obj
+      4508          0          0       1040       2512   rr_data_ind.obj
        172          0          0          0        156   rr_dual_sim_process.obj
-      5472          0          0          0       2084   rr_gprs_meas_decode.obj
-      1942         84          0          0       1048   rr_gprs_utils.obj
+      5626          3          0          0       2092   rr_gprs_meas_decode.obj
+      2074         84          0          0       1064   rr_gprs_utils.obj
       1632          0          0          0        988   rr_peh.obj
         96          0          0          0        268   rr_resel_params_decode.obj
         28          0          0          0         60   rr_spare_bit.obj
-      8484          3          0          0       2900   rr_utils.obj
-      1648          0          0          0       1132   rrm_cell_procs.obj
-       644       3072          0        412        352   rrm_main.obj
-      6106          0          0          0       2420   rrm_process.obj
-       808          0          0          0       1248   rrm_send_msgs.obj
-      5110          0          0          0       3496   rrm_utils.obj
-      1998          0          0          0        800   si_class_b.obj
+      9524          3          0          0       2956   rr_utils.obj
+      2492          0          0          0       1172   rrm_cell_procs.obj
+       788       3072          0        412        372   rrm_main.obj
+      6918          0          0          0       2456   rrm_process.obj
+       828          0          0          0       1248   rrm_send_msgs.obj
+      5878          2          0          0       3536   rrm_utils.obj
+      2508          0          0          0        824   si_class_b.obj
        886          0          0       3320        320   si_config.obj
-     12938          0          0          0       3564   si_msg_decode.obj
-      6054         84          0          0       2448   si_update_funcs.obj
-    322906       5743         61      19487     167360   TOTAL
+     14542          0          0          0       3592   si_msg_decode.obj
+      6576         84          0          0       2460   si_update_funcs.obj
+    358828       5838         61      19487     168424   TOTAL
 

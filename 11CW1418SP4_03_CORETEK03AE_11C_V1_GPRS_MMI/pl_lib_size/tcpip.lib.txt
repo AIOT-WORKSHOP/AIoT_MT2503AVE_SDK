@@ -1,22 +1,22 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-       996          0          0          1        248   if.obj
-      1026          0          2        432        604   in.obj
-      1752          0         44         44        976   in_pcb.obj
-      2112          0         64          8        492   ip_icmp.obj
-      1950          0          0         56        540   ip_input.obj
-       696          0          0          0        224   ip_output.obj
-       462          0          0          0        400   mbuf.obj
+      1756          0          0          1        260   if.obj
+      1114          0          2        432        608   in.obj
+      2092          0         44         44       1016   in_pcb.obj
+      3368          0         64          8        496   ip_icmp.obj
+      2498          0          0         56        540   ip_input.obj
+       760          0          0          0        220   ip_output.obj
+       584          0          0          0        404   mbuf.obj
         32          0          0          0        104   queue.obj
-      1382          0          0          0        920   raw_ip.obj
-      5974          0         16          4        752   tcp_input.obj
-      2840          0         15          0        200   tcp_output.obj
-      2862          0          4          0       1356   tcp_subr.obj
-      1344          0        108          0        708   tcp_timer.obj
-      1806          0          0          0        912   tcp_usrreq.obj
-       244          0         21          9        236   tcpip_create.obj
+      1566          0          0          0        944   raw_ip.obj
+      7302          0         16          4        768   tcp_input.obj
+      3100          0         15          0        200   tcp_output.obj
+      3356          0          4          0       1452   tcp_subr.obj
+      1554          0        108          0        708   tcp_timer.obj
+      2252          0          0          0        944   tcp_usrreq.obj
+       268          0         21          9        236   tcpip_create.obj
        288         17          5        945        392   tcpip_init.obj
-      5372         12          0        151       2476   tcpip_main.obj
-      1676          0          0          0        760   udp.obj
-     32814         29        279       1650      12300   TOTAL
+      6520         12          0        151       2504   tcpip_main.obj
+      2016          0          0          0        812   udp.obj
+     40426         29        279       1650      12608   TOTAL
 

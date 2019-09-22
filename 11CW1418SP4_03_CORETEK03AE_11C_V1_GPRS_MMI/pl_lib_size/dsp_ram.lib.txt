@@ -1,6 +1,6 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      1552         25          0          1       1740   ddload.obj
+      1576         25          0          1       1740   ddload.obj
          0      10026          0          0          0   dll_6261_AAC.obj
          0        256          0          0          0   dll_6261_Audio_DM_REMAP.obj
          0       5085          0          0          0   dll_6261_Audio_Header.obj
@@ -20,5 +20,5 @@
         18          0          0          0        112   dsp_init.obj
        160        860          0          0        256   dsp_ptch_6261.obj
        608          0         11         38        444   idma.obj
-      2338      88183         11         39       2552   TOTAL
+      2362      88183         11         39       2552   TOTAL
 

@@ -1,0 +1,5 @@
+security\xyssl\adaptation\system\src\xyssl_fs.c
+security\xyssl\adaptation\system\src\xyssl_interface.c
+security\xyssl\adaptation\system\src\xyssl_mem.c
+security\xyssl\adaptation\system\src\xyssl_soc.c
+security\xyssl\adaptation\system\src\xyssl_time.c

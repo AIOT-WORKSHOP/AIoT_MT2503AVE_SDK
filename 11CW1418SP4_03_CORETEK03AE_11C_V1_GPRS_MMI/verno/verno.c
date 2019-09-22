@@ -1,7 +1,7 @@
 #include "kal_release.h" 
 kal_char* release_verno(void) 
 { 
-   static kal_char verno_str[] = "SPROCOMM_ofoV1.0.9"; 
+   static kal_char verno_str[] = "AIOT_WORKSHOP_SW_V0.0.1"; 
    return verno_str; 
 } 
 kal_char* release_hal_verno(void) 
@@ -11,12 +11,12 @@ kal_char* release_hal_verno(void)
 } 
 kal_char* release_hw_ver(void) 
 { 
-   static kal_char hw_ver_str[] = "SPROCOMM_MERCURY_V01"; 
+   static kal_char hw_ver_str[] = "AIOT_WORKSHOP_HW_V0.0.3"; 
    return hw_ver_str; 
 } 
 kal_char* build_date_time(void) 
 { 
-   static kal_char build_date_time_str[] = "20190604-2015"; 
+   static kal_char build_date_time_str[] = "20190922-1354"; 
    return build_date_time_str; 
 } 
 kal_char* release_build(void) 

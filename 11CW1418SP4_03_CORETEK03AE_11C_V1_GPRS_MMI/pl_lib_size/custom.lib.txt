@@ -156,7 +156,7 @@
          8          0          0          1         59   gpio_drv.obj
         68          0          0          0        104   gpio_measure.obj
        512        180         16          0        908   gpio_setting.obj
-         0       1331          0          0          0   gpio_var.obj
+         0       1332          0          0          0   gpio_var.obj
          0          0          0          0          0   gpio_var_v2.obj
       1016          0          0          0        845   gps_common_config.obj
          0         12          0          0          0   gpsmtk_config.obj
@@ -223,5 +223,5 @@
         84        194         36       7680        423   usb_custom.obj
          0        360         64          0          0   userprofile_nvram_def.obj
        134         20          0         33       2496   wifi_common_config.obj
-     47494      41532       7296     430074      60596   TOTAL
+     47494      41533       7296     430074      60596   TOTAL
 

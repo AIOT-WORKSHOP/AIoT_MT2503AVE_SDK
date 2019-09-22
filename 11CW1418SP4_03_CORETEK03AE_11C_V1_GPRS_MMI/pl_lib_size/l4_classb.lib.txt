@@ -1,118 +1,118 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
         16          0          0          0         60   csm_main.obj
-      2014          0          0          0       2132   csmcc_atfunc.obj
-      8290          0          0          0       5552   csmcc_aux_msg_hdlr.obj
-      6754          0          0          0       5888   csmcc_bc_func.obj
-      1746          0          0          0       1044   csmcc_crss_proc.obj
-      2140          0          0          0       1512   csmcc_facility_proc.obj
+      2178          0          0          0       2160   csmcc_atfunc.obj
+      8334          0          0          0       5556   csmcc_aux_msg_hdlr.obj
+      6854          0          0          0       5908   csmcc_bc_func.obj
+      1834          0          0          0       1048   csmcc_crss_proc.obj
+      2424          0          0          0       1528   csmcc_facility_proc.obj
        484         17          0       1088        532   csmcc_init.obj
-     10616          0          0          0       3784   csmcc_msg_hdlr.obj
-      4070          0          0          0       3288   csmcc_utility.obj
-     10172          8          0          0       3364   csmss_aux_msg_hdlr.obj
+     11176          0          0          0       3812   csmcc_msg_hdlr.obj
+      4614          0          0          0       3364   csmcc_utility.obj
+     10486          8          0          0       3388   csmss_aux_msg_hdlr.obj
        104          0          0        496         68   csmss_init.obj
-     13602          0          0          0       3404   csmss_msg_hdlr.obj
+     14348          0          0          0       3404   csmss_msg_hdlr.obj
          0          0          0          0          0   csmss_reset.obj
        298         20          0          0        180   l4_create.obj
          0          0          0          0          0   l4_reset.obj
-      2850         82          0          0       3180   l4c2tcm_func.obj
+      3044         82          0          0       3196   l4c2tcm_func.obj
       4682          0          1       4640       3244   l4c_bt_cmd.obj
      12830          0          0          0       3616   l4c_bt_msg.obj
-      4240          0          0          0       2868   l4c_cc_cmd.obj
-      5458          0          0          0       2844   l4c_cc_msg.obj
-      3010          0          0          0       1308   l4c_ciss_cmd.obj
-      5334          0          0          0       1340   l4c_ciss_msg.obj
+      4660          0          0          0       2872   l4c_cc_cmd.obj
+      5698          0          0          0       2848   l4c_cc_msg.obj
+      3102          0          0          0       1308   l4c_ciss_cmd.obj
+      5542          0          0          0       1340   l4c_ciss_msg.obj
          0          0          0          0          0   l4c_cmd_ft.obj
-       136          0          0          0         68   l4c_data_cmd.obj
+       164          0          0          0         64   l4c_data_cmd.obj
          0          0          0          0          0   l4c_dt_msg.obj
-      1100        142         36          0       1320   l4c_em.obj
-      7084          0          1         66       7280   l4c_eq_cmd.obj
-      2954          0          0          0       2204   l4c_eq_msg.obj
+      1168        142         36          0       1320   l4c_em.obj
+      7312          0          1         66       7280   l4c_eq_cmd.obj
+      3310          0          0          0       2228   l4c_eq_msg.obj
          0        928          0          0          0   l4c_ft.obj
-      2492          0          0          0       2780   l4c_gprs_cmd.obj
-      2162          0          0          0       1448   l4c_gprs_msg.obj
-       562          0          0          0        788   l4c_gps_cmd.obj
+      2588          0          0          0       2788   l4c_gprs_cmd.obj
+      2202          0          0          0       1464   l4c_gprs_msg.obj
+       580          0          0          0        792   l4c_gps_cmd.obj
        500          0          0          0        436   l4c_gps_msg.obj
        562          0          2        604        240   l4c_init.obj
-       904          0          0          0         68   l4c_main.obj
-      2116          0          0          0       1316   l4c_msghdlr.obj
-      2140          0          0          0       2572   l4c_nw_cmd.obj
-      4116          0          0          0       1672   l4c_nw_msg.obj
-      2320          0          0          0       2632   l4c_phb_cmd.obj
-      1606          0          0          0       1248   l4c_phb_msg.obj
-       682          0          0          0       1204   l4c_sat_msg.obj
-      1240          0          0          0       1420   l4c_sendmsg.obj
-      3142          0          0          0       3476   l4c_sim_cmd.obj
-      3820          0          0          0       1380   l4c_sim_msg.obj
-      6686          0          0          0       4424   l4c_sms_cmd.obj
-      1912          0          0          0       2008   l4c_sms_msg.obj
-      2888          0          0          0       1068   l4c_ss_parse.obj
+      1404          0          0          0         76   l4c_main.obj
+      2258          0          0          0       1324   l4c_msghdlr.obj
+      2172          0          0          0       2572   l4c_nw_cmd.obj
+      4152          0          0          0       1672   l4c_nw_msg.obj
+      2332          0          0          0       2632   l4c_phb_cmd.obj
+      1680          0          0          0       1252   l4c_phb_msg.obj
+       702          0          0          0       1208   l4c_sat_msg.obj
+      1524          0          0          0       1432   l4c_sendmsg.obj
+      3230          0          0          0       3476   l4c_sim_cmd.obj
+      3836          0          0          0       1380   l4c_sim_msg.obj
+      6702          0          0          0       4424   l4c_sms_cmd.obj
+      1948          0          0          0       2008   l4c_sms_msg.obj
+      3168          0          0          0       1068   l4c_ss_parse.obj
          0       2497          0          0          0   l4c_table.obj
          2          0          0          0         52   l4c_tcpip_msg.obj
-      1006          0          1          0        684   l4c_tst.obj
-      7786          0          0          0       6280   l4c_utility.obj
+      1074          0          1          0        684   l4c_tst.obj
+      9038          0          0          0       6352   l4c_utility.obj
         44          0          0       1520         60   layer4_init.obj
          0       1443          0          0          0   mcd_table_l4.obj
-       964          0          0          0       1748   rac2_funcs.obj
-      3682          0          0          0       1820   rac2_hdlrs.obj
-       596          0          0        140        204   rac2_main.obj
-      3392          0          0          0       3432   rac2_others.obj
-      2536          0          0          0        904   rmmi_analyzer.obj
-      3664         93          0          0       1144   rmmi_basic_val.obj
-      6108          0          0          0       2880   rmmi_ind.obj
+      1158          0          0          0       1796   rac2_funcs.obj
+      4046          0          0          0       1832   rac2_hdlrs.obj
+       728          0          0        140        208   rac2_main.obj
+      3846          3          0          0       3416   rac2_others.obj
+      2960          0          0          0        908   rmmi_analyzer.obj
+      4012         93          0          0       1148   rmmi_basic_val.obj
+      6364          0          0          0       2896   rmmi_ind.obj
        730          0          0      23696        436   rmmi_init.obj
        280          0          0          0         60   rmmi_main.obj
-      3794          0          0          0       1920   rmmi_msghdlr.obj
+      4454          0          0          0       1936   rmmi_msghdlr.obj
          0       5534          0          0          0   rmmi_parser.obj
-       196          0          0          0        444   rmmi_root.obj
-      6812          3          0          0       5452   rmmi_rsp.obj
-      5982          0          0          0       2152   rmmi_rspfmttr.obj
-       656          0          0          0       1288   rmmi_sio.obj
-     14488        150          0          8       7720   rmmi_utility.obj
-      1732       1763          0          0        776   rmmi_validator.obj
+       284          0          0          0        448   rmmi_root.obj
+      7528          3          0          0       5516   rmmi_rsp.obj
+      6514          0          0          0       2208   rmmi_rspfmttr.obj
+       704          0          0          0       1288   rmmi_sio.obj
+     15504        224          0          8       7748   rmmi_utility.obj
+      1824       1763          0          0        776   rmmi_validator.obj
      11176          0          0          0       2048   rmmi_validator_bt.obj
-      2192          0          0          0       1124   rmmi_validator_cc.obj
-      2852          0          0          0        968   rmmi_validator_ciss.obj
-       636          0          0          0        216   rmmi_validator_data.obj
-     10640        138          0       1564       2204   rmmi_validator_em.obj
-      4996         12          0          0       2216   rmmi_validator_eq.obj
+      2330          0          0          0       1124   rmmi_validator_cc.obj
+      3052          0          0          0        972   rmmi_validator_ciss.obj
+       684          0          0          0        216   rmmi_validator_data.obj
+     10764        138          0       1564       2204   rmmi_validator_em.obj
+      5476         12          0          0       2216   rmmi_validator_eq.obj
          0        928          0          0          0   rmmi_validator_ft.obj
-      1716          0          0        132        568   rmmi_validator_gps.obj
-      3406          0          0          0       1208   rmmi_validator_nw.obj
-      2408          0          0          0        912   rmmi_validator_phb.obj
+      1848          0          0        132        572   rmmi_validator_gps.obj
+      3540          0          0          0       1212   rmmi_validator_nw.obj
+      2520          0          0          0        916   rmmi_validator_phb.obj
          0          0          0          0          0   rmmi_validator_phonesuite.obj
-      3514          0          0          0        868   rmmi_validator_sim.obj
-      7440          0          0          0       1800   rmmi_validator_sms.obj
-      6646         93          0          0       1664   rmmi_validator_tcm.obj
+      3614          0          0          0        868   rmmi_validator_sim.obj
+      7784          0          0          0       1816   rmmi_validator_sms.obj
+      6888         93          0          0       1672   rmmi_validator_tcm.obj
          0          0          0          0          0   rmmi_validator_tcpip.obj
-       388         63          0          0        252   smsal_cb.obj
+       408         63          0          0        256   smsal_cb.obj
       1676          0          0          0        904   smsal_checks.obj
-       742          0          0          0        444   smsal_init.obj
-      2596        226          0         30       2432   smsal_l4c_funcs.obj
-      4756         42          0          0       2408   smsal_l4c_msgs.obj
-       208          0          0          0        112   smsal_main.obj
+       814          0          0          0        444   smsal_init.obj
+      2616        226          0         30       2432   smsal_l4c_funcs.obj
+      4940         42          0          0       2416   smsal_l4c_msgs.obj
+       228          0          0          0        112   smsal_main.obj
       5134          0          0          0       2100   smsal_modi_peer_rest.obj
-      2186          0          0          0       1116   smsal_msg_proc.obj
-      1916          0          0          0       1872   smsal_other_funcs.obj
+      2230          0          0          0       1120   smsal_msg_proc.obj
+      1956          0          0          0       1876   smsal_other_funcs.obj
       3492          0          0          0       1608   smsal_parameter.obj
         64          0          0          0         60   smsal_reset.obj
-      1708          0          0          0        912   smsal_sms.obj
-      6070          0          0          0       2848   smsal_storage.obj
-       484          8          0          0        628   smsal_timer.obj
-      4344         96          0          0       2088   smsal_transport_proc.obj
+      1944          0          0          0        912   smsal_sms.obj
+      6294          0          0          0       2864   smsal_storage.obj
+       540          8          0          0        632   smsal_timer.obj
+      4744         96          0          0       2096   smsal_transport_proc.obj
        740          8          0       1346        756   smsal_utils.obj
-     10000          0          0          8       3620   smu_handler.obj
+     10638          0          0          8       3672   smu_handler.obj
         96          0          4        100         68   smu_init.obj
        336          0          0          0         68   smu_main.obj
          8          0          0          0        104   tcm_api.obj
-      6962         12          0          0       2716   tcm_cntxt_data.obj
-      2672          0          0          0       1600   tcm_cntxt_data_aux.obj
+      7814         12          0          0       2720   tcm_cntxt_data.obj
+      2876          0          0          0       1608   tcm_cntxt_data_aux.obj
          0          0          0          0          0   tcm_cntxt_data_checks.obj
          0        252          0          0          0   tcm_cntxt_data_ft.obj
-      5158        112          0          0       3424   tcm_common.obj
+      6238        112          0          0       3548   tcm_common.obj
        176          0          4       2088         68   tcm_init.obj
-      1044          0          0          0        216   tcm_main.obj
+      1136          0          0          0        216   tcm_main.obj
        322          0          0          0        336   tcm_other.obj
-       312          0          0          0        320   tcm_timer.obj
-    335496      14670         49      37526     178592   TOTAL
+       392          0          0          0        324   tcm_timer.obj
+    354824      14747         49      37526     179492   TOTAL
 

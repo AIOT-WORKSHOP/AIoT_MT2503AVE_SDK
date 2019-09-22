@@ -506,11 +506,7 @@ VAPP_GOOGLE_SEARCH, RESOURCE_BASE_VAPP_GOOGLE_SEARCH = VAPP_GOOGLE_SEARCH, RESOU
 
 
         SRV_IOT_LOCK, RESOURCE_BASE_SRV_IOT_LOCK = SRV_IOT_LOCK, RESOURCE_BASE_SRV_IOT_LOCK_END = SRV_IOT_LOCK + 300,
-
-
-
-
-
+# 3154 "../../mmi/inc/mmi_res_range_def.h"
 # 1 "../../mmi/inc/mmi_pluto_res_range_def.h" 1
 # 827 "../../mmi/inc/mmi_pluto_res_range_def.h"
 APP_BLUETOOTH, RESOURCE_BASE_APP_BLUETOOTH = APP_BLUETOOTH, RESOURCE_BASE_APP_BLUETOOTH_END = APP_BLUETOOTH + 450,
@@ -1160,13 +1156,13 @@ APP_SSO, RESOURCE_BASE_APP_SSO = APP_SSO, RESOURCE_BASE_APP_SSO_END = APP_SSO + 
 CUI_SSO, RESOURCE_BASE_CUI_SSO = CUI_SSO, RESOURCE_BASE_CUI_SSO_END = CUI_SSO + 50,
 # 1955 "../../mmi/inc/mmi_pluto_res_range_def.h"
 APP_SMSBTUNIFIEDMESSAGE, RESOURCE_BASE_APP_SMSBTUNIFIEDMESSAGE = APP_SMSBTUNIFIEDMESSAGE, RESOURCE_BASE_APP_SMSBTUNIFIEDMESSAGE_END = APP_SMSBTUNIFIEDMESSAGE + 50,
-# 3152 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3155 "../../mmi/inc/mmi_res_range_def.h" 2
 # 1 "../../../venusmmi/app/common/interface/vapp_res.h" 1
-# 3153 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3156 "../../mmi/inc/mmi_res_range_def.h" 2
 # 1 "../../../venusmmi/visual/cp/res/vcp_res_range.h" 1
-# 3154 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3157 "../../mmi/inc/mmi_res_range_def.h" 2
 APP_DEVAPP, RESOURCE_BASE_APP_DEVAPP = APP_DEVAPP, RESOURCE_BASE_APP_DEVAPP_END = APP_DEVAPP + 900, APP_DEFAULT_END, RESOURCE_BASE_APP_DEFAULT_END = APP_DEFAULT_END, RESOURCE_BASE_APP_DEFAULT_END_END = APP_DEFAULT_END + 1, END, RESOURCE_BASE_END = END, RESOURCE_BASE_END_END = END + 1 } RESOURCE_BASE_ENUM;
-# 3165 "../../mmi/inc/mmi_res_range_def.h"
+# 3168 "../../mmi/inc/mmi_res_range_def.h"
 typedef struct
 {
     char *appname;
@@ -1174,9 +1170,9 @@ typedef struct
     unsigned short max;
     char res_path[512];
 } mmi_resource_base_struct;
-# 3225 "../../mmi/inc/mmi_res_range_def.h"
+# 3228 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3235 "../../mmi/inc/mmi_res_range_def.h"
+# 3238 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -1264,7 +1260,7 @@ typedef struct
 
 
 
-# 3241 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3244 "../../mmi/inc/mmi_res_range_def.h" 2
 
 
 
@@ -1918,15 +1914,15 @@ typedef struct
 
 # 1955 "../../mmi/inc/mmi_pluto_res_range_def.h"
 
-# 3246 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3249 "../../mmi/inc/mmi_res_range_def.h" 2
 
 
 
 
 # 1 "../../../venusmmi/app/common/interface/vapp_res.h" 1
-# 3251 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3254 "../../mmi/inc/mmi_res_range_def.h" 2
 # 1 "../../../venusmmi/visual/cp/res/vcp_res_range.h" 1
-# 3252 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3255 "../../mmi/inc/mmi_res_range_def.h" 2
 
 
 
@@ -1942,11 +1938,11 @@ typedef struct
 
 
 
-# 3275 "../../mmi/inc/mmi_res_range_def.h"
+# 3278 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3298 "../../mmi/inc/mmi_res_range_def.h"
+# 3301 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3315 "../../mmi/inc/mmi_res_range_def.h"
+# 3318 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -1977,7 +1973,7 @@ typedef struct
 
 
 
-# 3369 "../../mmi/inc/mmi_res_range_def.h"
+# 3372 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -1993,7 +1989,7 @@ typedef struct
 
 
 
-# 3418 "../../mmi/inc/mmi_res_range_def.h"
+# 3421 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2002,9 +1998,9 @@ typedef struct
 
 
 
-# 3442 "../../mmi/inc/mmi_res_range_def.h"
+# 3445 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3454 "../../mmi/inc/mmi_res_range_def.h"
+# 3457 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2014,9 +2010,9 @@ typedef struct
 
 
 
-# 3471 "../../mmi/inc/mmi_res_range_def.h"
+# 3474 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3480 "../../mmi/inc/mmi_res_range_def.h"
+# 3483 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2025,9 +2021,9 @@ typedef struct
 
 
 
-# 3504 "../../mmi/inc/mmi_res_range_def.h"
+# 3507 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3522 "../../mmi/inc/mmi_res_range_def.h"
+# 3525 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2036,7 +2032,7 @@ typedef struct
 
 
 
-# 3538 "../../mmi/inc/mmi_res_range_def.h"
+# 3541 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2061,7 +2057,7 @@ typedef struct
 
 
 
-# 3570 "../../mmi/inc/mmi_res_range_def.h"
+# 3573 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2086,7 +2082,7 @@ typedef struct
 
 
 
-# 3613 "../../mmi/inc/mmi_res_range_def.h"
+# 3616 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2096,9 +2092,9 @@ typedef struct
 
 
 
-# 3630 "../../mmi/inc/mmi_res_range_def.h"
+# 3633 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3655 "../../mmi/inc/mmi_res_range_def.h"
+# 3658 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2122,9 +2118,9 @@ typedef struct
 
 
 
-# 3688 "../../mmi/inc/mmi_res_range_def.h"
+# 3691 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3750 "../../mmi/inc/mmi_res_range_def.h"
+# 3753 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2142,7 +2138,7 @@ typedef struct
 
 
 
-# 3781 "../../mmi/inc/mmi_res_range_def.h"
+# 3784 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2210,9 +2206,9 @@ typedef struct
 
 
 
-# 3877 "../../mmi/inc/mmi_res_range_def.h"
+# 3880 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3889 "../../mmi/inc/mmi_res_range_def.h"
+# 3892 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2221,7 +2217,7 @@ typedef struct
 
 
 
-# 3921 "../../mmi/inc/mmi_res_range_def.h"
+# 3924 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2232,7 +2228,7 @@ typedef struct
 
 
 
-# 3943 "../../mmi/inc/mmi_res_range_def.h"
+# 3946 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2442,7 +2438,7 @@ typedef struct
 
 
 
-# 4167 "../../mmi/inc/mmi_res_range_def.h"
+# 4170 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2458,9 +2454,9 @@ typedef struct
 
 
 
-# 4195 "../../mmi/inc/mmi_res_range_def.h"
+# 4198 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4209 "../../mmi/inc/mmi_res_range_def.h"
+# 4212 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2470,7 +2466,7 @@ typedef struct
 
 
 
-# 4226 "../../mmi/inc/mmi_res_range_def.h"
+# 4229 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2519,7 +2515,7 @@ typedef struct
 
 
 
-# 4282 "../../mmi/inc/mmi_res_range_def.h"
+# 4285 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2528,7 +2524,7 @@ typedef struct
 
 
 
-# 4334 "../../mmi/inc/mmi_res_range_def.h"
+# 4337 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2552,7 +2548,7 @@ typedef struct
 
 
 
-# 4372 "../../mmi/inc/mmi_res_range_def.h"
+# 4375 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2675,7 +2671,7 @@ typedef struct
 
 
 
-# 4502 "../../mmi/inc/mmi_res_range_def.h"
+# 4505 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2705,7 +2701,7 @@ typedef struct
 
 
 
-# 4593 "../../mmi/inc/mmi_res_range_def.h"
+# 4596 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2744,9 +2740,9 @@ typedef struct
 
 
 
-# 4639 "../../mmi/inc/mmi_res_range_def.h"
+# 4642 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4648 "../../mmi/inc/mmi_res_range_def.h"
+# 4651 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2764,13 +2760,13 @@ typedef struct
 
 
 
-# 4681 "../../mmi/inc/mmi_res_range_def.h"
+# 4684 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4701 "../../mmi/inc/mmi_res_range_def.h"
+# 4704 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4722 "../../mmi/inc/mmi_res_range_def.h"
+# 4725 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4733 "../../mmi/inc/mmi_res_range_def.h"
+# 4736 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2810,7 +2806,7 @@ typedef struct
 
 
 
-# 4787 "../../mmi/inc/mmi_res_range_def.h"
+# 4790 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2826,7 +2822,7 @@ typedef struct
 
 
 
-# 4818 "../../mmi/inc/mmi_res_range_def.h"
+# 4821 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2849,9 +2845,9 @@ typedef struct
 
 
 
-# 4857 "../../mmi/inc/mmi_res_range_def.h"
+# 4860 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4884 "../../mmi/inc/mmi_res_range_def.h"
+# 4887 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2861,7 +2857,7 @@ typedef struct
 
 
 
-# 4906 "../../mmi/inc/mmi_res_range_def.h"
+# 4909 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2919,7 +2915,7 @@ typedef struct
 
 
 
-# 5143 "../../mmi/inc/mmi_res_range_def.h"
+# 5146 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3027,7 +3023,7 @@ typedef struct
 
 
 
-# 5267 "../../mmi/inc/mmi_res_range_def.h"
+# 5270 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3079,7 +3075,7 @@ typedef struct
 
 
 
-# 5340 "../../mmi/inc/mmi_res_range_def.h"
+# 5343 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3102,7 +3098,7 @@ typedef struct
 
 
 
-# 5370 "../../mmi/inc/mmi_res_range_def.h"
+# 5373 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3118,9 +3114,9 @@ typedef struct
 
 
 
-# 5400 "../../mmi/inc/mmi_res_range_def.h"
+# 5403 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5409 "../../mmi/inc/mmi_res_range_def.h"
+# 5412 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3129,7 +3125,7 @@ typedef struct
 
 
 
-# 5425 "../../mmi/inc/mmi_res_range_def.h"
+# 5428 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3139,9 +3135,9 @@ typedef struct
 
 
 
-# 5446 "../../mmi/inc/mmi_res_range_def.h"
+# 5449 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5463 "../../mmi/inc/mmi_res_range_def.h"
+# 5466 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3213,7 +3209,7 @@ typedef struct
 
 
 
-# 5559 "../../mmi/inc/mmi_res_range_def.h"
+# 5562 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3229,11 +3225,11 @@ typedef struct
 
 
 
-# 5590 "../../mmi/inc/mmi_res_range_def.h"
+# 5593 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5675 "../../mmi/inc/mmi_res_range_def.h"
+# 5678 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5690 "../../mmi/inc/mmi_res_range_def.h"
+# 5693 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3248,11 +3244,11 @@ typedef struct
 
 
 
-# 5724 "../../mmi/inc/mmi_res_range_def.h"
+# 5727 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5758 "../../mmi/inc/mmi_res_range_def.h"
+# 5761 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5798 "../../mmi/inc/mmi_res_range_def.h"
+# 5801 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3262,20 +3258,15 @@ typedef struct
 
 
 
-# 5826 "../../mmi/inc/mmi_res_range_def.h"
+# 5829 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5835 "../../mmi/inc/mmi_res_range_def.h"
+# 5838 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5844 "../../mmi/inc/mmi_res_range_def.h"
+# 5847 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5862 "../../mmi/inc/mmi_res_range_def.h"
+# 5865 "../../mmi/inc/mmi_res_range_def.h"
 
-
-
-
-
-
-
+# 5881 "../../mmi/inc/mmi_res_range_def.h"
 
 # 440 "../../mmi/inc/GlobalResDef.h" 2
 # 455 "../../mmi/inc/GlobalResDef.h"

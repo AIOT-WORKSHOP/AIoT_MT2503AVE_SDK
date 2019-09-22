@@ -502,11 +502,7 @@ VAPP_GOOGLE_SEARCH, RESOURCE_BASE_VAPP_GOOGLE_SEARCH = VAPP_GOOGLE_SEARCH, RESOU
 
 
         SRV_IOT_LOCK, RESOURCE_BASE_SRV_IOT_LOCK = SRV_IOT_LOCK, RESOURCE_BASE_SRV_IOT_LOCK_END = SRV_IOT_LOCK + 300,
-
-
-
-
-
+# 3154 "../../mmi/inc/mmi_res_range_def.h"
 # 1 "../../mmi/inc/mmi_pluto_res_range_def.h" 1
 # 827 "../../mmi/inc/mmi_pluto_res_range_def.h"
 APP_BLUETOOTH, RESOURCE_BASE_APP_BLUETOOTH = APP_BLUETOOTH, RESOURCE_BASE_APP_BLUETOOTH_END = APP_BLUETOOTH + 450,
@@ -1156,13 +1152,13 @@ APP_SSO, RESOURCE_BASE_APP_SSO = APP_SSO, RESOURCE_BASE_APP_SSO_END = APP_SSO + 
 CUI_SSO, RESOURCE_BASE_CUI_SSO = CUI_SSO, RESOURCE_BASE_CUI_SSO_END = CUI_SSO + 50,
 # 1955 "../../mmi/inc/mmi_pluto_res_range_def.h"
 APP_SMSBTUNIFIEDMESSAGE, RESOURCE_BASE_APP_SMSBTUNIFIEDMESSAGE = APP_SMSBTUNIFIEDMESSAGE, RESOURCE_BASE_APP_SMSBTUNIFIEDMESSAGE_END = APP_SMSBTUNIFIEDMESSAGE + 50,
-# 3152 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3155 "../../mmi/inc/mmi_res_range_def.h" 2
 # 1 "../../../venusmmi/app/common/interface/vapp_res.h" 1
-# 3153 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3156 "../../mmi/inc/mmi_res_range_def.h" 2
 # 1 "../../../venusmmi/visual/cp/res/vcp_res_range.h" 1
-# 3154 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3157 "../../mmi/inc/mmi_res_range_def.h" 2
 APP_DEVAPP, RESOURCE_BASE_APP_DEVAPP = APP_DEVAPP, RESOURCE_BASE_APP_DEVAPP_END = APP_DEVAPP + 900, APP_DEFAULT_END, RESOURCE_BASE_APP_DEFAULT_END = APP_DEFAULT_END, RESOURCE_BASE_APP_DEFAULT_END_END = APP_DEFAULT_END + 1, END, RESOURCE_BASE_END = END, RESOURCE_BASE_END_END = END + 1 } RESOURCE_BASE_ENUM;
-# 3165 "../../mmi/inc/mmi_res_range_def.h"
+# 3168 "../../mmi/inc/mmi_res_range_def.h"
 typedef struct
 {
     char *appname;
@@ -1170,9 +1166,9 @@ typedef struct
     unsigned short max;
     char res_path[512];
 } mmi_resource_base_struct;
-# 3225 "../../mmi/inc/mmi_res_range_def.h"
+# 3228 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3235 "../../mmi/inc/mmi_res_range_def.h"
+# 3238 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -1260,7 +1256,7 @@ typedef struct
 
 
 
-# 3241 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3244 "../../mmi/inc/mmi_res_range_def.h" 2
 
 
 
@@ -1914,15 +1910,15 @@ typedef struct
 
 # 1955 "../../mmi/inc/mmi_pluto_res_range_def.h"
 
-# 3246 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3249 "../../mmi/inc/mmi_res_range_def.h" 2
 
 
 
 
 # 1 "../../../venusmmi/app/common/interface/vapp_res.h" 1
-# 3251 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3254 "../../mmi/inc/mmi_res_range_def.h" 2
 # 1 "../../../venusmmi/visual/cp/res/vcp_res_range.h" 1
-# 3252 "../../mmi/inc/mmi_res_range_def.h" 2
+# 3255 "../../mmi/inc/mmi_res_range_def.h" 2
 
 
 
@@ -1938,11 +1934,11 @@ typedef struct
 
 
 
-# 3275 "../../mmi/inc/mmi_res_range_def.h"
+# 3278 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3298 "../../mmi/inc/mmi_res_range_def.h"
+# 3301 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3315 "../../mmi/inc/mmi_res_range_def.h"
+# 3318 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -1973,7 +1969,7 @@ typedef struct
 
 
 
-# 3369 "../../mmi/inc/mmi_res_range_def.h"
+# 3372 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -1989,7 +1985,7 @@ typedef struct
 
 
 
-# 3418 "../../mmi/inc/mmi_res_range_def.h"
+# 3421 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -1998,9 +1994,9 @@ typedef struct
 
 
 
-# 3442 "../../mmi/inc/mmi_res_range_def.h"
+# 3445 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3454 "../../mmi/inc/mmi_res_range_def.h"
+# 3457 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2010,9 +2006,9 @@ typedef struct
 
 
 
-# 3471 "../../mmi/inc/mmi_res_range_def.h"
+# 3474 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3480 "../../mmi/inc/mmi_res_range_def.h"
+# 3483 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2021,9 +2017,9 @@ typedef struct
 
 
 
-# 3504 "../../mmi/inc/mmi_res_range_def.h"
+# 3507 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3522 "../../mmi/inc/mmi_res_range_def.h"
+# 3525 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2032,7 +2028,7 @@ typedef struct
 
 
 
-# 3538 "../../mmi/inc/mmi_res_range_def.h"
+# 3541 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2057,7 +2053,7 @@ typedef struct
 
 
 
-# 3570 "../../mmi/inc/mmi_res_range_def.h"
+# 3573 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2082,7 +2078,7 @@ typedef struct
 
 
 
-# 3613 "../../mmi/inc/mmi_res_range_def.h"
+# 3616 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2092,9 +2088,9 @@ typedef struct
 
 
 
-# 3630 "../../mmi/inc/mmi_res_range_def.h"
+# 3633 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3655 "../../mmi/inc/mmi_res_range_def.h"
+# 3658 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2118,9 +2114,9 @@ typedef struct
 
 
 
-# 3688 "../../mmi/inc/mmi_res_range_def.h"
+# 3691 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3750 "../../mmi/inc/mmi_res_range_def.h"
+# 3753 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2138,7 +2134,7 @@ typedef struct
 
 
 
-# 3781 "../../mmi/inc/mmi_res_range_def.h"
+# 3784 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2206,9 +2202,9 @@ typedef struct
 
 
 
-# 3877 "../../mmi/inc/mmi_res_range_def.h"
+# 3880 "../../mmi/inc/mmi_res_range_def.h"
 
-# 3889 "../../mmi/inc/mmi_res_range_def.h"
+# 3892 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2217,7 +2213,7 @@ typedef struct
 
 
 
-# 3921 "../../mmi/inc/mmi_res_range_def.h"
+# 3924 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2228,7 +2224,7 @@ typedef struct
 
 
 
-# 3943 "../../mmi/inc/mmi_res_range_def.h"
+# 3946 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2438,7 +2434,7 @@ typedef struct
 
 
 
-# 4167 "../../mmi/inc/mmi_res_range_def.h"
+# 4170 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2454,9 +2450,9 @@ typedef struct
 
 
 
-# 4195 "../../mmi/inc/mmi_res_range_def.h"
+# 4198 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4209 "../../mmi/inc/mmi_res_range_def.h"
+# 4212 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2466,7 +2462,7 @@ typedef struct
 
 
 
-# 4226 "../../mmi/inc/mmi_res_range_def.h"
+# 4229 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2515,7 +2511,7 @@ typedef struct
 
 
 
-# 4282 "../../mmi/inc/mmi_res_range_def.h"
+# 4285 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2524,7 +2520,7 @@ typedef struct
 
 
 
-# 4334 "../../mmi/inc/mmi_res_range_def.h"
+# 4337 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2548,7 +2544,7 @@ typedef struct
 
 
 
-# 4372 "../../mmi/inc/mmi_res_range_def.h"
+# 4375 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2671,7 +2667,7 @@ typedef struct
 
 
 
-# 4502 "../../mmi/inc/mmi_res_range_def.h"
+# 4505 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2701,7 +2697,7 @@ typedef struct
 
 
 
-# 4593 "../../mmi/inc/mmi_res_range_def.h"
+# 4596 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2740,9 +2736,9 @@ typedef struct
 
 
 
-# 4639 "../../mmi/inc/mmi_res_range_def.h"
+# 4642 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4648 "../../mmi/inc/mmi_res_range_def.h"
+# 4651 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2760,13 +2756,13 @@ typedef struct
 
 
 
-# 4681 "../../mmi/inc/mmi_res_range_def.h"
+# 4684 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4701 "../../mmi/inc/mmi_res_range_def.h"
+# 4704 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4722 "../../mmi/inc/mmi_res_range_def.h"
+# 4725 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4733 "../../mmi/inc/mmi_res_range_def.h"
+# 4736 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2806,7 +2802,7 @@ typedef struct
 
 
 
-# 4787 "../../mmi/inc/mmi_res_range_def.h"
+# 4790 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2822,7 +2818,7 @@ typedef struct
 
 
 
-# 4818 "../../mmi/inc/mmi_res_range_def.h"
+# 4821 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2845,9 +2841,9 @@ typedef struct
 
 
 
-# 4857 "../../mmi/inc/mmi_res_range_def.h"
+# 4860 "../../mmi/inc/mmi_res_range_def.h"
 
-# 4884 "../../mmi/inc/mmi_res_range_def.h"
+# 4887 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2857,7 +2853,7 @@ typedef struct
 
 
 
-# 4906 "../../mmi/inc/mmi_res_range_def.h"
+# 4909 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -2915,7 +2911,7 @@ typedef struct
 
 
 
-# 5143 "../../mmi/inc/mmi_res_range_def.h"
+# 5146 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3023,7 +3019,7 @@ typedef struct
 
 
 
-# 5267 "../../mmi/inc/mmi_res_range_def.h"
+# 5270 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3075,7 +3071,7 @@ typedef struct
 
 
 
-# 5340 "../../mmi/inc/mmi_res_range_def.h"
+# 5343 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3098,7 +3094,7 @@ typedef struct
 
 
 
-# 5370 "../../mmi/inc/mmi_res_range_def.h"
+# 5373 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3114,9 +3110,9 @@ typedef struct
 
 
 
-# 5400 "../../mmi/inc/mmi_res_range_def.h"
+# 5403 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5409 "../../mmi/inc/mmi_res_range_def.h"
+# 5412 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3125,7 +3121,7 @@ typedef struct
 
 
 
-# 5425 "../../mmi/inc/mmi_res_range_def.h"
+# 5428 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3135,9 +3131,9 @@ typedef struct
 
 
 
-# 5446 "../../mmi/inc/mmi_res_range_def.h"
+# 5449 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5463 "../../mmi/inc/mmi_res_range_def.h"
+# 5466 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3209,7 +3205,7 @@ typedef struct
 
 
 
-# 5559 "../../mmi/inc/mmi_res_range_def.h"
+# 5562 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3225,11 +3221,11 @@ typedef struct
 
 
 
-# 5590 "../../mmi/inc/mmi_res_range_def.h"
+# 5593 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5675 "../../mmi/inc/mmi_res_range_def.h"
+# 5678 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5690 "../../mmi/inc/mmi_res_range_def.h"
+# 5693 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3244,11 +3240,11 @@ typedef struct
 
 
 
-# 5724 "../../mmi/inc/mmi_res_range_def.h"
+# 5727 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5758 "../../mmi/inc/mmi_res_range_def.h"
+# 5761 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5798 "../../mmi/inc/mmi_res_range_def.h"
+# 5801 "../../mmi/inc/mmi_res_range_def.h"
 
 
 
@@ -3258,20 +3254,15 @@ typedef struct
 
 
 
-# 5826 "../../mmi/inc/mmi_res_range_def.h"
+# 5829 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5835 "../../mmi/inc/mmi_res_range_def.h"
+# 5838 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5844 "../../mmi/inc/mmi_res_range_def.h"
+# 5847 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5862 "../../mmi/inc/mmi_res_range_def.h"
+# 5865 "../../mmi/inc/mmi_res_range_def.h"
 
-
-
-
-
-
-
+# 5881 "../../mmi/inc/mmi_res_range_def.h"
 
 # 440 "../../mmi/inc/GlobalResDef.h" 2
 # 455 "../../mmi/inc/GlobalResDef.h"
@@ -4009,30 +4000,30 @@ typedef enum
 # 944 "../../framework/interface/MMIDataType.h"
 # 1 "../../mmi/inc/stdafx.h" 1
 # 107 "../../mmi/inc/stdafx.h"
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 1 3
-# 31 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/_mingw.h" 1 3
-# 32 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 2 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 1 3
+# 31 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/_mingw.h" 1 3
+# 32 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 2 3
 
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 220 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 220 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
 typedef unsigned int size_t;
-# 332 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
+# 332 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
 typedef short unsigned int wchar_t;
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 39 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 2 3
-# 88 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 39 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 2 3
+# 88 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 extern int _argc;
 extern char** _argv;
 
@@ -4042,21 +4033,21 @@ extern char** _argv;
 extern int* __attribute__((__cdecl__)) __p___argc(void);
 extern char*** __attribute__((__cdecl__)) __p___argv(void);
 extern wchar_t*** __attribute__((__cdecl__)) __p___wargv(void);
-# 129 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 129 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
    extern __attribute__((dllimport)) int __mb_cur_max;
-# 154 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 154 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
  int* __attribute__((__cdecl__)) _errno(void);
 
 
  int* __attribute__((__cdecl__)) __doserrno(void);
-# 166 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 166 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
   extern char *** __attribute__((__cdecl__)) __p__environ(void);
   extern wchar_t *** __attribute__((__cdecl__)) __p__wenviron(void);
-# 189 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 189 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
   extern __attribute__((dllimport)) int _sys_nerr;
-# 213 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 213 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 extern __attribute__((dllimport)) char* _sys_errlist[];
-# 226 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 226 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 extern unsigned __attribute__((__cdecl__)) int* __p__osver(void);
 extern unsigned __attribute__((__cdecl__)) int* __p__winver(void);
 extern unsigned __attribute__((__cdecl__)) int* __p__winmajor(void);
@@ -4072,13 +4063,13 @@ extern __attribute__((dllimport)) unsigned int _osver;
 extern __attribute__((dllimport)) unsigned int _winver;
 extern __attribute__((dllimport)) unsigned int _winmajor;
 extern __attribute__((dllimport)) unsigned int _winminor;
-# 277 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 277 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
  char** __attribute__((__cdecl__)) __p__pgmptr(void);
 
  wchar_t** __attribute__((__cdecl__)) __p__wpgmptr(void);
-# 310 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 310 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 extern __attribute__((dllimport)) int _fmode;
-# 326 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 326 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
  double __attribute__((__cdecl__)) atof (const char*);
  int __attribute__((__cdecl__)) atoi (const char*);
  long __attribute__((__cdecl__)) atol (const char*);
@@ -4142,7 +4133,7 @@ int __attribute__((__cdecl__)) atexit (void (*)(void));
 
  int __attribute__((__cdecl__)) abs (int);
  long __attribute__((__cdecl__)) labs (long);
-# 398 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 398 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 typedef struct { int quot, rem; } div_t;
 typedef struct { long quot, rem; } ldiv_t;
 
@@ -4218,7 +4209,7 @@ _onexit_t __attribute__((__cdecl__)) _onexit( _onexit_t );
  char* __attribute__((__cdecl__)) ecvt (double, int, int*, int*);
  char* __attribute__((__cdecl__)) fcvt (double, int, int*, int*);
  char* __attribute__((__cdecl__)) gcvt (double, int, char*);
-# 483 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
+# 483 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdlib.h" 3
 void __attribute__((__cdecl__)) _Exit(int) __attribute__ ((noreturn));
 
 extern __inline__ void __attribute__((__cdecl__)) _Exit(int status)
@@ -4259,15 +4250,15 @@ extern __inline__ wchar_t* __attribute__((__cdecl__)) lltow (long long _n, wchar
 extern __inline__ wchar_t* __attribute__((__cdecl__)) ulltow (unsigned long long _n, wchar_t * _w, int _i)
         { return _ui64tow (_n, _w, _i); }
 # 108 "../../mmi/inc/stdafx.h" 2
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/malloc.h" 1 3
-# 45 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/malloc.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/malloc.h" 1 3
+# 45 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/malloc.h" 3
 typedef struct _heapinfo
 {
         int* _pentry;
         size_t _size;
         int _useflag;
 } _HEAPINFO;
-# 63 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/malloc.h" 3
+# 63 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/malloc.h" 3
  int __attribute__((__cdecl__)) _heapwalk (_HEAPINFO*);
 
 
@@ -4289,25 +4280,25 @@ typedef struct _heapinfo
  int __attribute__((__cdecl__)) _set_sbh_threshold (size_t);
  void* __attribute__((__cdecl__)) _expand (void*, size_t);
 # 109 "../../mmi/inc/stdafx.h" 2
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/memory.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/memory.h" 1 3
 
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 1 3
-# 40 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 1 3
+# 40 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 41 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 2 3
-# 52 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 41 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 2 3
+# 52 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
  void* __attribute__((__cdecl__)) memchr (const void*, int, size_t);
  int __attribute__((__cdecl__)) memcmp (const void*, const void*, size_t);
  void* __attribute__((__cdecl__)) memcpy (void*, const void*, size_t);
@@ -4378,7 +4369,7 @@ typedef struct _heapinfo
  wchar_t* __attribute__((__cdecl__)) wcsstr(const wchar_t*, const wchar_t*);
  wchar_t* __attribute__((__cdecl__)) wcstok(wchar_t*, const wchar_t*);
  size_t __attribute__((__cdecl__)) wcsxfrm(wchar_t*, const wchar_t*, size_t);
-# 131 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
+# 131 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
  wchar_t* __attribute__((__cdecl__)) _wcsdup (const wchar_t*);
  int __attribute__((__cdecl__)) _wcsicmp (const wchar_t*, const wchar_t*);
  int __attribute__((__cdecl__)) _wcsicoll (const wchar_t*, const wchar_t*);
@@ -4392,7 +4383,7 @@ typedef struct _heapinfo
 
  int __attribute__((__cdecl__)) _wcsncoll(const wchar_t*, const wchar_t*, size_t);
  int __attribute__((__cdecl__)) _wcsnicoll(const wchar_t*, const wchar_t*, size_t);
-# 159 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
+# 159 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/string.h" 3
  void* __attribute__((__cdecl__)) memccpy (void*, const void*, int, size_t);
  int __attribute__((__cdecl__)) memicmp (const void*, const void*, size_t);
  char* __attribute__((__cdecl__)) strdup (const char*);
@@ -4428,39 +4419,39 @@ wcscmpi (const wchar_t * __ws1, const wchar_t * __ws2)
  wchar_t* __attribute__((__cdecl__)) wcsrev (wchar_t*);
  wchar_t* __attribute__((__cdecl__)) wcsset (wchar_t*, wchar_t);
  wchar_t* __attribute__((__cdecl__)) wcsupr (wchar_t*);
-# 8 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/memory.h" 2 3
+# 8 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/memory.h" 2 3
 # 110 "../../mmi/inc/stdafx.h" 2
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/tchar.h" 1 3
-# 233 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/tchar.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/tchar.h" 1 3
+# 233 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/tchar.h" 3
 typedef char TCHAR;
 typedef char _TCHAR;
 # 111 "../../mmi/inc/stdafx.h" 2
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 1 3
-# 42 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 1 3
+# 42 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 1 3
 
 
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
-# 361 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 1 3 4
+# 361 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stddef.h" 3 4
 typedef short unsigned int wint_t;
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
-# 43 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 2 3
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stddef.h" 2 3
+# 43 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 2 3
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 1 3
-
-
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 1 3
 
 
 
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 1 3 4
-# 44 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 3 4
+
+
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 1 3 4
+# 44 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/lib/gcc-lib/mingw32/3.3.1/include/stdarg.h" 3 4
 typedef __builtin_va_list __gnuc_va_list;
-# 7 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 2 3
-# 45 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 2 3
-# 151 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 7 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdarg.h" 2 3
+# 45 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 2 3
+# 151 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
 typedef struct _iobuf
 {
         char* _ptr;
@@ -4472,9 +4463,9 @@ typedef struct _iobuf
         int _bufsiz;
         char* _tmpfname;
 } FILE;
-# 176 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 176 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
 extern __attribute__((dllimport)) FILE _iob[];
-# 191 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 191 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
  FILE* __attribute__((__cdecl__)) fopen (const char*, const char*);
  FILE* __attribute__((__cdecl__)) freopen (const char*, const char*, FILE*);
  int __attribute__((__cdecl__)) fflush (FILE*);
@@ -4575,7 +4566,7 @@ extern __inline__ int __attribute__((__cdecl__)) putchar(int __c)
   return (--(&_iob[1])->_cnt >= 0)
     ? (int)(*(&_iob[1])->_ptr++ = (char)__c)
     : _flsbuf (__c, (&_iob[1]));}
-# 305 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 305 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
  size_t __attribute__((__cdecl__)) fread (void*, size_t, size_t, FILE*);
  size_t __attribute__((__cdecl__)) fwrite (const void*, size_t, size_t, FILE*);
 
@@ -4586,7 +4577,7 @@ extern __inline__ int __attribute__((__cdecl__)) putchar(int __c)
  int __attribute__((__cdecl__)) fseek (FILE*, long, int);
  long __attribute__((__cdecl__)) ftell (FILE*);
  void __attribute__((__cdecl__)) rewind (FILE*);
-# 338 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 338 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
 typedef long long fpos_t;
 
 
@@ -4638,7 +4629,7 @@ typedef long long fpos_t;
  int __attribute__((__cdecl__)) fputchar (int);
  FILE* __attribute__((__cdecl__)) fdopen (int, const char*);
  int __attribute__((__cdecl__)) fileno (FILE*);
-# 400 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 400 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
  int __attribute__((__cdecl__)) fwprintf (FILE*, const wchar_t*, ...);
  int __attribute__((__cdecl__)) wprintf (const wchar_t*, ...);
  int __attribute__((__cdecl__)) swprintf (wchar_t*, const wchar_t*, ...);
@@ -4685,7 +4676,7 @@ int __attribute__((__cdecl__)) vfwscanf (FILE * __restrict__,
                        const wchar_t * __restrict__, __gnuc_va_list);
 int __attribute__((__cdecl__)) vswscanf (const wchar_t * __restrict__,
                        const wchar_t * __restrict__, __gnuc_va_list);
-# 454 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
+# 454 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/stdio.h" 3
  FILE* __attribute__((__cdecl__)) wpopen (const wchar_t*, const wchar_t*);
 
 
@@ -4708,9 +4699,9 @@ int __attribute__((__cdecl__)) vswscanf (const wchar_t * __restrict__,
 
 # 1 "inc/ResgenDataType.h" 1
 # 78 "inc/ResgenDataType.h"
-# 1 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/basetsd.h" 1 3
-# 5 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/basetsd.h" 3
-# 50 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/basetsd.h" 3
+# 1 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/basetsd.h" 1 3
+# 5 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/basetsd.h" 3
+# 50 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/basetsd.h" 3
 typedef int LONG32, *PLONG32;
 
 typedef int INT32, *PINT32;
@@ -4718,7 +4709,7 @@ typedef int INT32, *PINT32;
 typedef unsigned int ULONG32, *PULONG32;
 typedef unsigned int DWORD32, *PDWORD32;
 typedef unsigned int UINT32, *PUINT32;
-# 97 "d:/MTK/MTK2503/MTK2503/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/basetsd.h" 3
+# 97 "d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/include/basetsd.h" 3
 typedef int INT_PTR, *PINT_PTR;
 typedef unsigned int UINT_PTR, *PUINT_PTR;
 typedef long LONG_PTR, *PLONG_PTR;

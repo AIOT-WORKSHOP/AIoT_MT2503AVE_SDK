@@ -1,0 +1,13 @@
+hal\video\demuxer\mp4_parser\src\mp4_parser.c
+hal\video\demuxer\mp4_parser\src\mp4_parser_audio.c
+hal\video\demuxer\mp4_parser\src\mp4_parser_stbl.c
+hal\video\demuxer\mp4_parser\src\mp4_parser_udat.c
+hal\video\demuxer\mp4_parser\src\mp4_parser_video.c
+hal\video\demuxer\provider\src\avi_provider.c
+hal\video\demuxer\provider\src\flv_parser.c
+hal\video\demuxer\provider\src\flv_provider.c
+hal\video\demuxer\provider\src\mkv_parser.c
+hal\video\demuxer\provider\src\mkv_provider.c
+hal\video\demuxer\provider\src\provider_utility.c
+hal\video\demuxer\provider\src\source_provider_component.c
+hal\video\demuxer\provider\src\source_provider_isolation.c

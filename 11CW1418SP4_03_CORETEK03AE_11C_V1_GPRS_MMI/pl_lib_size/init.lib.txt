@@ -1,6 +1,6 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
          0          0          0          0          0   code_decompression.obj
-        16          0          0          0        888   l6478e.obj
-        16          0          0          0        888   TOTAL
+        16          0          0          0        948   l6478e.obj
+        16          0          0          0        948   TOTAL
 

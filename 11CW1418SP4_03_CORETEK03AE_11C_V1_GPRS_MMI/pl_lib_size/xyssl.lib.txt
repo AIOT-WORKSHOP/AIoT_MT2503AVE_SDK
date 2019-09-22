@@ -22,6 +22,6 @@
       5312          0          0          0        572   xyssl_ssl_srv.obj
      11492          0         24          0       2496   xyssl_ssl_tls.obj
          0          0          0          0          0   xyssl_timing.obj
-      6184          0          0       1024       1644   xyssl_x509parse.obj
-     69154       4000      10403       9900      13792   TOTAL
+      6660          0          0       1024       1712   xyssl_x509parse.obj
+     69630       4000      10403       9900      13860   TOTAL
 

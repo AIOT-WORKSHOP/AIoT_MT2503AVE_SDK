@@ -1,16 +1,16 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      3720          0          0          0       1212   ciss_app_req_proc.obj
+      4426          0          0          0       1236   ciss_app_req_proc.obj
          0          0          0        533          0   ciss_context.obj
         84         20          0          0        116   ciss_create.obj
-      1768          0          0          0        288   ciss_dataind_proc.obj
-        24          0          0          0         60   ciss_deinit.obj
-      2570          0          0          0       1044   ciss_facility_proc.obj
+      1936          0          0          0        288   ciss_dataind_proc.obj
+        40          0          0          0         60   ciss_deinit.obj
+      3008          0          0          0       1076   ciss_facility_proc.obj
        216          0          0          0        184   ciss_init.obj
-       208          0          0          0         60   ciss_main.obj
-       356          0          0          0        460   ciss_protocol_ie_err_hdlr.obj
+       284          0          0          0         64   ciss_main.obj
+       484          0          0          0        504   ciss_protocol_ie_err_hdlr.obj
          0          0          0          0          0   ciss_reset.obj
-       296          0          0          0        308   ciss_timer.obj
-      1078          0          0          0        724   ciss_utility.obj
-     10320         20          0        533       4456   TOTAL
+       428          0          0          0        316   ciss_timer.obj
+      1292          0          0          0        768   ciss_utility.obj
+     12198         20          0        533       4612   TOTAL
 

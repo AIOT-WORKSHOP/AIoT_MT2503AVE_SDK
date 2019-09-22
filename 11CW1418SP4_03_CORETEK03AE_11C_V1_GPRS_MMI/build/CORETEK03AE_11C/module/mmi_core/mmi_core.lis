@@ -1,0 +1,3 @@
+mmi_core\app\SupplementaryService\SsCore.c
+mmi_core\app\SupplementaryService\SsUtil.c
+mmi_core\base\utility\dummy.c

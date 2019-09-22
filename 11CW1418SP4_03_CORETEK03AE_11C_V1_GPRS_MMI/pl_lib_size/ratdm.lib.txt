@@ -1,12 +1,12 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
        136         20          0        192        180   ratdm_create.obj
-       236          0          0          0        236   ratdm_extern_func.obj
-      1336          0          0          0       1112   ratdm_gsm_handlers.obj
+       260          0          0          0        244   ratdm_extern_func.obj
+      1446          0          0          0       1124   ratdm_gsm_handlers.obj
        272          0          0          0         60   ratdm_main.obj
-       644          0          0          0        380   ratdm_npdu_process.obj
-      1828          0          0          0       1356   ratdm_signalling.obj
-       976          0          0          0        564   ratdm_tcm_data_plane.obj
-       352          0          0          0        608   ratdm_utils.obj
-      5780         20          0        192       4496   TOTAL
+      1082          0          0          0        412   ratdm_npdu_process.obj
+      2000          0          0          0       1356   ratdm_signalling.obj
+      1124          0          0          0        564   ratdm_tcm_data_plane.obj
+       720          0          0          0        692   ratdm_utils.obj
+      7040         20          0        192       4632   TOTAL
 

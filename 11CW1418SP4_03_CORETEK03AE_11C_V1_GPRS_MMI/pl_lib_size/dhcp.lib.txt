@@ -1,12 +1,12 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-        88          0         20          0        168   dhcp_create.obj
+       112          0         20          0        172   dhcp_create.obj
        104          0          8       1408         60   dhcp_init.obj
-       448          0          0          2         80   dhcp_main.obj
-       948          4          0          0        456   dhcp_pack.obj
-      4490          0         36          0        688   dhcp_states.obj
-       280          0          0          0        304   dhcp_timer.obj
-      1252          0          0       1124        480   dhcp_unpack.obj
-      3434          0          0          0       1696   dhcp_utils.obj
-     11044          4         64       2534       3932   TOTAL
+       688          0          0          2         80   dhcp_main.obj
+      1000          4          0          0        456   dhcp_pack.obj
+      6666          0         36          0        760   dhcp_states.obj
+       640          0          0          0        316   dhcp_timer.obj
+      1920          0          0       1124        476   dhcp_unpack.obj
+      5346          0          0          0       1868   dhcp_utils.obj
+     16476          4         64       2534       4188   TOTAL
 

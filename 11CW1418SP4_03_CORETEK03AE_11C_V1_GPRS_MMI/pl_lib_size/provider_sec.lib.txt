@@ -2,6 +2,6 @@
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
        284          0          0          0        248   mot_utility.obj
          0          0          0          0          0   rm_provider.obj
-     11122         20          0         16       2604   video_kmv_v2.obj
-     11406         20          0         16       2852   TOTAL
+     11154         20          0         16       2604   video_kmv_v2.obj
+     11438         20          0         16       2852   TOTAL
 
