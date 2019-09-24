@@ -4,12 +4,10 @@ xcopy /y plutommi\..\Plutommi\Framework\GUI\GUI_Res\*.res %1\plutommi\..\Plutomm
 xcopy /y plutommi\..\Plutommi\Framework\GUI\GUI_Res\*.txt %1\plutommi\..\Plutommi\Framework\GUI\GUI_Res\
 xcopy /y plutommi\..\Plutommi\MMI\Resource\Res\*.res %1\plutommi\..\Plutommi\MMI\Resource\Res\
 xcopy /y plutommi\..\Plutommi\MMI\Resource\Res\*.txt %1\plutommi\..\Plutommi\MMI\Resource\Res\
-xcopy /y plutommi\..\adups\res\*.res %1\plutommi\..\adups\res\
-xcopy /y plutommi\..\adups\res\*.txt %1\plutommi\..\adups\res\
+xcopy /y plutommi\..\aiot_workshop\aiot_workshop_res\*.res %1\plutommi\..\aiot_workshop\aiot_workshop_res\
+xcopy /y plutommi\..\aiot_workshop\aiot_workshop_res\*.txt %1\plutommi\..\aiot_workshop\aiot_workshop_res\
 xcopy /y plutommi\..\custom\common\CharsetRes\*.res %1\plutommi\..\custom\common\CharsetRes\
 xcopy /y plutommi\..\custom\common\CharsetRes\*.txt %1\plutommi\..\custom\common\CharsetRes\
-xcopy /y plutommi\..\iotlock\res\*.res %1\plutommi\..\iotlock\res\
-xcopy /y plutommi\..\iotlock\res\*.txt %1\plutommi\..\iotlock\res\
 xcopy /y plutommi\..\mre\res\*.res %1\plutommi\..\mre\res\
 xcopy /y plutommi\..\mre\res\*.txt %1\plutommi\..\mre\res\
 xcopy /y plutommi\..\plutommi\Framework\InputMethod\res\*.res %1\plutommi\..\plutommi\Framework\InputMethod\res\

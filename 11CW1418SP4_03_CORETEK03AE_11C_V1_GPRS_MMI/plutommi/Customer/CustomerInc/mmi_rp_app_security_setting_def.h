@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_SECSET_MAIN_MENU = 31331 + 1, /* BASE_ID + 1 */
+    MENU_ID_SECSET_MAIN_MENU = 31280 + 1, /* BASE_ID + 1 */
     MENU_ID_SECSET_SIM1_MENU,
     MENU_ID_SECSET_PHONE_SETTING,
     MENU_ID_SECSET_SIM1_ENTRY,
@@ -79,7 +79,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_SECSET_APP_NAME = 31331 + 1, /* BASE_ID + 1 */
+    STR_ID_SECSET_APP_NAME = 31280 + 1, /* BASE_ID + 1 */
     STR_ID_SECSET_CHANGE_PASSWORD,
     STR_ID_SECSET_PHONE_LOCK,
     STR_ID_SECSET_LOCKED,
@@ -113,7 +113,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_SECSET = 31331 + 1, /* BASE_ID + 1 */
+    GRP_ID_SECSET = 31280 + 1, /* BASE_ID + 1 */
     GRP_ID_SECSET_VERIFICATION,
     GRP_ID_SECSET_SSC,
     GRP_ID_SECSET_SHORTCUT,
@@ -128,7 +128,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_SECSET_MENU_ENTRY = 31331 + 1, /* BASE_ID + 1 */
+    IMG_SECSET_MENU_ENTRY = 31280 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_SECURITY_SETTING_IMG_MAX
 }mmi_rp_app_security_setting_img_enum;
 /******************** Image resource IDs - finish ********************/

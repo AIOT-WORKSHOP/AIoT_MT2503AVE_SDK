@@ -1,0 +1,5 @@
+
+      Code    RO Data    RW Data    ZI Data      Debug   Object Name
+       124          0          0          2        118   aws.obj
+       124          0          0          2        118   TOTAL
+

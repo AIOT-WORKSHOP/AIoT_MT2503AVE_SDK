@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    ORGANIZER_WORLDCLOCK_MENU = 33607 + 1, /* BASE_ID + 1 */
+    ORGANIZER_WORLDCLOCK_MENU = 33556 + 1, /* BASE_ID + 1 */
     MITEM_WORLDCLOCK_BROWSECITY,
     MENU_ID_WC_DST_OPT,
     MENU_ID_WC_DST_SETTING,
@@ -77,7 +77,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_WCLOCK_CITY_NONE = 33607 + 1, /* BASE_ID + 1 */
+    STR_WCLOCK_CITY_NONE = 33556 + 1, /* BASE_ID + 1 */
     STR_WCLOCK_CITY1,
     STR_WCLOCK_CITY2,
     STR_WCLOCK_CITY3,
@@ -247,7 +247,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_WC = 33607 + 1, /* BASE_ID + 1 */
+    GRP_ID_WC = 33556 + 1, /* BASE_ID + 1 */
     GRP_ID_WC_SUB_LCD,
     GRP_ID_WC_SELECT,
     GRP_ID_WC_DST,
@@ -266,7 +266,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    CURRENT_CITY = 33607 + 1, /* BASE_ID + 1 */                 /*         BYTE */ 
+    CURRENT_CITY = 33556 + 1, /* BASE_ID + 1 */                 /*         BYTE */ 
     FOREIGN_CITY,                                               /*         BYTE */ 
     NVRAM_SETTING_DT_DST,                                       /*         BYTE */ 
     NVRAM_TIMEZONE,                                             /*        SHORT */ 
@@ -282,7 +282,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    SUN_ICON2 = 33607 + 1, /* BASE_ID + 1 */
+    SUN_ICON2 = 33556 + 1, /* BASE_ID + 1 */
     MOON_ICON,
     WORLD_CLOCK_IMAGE1,
     WORLD_CLOCK_IMAGE2,

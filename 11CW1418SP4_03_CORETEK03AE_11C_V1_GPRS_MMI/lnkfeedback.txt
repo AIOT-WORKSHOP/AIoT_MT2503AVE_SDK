@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, RVCT3.1 [Build 569]: Last Updated: Sun Sep 22 14:04:48 2019
+;#<FEEDBACK># ARM Linker, RVCT3.1 [Build 569]: Last Updated: Tue Sep 24 17:06:32 2019
 ;VERSION 0.2
 ;FILE ADIE_Eint.obj
 ADIE_EINT_Get_Mask <= USED 0
@@ -85,7 +85,6 @@ srv_appmgr_query_instance_num <= USED 0
 srv_appmgr_query_instance_single_id <= USED 0
 srv_appmgr_send_evt <= USED 0
 srv_appmgr_uninstall_app <= USED 0
-;FILE Atatest.obj
 ;FILE AudComUtil.obj
 ACU_BsQToBuffer <= USED 0
 ACU_FileOpenForRead <= USED 0
@@ -125,16 +124,6 @@ srv_ble_cm_set_visibility <= USED 0
 BTLB_SetDigitalGain <= USED 0
 BT_PcmLoopbackTestStop <= USED 0
 ;FILE BesSound_Control.o
-;FILE Bkss.obj
-bike_switch_bt_power_off_handle <= USED 0
-bike_switch_bt_power_on_handle <= USED 0
-bkss_dump_buffer <= USED 0
-bkss_get_battery_percentage <= USED 0
-bkss_get_vib_status <= USED 0
-;FILE BkssSrv.obj
-bkss_send_data <= USED 0
-reset_bkss_seq <= USED 0
-unpack_push_recv <= USED 0
 ;FILE BootupAdp.obj
 ;FILE BootupAnimation.obj
 mmi_bootup_ani_is_playing <= USED 0
@@ -800,6 +789,7 @@ srv_gattc_write_descriptor <= USED 0
 srv_gatts_add_included_service <= USED 0
 srv_gatts_connect <= USED 0
 srv_gatts_read_tx_power <= USED 0
+srv_gatts_set_adv_data <= USED 0
 srv_gatts_stop_service <= USED 0
 ;FILE GeneralSettingSrv.obj
 srv_setting_get_encoding_type <= USED 0
@@ -816,9 +806,6 @@ srv_led_pattern_get_bg_pattern <= USED 0
 srv_led_pattern_set_flag <= USED 0
 srv_pattern_play_req <= USED 0
 ;FILE Gsm7BitNationalLang.obj
-;FILE HMD5.obj
-adups_hmd5_calc <= USED 0
-hmd5_test <= USED 0
 ;FILE IdleClassic.obj
 ;FILE IdleCommon.obj
 mmi_idle_disable_lock_by_end_key <= USED 0
@@ -956,6 +943,7 @@ mmi_imc_key_smart_phonetic_get_composition <= USED 0
 mmi_imc_key_stroke_get_candidate <= USED 0
 mmi_immc_config_softkeys_changeable <= USED 0
 ;FILE ImeiSrv.obj
+srv_imei_get_imei <= USED 0
 srv_imei_same_config_on_any_pair <= USED 0
 ;FILE ImgViewUtil.obj
 mmi_imgview_adjust_resize_size <= USED 0
@@ -1399,6 +1387,7 @@ srv_mode_switch_enable_query_mode <= USED 0
 srv_mode_switch_get_switch_type <= USED 0
 srv_mode_switch_set_at_cfun_flag <= USED 0
 srv_mode_switch_switch_network_mode_ext <= USED 0
+srv_mode_switch_switch_rf_mode <= USED 0
 ;FILE MotionSensorSrc.obj
 ;FILE NAND_MTD.obj
 free_NFI_bus <= USED 0
@@ -1763,7 +1752,6 @@ mmi_frm_proc_init <= USED 0
 mmi_prof_get_profile_name <= USED 0
 mmi_prof_get_profiles_enum_list_for_shell <= USED 0
 ;FILE ProfilesSrvMain.obj
-bkss_get_volume_test <= USED 0
 srv_prof_bt_connected_hdlr <= USED 0
 srv_prof_bt_disconnected_hdlr <= USED 0
 srv_prof_get_audio_id_from_audio_resourece <= USED 0
@@ -1989,7 +1977,7 @@ srv_sensor_pxs_turn_on <= USED 0
 ;FILE ShutdownAni.obj
 ;FILE ShutdownFlow.obj
 ;FILE ShutdownSrv.obj
-srv_reboot_direct_pwron_req <= USED 0
+srv_reboot_normal_start <= USED 0
 ;FILE ShutdownSubLcd.obj
 ;FILE SimAccessSrv.obj
 srv_sim_write_binary <= USED 0
@@ -2403,40 +2391,6 @@ usleep <= USED 0
 adc_measureVoltage <= USED 0
 ;FILE adcsche.obj
 adc_ready_to_sample <= USED 0
-;FILE adups_debug.obj
-;FILE adups_device.obj
-AdupsDownData <= USED 0
-AdupsGetFotaState <= USED 0
-AdupsGetUpState <= USED 0
-adups_em_mode <= USED 0
-adups_get_device_data_point1 <= USED 0
-adups_get_device_gps_model <= USED 0
-adups_get_device_network_type <= USED 0
-adups_get_gps_version <= USED 0
-;FILE adups_display.obj
-ADUPS_Entry_Progress_Scr <= USED 0
-ADUPS_get_download_percent <= USED 0
-;FILE adups_file.obj
-;FILE adups_flash.obj
-;FILE adups_md5.obj
-;FILE adups_net.obj
-adups_get_rcvd_block_size <= USED 0
-;FILE adups_stdlib.obj
-adups_memcmp <= USED 0
-adups_strchr <= USED 0
-;FILE adups_thread.obj
-adups_task_free_msg <= USED 0
-;FILE adups_timer.obj
-adups_timer_handler <= USED 0
-;FILE adupsfota.obj
-ADUPS_file_size <= USED 0
-ADUPS_recvd_size <= USED 0
-adups_fota_running <= USED 0
-adups_get_Dl_filesize <= USED 0
-adups_get_fota_state <= USED 0
-;FILE aes.obj
-AES128_CBC_decrypt_buffer <= USED 0
-AES128_CBC_encrypt_buffer <= USED 0
 ;FILE aes_engine.obj
 CHE_AES_UNWRAP <= USED 0
 CHE_AES_WRAP <= USED 0
@@ -2448,8 +2402,6 @@ CHE_AES_setup_enc_key <= USED 0
 CHE_AES_unit_decrypt <= USED 0
 CHE_AES_unit_encrypt <= USED 0
 CHE_AES_block_decrypt <= USED 0
-;FILE aes_tiny.obj
-iotlock_AES128_ECB_encrypt <= USED 0
 ;FILE afe.obj
 AFE_Initialize <= USED 0
 ;FILE afe_6261.obj
@@ -2590,7 +2542,9 @@ applib_dt_mytime_2_utc_sec_ext <= USED 0
 applib_dt_rfc1123_rfc850_asctime_dateString2Time <= USED 0
 applib_dt_time2rfc1123dateString <= USED 0
 applib_dt_utc_sec_2_mytime_ext <= USED 0
+applib_find_max_time <= USED 0
 applib_get_time_difference_ext <= USED 0
+applib_get_time_difference_ext_in_second <= USED 0
 ;FILE app_md5.obj
 applib_md5_file_update <= USED 0
 ;FILE app_mem.obj
@@ -2726,6 +2680,7 @@ _mutex_acquire <= USED 0
 _mutex_initialize <= USED 0
 _mutex_release <= USED 0
 $Sub$$_rand_init <= USED 0
+$Sub$$_sys_exit <= USED 0
 clock <= USED 0
 getenv <= USED 0
 $Sub$$setlocale <= USED 0
@@ -3063,8 +3018,7 @@ AUDLP_Check_ClkSwitch26M_Flag <= USED 0
 AUDLP_SetDSPBufferThreshold_Short <= USED 0
 AUDLP_Set_ClkSwitch26M_Flag <= USED 0
 AUDLP_Time_Expire_function <= USED 0
-;FILE base64.obj
-iotlock_base64_encode <= USED 0
+;FILE aws.obj
 ;FILE besloud_control.o
 ;FILE besloud_gainadjust.o
 ;FILE besloud_main.o
@@ -3129,11 +3083,6 @@ byte_stream_bit_copy <= USED 0
 ;FILE ble_utils.obj
 BLE_QueryServiceDefinitionByUuid <= USED 0
 BLE_StopQueryServiceDefinition <= USED 0
-;FILE ble_wechat_util.obj
-get_handler_by_type <= USED 0
-ntohs <= USED 0
-t_htonl <= USED 0
-t_ntohl <= USED 0
 ;FILE bleservice_db.obj
 BleServiceDbGetRecord <= USED 0
 BleServiceDbLoadRecord <= USED 0
@@ -3230,8 +3179,12 @@ bma250_set_cal_trigger <= USED 0
 bma250_set_ee_prog_trig <= USED 0
 bma250_set_ee_w <= USED 0
 bma250_set_enable_data_interrupt <= USED 0
+bma250_set_enable_high_g_interrupt <= USED 0
 bma250_set_enable_low_g_interrupt <= USED 0
 bma250_set_flat_hold_time <= USED 0
+bma250_set_high_g_duration <= USED 0
+bma250_set_high_g_threshold <= USED 0
+bma250_set_high_hy <= USED 0
 bma250_set_hp_en <= USED 0
 bma250_set_i2c_wdt_en <= USED 0
 bma250_set_i2c_wdt_timer <= USED 0
@@ -3286,9 +3239,12 @@ bmt_sendMes2BMT <= USED 0
 ;FILE bmt_utility.obj
 BMT_Query_L1SM_Handle <= USED 0
 bmt_CHR_Is_Charge_Full <= USED 0
+bmt_get_avg_adc_channel_voltage <= USED 0
 bmt_is_bat_on_pw <= USED 0
 ;FILE bq25601.obj
+bq25601_charger_en <= USED 0
 bq25601_read_chip_id <= USED 0
+iot_bat_charger_en <= USED 0
 ;FILE br_GFH_file_info.obj
 ;FILE br_GFH_parser.obj
 GFH_FindEx <= USED 0
@@ -3696,35 +3652,6 @@ che_sw_rsa_public_key_cipher <= USED 0
 ;FILE ciss_protocol_ie_err_hdlr.obj
 ;FILE ciss_timer.obj
 ;FILE ciss_utility.obj
-;FILE cjson.obj
-adups_json_get_value <= USED 0
-cJSON_AddItemReferenceToArray <= USED 0
-cJSON_AddItemReferenceToObject <= USED 0
-cJSON_CreateArray <= USED 0
-cJSON_CreateBool <= USED 0
-cJSON_CreateDoubleArray <= USED 0
-cJSON_CreateFalse <= USED 0
-cJSON_CreateFloatArray <= USED 0
-cJSON_CreateIntArray <= USED 0
-cJSON_CreateNull <= USED 0
-cJSON_CreateStringArray <= USED 0
-cJSON_CreateTrue <= USED 0
-cJSON_DeleteItemFromArray <= USED 0
-cJSON_DeleteItemFromObject <= USED 0
-cJSON_DetachItemFromArray <= USED 0
-cJSON_DetachItemFromObject <= USED 0
-cJSON_Duplicate <= USED 0
-cJSON_GetArrayItem <= USED 0
-cJSON_GetArraySize <= USED 0
-cJSON_GetErrorPtr <= USED 0
-cJSON_GetObjectItem <= USED 0
-cJSON_Minify <= USED 0
-cJSON_Parse <= USED 0
-cJSON_ParseWithOpts <= USED 0
-cJSON_PrintUnformatted <= USED 0
-cJSON_ReplaceItemInArray <= USED 0
-cJSON_ReplaceItemInObject <= USED 0
-;FILE cjsonint.obj
 ;FILE color_api.obj
 colorGetCustomEnable <= USED 0
 colorSetCustomContrastTableIndex <= USED 0
@@ -3737,7 +3664,6 @@ NOR_Get_FlashSizeFromBankInfo <= USED 0
 NOR_Construct_DualRegionInfo <= USED 0
 CMEM_Init_FullDriver <= USED 0
 CMEM_NOR_AddBankInfo <= USED 0
-audps_boot_init_raw_disk <= USED 0
 ;FILE commonscreens.obj
 CancelInlineFullScreenEdit <= USED 0
 ChangeCascadingMenuByDataIcon <= USED 0
@@ -4513,38 +4439,6 @@ ems_decode_dcs <= USED 0
 ;FILE ems_txt_proc.obj
 ;FILE ems_utils.obj
 GetOctetNumFromCharNum <= USED 0
-;FILE epb.obj
-epb_fixed32_pack_size <= USED 0
-epb_get_bool <= USED 0
-epb_get_enum <= USED 0
-epb_get_fixed32 <= USED 0
-epb_get_float <= USED 0
-epb_get_int32 <= USED 0
-epb_get_sfixed32 <= USED 0
-epb_get_sint32 <= USED 0
-epb_get_string <= USED 0
-epb_get_uint32 <= USED 0
-epb_set_bool <= USED 0
-epb_set_fixed32 <= USED 0
-epb_set_float <= USED 0
-epb_set_sfixed32 <= USED 0
-epb_set_sint32 <= USED 0
-;FILE epb_MmBp.obj
-epb_base_request_pack_size <= USED 0
-epb_unpack_auth_response <= USED 0
-epb_unpack_auth_response_free <= USED 0
-epb_unpack_base_push <= USED 0
-epb_unpack_base_push_free <= USED 0
-epb_unpack_base_response <= USED 0
-epb_unpack_base_response_free <= USED 0
-epb_unpack_init_response <= USED 0
-epb_unpack_init_response_free <= USED 0
-epb_unpack_recv_data_push <= USED 0
-epb_unpack_recv_data_push_free <= USED 0
-epb_unpack_switch_backgroud_push <= USED 0
-epb_unpack_switch_backgroud_push_free <= USED 0
-epb_unpack_switch_view_push <= USED 0
-epb_unpack_switch_view_push_free <= USED 0
 ;FILE epo_xyssl.lib
 epodownload_ssl_deinit <= USED 0
 epodownload_ssl_deinit_cntx <= USED 0
@@ -4611,7 +4505,6 @@ app1ParserQueryTIFFHeader <= USED 0
 ;FILE ext_drv_assert_hdlr_if.obj
 ;FILE extra.obj
 ;FILE f32k_clk.obj
-;FILE fft.obj
 ;FILE filemgrcommon.obj
 mmi_fmgri_get_menu_link <= USED 0
 mmi_fmgri_prepare_forward_option <= USED 0
@@ -4701,9 +4594,6 @@ CFI_Query <= USED 0
 CFI_QueryAll <= USED 0
 CFI_QueryGeometry <= USED 0
 ;FILE flash_disk.obj
-Adups_erase_backup_region <= USED 0
-Adups_read_backup_region <= USED 0
-Adups_write_backup_region <= USED 0
 NOR_Addr2BlockIndexOffset <= USED 0
 NOR_BlockIndex <= USED 0
 NOR_BlockIndexOffset2Addr <= USED 0
@@ -4711,9 +4601,15 @@ NOR_BlockSize <= USED 0
 NOR_ReadPhysicalPage <= USED 0
 NOR_init <= USED 0
 create_FDM_lock <= USED 0
+eraseRawDiskBlock <= USED 0
+readRawDiskData <= USED 0
 release_FDM_lock <= USED 0
 retrieve_FDM_lock <= USED 0
+writeRawDiskData <= USED 0
 ;FILE flash_mtd.obj
+BlockSize <= USED 0
+BlockIndex <= USED 0
+waitNonBlockEraseDone <= USED 0
 ;FILE flash_mtd_sf_common.obj
 SFI_BlankCheck <= USED 0
 SFI_Dev_Command_List <= USED 0
@@ -4795,6 +4691,7 @@ FS_SetFileTable <= USED 0
 FS_SetTrace <= USED 0
 ;FILE fs_func_adv.obj
 FS_CheckDiskFlag <= USED 0
+FS_CheckFile <= USED 0
 FS_CloseAll <= USED 0
 FS_CloseMSDC <= USED 0
 FS_CommitAll <= USED 0
@@ -6429,8 +6326,6 @@ gui_layer_show_animation_file <= USED 0
 gui_layer_transparent <= USED 0
 gui_set_multilayer_mask <= USED 0
 ;FILE gv.obj
-;FILE ha.obj
-nel_heart_age <= USED 0
 ;FILE hci.obj
 HCI_ReadyToSendCommand <= USED 0
 HCI_Reset <= USED 0
@@ -6511,13 +6406,6 @@ mmi_set_orderly_exit_screen <= USED 0
 restore_small_screen <= USED 0
 set_active_history_node_id <= USED 0
 whether_no_small_screen <= USED 0
-;FILE hrv.obj
-;FILE http_parser.obj
-http_body_is_final <= USED 0
-http_method_str <= USED 0
-http_parser_pause <= USED 0
-http_parser_version <= USED 0
-;FILE htz.obj
 ;FILE i2c.obj
 CameraSccbPadEnable <= USED 0
 ;FILE i2c_drv.obj
@@ -6650,9 +6538,6 @@ idp_resz_crz_stop_real <= USED 0
 ;FILE idp_resz_mt6252.obj
 ;FILE if.obj
 bearer_to_tcpip_profile_id <= USED 0
-;FILE imath.obj
-nel_imean <= USED 0
-nel_ivariance <= USED 0
 ;FILE in.obj
 ;FILE in_pcb.obj
 soreserve <= USED 0
@@ -6701,8 +6586,6 @@ IOCE_Create_Driver <= USED 0
 IOCE_Delete_Driver <= USED 0
 IOCE_Request_Driver <= USED 0
 ;FILE ioi.obj
-;FILE iotlock.obj
-iot_open_lock_play_tone_callback <= USED 0
 ;FILE ip_icmp.obj
 router_solicit <= USED 0
 ;FILE ip_input.obj
@@ -7828,10 +7711,6 @@ custom_sync_lcm_eint_setting <= USED 0
 ;FILE lcm_proxy.obj
 get_lcd_frame_buffer_address <= USED 0
 ;FILE lic.obj
-;FILE linked_list.obj
-create_linked_list <= USED 0
-delete_one_node_by_key <= USED 0
-get_one_node_by_key <= USED 0
 ;FILE llc_abm.obj
 ;FILE llc_abm_sapi.obj
 llc_remove_abm_sapi <= USED 0
@@ -7853,34 +7732,6 @@ llc_remove_abm_sapi <= USED 0
 ;FILE llc_timer.obj
 ;FILE llc_unackmode.obj
 ;FILE llc_xid.obj
-;FILE lock_drv.obj
-ECG_data_handler3 <= USED 0
-aging_test_callback <= USED 0
-bike_break <= USED 0
-bike_slope_callback <= USED 0
-close_led1_ctrl <= USED 0
-close_led2_ctrl <= USED 0
-close_lock_test <= USED 0
-dump_uart_data <= USED 0
-feed_watchdog_stop <= USED 0
-iot_acc_sensor_get_xyz_test <= USED 0
-led_ctrl <= USED 0
-led_power_switch <= USED 0
-save_aging_test_result <= USED 0
-;FILE lock_gps.obj
-gps_callback_ext <= USED 0
-gps_open_ext <= USED 0
-gps_open_test <= USED 0
-;FILE lock_net.obj
-ecu_heartbeat_test <= USED 0
-;FILE lock_utils.obj
-check_device_id <= USED 0
-enter_low_energy_mode <= USED 0
-reset_fota_status <= USED 0
-save_order_num_info_to_nvram <= USED 0
-save_the_current_version <= USED 0
-sms_aes128_ecb_encrypt <= USED 0
-write_word_to_buffer_big_endian <= USED 0
 ;FILE lpwr.obj
 DRVPDN_Disable2 <= USED 0
 DRVPDN_Enable2 <= USED 0
@@ -8319,8 +8170,6 @@ drv_sec_init <= USED 0
 ssc_show_logo_screen <= USED 0
 ;FILE md4_engine.obj
 md4_hmac <= USED 0
-;FILE md5.obj
-rotate_left <= USED 0
 ;FILE md5_engine.obj
 ;FILE mdi_audio.obj
 mdi_audio_build_cache_get_cache_duration <= USED 0
@@ -8527,6 +8376,7 @@ med_check_disc_space <= USED 0
 med_crc_calculate <= USED 0
 med_debug_print_result <= USED 0
 med_error_to_result_enum <= USED 0
+med_free_ext_mem_ext <= USED 0
 med_free_temp_ext_mem_ext <= USED 0
 med_free_vid_mem_ext <= USED 0
 med_get_event <= USED 0
@@ -8657,8 +8507,6 @@ Media_A2V_Video_GetPlayTime <= USED 0
 Media_A2V_Video_GetPlayTime_S <= USED 0
 media_a2v_start_dsp <= USED 0
 media_a2v_stop_dsp <= USED 0
-;FILE median.obj
-quick_select_median <= USED 0
 ;FILE meeir.obj
 ;FILE meif.obj
 ME_CheckCreatingLink <= USED 0
@@ -8996,8 +8844,6 @@ vm_pmng_get_app_handle <= USED 0
 L4GetClockTime <= USED 0
 L4SetClock <= USED 0
 StartNonAlignTimer <= USED 0
-;FILE mood.obj
-nel_mood_init <= USED 0
 ;FILE motion_sensor.obj
 motion_sensor_write_cali_to_nvram <= USED 0
 motion_sensor_cali_cb_registration <= USED 0
@@ -9010,9 +8856,12 @@ motion_sensor_start_cali <= USED 0
 vsm_driver_set_tia_cf <= USED 0
 vsm_driver_set_tia_gain <= USED 0
 ;FILE motion_sensor_custom.obj
+Bma250_read_data_xyz <= USED 0
 Bma250_read_reg_data <= USED 0
 System_Delay_1ms <= USED 0
+acc_sensor_get_xyz <= USED 0
 acc_sensor_init <= USED 0
+acc_sensor_init_violent <= USED 0
 bosch_motion_sensor_eint_hisr <= USED 0
 ;FILE mp3dec_decoder_arm7rvct3.1.o
 MP3Dec_GetVersion <= USED 0
@@ -9058,19 +8907,6 @@ mmi_nitz_get_curr_nitz_string <= USED 0
 ;FILE nld_central_ctrl.obj
 ;FILE nli_arb.obj
 NLI_ARB_init <= USED 0
-;FILE noise.obj
-;FILE nsk_ecg_core.obj
-nsk_ecg_get_ecg_delayed <= USED 0
-nsk_ecg_get_hr_robust <= USED 0
-nsk_ecg_get_lib_signature <= USED 0
-nsk_ecg_get_lib_version_string <= USED 0
-nsk_ecg_get_sample_count <= USED 0
-nsk_ecg_get_state <= USED 0
-nsk_ecg_rescale_adc <= USED 0
-;FILE nsk_ecg_core_state.obj
-;FILE nsk_ecg_ext.obj
-nsk_ecg_compute_heart_age <= USED 0
-nsk_ecg_compute_respiratory_rate <= USED 0
 ;FILE nstd_alloc_bitmap_pun.obj
 alloc_struct_bits <= USED 0
 alloc_struct_pack <= USED 0
@@ -9432,7 +9268,6 @@ Backlight_Enable <= USED 0
 ;FILE populateres.obj
 PopulateResGetBaseIDTable <= USED 0
 ;FILE preferedinputmethodsetting.obj
-;FILE prep.obj
 ;FILE psi_msg_decode.obj
 ;FILE psi_si_utils.obj
 ;FILE pwic_cust.obj
@@ -9643,7 +9478,6 @@ has_full_recv_buffer <= USED 0
 lowater_additions <= USED 0
 total_recvbuffs <= USED 0
 ;FILE resample_main.o
-;FILE resampler.obj
 ;FILE resource_world_clock_city.obj
 ;FILE restore.obj
 mmi_get_current_restore_status <= USED 0
@@ -9713,7 +9547,6 @@ rgb_rotator_drv_start <= USED 0
 sw_rgb_rotator_query_working_memory <= USED 0
 sw_rgb_rotator_set_working_memory <= USED 0
 sw_rgb_rotator_start <= USED 0
-;FILE rhr.obj
 ;FILE rlc.obj
 ;FILE rlc_ctrl_msg_hdlr.obj
 ;FILE rlc_dl_ctrl_msg_hdlr.obj
@@ -9915,7 +9748,6 @@ rmpc_rmc_resume_genrl_procedures <= USED 0
 ;FILE rmpc_gprs_branch_funcs.obj
 ;FILE rmpc_nbr_cell.obj
 rmc_trigger_bsic_decoding_for_nbcch_reading <= USED 0
-;FILE rpeak.obj
 ;FILE rr_create.obj
 ;FILE rr_data_ind.obj
 rr_ctrl_msg_reassembler_reset <= USED 0
@@ -9985,7 +9817,6 @@ rrm_mpal_rr_set_rat_service_cnf_trns_hdlr <= USED 0
 che_rsa_free <= USED 0
 che_rsa_private <= USED 0
 che_rsa_public <= USED 0
-nel_rsa_compute <= USED 0
 rsa_check_privkey <= USED 0
 rsa_check_pubkey <= USED 0
 rsa_gen_key <= USED 0
@@ -10419,7 +10250,6 @@ l1sp_updateSpeUsrMask <= USED 0
 SPE_LoadDmnrCoeffs <= USED 0
 SPE_LoadWbDmnrCoeffs <= USED 0
 ;FILE spe_custom_drv.obj
-;FILE spectr.obj
 ;FILE spi.obj
 spi_activate <= USED 0
 spi_clear_fifo <= USED 0
@@ -10465,7 +10295,6 @@ spi_slave_write <= USED 0
 spi_slv_set_clock_format <= USED 0
 spi_slv_set_clock_polarity <= USED 0
 spi_slv_set_msb <= USED 0
-;FILE sq.obj
 ;FILE srctab_gen.o
 ;FILE sst_concurrent_utility.obj
 Set_Monitor_Master <= USED 0
@@ -10502,7 +10331,6 @@ stack_time_out_messages_in_queue <= USED 0
 stack_create_timer <= USED 0
 ;FILE stack_utils.obj
 ;FILE staut_pgen.obj
-;FILE stress.obj
 ;FILE string.obj
 ;FILE sublcdhistory.obj
 AddSubLCDHistory <= USED 0

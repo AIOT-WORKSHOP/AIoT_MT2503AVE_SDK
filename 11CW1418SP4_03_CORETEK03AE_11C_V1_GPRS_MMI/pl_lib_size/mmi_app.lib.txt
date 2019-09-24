@@ -8,11 +8,11 @@
          0          0          0          0          0   Appicon.obj
          0          0          0          0          0   AzaanAlarm.obj
        330          0          0         10        361   BootupAdp.obj
-       380          0          0         16        361   BootupAnimation.obj
+       368          0          0         16        361   BootupAnimation.obj
        720         10          0          0        546   BootupDiskCheck.obj
          0          0          0          0          0   BootupFTU.obj
-       704        188          0         16        810   BootupFlow.obj
-      1064        444          0          0       4328   BootupInitApps.obj
+       700        188          0         16        810   BootupFlow.obj
+      1054        440          0          0       4269   BootupInitApps.obj
          0          0          0          0          0   BootupMoDIS.obj
        140          0          0          6        227   BootupMode.obj
       1080          0          0          4        718   BootupScrAni.obj
@@ -211,7 +211,7 @@
          0          0          0          0          0   infonum.obj
          0          0          0          0          0   lunarquery.obj
       1536          0          0         16       1986   mainmenu.obj
-      2342          0          0         16       2618   messagesmiscell.obj
+      2338          0          0         16       2618   messagesmiscell.obj
        138          0          0          0        181   mmi_phnset_dispchar.obj
          0          0          0          0          0   myfavorite.obj
       1586          6          0        132        881   nitz.obj
@@ -258,5 +258,5 @@
       1554          0          0         56       1563   volumehandler.obj
       2006          0         12        616       2166   wallpaper.obj
       2260         86          0        193       1512   worldclock.obj
-    226558       4798        517      21270     171727   TOTAL
+    226528       4794        517      21270     171668   TOTAL
 

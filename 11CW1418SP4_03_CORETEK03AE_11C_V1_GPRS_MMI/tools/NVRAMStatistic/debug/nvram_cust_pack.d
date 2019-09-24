@@ -260,7 +260,6 @@
   ../../../custom/common/custom_wap_config.h \
   ../../../custom/common/hal_public/customer_ps_inc.h \
   ../../../custom/common/customer_email_num.h \
-  ../../../applib/misc/include/app_datetime.h \
   ../../../custom/common/ps/custom_gprs_pdp_default_qos_config.h \
   ../../../custom/common/PLUTO_MMI/nvram_common_custpack.c \
   ../../../plutommi/Customer/CustomerInc/mmi_cache_default_value.h \

@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_USB_CONFIG_TITLE = 43044 + 1, /* BASE_ID + 1 */
+    STR_USB_CONFIG_TITLE = 42993 + 1, /* BASE_ID + 1 */
     STR_USB_CONFIG_MS,
     STR_USB_CONFIG_CDCACM_DATA,
     STR_USB_CONFIG_MS_ONLY,
@@ -77,7 +77,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_USB_BOOT_MODE = 43044 + 1, /* BASE_ID + 1 */
+    GRP_ID_USB_BOOT_MODE = 42993 + 1, /* BASE_ID + 1 */
     GRP_ID_USB_MMI,
     SCR_DEV_USBDETECT,
     SCR_USB_POWER_ON,
@@ -94,7 +94,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    USB_WAIT_FOR_MASS_STORAGE = 43044 + 1, /* BASE_ID + 1 */
+    USB_WAIT_FOR_MASS_STORAGE = 42993 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_USBMMI_TIMER_MAX
 }mmi_rp_app_usbmmi_timer_enum;
 /******************** Timer resource IDs - finish ********************/

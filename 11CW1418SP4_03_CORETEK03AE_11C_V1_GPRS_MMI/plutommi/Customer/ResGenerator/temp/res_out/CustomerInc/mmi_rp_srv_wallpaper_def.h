@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_SETTING_WALLPAPER = 35966 + 1, /* BASE_ID + 1 */
+    MENU_SETTING_WALLPAPER = 35915 + 1, /* BASE_ID + 1 */
     MENU_SETTING_WALLPAPER_HOMESCREEN,
     MENU_SETTING_WALLPAPER_LOCKSCREEN,
     MENU_SETTING_WALLPAPER_SYSTEM,
@@ -77,7 +77,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_WALLPAPER_SYSTEM = 35966 + 1, /* BASE_ID + 1 */
+    STR_WALLPAPER_SYSTEM = 35915 + 1, /* BASE_ID + 1 */
     STR_WALLPAPER_DOWNLOAD,
     STR_WP_IDLE_WP_DECODE_ERR,
     STR_ID_DISPCHAR_THEME_WALLPAPER,
@@ -92,7 +92,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_MAIN_WALLPAPER = 35966 + 1, /* BASE_ID + 1 */
+    SCR_MAIN_WALLPAPER = 35915 + 1, /* BASE_ID + 1 */
     SCR_MAIN_WALLPAPER_FIX,
     SCR_WALLPAPER_SYSTEM_LIST,
     SCR_WALLPAPER_VIEW,
@@ -120,7 +120,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    NVRAM_DISPCHAR_AVATAR_WPSS = 35966 + 1, /* BASE_ID + 1 */   /*       DOUBLE */ 
+    NVRAM_DISPCHAR_AVATAR_WPSS = 35915 + 1, /* BASE_ID + 1 */   /*       DOUBLE */ 
     NARAM_DISPCHAR_AVATAR_ONOFF,                                /*       DOUBLE */ 
     NVRAM_DISPCHAR_AVATAR_WPSS_SERIALNUM,                       /*       DOUBLE */ 
     NVRAM_DISPCHAR_AVATAR_ONOFF_SERIALNUM,                      /*       DOUBLE */ 

@@ -1,7 +1,7 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
        320          0          0          4        436   adups_debug.obj
-       968         49          0        101       2007   adups_device.obj
+       950         49          0        101       2000   adups_device.obj
         36          0          0          0        371   adups_display.obj
        960        168          0          0        957   adups_file.obj
         48          0          0          0        392   adups_flash.obj
@@ -10,5 +10,5 @@
        348          0          0         21        980   adups_stdlib.obj
        416         20          0          0        426   adups_thread.obj
        118          0          0        120        174   adups_timer.obj
-      9496        428         32        369       7178   TOTAL
+      9478        428         32        369       7171   TOTAL
 

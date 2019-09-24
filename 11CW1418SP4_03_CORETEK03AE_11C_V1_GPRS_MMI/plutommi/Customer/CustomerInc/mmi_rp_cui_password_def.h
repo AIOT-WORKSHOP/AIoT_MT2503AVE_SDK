@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_CUI_PWD_DIFFERENT_INPUT = 31503 + 1, /* BASE_ID + 1 */
+    STR_ID_CUI_PWD_DIFFERENT_INPUT = 31452 + 1, /* BASE_ID + 1 */
     MMI_RP_CUI_PASSWORD_STR_MAX
 }mmi_rp_cui_password_str_enum;
 /******************** String resource IDs - finish ********************/
@@ -71,7 +71,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_CUI_PWD_BASIC = 31503 + 1, /* BASE_ID + 1 */
+    SCR_ID_CUI_PWD_BASIC = 31452 + 1, /* BASE_ID + 1 */
     MMI_RP_CUI_PASSWORD_SCR_MAX
 }mmi_rp_cui_password_scr_enum;
 /******************** Screen resource IDs - finish ********************/

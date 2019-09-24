@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_VOBJ_FMGR_SEND_SMS = 40485 + 1, /* BASE_ID + 1 */
+    MENU_ID_VOBJ_FMGR_SEND_SMS = 40434 + 1, /* BASE_ID + 1 */
     MMI_RP_SRV_VOBJECT_MENU_MAX
 }mmi_rp_srv_vobject_menu_enum;
 /******************** Menu resource IDs - finish ********************/
@@ -71,7 +71,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_VOBJ_RECEIVE_FALL = 40485 + 1, /* BASE_ID + 1 */
+    STR_ID_VOBJ_RECEIVE_FALL = 40434 + 1, /* BASE_ID + 1 */
     STR_ID_VOBJ_FORWARD_TO_FILE_MGR,
     MMI_RP_SRV_VOBJECT_STR_MAX
 }mmi_rp_srv_vobject_str_enum;
@@ -81,7 +81,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_VOBJ_RECV_OBJECT = 40485 + 1, /* BASE_ID + 1 */
+    SCR_ID_VOBJ_RECV_OBJECT = 40434 + 1, /* BASE_ID + 1 */
     GRP_ID_VOBJ_BEGIN,
     GRP_ID_VOBJ_REC_IMPS,
     GRP_ID_VOBJ_REC_IDLE,

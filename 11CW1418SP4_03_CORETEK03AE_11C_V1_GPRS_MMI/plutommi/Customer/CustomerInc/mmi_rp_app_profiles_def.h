@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_PROF_GENERAL = 35232 + 1, /* BASE_ID + 1 */
+    MENU_ID_PROF_GENERAL = 35181 + 1, /* BASE_ID + 1 */
     MENU_ID_PROF_SILENT,
     MENU_ID_PROF_MEETING,
     MENU_ID_PROF_OUTDOOR,
@@ -136,7 +136,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_PROF_CAPTION = 35232 + 1, /* BASE_ID + 1 */
+    STR_ID_PROF_CAPTION = 35181 + 1, /* BASE_ID + 1 */
     STR_ID_PROF_GENERAL,
     STR_ID_PROF_SILENT,
     STR_ID_PROF_MEETING,
@@ -175,7 +175,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_PROFILES = 35232 + 1, /* BASE_ID + 1 */
+    GRP_ID_PROFILES = 35181 + 1, /* BASE_ID + 1 */
     SCR_KEY_TONE_VOLUME,
     MMI_RP_APP_PROFILES_SCR_MAX
 }mmi_rp_app_profiles_scr_enum;
@@ -185,7 +185,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    TIMER_PROFILES_TONE_PLAY = 35232 + 1, /* BASE_ID + 1 */
+    TIMER_PROFILES_TONE_PLAY = 35181 + 1, /* BASE_ID + 1 */
     KEY_VOL_TIMER_ID,
     MMI_RP_APP_PROFILES_TIMER_MAX
 }mmi_rp_app_profiles_timer_enum;
@@ -197,7 +197,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_PROF_ACTIVATED = 35232 + 1, /* BASE_ID + 1 */
+    IMG_ID_PROF_ACTIVATED = 35181 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_PROFILES_IMG_MAX
 }mmi_rp_app_profiles_img_enum;
 /******************** Image resource IDs - finish ********************/

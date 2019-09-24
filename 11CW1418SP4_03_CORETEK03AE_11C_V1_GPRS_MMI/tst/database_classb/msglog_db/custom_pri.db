@@ -13998,20 +13998,7 @@ INDX_MTKTASKEND,
 
 #line 3588 "config\\include\\app\\app_task_config.h"
 
-#line 3615 "config\\include\\app\\app_task_config.h"
-INDX_ADUPS,
-
-
-
-
-
-
-
-
-
-
-
-
+#line 3628 "config\\include\\app\\app_task_config.h"
 
  
  
@@ -20556,20 +20543,7 @@ MOD_MTKTASKEND,
 
 #line 3588 "config\\include\\app\\app_task_config.h"
 
-#line 3615 "config\\include\\app\\app_task_config.h"
-
-MOD_ADUPS,
-
-
-
-
-
-
-
-
-
-
-
+#line 3628 "config\\include\\app\\app_task_config.h"
 
  
  
@@ -26641,20 +26615,7 @@ MOD_INET,
 
 #line 3588 "config\\include\\app\\app_task_config.h"
 
-#line 3615 "config\\include\\app\\app_task_config.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
+#line 3628 "config\\include\\app\\app_task_config.h"
 
  
  
@@ -75663,15 +75624,6 @@ typedef enum {
     _NVRAM_EF_QUICKTEST_LID = 735,
     _NVRAM_EF_MOTION_SENSOR_SWITCH_LID = 737,
     _NVRAM_EF_USB_FOTA_INFO_LID = 739,
-    _NVRAM_EF_BLE_BKSS_LID = 740,
-    _NVRAM_EF_IOT_LOCK_LID = 741,
-    _NVRAM_EF_IOT_LOCK_MSG_LID = 742,
-    _NVRAM_EF_LOCK_COUNT_LID = 743,
-    _NVRAM_EF_LOCK_AGING_LID = 744,
-    _NVRAM_EF_ORDER_NUM_LID = 745,
-    _NVRAM_EF_ORDER_INFO_LID = 746,
-    _NVRAM_EF_IOT_BACKUP_LID = 747,
-    _NVRAM_EF_FOTA_LID = 748,
     _NVRAM_EF_CUST_ACOUSTIC_DATA_LID = 1536,
     _NVRAM_EF_AUDIO_PARAM_LID = 1537,
     _NVRAM_EF_AUDIO_DC_CALIBRATION_LID = 1545,
@@ -161280,25 +161232,9 @@ typedef struct
 
 
 
-
-
-
-
-	NVRAM_EF_BLE_BKSS_LID,
-
+#line 2955 "custom\\common\\PLUTO_MMI\\nvram_common_defs.h"
      
-
-	NVRAM_EF_IOT_LOCK_LID,
-	NVRAM_EF_IOT_LOCK_MSG_LID,
-	NVRAM_EF_LOCK_COUNT_LID,
-	NVRAM_EF_LOCK_AGING_LID,
-	NVRAM_EF_ORDER_NUM_LID,
-	NVRAM_EF_ORDER_INFO_LID,
-	NVRAM_EF_IOT_BACKUP_LID,
-
-
-	NVRAM_EF_FOTA_LID,
-
+#line 2968 "custom\\common\\PLUTO_MMI\\nvram_common_defs.h"
 
 
 
@@ -166327,14 +166263,13 @@ typedef enum
    BATTERY_LEVEL_1,
    BATTERY_LEVEL_2,
    BATTERY_LEVEL_3, 
-
-   BATTERY_LEVEL_4,  
-   BATTERY_LEVEL_5,  
-   BATTERY_LEVEL_6,  
-   BATTERY_LEVEL_7,  
+#line 938 "interface\\ps\\include\\device.h"
+   BATTERY_LEVEL_4 = BATTERY_LEVEL_3,  
+   BATTERY_LEVEL_5 = BATTERY_LEVEL_3,  
+   BATTERY_LEVEL_6 = BATTERY_LEVEL_3,  
    BATTERY_LEVEL_MAX,  
-   BATTERY_LEVEL_LAST = 10
-#line 944 "interface\\ps\\include\\device.h"
+   BATTERY_LEVEL_LAST = 9
+
 
 } battery_level_enum;
 #line 952 "interface\\ps\\include\\device.h"
@@ -168702,428 +168637,11 @@ typedef struct
 
 #line 5282 "custom\\common\\PLUTO_MMI\\common_nvram_editor_data_item.h"
 
-#line 1 "applib\\misc\\include\\app_datetime.h"
+#line 5327 "custom\\common\\PLUTO_MMI\\common_nvram_editor_data_item.h"
 
+#line 5335 "custom\\common\\PLUTO_MMI\\common_nvram_editor_data_item.h"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-#line 1 "kal\\include\\kal_release.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
-
-#line 88 "kal\\include\\kal_release.h"
-#line 89 "kal\\include\\kal_release.h"
-#line 90 "kal\\include\\kal_release.h"
-
-#line 159 "applib\\misc\\include\\app_datetime.h"
-#line 160 "applib\\misc\\include\\app_datetime.h"
-#line 161 "applib\\misc\\include\\app_datetime.h"
-
-#line 163 "applib\\misc\\include\\app_datetime.h"
-
- 
-
- 
-#line 175 "applib\\misc\\include\\app_datetime.h"
-    
-
-
-    
-
-
-
-
-
-
-
-
-
-
- 
-typedef struct
-{
-    kal_uint16 nYear;
-    kal_uint8 nMonth;
-    kal_uint8 nDay;
-    kal_uint8 nHour;
-    kal_uint8 nMin;
-    kal_uint8 nSec;
-    kal_uint8 DayIndex;  
-} applib_time_struct;
-
-
-
-
-
-
-typedef enum MONTH_LIST
-{
-    JAN = 1, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
-} MONTH_LIST;
-
-
-
- 
-
-
-
- 
-
-
-extern kal_uint8 applib_dt_is_leap_year(kal_uint16 year);
-extern kal_uint8 applib_dt_last_day_of_mon(kal_uint8 month, kal_uint16 year);
-extern kal_uint8 applib_dt_dow(kal_uint16 y, kal_uint8 m, kal_uint8 d);
-extern void applib_dt_utc_to_rtc(float tz, applib_time_struct *utc, applib_time_struct *result);
-extern void applib_dt_utc_to_rtc_with_default_tz(applib_time_struct *utc, applib_time_struct *result);
-extern void applib_dt_rtc_to_utc_with_default_tz(applib_time_struct *rtc, applib_time_struct *result);
-extern applib_time_struct applib_conv_tz_to_mytime(float tz);
-extern void applib_dt_decrease_time(
-                applib_time_struct *timeToIncrement,
-                applib_time_struct *increment,
-                applib_time_struct *Result);
-extern void applib_dt_increase_time(
-                applib_time_struct *timeToIncrement,
-                applib_time_struct *increment,
-                applib_time_struct *Result);
-extern kal_int32 applib_dt_compare_time(
-                    applib_time_struct *referenceTime,
-                    applib_time_struct *compareTime,
-                    applib_time_struct *diff);
-extern kal_bool applib_dt_is_valid(applib_time_struct *t);
-extern kal_bool applib_dt_is_dst_enabled(void);
-extern kal_bool applib_dt_time2rfc1123dateString(kal_uint32 gmt_time, kal_char *buffer);
-extern kal_bool applib_dt_rfc1123_rfc850_asctime_dateString2Time(const kal_char *date, kal_uint32 *time);
-extern void applib_dt_2time_decreament(
-                applib_time_struct timeToDecrement,
-                applib_time_struct decrement,
-                applib_time_struct *Result);
-extern applib_time_struct *applib_get_time_difference(
-                            applib_time_struct *t1,
-                            applib_time_struct *t2,
-                            applib_time_struct *result);
-extern applib_time_struct *applib_get_time_difference_ext(
-                            applib_time_struct *t1,
-                            applib_time_struct *t2,
-                            applib_time_struct *result);
-extern kal_uint32 applib_get_time_difference_ext_in_second(
-                        applib_time_struct *t1,
-                        applib_time_struct *t2);
-extern kal_uint16 applib_find_max_time(applib_time_struct *t1, applib_time_struct *t2);
-extern void applib_dt_get_date_time(applib_time_struct *t);
-extern void applib_dt_get_rtc_time(applib_time_struct *t);
-extern kal_uint32 applib_dt_mytime_2_utc_sec(applib_time_struct *currTime, kal_bool daylightSaving);
-extern kal_uint8 applib_dt_utc_sec_2_mytime(kal_uint32 utc_sec, applib_time_struct *result, kal_bool daylightSaving);
-extern kal_uint8 applib_dt_utc_sec_2_mytime_ext(kal_int64 utc_sec, applib_time_struct *result, kal_bool daylightSaving);
-extern kal_int64 applib_dt_mytime_2_utc_sec_ext(applib_time_struct *currTime, kal_bool daylightSaving);
-extern kal_uint32 applib_dt_sec_utc_to_local(kal_uint32 utc_sec);
-extern kal_uint32 applib_dt_sec_local_to_utc(kal_uint32 local_sec);
-extern void applib_dt_get_rtc_without_daylight_impact(applib_time_struct *t);
-extern void applib_dt_modify_dt_with_daylight_impact(applib_time_struct *t);
-extern void applib_dt_init_time(void);
-extern void applib_dt_get_tz_string(kal_char *result);
-extern kal_uint8 applib_dt_get_week_number(applib_time_struct *date);
-extern DCL_RTC_DATA_T applib_dt_conv_utc_to_local(float tz, DCL_RTC_DATA_T *utc_time);
-extern kal_uint32 app_getcurrtime(void);
-extern kal_uint32 app_gettime(kal_uint32 *t_loc);
-extern kal_bool applib_dt_check_valid_by_app(kal_uint16 min_year, kal_uint16 max_year, applib_time_struct *t);
-
-
-#line 5287 "custom\\common\\PLUTO_MMI\\common_nvram_editor_data_item.h"
-typedef struct
-{
-	kal_char		ip_domain[128]; 
-	kal_char		apn[16]; 
-	kal_uint8		auth_code[128+1]; 
-	kal_uint32	auth_len;
-	kal_uint32	port;  
-	kal_uint32   	lock_second; 
-	kal_uint32   	run_second; 
-	kal_uint32      mode; 
-	kal_uint32	heart_beat_time_gap;
-	kal_uint32		low_power;
-	kal_int32		unlock_valid_time_gap;
-	kal_uint8      		ecg_is_update; 
-	kal_uint32		ecg_samp_time_gap;
-	kal_uint32		ecg_update_data_time;
-	kal_uint8      		ecg_update_data_mode; 
-} nvram_ef_iot_lock_struct;
-
-typedef struct
-{
-	kal_uint32     bj;
-	kal_uint32     timestamp;
-	kal_uint32     unlocks;
-	kal_uint8       rssi;
-	kal_uint16     state;
-	kal_uint32     unlock_timestamp;
-	kal_uint16     msg_id;
-	kal_uint16     serial_num;
-	kal_uint16     ans_serial;
-	kal_uint8	      order_num[17];
-}nvram_ef_order_info, order_info;
-
-typedef struct
-{
-	kal_uint32     unlock_timestamp;
-	kal_uint8	      order_num[17 -1];
-	kal_bool        is_has_order_num; 
-}nvram_ef_order_num, order_num;
-
-
-
-typedef struct
-{
-	kal_uint8		flag;
-	kal_char		sw_ver[31];
-} nvram_ef_fota_struct;
-
-
-#line 5338 "custom\\common\\PLUTO_MMI\\common_nvram_editor_data_item.h"
-
-
-typedef struct
-{
-	kal_uint8	    key[16 + 1]; 
-	kal_uint8	    psd[6 + 1]; 
-	applib_time_struct lock_time; 
-} nvram_ef_bel_bkss_struct;
-
+#line 5347 "custom\\common\\PLUTO_MMI\\common_nvram_editor_data_item.h"
 
 
 
@@ -169750,29 +169268,23 @@ LID_BIT "005" NVRAM_EF_CACHE_BYTE_LID
         };
         Cachebyte[ 89]
         {
-            NVRAM_ADUPS_SETTING_LID_byte0:8 "ADUPS REMIDER SET"
+            NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK_byte0:8 "Byte Cache"
             {
             };
         };
         Cachebyte[ 90]
         {
-            NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK_byte0:8 "Byte Cache"
+            NVRAM_AUTOUPDATE_DT_STATUS_byte0:8 "Byte Cache"
             {
             };
         };
         Cachebyte[ 91]
         {
-            NVRAM_AUTOUPDATE_DT_STATUS_byte0:8 "Byte Cache"
-            {
-            };
-        };
-        Cachebyte[ 92]
-        {
             NVRAM_IDLE_DIALER_TTS_SETTING_byte0:8 "TTS setting on / off"
             {
             };
         };
-        Cachebyte[ 93]
+        Cachebyte[ 92]
         {
             NVRAM_CALLSET_ANSWER_MODE_byte0:8 "Answer mode"
             {

@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_UCM_INCALL_OPTION = 41092 + 1, /* BASE_ID + 1 */
+    MENU_ID_UCM_INCALL_OPTION = 41041 + 1, /* BASE_ID + 1 */
     MENU_ID_UCM_INCALL_OPTION_HOLD,
     MENU_ID_UCM_INCALL_OPTION_RETRIEVE,
     MENU_ID_UCM_INCALL_OPTION_SWAP,
@@ -91,7 +91,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_UCM_CALLING = 41092 + 1, /* BASE_ID + 1 */
+    STR_ID_UCM_CALLING = 41041 + 1, /* BASE_ID + 1 */
     STR_ID_UCM_VOICE_ACTIVE,
     STR_ID_UCM_VOICE_HOLD,
     STR_ID_UCM_REJECT,
@@ -125,7 +125,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_UCM_PRE_MO = 41092 + 1, /* BASE_ID + 1 */
+    GRP_ID_UCM_PRE_MO = 41041 + 1, /* BASE_ID + 1 */
     GRP_ID_UCM_MO,
     GRP_ID_UCM_MT,
     GRP_ID_UCM_INCALL,
@@ -174,7 +174,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    UCM_NOTIFY_DURATION_TIMER = 41092 + 1, /* BASE_ID + 1 */
+    UCM_NOTIFY_DURATION_TIMER = 41041 + 1, /* BASE_ID + 1 */
     UCM_FTE_AUTO_LOCK_TIMER_ID,
     UCM_VT_FALL_TO_VOICE_NOTIFY_TIMER_ID,
     VT_START_CAMERA_QUERY_TIMER,
@@ -188,7 +188,7 @@ typedef enum
 /******************** Audio resource IDs - begin ********************/
 typedef enum
 {
-    AUD_ID_UCM_AUTO_ANSWER = 41092 + 1, /* BASE_ID + 1 */
+    AUD_ID_UCM_AUTO_ANSWER = 41041 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_UCM_AUD_MAX
 }mmi_rp_app_ucm_aud_enum;
 /******************** Audio resource IDs - finish ********************/
@@ -199,7 +199,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_UCM_CALL_STATE_ACTIVE = 41092 + 1, /* BASE_ID + 1 */
+    IMG_ID_UCM_CALL_STATE_ACTIVE = 41041 + 1, /* BASE_ID + 1 */
     IMG_ID_UCM_CALL_STATE_HOLD,
     MMI_RP_APP_UCM_IMG_MAX
 }mmi_rp_app_ucm_img_enum;

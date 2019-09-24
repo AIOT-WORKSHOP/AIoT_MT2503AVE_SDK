@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "adups_typedef.h": "c",
+    "app_task_config.h": "c"
+  }
+}

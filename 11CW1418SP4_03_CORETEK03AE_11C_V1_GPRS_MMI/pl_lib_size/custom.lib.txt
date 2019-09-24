@@ -23,7 +23,7 @@
          2          0          0          0         52   alerterdrv.obj
          0         64         12          0          0   apm_TaskDef.obj
          0          0          0          0          0   ast_hif_hw.obj
-      3106          0          0         12       1929   ata_at_command_customer_hdlr.obj
+      2050          0          0         11       1918   ata_at_command_customer_hdlr.obj
          0          0          0          0          0   aud_I2S_config.obj
          0        499          0          0          0   aud_common.obj
         84       1118          0          0        175   audcoeff.obj
@@ -42,7 +42,7 @@
         34          0          0          0        208   chr_parameter.obj
          0          0        161          6          0   color_custom.obj
        400         28          4          0        337   combo_flash_init.obj
-      1672        152          0       4976       1267   combo_flash_nor.obj
+      1516        152          0       4976       1204   combo_flash_nor.obj
          0          0          0          0          0   common_mmi_cache_config.obj
          0          0          9          1          0   cust_ocsp.obj
          0          0          0          0          0   custom_EMI_MT6250.obj
@@ -57,7 +57,7 @@
        364          0          0          0        388   custom_atcmd_parse.obj
        100         13          0          0        485   custom_blconfig.obj
          0          0          0          0          0   custom_cloud_config.obj
-        84          0          0     280796        163   custom_config.obj
+        84          0          0     271056        163   custom_config.obj
         48      12986          0          4         52   custom_config_account.obj
         94        132         76       4032        481   custom_data_account.obj
          0          0          0          0          0   custom_dcd.obj
@@ -93,7 +93,7 @@
          0          0          0          0          0   custom_mmi_cache_config.obj
          0         63         16          0          0   custom_ntp_config.obj
          0          0         20          0          0   custom_nvram_cat.obj
-        40         24         58          8        312   custom_nvram_config.obj
+        36         24         58          8        312   custom_nvram_config.obj
        664         36         22         74       1092   custom_nvram_extra.obj
         10          0          0          0        104   custom_nvram_int_config.obj
         76        160          0          0         52   custom_nvram_restore.obj
@@ -125,7 +125,7 @@
         32          0          0          0        260   custom_wap_config.obj
          0          0          0          0          0   custom_wap_cust_pack.obj
          0          0          0          0          0   custom_wlan_ui_config.obj
-       388        601         26          0        453   customer_at_command.obj
+       360        601         26          0        453   customer_at_command.obj
          0          0          0          0          0   customer_band_block_default_setting.obj
         12          0          0          0        156   customer_cm_retry_count.obj
          0          0          0          0          0   customer_cmux_setting.obj
@@ -149,7 +149,7 @@
          0          0          0          0          0   fmr_config_customize.obj
          0          0          0          0          0   fmr_sw_features.obj
          0         44        272      47596          0   fs_config.obj
-        16         64        124          0         59   fs_quota.obj
+        16         48        104          0         59   fs_quota.obj
        178          0          0         52        744   ft_bt_customize.obj
          0          0          0          0          0   ft_cct_customize.obj
          4          0          0          0         52   ft_customize.obj
@@ -178,7 +178,7 @@
       1724        178         80         28       1097   motion_sensor_custom.obj
        196          8          0          0        218   msdc_custom.obj
         16          0          4          8         59   nld_central_ctrl.obj
-         0        449       2079          0          0   nvram_common_config.obj
+         0        449       1435          0          0   nvram_common_config.obj
          0          0          0          0          0   nvram_common_custpack.obj
          0       1697          0          0          0   nvram_cust_pack.obj
          0          0          0          0          0   nvram_custpack_table.obj
@@ -223,5 +223,5 @@
         84        194         36       7680        423   usb_custom.obj
          0        360         64          0          0   userprofile_nvram_def.obj
        134         20          0         33       2496   wifi_common_config.obj
-     47494      41533       7296     430074      60596   TOTAL
+     46250      41517       6632     420333      60522   TOTAL
 

@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_CAMCO_APP_NAME = 32595 + 1, /* BASE_ID + 1 */
+    STR_ID_CAMCO_APP_NAME = 32544 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_CAMCO_STR_MAX
 }mmi_rp_app_camco_str_enum;
 /******************** String resource IDs - finish ********************/

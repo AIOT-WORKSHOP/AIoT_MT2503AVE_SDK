@@ -56,7 +56,7 @@
  *  Please do not modify it here manually 
  ***********************************************************/
 #include "common_nvram_editor_data_item.h"
-#define MMI_CACHE_BYTE_NUMBER 94
+#define MMI_CACHE_BYTE_NUMBER 93
 #define MMI_CACHE_SHORT_NUMBER 25
 #define MMI_CACHE_DOUBLE_NUMBER 30
 
@@ -79,50 +79,50 @@ const kal_uint16 MMI_CACHE_BYTE_ENUM_TABLE[MMI_CACHE_BYTE_NUMBER] =
 {
     23600,   /* 0 -- NVRAM_BYTE_COVER_CLOSE_BACK_TO_IDLE */
      9578,   /* 1 -- NVRAM_CALLSET_FLIP_TO_MUTE_CALL */
-    33612,   /* 2 -- NVRAM_WC_DST */
+    33561,   /* 2 -- NVRAM_WC_DST */
     24502,   /* 3 -- NVRAM_SETTING_LANG */
     23623,   /* 4 -- NVRAM_SETTING_PICTURE_QUALITY */
      9468,   /* 5 -- NVRAM_SMS_MISCELL_SETTING */
     24601,   /* 6 -- GPS_TIME_SYNC_MODE */
     23472,   /* 7 -- NVRAM_IME_ALPHABETIC_WORD_PREDICTION_FLAG */
      4811,   /* 8 -- NVRAM_MRE_SRV_DA_IS_WIFI_ONLY */
-    30589,   /* 9 -- NVRAM_BT_POWER_STATUS */
+    30538,   /* 9 -- NVRAM_BT_POWER_STATUS */
     29387,   /* 10 -- NVRAM_PHB_SAVE_CONTACT_NOTIFY */
     23656,   /* 11 -- NVRAM_NETSET_3G_CAPACITY_SIM */
-    31535,   /* 12 -- NVRAM_IMGVIEW_VIEW_SYTLE */
-    35972,   /* 13 -- NVRAM_PHNSET_LIVE_WALLPAPER */
+    31484,   /* 12 -- NVRAM_IMGVIEW_VIEW_SYTLE */
+    35921,   /* 13 -- NVRAM_PHNSET_LIVE_WALLPAPER */
     25628,   /* 14 -- NVRAM_SETTING_AUTOKEYPADLOCK_TIME */
-    33608,   /* 15 -- CURRENT_CITY */
+    33557,   /* 15 -- CURRENT_CITY */
     23471,   /* 16 -- NVRAM_IME_AUTO_COMPLETION_FLAG */
     23485,   /* 17 -- NVRAM_SETTING_HANDWRITING_ON */
     11877,   /* 18 -- NVRAM_EF_FMGR_SORT_OPTION_LID */
-    35971,   /* 19 -- NVRAM_WALLPAPER_ROTATE_STATUS */
+    35920,   /* 19 -- NVRAM_WALLPAPER_ROTATE_STATUS */
     29388,   /* 20 -- NVRAM_SSC_DISABLE_FLAG */
     27497,   /* 21 -- NVRAM_REMINDER_TURNOVER_SENSOR_STATE */
     29390,   /* 22 -- NVRAM_SETTING_SPEED_DIAL */
-    37197,   /* 23 -- RESTORE_DEFAULT_OWNER_NO */
+    37146,   /* 23 -- RESTORE_DEFAULT_OWNER_NO */
      9575,   /* 24 -- NVRAM_CALLSET_QUICK_END_FLAG */
     23597,   /* 25 -- NVRAM_BYTE_LED_SETTING */
     29378,   /* 26 -- NVRAM_PHB_SPEAK_NAME_ON_OFF */
     23487,   /* 27 -- NVRAM_SETTING_STROKE_COLOR_INDEX */
-    31878,   /* 28 -- NVRAM_AUDPLY_SINGLE_VOL */
+    31827,   /* 28 -- NVRAM_AUDPLY_SINGLE_VOL */
      9574,   /* 29 -- NVRAM_CALLSET_REDIAL */
      7608,   /* 30 -- NVRAM_GPS_PAYLOAD_STORAGE */
     29383,   /* 31 -- NVRAM_PHB_NAME_DISPLAY_TYPE */
      9573,   /* 32 -- NVRAM_CALLSET_CALL_TIME_DISPLAY */
      9467,   /* 33 -- NVRAM_SMS_ACTIVE_PROFILE_INDEX */
     27550,   /* 34 -- NVRAM_SRV_SNDREC_QUALITY */
-    33609,   /* 35 -- FOREIGN_CITY */
+    33558,   /* 35 -- FOREIGN_CITY */
     24497,   /* 36 -- TIME_FORMAT */
     24499,   /* 37 -- RESTORE_DEFAULT_TIME_FORMAT */
-    33610,   /* 38 -- NVRAM_SETTING_DT_DST */
+    33559,   /* 38 -- NVRAM_SETTING_DT_DST */
     23601,   /* 39 -- NVRAM_BYTE_COVER_CLOSE_REJECT_CALL */
-    39345,   /* 40 -- RESTORE_DEFAULT_AUTOUPDATE_TIME */
+    39294,   /* 40 -- RESTORE_DEFAULT_AUTOUPDATE_TIME */
     23483,   /* 41 -- NVRAM_SETTING_PEN_SPEED */
     23486,   /* 42 -- NVRAM_SETTING_PEN_WIDTH */
     23655,   /* 43 -- NVRAM_NETSET_PREFERRED_MODE_PREV_RF_MODE */
     29389,   /* 44 -- NVRAM_IDLE_DIALER_SEARCH_SETTING */
-    37202,   /* 45 -- NVRAM_PHNSET_MAIN_MENU_STYLE */
+    37151,   /* 45 -- NVRAM_PHNSET_MAIN_MENU_STYLE */
     23593,   /* 46 -- NVRAM_SETTING_CONTRAST_SUBLCD_LEVEL */
     24498,   /* 47 -- DATE_FORMAT */
     24500,   /* 48 -- RESTORE_DEFAULT_DATE_FORMAT */
@@ -133,14 +133,14 @@ const kal_uint16 MMI_CACHE_BYTE_ENUM_TABLE[MMI_CACHE_BYTE_NUMBER] =
     23477,   /* 53 -- NVRAM_IME_INPUT_PATTERN */
      9579,   /* 54 -- NVRAM_CALLSET_TAP_TAP_TO_RECORD_IN_CALL */
     29379,   /* 55 -- NVRAM_PHB_STARTUP_COPY_SIM */
-    37200,   /* 56 -- NVRAM_UPDATE_DATETIME_MODE */
+    37149,   /* 56 -- NVRAM_UPDATE_DATETIME_MODE */
      7765,   /* 57 -- NVRAM_PROFILES_LASTACTIVATED */
     23484,   /* 58 -- NVRAM_SETTING_LANGUAGE_FOLLOW_VK */
     23598,   /* 59 -- NVRAM_BYTE_BL_SETTING_LEVEL */
-    37196,   /* 60 -- NVRAM_SETTING_OWNER_NO */
+    37145,   /* 60 -- NVRAM_SETTING_OWNER_NO */
      9571,   /* 61 -- NVRAM_CALLSET_CTR_MODE */
-    33614,   /* 62 -- NVRAM_DOWNLOAD_CITY1 */
-    33615,   /* 63 -- NVRAM_DOWNLOAD_CITY2 */
+    33563,   /* 62 -- NVRAM_DOWNLOAD_CITY1 */
+    33564,   /* 63 -- NVRAM_DOWNLOAD_CITY2 */
     12686,   /* 64 -- NVRAM_DEFAULT_USB_APP */
     27475,   /* 65 -- NVRAM_EF_SENSOR_UI_ROTATION_SWITCH */
     23469,   /* 66 -- NVRAM_IME_SMART_MODE_CONFIG */
@@ -154,58 +154,57 @@ const kal_uint16 MMI_CACHE_BYTE_ENUM_TABLE[MMI_CACHE_BYTE_NUMBER] =
     23476,   /* 74 -- NVRAM_IME_SOUND_FEEDBACK_FLAG */
     23654,   /* 75 -- NVRAM_NETSET_PREFERRED_MODE */
     23596,   /* 76 -- NVRAM_HDSET_MODE_VOICE_LEVEL */
-    30587,   /* 77 -- NVRAM_BT_RECEIVE_DRIVE */
+    30536,   /* 77 -- NVRAM_BT_RECEIVE_DRIVE */
     27551,   /* 78 -- NVRAM_AUTO_VM_SETTING_AUTO_VM */
     23595,   /* 79 -- NVRAM_LDSPK_MODE_VOICE_LEVEL */
-    30588,   /* 80 -- NVRAM_BT_RECEIVE_DRIVE_ASK */
+    30537,   /* 80 -- NVRAM_BT_RECEIVE_DRIVE_ASK */
     25627,   /* 81 -- NVRAM_SETTING_AUTOKEYPADLOCK */
     23594,   /* 82 -- NVRAM_NORMAL_MODE_VOICE_LEVEL */
     24602,   /* 83 -- SRV_DT_TIME_ZONE */
-    37198,   /* 84 -- NVRAM_SETTING_STATUS_DT_TIME */
+    37147,   /* 84 -- NVRAM_SETTING_STATUS_DT_TIME */
      7764,   /* 85 -- NVRAM_PROFILES_ACTIVATED */
     23470,   /* 86 -- NVRAM_IME_AUTO_CAPITALIZATION_FLAG */
     23474,   /* 87 -- NVRAM_IME_AUTO_SPACE_FLAG */
     29564,   /* 88 -- NVRAM_SETTING_AUTOUPDATE_DT_TIME_STATUS */
-    30200,   /* 89 -- NVRAM_ADUPS_SETTING_LID */
-    23602,   /* 90 -- NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK */
-    37199,   /* 91 -- NVRAM_AUTOUPDATE_DT_STATUS */
-    25658,   /* 92 -- NVRAM_IDLE_DIALER_TTS_SETTING */
-     9572,   /* 93 -- NVRAM_CALLSET_ANSWER_MODE */
+    23602,   /* 89 -- NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK */
+    37148,   /* 90 -- NVRAM_AUTOUPDATE_DT_STATUS */
+    25658,   /* 91 -- NVRAM_IDLE_DIALER_TTS_SETTING */
+     9572,   /* 92 -- NVRAM_CALLSET_ANSWER_MODE */
 };
 
 const kal_uint16 MMI_CACHE_SHORT_ENUM_TABLE[MMI_CACHE_SHORT_NUMBER] =
 {
     23478,   /* 0 -- NVRAM_SETTING_PREFER_INPUT_METHOD */
      9469,   /* 1 -- NVRAM_SMS_CONCAT_MSG_REF_VALUE */
-    36172,   /* 2 -- NVRAM_CURRENT_POWER_OFF_DISPLAY */
+    36121,   /* 2 -- NVRAM_CURRENT_POWER_OFF_DISPLAY */
     23480,   /* 3 -- NVRAM_SETTING_WRITING_LANG */
-    36171,   /* 4 -- NVRAM_CURRENT_POWER_ON_DISPLAY */
+    36120,   /* 4 -- NVRAM_CURRENT_POWER_ON_DISPLAY */
      9577,   /* 5 -- NVRAM_CALLSET_QUICK_END_TIME */
     29384,   /* 6 -- NVRAM_PHB_STORAGE_LOCATION */
-    33613,   /* 7 -- NVRAM_FRN_TIMEZONE */
+    33562,   /* 7 -- NVRAM_FRN_TIMEZONE */
     23479,   /* 8 -- RESTORE_PREFER_INPUT_METHOD */
-    35976,   /* 9 -- RESTORE_DEFAULT_SETWALLPAPER_SUB */
+    35925,   /* 9 -- RESTORE_DEFAULT_SETWALLPAPER_SUB */
     23599,   /* 10 -- NVRAM_BYTE_BL_SETTING_HFTIME */
     29386,   /* 11 -- NVRAM_PHB_VCARD_VERSION */
     23482,   /* 12 -- NVRAM_SETTING_ENABLED_WRITING_LANGUAGE */
-    36170,   /* 13 -- NVRAM_RESTORE_POWER_OFF_DISPLAY */
+    36119,   /* 13 -- NVRAM_RESTORE_POWER_OFF_DISPLAY */
     29385,   /* 14 -- NVRAM_PHB_NAME_LIST_FILTER */
-    31038,   /* 15 -- NVRAM_POWER_ON_DISPLAY_SUCCESS */
+    30987,   /* 15 -- NVRAM_POWER_ON_DISPLAY_SUCCESS */
      9576,   /* 16 -- NVRAM_CALLSET_CTR_TIME */
-    35974,   /* 17 -- RESTORE_DEFAULT_FUNANDGAMES_SETWALLPAPER */
-    33611,   /* 18 -- NVRAM_TIMEZONE */
-    36169,   /* 19 -- NVRAM_RESTORE_POWER_ON_DISPLAY */
+    35923,   /* 17 -- RESTORE_DEFAULT_FUNANDGAMES_SETWALLPAPER */
+    33560,   /* 18 -- NVRAM_TIMEZONE */
+    36118,   /* 19 -- NVRAM_RESTORE_POWER_ON_DISPLAY */
     23481,   /* 20 -- NVRAM_SETTING_WRITING_LANG_SUB */
-    31536,   /* 21 -- NVRAM_IMGVIEW_STORAGE */
+    31485,   /* 21 -- NVRAM_IMGVIEW_STORAGE */
     29391,   /* 22 -- NVRAM_PHB_PBAPC_NAME_ORDER */
-    35973,   /* 23 -- NVRAM_FUNANDGAMES_SETWALLPAPER */
-    35975,   /* 24 -- NVRAM_SETWALLPAPER_SUB */
+    35922,   /* 23 -- NVRAM_FUNANDGAMES_SETWALLPAPER */
+    35924,   /* 24 -- NVRAM_SETWALLPAPER_SUB */
 };
 
 const kal_uint16 MMI_CACHE_DOUBLE_ENUM_TABLE[MMI_CACHE_DOUBLE_NUMBER] =
 {
-    37201,   /* 0 -- NVRAM_RTC_TIME */
-    35970,   /* 1 -- NVRAM_DISPCHAR_AVATAR_ONOFF_SERIALNUM */
+    37150,   /* 0 -- NVRAM_RTC_TIME */
+    35919,   /* 1 -- NVRAM_DISPCHAR_AVATAR_ONOFF_SERIALNUM */
     24466,   /* 2 -- NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE1 */
     24467,   /* 3 -- NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE2 */
     24468,   /* 4 -- NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE3 */
@@ -214,12 +213,12 @@ const kal_uint16 MMI_CACHE_DOUBLE_ENUM_TABLE[MMI_CACHE_DOUBLE_NUMBER] =
     24471,   /* 7 -- NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE6 */
     24472,   /* 8 -- NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE7 */
     24473,   /* 9 -- NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE8 */
-    35968,   /* 10 -- NARAM_DISPCHAR_AVATAR_ONOFF */
+    35917,   /* 10 -- NARAM_DISPCHAR_AVATAR_ONOFF */
      4803,   /* 11 -- NVRAM_MRE_SRV_DA_SIM1 */
      4805,   /* 12 -- NVRAM_MRE_SRV_DA_SIM2 */
      4807,   /* 13 -- NVRAM_MRE_SRV_DA_SIM3 */
      4809,   /* 14 -- NVRAM_MRE_SRV_DA_SIM4 */
-    35967,   /* 15 -- NVRAM_DISPCHAR_AVATAR_WPSS */
+    35916,   /* 15 -- NVRAM_DISPCHAR_AVATAR_WPSS */
      7766,   /* 16 -- NVRAM_SRV_PROF_EXT_MELODY_BITS */
     24474,   /* 17 -- NVRAM_PEN_CALIBRATION_VALUE1 */
     24475,   /* 18 -- NVRAM_PEN_CALIBRATION_VALUE2 */
@@ -229,7 +228,7 @@ const kal_uint16 MMI_CACHE_DOUBLE_ENUM_TABLE[MMI_CACHE_DOUBLE_NUMBER] =
     24479,   /* 22 -- NVRAM_PEN_CALIBRATION_VALUE6 */
     24480,   /* 23 -- NVRAM_PEN_CALIBRATION_VALUE7 */
     24481,   /* 24 -- NVRAM_PEN_CALIBRATION_VALUE8 */
-    35969,   /* 25 -- NVRAM_DISPCHAR_AVATAR_WPSS_SERIALNUM */
+    35918,   /* 25 -- NVRAM_DISPCHAR_AVATAR_WPSS_SERIALNUM */
      4804,   /* 26 -- NVRAM_MRE_SRV_DA_SIM1_PX */
      4806,   /* 27 -- NVRAM_MRE_SRV_DA_SIM2_PX */
      4808,   /* 28 -- NVRAM_MRE_SRV_DA_SIM3_PX */
@@ -329,11 +328,10 @@ const kal_uint32 NVRAM_EF_MMI_CACHE_BYTE_KEY_DEFAULT[NVRAM_MMI_CACHE_BYTE_KEY_SI
     0xE928235D,   /* 86 -- NVRAM_IME_AUTO_CAPITALIZATION_FLAG */
     0xEE1A67D7,   /* 87 -- NVRAM_IME_AUTO_SPACE_FLAG */
     0xEE6763CD,   /* 88 -- NVRAM_SETTING_AUTOUPDATE_DT_TIME_STATUS */
-    0xF1A42D6E,   /* 89 -- NVRAM_ADUPS_SETTING_LID */
-    0xF8A67B30,   /* 90 -- NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK */
-    0xFA0E117A,   /* 91 -- NVRAM_AUTOUPDATE_DT_STATUS */
-    0xFC2179AD,   /* 92 -- NVRAM_IDLE_DIALER_TTS_SETTING */
-    0xFCAC03A9,   /* 93 -- NVRAM_CALLSET_ANSWER_MODE */
+    0xF8A67B30,   /* 89 -- NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK */
+    0xFA0E117A,   /* 90 -- NVRAM_AUTOUPDATE_DT_STATUS */
+    0xFC2179AD,   /* 91 -- NVRAM_IDLE_DIALER_TTS_SETTING */
+    0xFCAC03A9,   /* 92 -- NVRAM_CALLSET_ANSWER_MODE */
 };
 
 const kal_uint32 NVRAM_EF_MMI_CACHE_SHORT_KEY_DEFAULT[NVRAM_MMI_CACHE_SHORT_KEY_SIZE * NVRAM_MMI_CACHE_SHORT_KEY_TOTAL / sizeof(kal_uint32)] =
@@ -480,9 +478,9 @@ void nvram_restore_byte_cache(nvram_reset_category_enum category,nvram_app_id_en
             break;
         }
     case APP_BLUETOOTH: 
-        buffer[ 77] = def_buf[ 77];     /* 30587: NVRAM_BT_RECEIVE_DRIVE */
-        buffer[ 80] = def_buf[ 80];     /* 30588: NVRAM_BT_RECEIVE_DRIVE_ASK */
-        buffer[  9] = def_buf[  9];     /* 30589: NVRAM_BT_POWER_STATUS */
+        buffer[ 77] = def_buf[ 77];     /* 30536: NVRAM_BT_RECEIVE_DRIVE */
+        buffer[ 80] = def_buf[ 80];     /* 30537: NVRAM_BT_RECEIVE_DRIVE_ASK */
+        buffer[  9] = def_buf[  9];     /* 30538: NVRAM_BT_POWER_STATUS */
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
@@ -493,31 +491,31 @@ void nvram_restore_byte_cache(nvram_reset_category_enum category,nvram_app_id_en
             break;
         }
     case APP_IMAGEVIEWER: 
-        buffer[ 12] = def_buf[ 12];     /* 31535: NVRAM_IMGVIEW_VIEW_SYTLE */
+        buffer[ 12] = def_buf[ 12];     /* 31484: NVRAM_IMGVIEW_VIEW_SYTLE */
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
         }
     case APP_AUDIOPLAYER: 
-        buffer[ 28] = def_buf[ 28];     /* 31878: NVRAM_AUDPLY_SINGLE_VOL */
+        buffer[ 28] = def_buf[ 28];     /* 31827: NVRAM_AUDPLY_SINGLE_VOL */
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
         }
     case APP_WORLDCLOCK: 
-        buffer[ 15] = def_buf[ 15];     /* 33608: CURRENT_CITY */
-        buffer[ 35] = def_buf[ 35];     /* 33609: FOREIGN_CITY */
-        buffer[ 38] = def_buf[ 38];     /* 33610: NVRAM_SETTING_DT_DST */
-        buffer[  2] = def_buf[  2];     /* 33612: NVRAM_WC_DST */
-        buffer[ 62] = def_buf[ 62];     /* 33614: NVRAM_DOWNLOAD_CITY1 */
-        buffer[ 63] = def_buf[ 63];     /* 33615: NVRAM_DOWNLOAD_CITY2 */
+        buffer[ 15] = def_buf[ 15];     /* 33557: CURRENT_CITY */
+        buffer[ 35] = def_buf[ 35];     /* 33558: FOREIGN_CITY */
+        buffer[ 38] = def_buf[ 38];     /* 33559: NVRAM_SETTING_DT_DST */
+        buffer[  2] = def_buf[  2];     /* 33561: NVRAM_WC_DST */
+        buffer[ 62] = def_buf[ 62];     /* 33563: NVRAM_DOWNLOAD_CITY1 */
+        buffer[ 63] = def_buf[ 63];     /* 33564: NVRAM_DOWNLOAD_CITY2 */
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
         }
     case SRV_WALLPAPER: 
-        buffer[ 19] = def_buf[ 19];     /* 35971: NVRAM_WALLPAPER_ROTATE_STATUS */
-        buffer[ 13] = def_buf[ 13];     /* 35972: NVRAM_PHNSET_LIVE_WALLPAPER */
+        buffer[ 19] = def_buf[ 19];     /* 35920: NVRAM_WALLPAPER_ROTATE_STATUS */
+        buffer[ 13] = def_buf[ 13];     /* 35921: NVRAM_PHNSET_LIVE_WALLPAPER */
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
@@ -528,11 +526,11 @@ void nvram_restore_byte_cache(nvram_reset_category_enum category,nvram_app_id_en
             break;
         }
     case APP_PHONESETTING_NEW: 
-        buffer[ 60] = def_buf[ 23];     /* 37196: NVRAM_SETTING_OWNER_NO = 37197: RESTORE_DEFAULT_OWNER_NO*/
-        buffer[ 84] = def_buf[ 84];     /* 37198: NVRAM_SETTING_STATUS_DT_TIME */
-        buffer[ 91] = def_buf[ 91];     /* 37199: NVRAM_AUTOUPDATE_DT_STATUS */
-        buffer[ 56] = def_buf[ 56];     /* 37200: NVRAM_UPDATE_DATETIME_MODE */
-        buffer[ 45] = def_buf[ 45];     /* 37202: NVRAM_PHNSET_MAIN_MENU_STYLE */
+        buffer[ 60] = def_buf[ 23];     /* 37145: NVRAM_SETTING_OWNER_NO = 37146: RESTORE_DEFAULT_OWNER_NO*/
+        buffer[ 84] = def_buf[ 84];     /* 37147: NVRAM_SETTING_STATUS_DT_TIME */
+        buffer[ 90] = def_buf[ 90];     /* 37148: NVRAM_AUTOUPDATE_DT_STATUS */
+        buffer[ 56] = def_buf[ 56];     /* 37149: NVRAM_UPDATE_DATETIME_MODE */
+        buffer[ 45] = def_buf[ 45];     /* 37151: NVRAM_PHNSET_MAIN_MENU_STYLE */
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
@@ -621,7 +619,7 @@ void nvram_restore_byte_cache(nvram_reset_category_enum category,nvram_app_id_en
         }
     case SRV_CALLSET: 
         buffer[ 61] = def_buf[ 61];     /*  9571: NVRAM_CALLSET_CTR_MODE */
-        buffer[ 93] = def_buf[ 93];     /*  9572: NVRAM_CALLSET_ANSWER_MODE */
+        buffer[ 92] = def_buf[ 92];     /*  9572: NVRAM_CALLSET_ANSWER_MODE */
         buffer[ 32] = def_buf[ 32];     /*  9573: NVRAM_CALLSET_CALL_TIME_DISPLAY */
         buffer[ 29] = def_buf[ 29];     /*  9574: NVRAM_CALLSET_REDIAL */
         buffer[ 24] = def_buf[ 24];     /*  9575: NVRAM_CALLSET_QUICK_END_FLAG */
@@ -659,7 +657,7 @@ void nvram_restore_byte_cache(nvram_reset_category_enum category,nvram_app_id_en
             break;
         }
     case CUI_DIALER: 
-        buffer[ 92] = def_buf[ 92];     /* 25658: NVRAM_IDLE_DIALER_TTS_SETTING */
+        buffer[ 91] = def_buf[ 91];     /* 25658: NVRAM_IDLE_DIALER_TTS_SETTING */
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
@@ -703,12 +701,6 @@ void nvram_restore_byte_cache(nvram_reset_category_enum category,nvram_app_id_en
         }
     case SRV_NITZ: 
         buffer[ 88] = def_buf[ 88];     /* 29564: NVRAM_SETTING_AUTOUPDATE_DT_TIME_STATUS */
-        if (category == NVRAM_RESET_CERTAIN)
-        {
-            break;
-        }
-    case APP_ADUPS: 
-        buffer[ 89] = def_buf[ 89];     /* 30200: NVRAM_ADUPS_SETTING_LID */
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
@@ -760,7 +752,7 @@ void nvram_restore_short_cache(nvram_reset_category_enum category,nvram_app_id_e
             break;
         }
     case APP_IMAGEVIEWER: 
-        buffer[ 42] = def_buf[ 42];     /* 31536: NVRAM_IMGVIEW_STORAGE */
+        buffer[ 42] = def_buf[ 42];     /* 31485: NVRAM_IMGVIEW_STORAGE */
         buffer[ 43] = def_buf[ 43];
         if (category == NVRAM_RESET_CERTAIN)
         {
@@ -772,27 +764,27 @@ void nvram_restore_short_cache(nvram_reset_category_enum category,nvram_app_id_e
             break;
         }
     case APP_WORLDCLOCK: 
-        buffer[ 36] = def_buf[ 36];     /* 33611: NVRAM_TIMEZONE */
+        buffer[ 36] = def_buf[ 36];     /* 33560: NVRAM_TIMEZONE */
         buffer[ 37] = def_buf[ 37];
-        buffer[ 14] = def_buf[ 14];     /* 33613: NVRAM_FRN_TIMEZONE */
+        buffer[ 14] = def_buf[ 14];     /* 33562: NVRAM_FRN_TIMEZONE */
         buffer[ 15] = def_buf[ 15];
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
         }
     case SRV_WALLPAPER: 
-        buffer[ 46] = def_buf[ 46];     /* 35973: NVRAM_FUNANDGAMES_SETWALLPAPER */
+        buffer[ 46] = def_buf[ 46];     /* 35922: NVRAM_FUNANDGAMES_SETWALLPAPER */
         buffer[ 47] = def_buf[ 47];
-        buffer[ 48] = def_buf[ 18];     /* 35975: NVRAM_SETWALLPAPER_SUB = 35976: RESTORE_DEFAULT_SETWALLPAPER_SUB*/
+        buffer[ 48] = def_buf[ 18];     /* 35924: NVRAM_SETWALLPAPER_SUB = 35925: RESTORE_DEFAULT_SETWALLPAPER_SUB*/
         buffer[ 49] = def_buf[ 19];
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;
         }
     case SRV_PHNSET_ONOFF: 
-        buffer[  8] = def_buf[ 38];     /* 36171: NVRAM_CURRENT_POWER_ON_DISPLAY = 36169: NVRAM_RESTORE_POWER_ON_DISPLAY*/
+        buffer[  8] = def_buf[ 38];     /* 36120: NVRAM_CURRENT_POWER_ON_DISPLAY = 36118: NVRAM_RESTORE_POWER_ON_DISPLAY*/
         buffer[  9] = def_buf[ 39];
-        buffer[  4] = def_buf[ 26];     /* 36172: NVRAM_CURRENT_POWER_OFF_DISPLAY = 36170: NVRAM_RESTORE_POWER_OFF_DISPLAY*/
+        buffer[  4] = def_buf[ 26];     /* 36121: NVRAM_CURRENT_POWER_OFF_DISPLAY = 36119: NVRAM_RESTORE_POWER_OFF_DISPLAY*/
         buffer[  5] = def_buf[ 27];
         if (category == NVRAM_RESET_CERTAIN)
         {
@@ -938,11 +930,6 @@ void nvram_restore_short_cache(nvram_reset_category_enum category,nvram_app_id_e
         {
             break;
         }
-    case APP_ADUPS: 
-        if (category == NVRAM_RESET_CERTAIN)
-        {
-            break;
-        }
     default:
         break;
     };
@@ -1005,7 +992,7 @@ void nvram_restore_double_cache(nvram_reset_category_enum category,nvram_app_id_
             break;
         }
     case SRV_WALLPAPER: 
-        buffer[120] = def_buf[120];     /* 35967: NVRAM_DISPCHAR_AVATAR_WPSS */
+        buffer[120] = def_buf[120];     /* 35916: NVRAM_DISPCHAR_AVATAR_WPSS */
         buffer[121] = def_buf[121];
         buffer[122] = def_buf[122];
         buffer[123] = def_buf[123];
@@ -1013,7 +1000,7 @@ void nvram_restore_double_cache(nvram_reset_category_enum category,nvram_app_id_
         buffer[125] = def_buf[125];
         buffer[126] = def_buf[126];
         buffer[127] = def_buf[127];
-        buffer[ 80] = def_buf[ 80];     /* 35968: NARAM_DISPCHAR_AVATAR_ONOFF */
+        buffer[ 80] = def_buf[ 80];     /* 35917: NARAM_DISPCHAR_AVATAR_ONOFF */
         buffer[ 81] = def_buf[ 81];
         buffer[ 82] = def_buf[ 82];
         buffer[ 83] = def_buf[ 83];
@@ -1021,7 +1008,7 @@ void nvram_restore_double_cache(nvram_reset_category_enum category,nvram_app_id_
         buffer[ 85] = def_buf[ 85];
         buffer[ 86] = def_buf[ 86];
         buffer[ 87] = def_buf[ 87];
-        buffer[200] = def_buf[200];     /* 35969: NVRAM_DISPCHAR_AVATAR_WPSS_SERIALNUM */
+        buffer[200] = def_buf[200];     /* 35918: NVRAM_DISPCHAR_AVATAR_WPSS_SERIALNUM */
         buffer[201] = def_buf[201];
         buffer[202] = def_buf[202];
         buffer[203] = def_buf[203];
@@ -1029,7 +1016,7 @@ void nvram_restore_double_cache(nvram_reset_category_enum category,nvram_app_id_
         buffer[205] = def_buf[205];
         buffer[206] = def_buf[206];
         buffer[207] = def_buf[207];
-        buffer[  8] = def_buf[  8];     /* 35970: NVRAM_DISPCHAR_AVATAR_ONOFF_SERIALNUM */
+        buffer[  8] = def_buf[  8];     /* 35919: NVRAM_DISPCHAR_AVATAR_ONOFF_SERIALNUM */
         buffer[  9] = def_buf[  9];
         buffer[ 10] = def_buf[ 10];
         buffer[ 11] = def_buf[ 11];
@@ -1047,7 +1034,7 @@ void nvram_restore_double_cache(nvram_reset_category_enum category,nvram_app_id_
             break;
         }
     case APP_PHONESETTING_NEW: 
-        buffer[  0] = def_buf[  0];     /* 37201: NVRAM_RTC_TIME */
+        buffer[  0] = def_buf[  0];     /* 37150: NVRAM_RTC_TIME */
         buffer[  1] = def_buf[  1];
         buffer[  2] = def_buf[  2];
         buffer[  3] = def_buf[  3];
@@ -1234,11 +1221,6 @@ void nvram_restore_double_cache(nvram_reset_category_enum category,nvram_app_id_
             break;
         }
     case SRV_NITZ: 
-        if (category == NVRAM_RESET_CERTAIN)
-        {
-            break;
-        }
-    case APP_ADUPS: 
         if (category == NVRAM_RESET_CERTAIN)
         {
             break;

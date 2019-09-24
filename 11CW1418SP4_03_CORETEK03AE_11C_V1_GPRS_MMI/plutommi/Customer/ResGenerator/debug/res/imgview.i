@@ -1315,8 +1315,6 @@ VAPP_GOOGLE_SEARCH, RESOURCE_BASE_VAPP_GOOGLE_SEARCH = VAPP_GOOGLE_SEARCH, RESOU
 # 3083 "../../mmi/inc/mmi_res_range_def.h"
     SRV_VENUS_THEME, RESOURCE_BASE_SRV_VENUS_THEME = SRV_VENUS_THEME, RESOURCE_BASE_SRV_VENUS_THEME_END = SRV_VENUS_THEME + 3,
     APP_AM, RESOURCE_BASE_APP_AM = APP_AM, RESOURCE_BASE_APP_AM_END = APP_AM + 200,
-# 3100 "../../mmi/inc/mmi_res_range_def.h"
-   APP_ADUPS, RESOURCE_BASE_APP_ADUPS = APP_ADUPS, RESOURCE_BASE_APP_ADUPS_END = APP_ADUPS + 50,
 # 3114 "../../mmi/inc/mmi_res_range_def.h"
     SRV_FULLSCREEN_EDITOR, RESOURCE_BASE_SRV_FULLSCREEN_EDITOR = SRV_FULLSCREEN_EDITOR, RESOURCE_BASE_SRV_FULLSCREEN_EDITOR_END = SRV_FULLSCREEN_EDITOR + 10,
 
@@ -1332,15 +1330,12 @@ VAPP_GOOGLE_SEARCH, RESOURCE_BASE_VAPP_GOOGLE_SEARCH = VAPP_GOOGLE_SEARCH, RESOU
 
 
         SRV_PXP, RESOURCE_BASE_SRV_PXP = SRV_PXP, RESOURCE_BASE_SRV_PXP_END = SRV_PXP + 5,
+# 3149 "../../mmi/inc/mmi_res_range_def.h"
+        SRV_AWS, RESOURCE_BASE_SRV_AWS = SRV_AWS, RESOURCE_BASE_SRV_AWS_END = SRV_AWS + 300,
 
 
 
 
-
-
-
-        SRV_IOT_LOCK, RESOURCE_BASE_SRV_IOT_LOCK = SRV_IOT_LOCK, RESOURCE_BASE_SRV_IOT_LOCK_END = SRV_IOT_LOCK + 300,
-# 3154 "../../mmi/inc/mmi_res_range_def.h"
 # 1 "../../mmi/inc/mmi_pluto_res_range_def.h" 1
 # 827 "../../mmi/inc/mmi_pluto_res_range_def.h"
 APP_BLUETOOTH, RESOURCE_BASE_APP_BLUETOOTH = APP_BLUETOOTH, RESOURCE_BASE_APP_BLUETOOTH_END = APP_BLUETOOTH + 450,
@@ -4080,8 +4075,6 @@ typedef struct
 
 # 5727 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5761 "../../mmi/inc/mmi_res_range_def.h"
-
 # 5801 "../../mmi/inc/mmi_res_range_def.h"
 
 
@@ -4098,9 +4091,14 @@ typedef struct
 
 # 5847 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5865 "../../mmi/inc/mmi_res_range_def.h"
+# 5874 "../../mmi/inc/mmi_res_range_def.h"
 
-# 5881 "../../mmi/inc/mmi_res_range_def.h"
+
+
+
+
+
+
 
 # 1276 "../../framework/interface/MMIDataType.h" 2
 # 63 "temp/res/imgview.c" 2
@@ -7385,19 +7383,6 @@ INDX_MTKTASKEND,
 
 
 
-# 3615 "../../../config/include/app/app_task_config.h"
-INDX_ADUPS,
-
-
-
-
-
-
-
-
-
-
-
 # 1225 "../../../config/include/hal/stack_config.h" 2
 
     RPS_TOTAL_STACK_TASKS,
@@ -10102,19 +10087,6 @@ MOD_MTKTASKEND,
 
 
 
-# 3615 "../../../config/include/app/app_task_config.h"
-
-MOD_ADUPS,
-
-
-
-
-
-
-
-
-
-
 # 1266 "../../../config/include/hal/stack_config.h" 2
 
 
@@ -12755,19 +12727,6 @@ MOD_INET,
 
 
 # 3214 "../../../config/include/app/app_task_config.h"
-
-
-
-
-
-
-
-
-
-
-
-
-# 3615 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -49618,14 +49577,14 @@ typedef enum
    BATTERY_LEVEL_1,
    BATTERY_LEVEL_2,
    BATTERY_LEVEL_3,
-
-   BATTERY_LEVEL_4,
-   BATTERY_LEVEL_5,
-   BATTERY_LEVEL_6,
-   BATTERY_LEVEL_7,
+# 938 "../../../interface/ps/include/device.h"
+   BATTERY_LEVEL_4 = BATTERY_LEVEL_3,
+   BATTERY_LEVEL_5 = BATTERY_LEVEL_3,
+   BATTERY_LEVEL_6 = BATTERY_LEVEL_3,
    BATTERY_LEVEL_MAX,
-   BATTERY_LEVEL_LAST = 10
-# 945 "../../../interface/ps/include/device.h"
+   BATTERY_LEVEL_LAST = 9
+
+
 } battery_level_enum;
 # 955 "../../../interface/ps/include/device.h"
 typedef enum

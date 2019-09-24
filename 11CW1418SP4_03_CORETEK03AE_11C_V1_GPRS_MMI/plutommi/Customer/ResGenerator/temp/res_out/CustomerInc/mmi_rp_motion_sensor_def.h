@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_MOTION = 43300 + 1, /* BASE_ID + 1 */
+    MENU_ID_MOTION = 43249 + 1, /* BASE_ID + 1 */
     MMI_RP_MOTION_SENSOR_MENU_MAX
 }mmi_rp_motion_sensor_menu_enum;
 /******************** Menu resource IDs - finish ********************/
@@ -71,7 +71,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_MOTION = 43300 + 1, /* BASE_ID + 1 */
+    STR_ID_MOTION = 43249 + 1, /* BASE_ID + 1 */
     STR_ID_MOTION_SETTINGS,
     STR_ID_MOTION_SENSOR,
     STR_ID_AUTO_SWITCH_DISPLAY_ORIENTATION,

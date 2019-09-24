@@ -181,7 +181,4 @@ void mmi_rp_populate_resources(void)
     extern void mmi_rp_cui_use_detail_populate(void);
     mmi_rp_cui_use_detail_populate();
 
-    extern void mmi_rp_app_adups_populate(void);
-    mmi_rp_app_adups_populate();
-
 }

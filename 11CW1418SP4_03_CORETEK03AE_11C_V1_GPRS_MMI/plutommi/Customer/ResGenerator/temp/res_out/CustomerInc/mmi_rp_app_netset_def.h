@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_NETSET_MAIN = 37428 + 1, /* BASE_ID + 1 */
+    MENU_ID_NETSET_MAIN = 37377 + 1, /* BASE_ID + 1 */
     MENU_ID_NETSET_NETWORK_SELECTION,
     MENU_ID_NETSET_NETSEL_AUTO,
     MENU_ID_NETSET_NETSEL_MANUAL,
@@ -77,7 +77,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_NETSET_NETWORK_SELECTION = 37428 + 1, /* BASE_ID + 1 */
+    STR_ID_NETSET_NETWORK_SELECTION = 37377 + 1, /* BASE_ID + 1 */
     STR_ID_NETSET_NETSEL_NEW_SEARCH,
     STR_ID_NETSET_NETSEL_SELECT_NETWORK,
     STR_ID_NETSET_NETSEL_SELECTION_MODE,
@@ -100,7 +100,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_NETSET_MAIN = 37428 + 1, /* BASE_ID + 1 */
+    GRP_ID_NETSET_MAIN = 37377 + 1, /* BASE_ID + 1 */
     GRP_ID_NETSET_NW_SELECT,
     GRP_ID_NETSET_PREF_MODE,
     GRP_ID_NETSET_PREF_LIST,
@@ -139,7 +139,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_SETTING_NETWORK = 37428 + 1, /* BASE_ID + 1 */
+    IMG_SETTING_NETWORK = 37377 + 1, /* BASE_ID + 1 */
     IMG_ID_NETSET_HOME_PLMN,
     IMG_ID_NETSET_UNKNOWN_PLMN,
     IMG_ID_NETSET_FORBIDDEN_PLMN,

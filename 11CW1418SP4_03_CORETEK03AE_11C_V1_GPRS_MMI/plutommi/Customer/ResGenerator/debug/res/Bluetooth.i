@@ -55,9 +55,9 @@
 
     <CACHEDATA type="byte" id="NVRAM_BT_POWER_STATUS" restore_flag="TRUE">
 
-        <DEFAULT_VALUE> [0x01] </DEFAULT_VALUE>
 
 
+        <DEFAULT_VALUE> [0x00] </DEFAULT_VALUE>
 
         <DESCRIPTION> Bluetooth setting </DESCRIPTION>
     </CACHEDATA>

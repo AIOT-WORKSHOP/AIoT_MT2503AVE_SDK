@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_MMI_SSO_ACCOUNTS = 43368 + 1, /* BASE_ID + 1 */
+    STR_ID_MMI_SSO_ACCOUNTS = 43317 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_SSO_STR_MAX
 }mmi_rp_app_sso_str_enum;
 /******************** String resource IDs - finish ********************/

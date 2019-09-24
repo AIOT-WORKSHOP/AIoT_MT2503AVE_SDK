@@ -2324,7 +2324,6 @@ nvram_common_config.obj:	tools\NVRAMStatistic\src\..\..\..\custom\common\PLUTO_M
 	tools\NVRAMStatistic\src\..\..\..\custom\common\custom_wap_config.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\hal_public\customer_ps_inc.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\customer_email_num.h \
-	tools\NVRAMStatistic\src\..\..\..\applib\misc\include\app_datetime.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\custom_nvram_config.h \
 	tools\NVRAMStatistic\src\..\..\..\interface\middleware\nvram_config.h \
 	tools\NVRAMStatistic\src\..\..\..\interface\middleware\nvram_editor_data_item.h \
@@ -2621,7 +2620,6 @@ nvram_cust_pack.obj:	tools\NVRAMStatistic\src\..\..\..\custom\common\hal\nvram\n
 	tools\NVRAMStatistic\src\..\..\..\custom\common\custom_wap_config.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\hal_public\customer_ps_inc.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\customer_email_num.h \
-	tools\NVRAMStatistic\src\..\..\..\applib\misc\include\app_datetime.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\ps\custom_gprs_pdp_default_qos_config.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\PLUTO_MMI\nvram_common_custpack.c \
 	tools\NVRAMStatistic\src\..\..\..\plutommi\Customer\CustomerInc\mmi_cache_default_value.h \
@@ -3739,7 +3737,6 @@ nvram_user_config.obj:	tools\NVRAMStatistic\src\..\..\..\custom\app\CORETEK03AE_
 	tools\NVRAMStatistic\src\..\..\..\custom\common\custom_wap_config.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\hal_public\customer_ps_inc.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\common\customer_email_num.h \
-	tools\NVRAMStatistic\src\..\..\..\applib\misc\include\app_datetime.h \
 	tools\NVRAMStatistic\src\..\..\..\custom\app\CORETEK03AE_11C_BB\custom_nvram_editor_data_item.h
 touchpanel_nvram_def.obj:	tools\NVRAMStatistic\src\..\..\..\custom\common\hal\touchpanel_nvram_def.c \
 	tools\NVRAMStatistic\src\..\..\..\kal\include\kal_general_types.h \

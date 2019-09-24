@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_DIALER_MAIN = 40443 + 1, /* BASE_ID + 1 */
+    GRP_ID_DIALER_MAIN = 40392 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_DIALER_SCR_MAX
 }mmi_rp_app_dialer_scr_enum;
 /******************** Screen resource IDs - finish ********************/

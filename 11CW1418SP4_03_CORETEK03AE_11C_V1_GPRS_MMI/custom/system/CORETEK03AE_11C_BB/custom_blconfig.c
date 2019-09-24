@@ -148,7 +148,7 @@ kal_uint32 custom_EXTBL_baseaddr(void)
  * -------------------------------------------------*/
 kal_uint32 custom_ROM_LV_baseaddr(void)
 {
-   return 0x10020000;
+   return 0x10010000;
 }
 
 /* -------------------------------------------------
@@ -157,7 +157,7 @@ kal_uint32 custom_ROM_LV_baseaddr(void)
  * -------------------------------------------------*/
 kal_uint32 custom_ROM_baseaddr(void)
 {
-   return 0x10020000;
+   return 0x10010000;
 }
 
 /* -------------------------------------------------

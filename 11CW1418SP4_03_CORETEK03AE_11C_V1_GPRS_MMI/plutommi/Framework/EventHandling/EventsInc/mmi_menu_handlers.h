@@ -67,7 +67,7 @@
 
 /* need typedef void (*FuncPtr) (void); before include this file */
 
-/* #define MENU_HILITE_HANDLER_COUNT   37; */
+/* #define MENU_HILITE_HANDLER_COUNT   36; */
 /* #define MENU_HINT_HANDLER_COUNT     1; */
 
 #include "mmi_rp_all_defs.h"
@@ -79,7 +79,6 @@ extern void mmi_fmgr_highlight_to_phb(void);
 extern void mmi_fmgr_highlight_to_sms(void);
 extern void mmi_fmgr_highlight_audio_play(void);
 extern void highlight_mainmenu_connectivity(void);
-extern void AdupsHighlightCV(void);
 extern void mmi_bt_main_hilight_handler(void);
 extern void mmi_secset_main_menu_highlight_hdlr(void);
 extern void mmi_imgview_highlight_app(void);
@@ -122,7 +121,6 @@ const mmi_frm_hilite_hdlr_struct mmi_frm_const_hilite_hdlr_table[] = {
     {MENU_ID_FMGR_FWD_SMS, mmi_fmgr_highlight_to_sms},
     {MENU_ID_FMGR_AUD_OPTION_PLAY, mmi_fmgr_highlight_audio_play},
     {MENU_ID_CONNECTIVITY, highlight_mainmenu_connectivity},
-    {MENU_SETTING_CHECK_VERSION, AdupsHighlightCV},
     {MENU_CONN_BT_MAIN, mmi_bt_main_hilight_handler},
     {MENU_ID_SECSET_MAIN_MENU, mmi_secset_main_menu_highlight_hdlr},
     {MENU_ID_IMGVIEW_APP, mmi_imgview_highlight_app},

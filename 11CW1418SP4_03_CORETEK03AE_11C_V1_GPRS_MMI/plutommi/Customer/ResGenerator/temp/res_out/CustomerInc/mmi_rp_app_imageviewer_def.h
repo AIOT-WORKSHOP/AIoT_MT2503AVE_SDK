@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_IMGVIEW_APP = 31534 + 1, /* BASE_ID + 1 */
+    MENU_ID_IMGVIEW_APP = 31483 + 1, /* BASE_ID + 1 */
     MENU_ID_IMGVIEW_VIEW_DETAIL,
     MENU_ID_IMGVIEW_STORAGE,
     MENU_ID_IMGVIEW_VIEW_OPTION_PLAY,
@@ -82,7 +82,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_IMGVIEW_NAME = 31534 + 1, /* BASE_ID + 1 */
+    STR_ID_IMGVIEW_NAME = 31483 + 1, /* BASE_ID + 1 */
     STR_ID_IMGVIEW_OPTION_IMG_INFO,
     STR_ID_IMGVIEW_OPTION_IMG_INFO_FILENAME,
     STR_ID_IMGVIEW_OPTION_IMG_INFO_RESOLUTION,
@@ -96,7 +96,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_IMGVIEW_VIEW = 31534 + 1, /* BASE_ID + 1 */
+    SCR_ID_IMGVIEW_VIEW = 31483 + 1, /* BASE_ID + 1 */
     SCR_ID_IMGVIEW_IMG_INFO,
     MMI_RP_APP_IMAGEVIEWER_SCR_MAX
 }mmi_rp_app_imageviewer_scr_enum;
@@ -108,7 +108,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    NVRAM_IMGVIEW_VIEW_SYTLE = 31534 + 1, /* BASE_ID + 1 */     /*         BYTE */ 
+    NVRAM_IMGVIEW_VIEW_SYTLE = 31483 + 1, /* BASE_ID + 1 */     /*         BYTE */ 
     NVRAM_IMGVIEW_STORAGE,                                      /*        SHORT */ 
     MMI_RP_APP_IMAGEVIEWER_MMI_CACHE_MAX
 } mmi_rp_app_imageviewer_mmi_cache_enum;

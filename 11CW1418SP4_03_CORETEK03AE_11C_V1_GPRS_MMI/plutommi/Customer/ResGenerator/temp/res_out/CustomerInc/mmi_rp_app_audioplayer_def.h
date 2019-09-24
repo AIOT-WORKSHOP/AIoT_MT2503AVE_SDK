@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_AUDPLY_TITLE = 31877 + 1, /* BASE_ID + 1 */
+    STR_ID_AUDPLY_TITLE = 31826 + 1, /* BASE_ID + 1 */
     STR_ID_AUDPLY_LIST_FULL,
     STR_ID_AUDPLY_OPEN_FILE_ERROR,
     STR_ID_AUDPLY_COMMAND_ERROR,
@@ -84,7 +84,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_AUDPLY_BASE = 31877 + 1, /* BASE_ID + 1 */
+    SCR_ID_AUDPLY_BASE = 31826 + 1, /* BASE_ID + 1 */
     SCR_ID_AUDPLY_PLAY_ANIMATION,
     GRP_ID_AUDPLY_PLAY_ANIMATION,
     MMI_RP_APP_AUDIOPLAYER_SCR_MAX
@@ -95,7 +95,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    AUDPLY_PROCESS_ADD_FILE_TIMER = 31877 + 1, /* BASE_ID + 1 */
+    AUDPLY_PROCESS_ADD_FILE_TIMER = 31826 + 1, /* BASE_ID + 1 */
     AUDPLY_COUNT_PLAY_TIMER,
     AUDPLY_DELAY_PLAY_TIMER,
     AUDPLY_SINGLE_PLAY_TIMER,
@@ -112,7 +112,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    NVRAM_AUDPLY_SINGLE_VOL = 31877 + 1, /* BASE_ID + 1 */      /*         BYTE */ 
+    NVRAM_AUDPLY_SINGLE_VOL = 31826 + 1, /* BASE_ID + 1 */      /*         BYTE */ 
     MMI_RP_APP_AUDIOPLAYER_MMI_CACHE_MAX
 } mmi_rp_app_audioplayer_mmi_cache_enum;
 /******************** MMI Cache IDs - End ********************/
@@ -121,7 +121,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_AUDPLY_PLAY_ANIMATION = 31877 + 1, /* BASE_ID + 1 */
+    IMG_ID_AUDPLY_PLAY_ANIMATION = 31826 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_AUDIOPLAYER_IMG_MAX
 }mmi_rp_app_audioplayer_img_enum;
 /******************** Image resource IDs - finish ********************/

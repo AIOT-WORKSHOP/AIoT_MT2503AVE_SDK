@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_MODE_SWITCH_SWITCHING = 37629 + 1, /* BASE_ID + 1 */
+    STR_ID_MODE_SWITCH_SWITCHING = 37578 + 1, /* BASE_ID + 1 */
     STR_ID_MODE_SWITCH_INVALID,
     MMI_RP_APP_MODE_SWITCH_STR_MAX
 }mmi_rp_app_mode_switch_str_enum;
@@ -72,7 +72,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_MODE_SWITCH_START = 37629 + 1, /* BASE_ID + 1 */
+    SCR_ID_MODE_SWITCH_START = 37578 + 1, /* BASE_ID + 1 */
     SCR_ID_MODE_SWITCH_SIM_SELECTION,
     SCR_ID_MODE_SWITCH_QUERY_CONFIRM,
     SCR_ID_MODE_SWITCH_SWITCH_PROGRESS,

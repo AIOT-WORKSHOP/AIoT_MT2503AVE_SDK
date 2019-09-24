@@ -12201,7 +12201,7 @@ ifeq ($(strip $(NVRAM_BACKUP_PARTITION_ON_NOR)),ENABLE)
       DEPENDENCY_CONFLICT = TRUE
     endif
     ifeq ($(strip $(SERIAL_FLASH_SUPPORT)),FALSE)
-      $(warning ERROR: when SERIAL_FLASH_SUPPORT=FALSE ¡ANVRAM_BACKUP_PARTITION_ON_NOR must be FALSE.)
+      $(warning ERROR: when SERIAL_FLASH_SUPPORT=FALSE ï¿½ANVRAM_BACKUP_PARTITION_ON_NOR must be FALSE.)
       DEPENDENCY_CONFLICT = TRUE
     endif
     COM_DEFS  += __NOR_SUPPORT_RAW_DISK__ __SYSDRV_BACKUP_DISK__ __SYSDRV_BACKUP_DISK_RAW__ __NVRAM_BACKUP_PARTITION__ __AT_BACKUP_DATA_SUPPORT__
@@ -13712,12 +13712,12 @@ ifdef NSK_ECG
     endif
 endif
 
-ifdef AIOT_ECU
-    ifeq ($(strip $(AIOT_ECU)), TRUE)
-       COM_DEFS += __AIOT_ECU__
+ifdef AIOT_WORKSHOP
+    ifeq ($(strip $(AIOT_WORKSHOP)), TRUE)
+       COM_DEFS += __AIOT_WORKSHOP__
        COM_DEFS += __POPULATE_NO_IMAGE_DATA__
        COM_DEFS += __POPULATE_NO_STRING_DATA__
-       COMPLIST += aiot_ecu
-       CUS_REL_SRC_COMP += aiot_ecu
+       COMPLIST += aiot_workshop
+       CUS_REL_SRC_COMP += aiot_workshop
     endif
 endif

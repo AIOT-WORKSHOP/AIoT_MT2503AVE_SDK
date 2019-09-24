@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_SETTING_MREAPPS = 37407 + 1, /* BASE_ID + 1 */
+    MENU_ID_SETTING_MREAPPS = 37356 + 1, /* BASE_ID + 1 */
     MENU_ID_SETTING_MREAPPS_UNINSTALL,
     MMI_RP_APP_SETTING_MREAPPS_MENU_MAX
 }mmi_rp_app_setting_mreapps_menu_enum;
@@ -72,7 +72,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_SETTING_MREAPPS = 37407 + 1, /* BASE_ID + 1 */
+    STR_ID_SETTING_MREAPPS = 37356 + 1, /* BASE_ID + 1 */
     STR_ID_SETTING_MREAPPS_UNINSTALL_ALL,
     STR_ID_SETTING_MREAPPS_QUERY,
     STR_ID_SETTING_MREAPPS_UNINSTALL_PROCESS,
@@ -84,7 +84,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_SETTING_MREAPPS = 37407 + 1, /* BASE_ID + 1 */
+    GRP_ID_SETTING_MREAPPS = 37356 + 1, /* BASE_ID + 1 */
     GRP_ID_SETTING_MREAPPS_PROCESSING,
     SCR_ID_SETTING_MREAPPS,
     SCR_ID_SETTING_MREAPPS_PROCESSING,

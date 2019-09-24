@@ -477,7 +477,7 @@
 //#define MAX_LANG_PACK_ROM_SIZE
 //#define MAX_CUSTPACK_ROM_SIZE
 #define MAX_BL_SIZE 0x2400
-#define MAX_EXT_BL_SIZE 0x1c400
+#define MAX_EXT_BL_SIZE 0x9c00
 //#define MAX_TS_ROM1_SIZE 
 //#define MAX_TS_ROM2_SIZE 
 //#define MAX_TS_ROM3_SIZE

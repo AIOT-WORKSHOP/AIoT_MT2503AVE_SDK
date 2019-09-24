@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_APP_DEVAPP = 43521 + 1, /* BASE_ID + 1 */
+    SCR_ID_APP_DEVAPP = 43470 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_DEVAPP_SCR_MAX
 }mmi_rp_app_devapp_scr_enum;
 /******************** Screen resource IDs - finish ********************/
@@ -73,7 +73,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_APP_DEVAPP = 43521 + 1, /* BASE_ID + 1 */
+    IMG_ID_APP_DEVAPP = 43470 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_DEVAPP_IMG_MAX
 }mmi_rp_app_devapp_img_enum;
 /******************** Image resource IDs - finish ********************/

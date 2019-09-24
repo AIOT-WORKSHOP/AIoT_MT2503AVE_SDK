@@ -28,6 +28,7 @@ avk_multimedia.i
 avk_pluto_mem.i
 avk_pluto_res.i
 avk_sdk_test.i
+aws.i
 AzaanAlarm.i
 BackupRestoreSrv.i
 BGSound.i
@@ -104,7 +105,6 @@ FileTypes.i
 FlightMode.i
 FontEffects.i
 FontManager.i
-FotaSrv.i
 framework_asm.i
 FSEditorCui.i
 Game.i
@@ -131,7 +131,6 @@ imgviewcui.i
 IndianCalendar.i
 InlineCui.i
 input_method.i
-iotlock.i
 Java.i
 Lunarquery.i
 MainMenuRes.i

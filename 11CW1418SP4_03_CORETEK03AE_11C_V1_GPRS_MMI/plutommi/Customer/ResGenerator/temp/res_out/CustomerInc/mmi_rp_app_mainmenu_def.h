@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MAIN_MENU_FILE_MNGR_MENUID = 42692 + 1, /* BASE_ID + 1 */
+    MAIN_MENU_FILE_MNGR_MENUID = 42641 + 1, /* BASE_ID + 1 */
     MAIN_MENU_PHONEBOOK_MENUID,
     MAIN_MENU_FUNANDGAMES_MENUID,
     MAIN_MENU_EXTRA_MENUID,
@@ -83,7 +83,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    MAIN_MENU_TITLE_TEXT = 42692 + 1, /* BASE_ID + 1 */
+    MAIN_MENU_TITLE_TEXT = 42641 + 1, /* BASE_ID + 1 */
     MAIN_MENU_MENU_TEXT,
     MAIN_MENU_PHONEBOOK_TEXT,
     MAIN_MENU_MESSAGES_TEXT,
@@ -105,7 +105,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    MAIN_MENU_SCREENID = 42692 + 1, /* BASE_ID + 1 */
+    MAIN_MENU_SCREENID = 42641 + 1, /* BASE_ID + 1 */
     SCR_ID_FILE_MANAGER,
     SCR_ID_MMEDIA,
     SCR_ID_CAMERA,
@@ -119,7 +119,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    MAIN_MENU_TITLE_ICON = 42692 + 1, /* BASE_ID + 1 */
+    MAIN_MENU_TITLE_ICON = 42641 + 1, /* BASE_ID + 1 */
     MAIN_MENU_ICON_IMGBASE,
     MAIN_MENU_PHONEBOOK_ICON,
     MAIN_MENU_MESSAGES_ICON,

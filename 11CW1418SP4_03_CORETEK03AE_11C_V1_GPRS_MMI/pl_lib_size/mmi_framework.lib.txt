@@ -118,7 +118,7 @@
      10564       6466         20      10456       7293   pixcomfontengine.obj
        716          0          0       1573        828   preferedinputmethodsetting.obj
          0          0          0          0          0   profilingengine.obj
-      2234          0         11          4       1893   pwroncharger.obj
+      2230          0         11          4       1893   pwroncharger.obj
        502          0          0       2084        520   queue.obj
          4          0          0          4         52   screenrotation.obj
         56          0          1          0        163   scrmemmgr.obj
@@ -193,5 +193,5 @@
        420          0          0       1112       1241   wgui_video.obj
          4          0          0          0        104   wgui_virtual_keyboard.obj
       7322         65         20        176       6820   wingui.obj
-    440710      13355       4026     115716     354178   TOTAL
+    440706      13355       4026     115716     354178   TOTAL
 

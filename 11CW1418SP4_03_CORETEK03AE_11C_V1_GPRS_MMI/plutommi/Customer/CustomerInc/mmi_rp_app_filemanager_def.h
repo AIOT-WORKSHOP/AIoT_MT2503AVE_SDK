@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_FMGR_DRIVE_OPTIONS = 35463 + 1, /* BASE_ID + 1 */
+    MENU_ID_FMGR_DRIVE_OPTIONS = 35412 + 1, /* BASE_ID + 1 */
     MENU_ID_FMGR_APP_DRIVE_OPTIONS,
     MENU_ID_FMGR_DRIVE_OPEN,
     MENU_ID_FMGR_DRIVE_SELECT_DONE,
@@ -95,7 +95,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_FMGR_TITLE = 35463 + 1, /* BASE_ID + 1 */
+    STR_FMGR_TITLE = 35412 + 1, /* BASE_ID + 1 */
     STR_ID_FMGR_NO_FORWARD_OPTION,
     STR_FMGR_FOLDER_CREATE,
     STR_FMGR_FORMATING,
@@ -119,7 +119,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    FMGR_AUDIO_TIMER = 35463 + 1, /* BASE_ID + 1 */
+    FMGR_AUDIO_TIMER = 35412 + 1, /* BASE_ID + 1 */
     FMGR_SCR_TIMER,
     MMI_RP_APP_FILEMANAGER_TIMER_MAX
 }mmi_rp_app_filemanager_timer_enum;
@@ -131,7 +131,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_FMGR_DRIVE_PHONE = 35463 + 1, /* BASE_ID + 1 */
+    IMG_ID_FMGR_DRIVE_PHONE = 35412 + 1, /* BASE_ID + 1 */
     IMG_ID_FMGR_ICON_FILE_TYPE_FOLDER,
     IMG_ID_FMGR_ICON_FILE_TYPE_UNKNOWN,
     MMI_RP_APP_FILEMANAGER_IMG_MAX

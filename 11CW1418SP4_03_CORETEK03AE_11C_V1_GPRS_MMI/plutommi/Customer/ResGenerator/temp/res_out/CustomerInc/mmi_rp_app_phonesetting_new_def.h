@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU9102_INITIAL_SETUP = 37195 + 1, /* BASE_ID + 1 */
+    MENU9102_INITIAL_SETUP = 37144 + 1, /* BASE_ID + 1 */
     MENU_SETTING_LANGUAGE,
     MENU_SETTING_PREFERED_INPUT_METHOD,
     MENU9141_TIME_AND_DATE,
@@ -80,7 +80,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_MENU9102_INITIAL_SETUP = 37195 + 1, /* BASE_ID + 1 */
+    STR_MENU9102_INITIAL_SETUP = 37144 + 1, /* BASE_ID + 1 */
     STR_MENU9141_TIME_AND_DATE,
     STR_PHONE_SETTING_CLOCK_TYPE,
     STR_PHONE_SETTING_CLOCK_TYPE_ANALOG,
@@ -118,7 +118,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR9003_INITIALSETUP = 37195 + 1, /* BASE_ID + 1 */
+    SCR9003_INITIALSETUP = 37144 + 1, /* BASE_ID + 1 */
     SCR9146_WELCOME_TEXT,
     SETTINGS_SETHOMECITY_SCREENID,
     SCR_ID_PHNSET_UART_REBOOT_PROCESSING,
@@ -161,7 +161,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    NVRAM_SETTING_OWNER_NO = 37195 + 1, /* BASE_ID + 1 */       /*         BYTE */ 
+    NVRAM_SETTING_OWNER_NO = 37144 + 1, /* BASE_ID + 1 */       /*         BYTE */ 
     RESTORE_DEFAULT_OWNER_NO,                                   /*         BYTE */ 
     NVRAM_SETTING_STATUS_DT_TIME,                               /*         BYTE */ 
     NVRAM_AUTOUPDATE_DT_STATUS,                                 /*         BYTE */ 
@@ -176,7 +176,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_SETTING_PHONE = 37195 + 1, /* BASE_ID + 1 */
+    IMG_SETTING_PHONE = 37144 + 1, /* BASE_ID + 1 */
     IMG_SCR_SETTING_CAPTION,
     MMI_RP_APP_PHONESETTING_NEW_IMG_MAX
 }mmi_rp_app_phonesetting_new_img_enum;

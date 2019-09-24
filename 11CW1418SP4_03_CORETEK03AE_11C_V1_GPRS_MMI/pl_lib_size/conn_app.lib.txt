@@ -19,7 +19,7 @@
          0          0          0          0          0   DLAgentAppScrDraw.obj
          0          0          0          0          0   DLAgentAppScrHdlr.obj
        166          0          0          0        126   DataAccountApi.obj
-     10398       1412          1       2469       4019   DataAccountApp.obj
+     10394       1412          1       2469       4019   DataAccountApp.obj
       2510          8          0        950       1193   DataAccountCui.obj
        510          8          0          0        318   DataConnectionSIM.obj
          0          0          0          0          0   DataRoaming.obj
@@ -43,5 +43,5 @@
          0          0          0          0          0   syncmlviewlog.obj
       1372          4          4          5       1372   usbdevice.obj
        654          0          0          2        822   usbpoweron.obj
-     40760       1774        249       7022      26087   TOTAL
+     40756       1774        249       7022      26087   TOTAL
 

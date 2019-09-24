@@ -723,7 +723,7 @@ kal_int32 custom_query_mcu_noncacheable_dsp_noncacheable_region(EXTSRAM_REGION_I
 *************************************************************************/
 kal_uint32 custom_get_1st_ROM_ROMBase_On_Flash(void)
 {
-   return 0x10020000;
+   return 0x10010000;
 }
 
 

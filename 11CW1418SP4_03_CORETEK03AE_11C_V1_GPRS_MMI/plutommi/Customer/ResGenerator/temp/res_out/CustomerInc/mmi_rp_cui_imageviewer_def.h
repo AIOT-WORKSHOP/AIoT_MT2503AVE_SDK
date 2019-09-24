@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_IMGVIEWCUI_NAME = 31835 + 1, /* BASE_ID + 1 */
+    STR_ID_IMGVIEWCUI_NAME = 31784 + 1, /* BASE_ID + 1 */
     MMI_RP_CUI_IMAGEVIEWER_STR_MAX
 }mmi_rp_cui_imageviewer_str_enum;
 /******************** String resource IDs - finish ********************/
@@ -71,7 +71,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    IV_LOADING_TIMER = 31835 + 1, /* BASE_ID + 1 */
+    IV_LOADING_TIMER = 31784 + 1, /* BASE_ID + 1 */
     MMI_RP_CUI_IMAGEVIEWER_TIMER_MAX
 }mmi_rp_cui_imageviewer_timer_enum;
 /******************** Timer resource IDs - finish ********************/

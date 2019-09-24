@@ -11,14 +11,6 @@ typedef enum
     NVRAM_EF_NITZ_NW_NAME_LID,            /* (null) */
     NVRAM_EF_MOTION_SENSOR_SWITCH_LID,    /* (null) */
     NVRAM_EF_USB_FOTA_INFO_LID,           /* (null) */
-    NVRAM_EF_BLE_BKSS_LID,                /* (null) */
-    NVRAM_EF_IOT_LOCK_LID,                /* (null) */
-    NVRAM_EF_LOCK_COUNT_LID,              /* (null) */
-    NVRAM_EF_LOCK_AGING_LID,              /* (null) */
-    NVRAM_EF_ORDER_NUM_LID,               /* (null) */
-    NVRAM_EF_ORDER_INFO_LID,              /* (null) */
-    NVRAM_EF_IOT_BACKUP_LID,              /* (null) */
-    NVRAM_EF_FOTA_LID,                    /* (null) */
     NVRAM_EF_AGPS_SETTING_LID,            /* (null) */
     NVRAM_EF_EM_GPS_POS_TYPE_LID,         /* (null) */
     NVRAM_EF_AGPS_QOP_SETTING_LID,        /* (null) */

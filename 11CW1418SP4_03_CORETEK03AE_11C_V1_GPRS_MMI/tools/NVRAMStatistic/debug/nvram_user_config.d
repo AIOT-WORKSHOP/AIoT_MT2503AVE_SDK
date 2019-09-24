@@ -261,5 +261,4 @@
   ../../../custom/common/custom_wap_config.h \
   ../../../custom/common/hal_public/customer_ps_inc.h \
   ../../../custom/common/customer_email_num.h \
-  ../../../applib/misc/include/app_datetime.h \
   ../../../custom/app/CORETEK03AE_11C_BB/custom_nvram_editor_data_item.h

@@ -54,7 +54,7 @@
 ; *
 ; * Auto Generated Date:
 ; * -------
-; *   2019/9/22
+; *   2019/9/24
 ; *
 ; * Revision History:
 ; * -------
@@ -81,21 +81,21 @@ ROOT_CERT 0x10003400 0x00000000
     ; reserved region for secure chip project
 }
 
-EXT_BOOTLOADER 0x10003400 0x0001c400
+EXT_BOOTLOADER 0x10003400 0x00009c00
 {
 }
 
 
 
-CBR 0x10020000 0x00000000
+CBR 0x10010000 0x00000000
 {
     ; reserved for bootup and features
 }
 
 ; ROM Load region is block-aligned
-ROM 0x10020000
+ROM 0x10010000
 {
-    ROM_GFH 0x10020000 
+    ROM_GFH 0x10010000 
     {
          *                             (MAUI_GFH, +First)
          *                             (MAUI_GFH_EXT)

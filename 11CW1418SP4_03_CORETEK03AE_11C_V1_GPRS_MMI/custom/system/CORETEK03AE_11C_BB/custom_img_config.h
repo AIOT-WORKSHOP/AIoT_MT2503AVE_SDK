@@ -79,7 +79,7 @@
    Item 2. the ROM base address on Flash when NORFLASH_NON_XIP_SUPPORT is enabled
  ****************************************************************************/
 #define BL_IMG_MAX_SIZE (0x40000)
-#define ROM_BASE_ON_FLASH (0x10020000)
+#define ROM_BASE_ON_FLASH (0x10010000)
 
 /****************************************************************************
    Following definitions are used to configure flash memory arrangement for tiny system image
@@ -105,7 +105,7 @@
    Note: This value MUST be the same with scatter file setting
 
  ****************************************************************************/
-#define FOTA_UE_FLASH_BASE_ADDRESS (0x00020000)
+#define FOTA_UE_FLASH_BASE_ADDRESS (0x00010000)
 
 #define FOTA_UE_RESIDENT_FLASH_SPACE_SIZE   (0x60000)
 
@@ -214,7 +214,7 @@
          #if defined(MAX_ROM_SIZE)
             #define MAX_LENGTH_ROM  (MAX_ROM_SIZE)
          #else  /* MAX_ROM_SIZE */
-            #define MAX_LENGTH_ROM  (0x00E20000)
+            #define MAX_LENGTH_ROM  (0x00E30000)
          #endif  /* MAX_ROM_SIZE */
       #else
          #define MAX_LENGTH_ROM     (0xFFFFFFFF)

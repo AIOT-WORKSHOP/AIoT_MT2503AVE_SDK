@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_FULLSCREEN_EDITOR = 30250 + 1, /* BASE_ID + 1 */
+    STR_FULLSCREEN_EDITOR = 30199 + 1, /* BASE_ID + 1 */
     MMI_RP_SRV_FULLSCREEN_EDITOR_STR_MAX
 }mmi_rp_srv_fullscreen_editor_str_enum;
 /******************** String resource IDs - finish ********************/

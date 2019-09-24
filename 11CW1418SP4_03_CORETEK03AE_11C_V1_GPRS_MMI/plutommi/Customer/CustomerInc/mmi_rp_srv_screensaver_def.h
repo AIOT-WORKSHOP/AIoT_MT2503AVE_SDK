@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_MAIN_SCREENSAVER = 35865 + 1, /* BASE_ID + 1 */
+    SCR_MAIN_SCREENSAVER = 35814 + 1, /* BASE_ID + 1 */
     SCR_SCREENSAVER_SETTING,
     SCR_SCREENSAVER_SELECT,
     SCR_SCREENSAVER_SYSTEM_LIST,

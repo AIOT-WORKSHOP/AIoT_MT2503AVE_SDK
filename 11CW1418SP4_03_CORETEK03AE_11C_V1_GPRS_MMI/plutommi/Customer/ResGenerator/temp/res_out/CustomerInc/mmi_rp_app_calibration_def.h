@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_CALIBRATION_SETTING = 37083 + 1, /* BASE_ID + 1 */
+    SCR_CALIBRATION_SETTING = 37032 + 1, /* BASE_ID + 1 */
     GRP_ID_PHNSET_CALIBRATION,
     MMI_RP_APP_CALIBRATION_SCR_MAX
 }mmi_rp_app_calibration_scr_enum;

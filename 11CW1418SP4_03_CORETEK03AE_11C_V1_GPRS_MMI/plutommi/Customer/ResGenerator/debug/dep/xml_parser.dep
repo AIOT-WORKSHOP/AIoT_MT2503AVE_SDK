@@ -178,6 +178,10 @@ avk_sdk_test.obj:	plutommi\Customer\ResGenerator\temp\res\avk_sdk_test.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\mmi_features.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_switch.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_type.h
+aws.obj:	plutommi\Customer\ResGenerator\temp\res\aws.c \
+	plutommi\Customer\ResGenerator\..\..\mmi\inc\mmi_features.h \
+	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_switch.h \
+	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_type.h
 AzaanAlarm.obj:	plutommi\Customer\ResGenerator\temp\res\AzaanAlarm.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\mmi_features.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_switch.h \
@@ -1268,12 +1272,6 @@ FontManager.obj:	plutommi\Customer\ResGenerator\temp\res\FontManager.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_type.h \
 	plutommi\Customer\ResGenerator\..\customerinc\custresdef.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features.h
-FotaSrv.obj:	plutommi\Customer\ResGenerator\temp\res\FotaSrv.c \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\mmi_features.h \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_switch.h \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_type.h \
-	plutommi\Customer\ResGenerator\..\customerinc\custresdef.h \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features.h
 framework_asm.obj:	plutommi\Customer\ResGenerator\temp\res\framework_asm.c
 FSEditorCui.obj:	plutommi\Customer\ResGenerator\temp\res\FSEditorCui.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\mmi_features.h \
@@ -2154,10 +2152,6 @@ input_method.obj:	plutommi\Customer\ResGenerator\temp\res\input_method.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\mmi_pluto_res_range_def.h \
 	plutommi\Customer\ResGenerator\..\..\..\venusmmi\app\common\interface\vapp_res.h \
 	plutommi\Customer\ResGenerator\..\..\..\venusmmi\visual\cp\res\vcp_res_range.h
-iotlock.obj:	plutommi\Customer\ResGenerator\temp\res\iotlock.c \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\mmi_features.h \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_switch.h \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_type.h
 Java.obj:	plutommi\Customer\ResGenerator\temp\res\Java.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_switch.h \

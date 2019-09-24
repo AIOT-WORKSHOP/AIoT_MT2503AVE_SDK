@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_SIM_CTRL_SIM_ACCESS_ERROR = 31259 + 1, /* BASE_ID + 1 */
+    STR_ID_SIM_CTRL_SIM_ACCESS_ERROR = 31208 + 1, /* BASE_ID + 1 */
     STR_ID_SIM_CTRL_SIM_CAME_OFF,
     MMI_RP_APP_SIM_CTRL_STR_MAX
 }mmi_rp_app_sim_ctrl_str_enum;
@@ -72,7 +72,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_SIM_CTRL = 31259 + 1, /* BASE_ID + 1 */
+    GRP_ID_SIM_CTRL = 31208 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_SIM_CTRL_SCR_MAX
 }mmi_rp_app_sim_ctrl_scr_enum;
 /******************** Screen resource IDs - finish ********************/

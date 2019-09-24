@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_SAT1_ENTRY = 37883 + 1, /* BASE_ID + 1 */
+    MENU_ID_SAT1_ENTRY = 37832 + 1, /* BASE_ID + 1 */
     MENU_ID_SAT_INPUT_DONE_OPT,
     MENU_ID_SAT_INPUT_OPTION,
     MMI_RP_APP_SAT_MENU_MAX
@@ -73,7 +73,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_SAT_SIM_REFRESH = 37883 + 1, /* BASE_ID + 1 */
+    STR_ID_SAT_SIM_REFRESH = 37832 + 1, /* BASE_ID + 1 */
     STR_ID_SAT_GET_INPUT_LENGTH_NOT_ENOUGH,
     STR_ID_SAT_LANGUAGE_CHANGED,
     MMI_RP_APP_SAT_STR_MAX
@@ -84,7 +84,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_SAT_INPUT_OPT = 37883 + 1, /* BASE_ID + 1 */
+    GRP_ID_SAT_INPUT_OPT = 37832 + 1, /* BASE_ID + 1 */
     SCR_ID_SAT_CMD_SCREEN,
     MMI_RP_APP_SAT_SCR_MAX
 }mmi_rp_app_sat_scr_enum;

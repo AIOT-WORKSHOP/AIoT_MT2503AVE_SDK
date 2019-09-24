@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_SHUTDOWN = 31280 + 1, /* BASE_ID + 1 */
+    GRP_ID_SHUTDOWN = 31229 + 1, /* BASE_ID + 1 */
     SCR_ID_SHUTDOWN_BASE,
     SCR_ID_SHUTDOWN_ANIMATION,
     MMI_RP_APP_SHUTDOWN_SCR_MAX
@@ -73,7 +73,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    SHUTDOWN_PROCESS_TIMER = 31280 + 1, /* BASE_ID + 1 */
+    SHUTDOWN_PROCESS_TIMER = 31229 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_SHUTDOWN_TIMER_MAX
 }mmi_rp_app_shutdown_timer_enum;
 /******************** Timer resource IDs - finish ********************/

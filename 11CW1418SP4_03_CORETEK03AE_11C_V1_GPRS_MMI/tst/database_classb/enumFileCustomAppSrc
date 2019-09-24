@@ -1305,12 +1305,11 @@ BATTERY_LEVEL_0                                                       3
 BATTERY_LEVEL_1                                                       4
 BATTERY_LEVEL_2                                                       5
 BATTERY_LEVEL_3                                                       6
-BATTERY_LEVEL_4                                                       7
-BATTERY_LEVEL_5                                                       8
-BATTERY_LEVEL_6                                                       9
-BATTERY_LEVEL_7                                                       10
-BATTERY_LEVEL_LAST                                                    10
-BATTERY_LEVEL_MAX                                                     11
+BATTERY_LEVEL_4                                                       6
+BATTERY_LEVEL_5                                                       6
+BATTERY_LEVEL_6                                                       6
+BATTERY_LEVEL_LAST                                                    9
+BATTERY_LEVEL_MAX                                                     7
 BATTERY_LOW_POWEROFF                                                  0
 BATTERY_LOW_TX_PROHIBIT                                               1
 BATTERY_LOW_WARNING                                                   2
@@ -8651,7 +8650,6 @@ INDIV_PARA_HDL_NC_OK_ENH_NOT_OK                                       2
 INDIV_PARA_HDL_NC_OK_ENH_OK                                           4
 INDIV_PARA_HDL_NOT_DECODED                                            0
 INDX_ABM                                                              55
-INDX_ADUPS                                                            108
 INDX_AUX                                                              30
 INDX_BEE                                                              98
 INDX_BMT                                                              29
@@ -10503,7 +10501,7 @@ LAST_EQ_ACTION                                                        106
 LAST_EQ_IND                                                           41
 LAST_GPRS_ACTION                                                      122
 LAST_GPRS_IND                                                         43
-LAST_MOD_ID                                                           178
+LAST_MOD_ID                                                           177
 LAST_NW_ACTION                                                        141
 LAST_NW_IND                                                           47
 LAST_PHB_ACTION                                                       160
@@ -17281,7 +17279,6 @@ MODULE_START                                                          0
 MOD_ABM                                                               115
 MOD_ABM__end                                                          120586347
 MOD_ABM_empty_string                                                  120586240
-MOD_ADUPS                                                             177
 MOD_APP_BEGIN                                                         110
 MOD_AS                                                                29
 MOD_ATCI                                                              18
@@ -25440,7 +25437,6 @@ NVRAM_EF_BGSND_FILEPATH_LID                                           588
 NVRAM_EF_BGSND_SETTING_LID                                            587
 NVRAM_EF_BLACK_LIST_LID                                               579
 NVRAM_EF_BLACK_LIST_VIDEO_LID                                         725
-NVRAM_EF_BLE_BKSS_LID                                                 740
 NVRAM_EF_BRANCH_VERNO_LID                                             1
 NVRAM_EF_BRW_LAST_WEB_ADDR_LID                                        606
 NVRAM_EF_BTHF_CONFIG_LID                                              705
@@ -25569,7 +25565,6 @@ NVRAM_EF_FLC_STATISTICS_LID                                           134
 NVRAM_EF_FMRDO_SCHEDULER_LID                                          661
 NVRAM_EF_FMSR_SETTING_LID                                             572
 NVRAM_EF_FM_RADIO_LID                                                 571
-NVRAM_EF_FOTA_LID                                                     748
 NVRAM_EF_GPS_LAST_LID                                                 2047
 NVRAM_EF_GPS_MMI_SETTING_DATA_LID                                     1803
 NVRAM_EF_GPS_MMI_SIM_DATA_LID                                         1804
@@ -25581,9 +25576,6 @@ NVRAM_EF_IMEI_IMEISV_LID                                              161
 NVRAM_EF_IMPS_LID                                                     580
 NVRAM_EF_IMPT_COUNTER_LID                                             8
 NVRAM_EF_INET_CUSTPACK_LID                                            653
-NVRAM_EF_IOT_BACKUP_LID                                               747
-NVRAM_EF_IOT_LOCK_LID                                                 741
-NVRAM_EF_IOT_LOCK_MSG_LID                                             742
 NVRAM_EF_IPSEC_IKE_LID                                                638
 NVRAM_EF_IPSEC_POLICY_LID                                             637
 NVRAM_EF_IPSEC_PROFILE_NAME_LID                                       654
@@ -25629,11 +25621,9 @@ NVRAM_EF_L4_START                                                     145
 NVRAM_EF_LANGLN_BSK_SETTING_LID                                       619
 NVRAM_EF_LANGLN_LK_SETTING_LID                                        614
 NVRAM_EF_LANGLN_PRESEL_INFO_LID                                       615
-NVRAM_EF_LAST_LID_COMMAPP                                             749
+NVRAM_EF_LAST_LID_COMMAPP                                             740
 NVRAM_EF_LAST_LID_CORE                                                535
-NVRAM_EF_LAST_LID_CUST                                                750
-NVRAM_EF_LOCK_AGING_LID                                               744
-NVRAM_EF_LOCK_COUNT_LID                                               743
+NVRAM_EF_LAST_LID_CUST                                                741
 NVRAM_EF_MEDPLY_HISTORY_URL_LID                                       649
 NVRAM_EF_MEDPLY_LAST_PLAYLIST_PATH_LID                                648
 NVRAM_EF_MEDPLY_PREDEFINED_URL_LID                                    664
@@ -25671,8 +25661,6 @@ NVRAM_EF_NVRAM_UNIT_TEST_LID                                          180
 NVRAM_EF_OP01_HS_SETTING_LID                                          730
 NVRAM_EF_OP11_HS32_HIST_LID                                           697
 NVRAM_EF_OPERA_ADP_PROF_SETTING_LID                                   703
-NVRAM_EF_ORDER_INFO_LID                                               746
-NVRAM_EF_ORDER_NUM_LID                                                745
 NVRAM_EF_PHB_BIRTHDAY_LID                                             549
 NVRAM_EF_PHB_DEFAULT_NUMBER_LID                                       639
 NVRAM_EF_PHB_EMAIL_SORT_LID                                           547
@@ -25694,7 +25682,7 @@ NVRAM_EF_PHB_SPEEDDIAL_LID                                            541
 NVRAM_EF_PHB_VIP_CONTACT_LID                                          630
 NVRAM_EF_PHB_VOIP_LID                                                 553
 NVRAM_EF_PHB_VT_CONTACT_LID                                           706
-NVRAM_EF_PHONY_LID                                                    749
+NVRAM_EF_PHONY_LID                                                    740
 NVRAM_EF_PICTBRIDGE_LID                                               655
 NVRAM_EF_PORT_SETTING_LID                                             123
 NVRAM_EF_PS_CONFORMANCE_TESTMODE_LID                                  167
@@ -30260,8 +30248,8 @@ ROOT_PUBLIC_KEY_PARTY                                                 2
 ROTATE_MODE_NUM                                                       2
 ROUTER_OPT                                                            3
 ROUTER_SOLICITATION_ADDRESS_OPT                                       32
-RPS_TOTAL_STACK_MODULES                                               178
-RPS_TOTAL_STACK_TASKS                                                 109
+RPS_TOTAL_STACK_MODULES                                               177
+RPS_TOTAL_STACK_TASKS                                                 108
 RP_1                                                                  0
 RP_2                                                                  1
 RP_3                                                                  2
@@ -43076,7 +43064,6 @@ _NVRAM_EF_AUDIO_PARAM_LID                                             1537
 _NVRAM_EF_AUTOTEST_LID                                                535
 _NVRAM_EF_BAND_INFO_LID                                               121
 _NVRAM_EF_BARCODE_NUM_LID                                             98
-_NVRAM_EF_BLE_BKSS_LID                                                740
 _NVRAM_EF_BTRADIO_MTK_BT_CHIP_LID                                     79
 _NVRAM_EF_BT_DEV_LIST_INDEX_LID                                       577
 _NVRAM_EF_BT_DEV_LIST_LID                                             576
@@ -43102,16 +43089,12 @@ _NVRAM_EF_DCC_SENSOR_LK_LID                                           533
 _NVRAM_EF_DCC_SENSOR_SRV_LID                                          534
 _NVRAM_EF_DTCNT_SIM_ID_LID                                            704
 _NVRAM_EF_EM_GPS_POS_TYPE_LID                                         1802
-_NVRAM_EF_FOTA_LID                                                    748
 _NVRAM_EF_GPS_MMI_SETTING_DATA_LID                                    1803
 _NVRAM_EF_GPS_MMI_SIM_DATA_LID                                        1804
 _NVRAM_EF_GPS_SETTING_DATA_LID                                        141
 _NVRAM_EF_GROUPLIST_LID                                               564
 _NVRAM_EF_GROUPLIST_SIM2_LID                                          565
 _NVRAM_EF_IMEI_IMEISV_LID                                             161
-_NVRAM_EF_IOT_BACKUP_LID                                              747
-_NVRAM_EF_IOT_LOCK_LID                                                741
-_NVRAM_EF_IOT_LOCK_MSG_LID                                            742
 _NVRAM_EF_L1_AFCDATA_LID                                              28
 _NVRAM_EF_L1_AGCPATHLOSS_LID                                          15
 _NVRAM_EF_L1_CLOAD_FREQ_OFFSET_LID                                    43
@@ -43128,8 +43111,6 @@ _NVRAM_EF_L1_RAMPTABLE_GSM900_LID                                     17
 _NVRAM_EF_L1_RAMPTABLE_PCS1900_LID                                    19
 _NVRAM_EF_L1_RFSPECIALCOEF_LID                                        30
 _NVRAM_EF_L1_TXIQ_LID                                                 29
-_NVRAM_EF_LOCK_AGING_LID                                              744
-_NVRAM_EF_LOCK_COUNT_LID                                              743
 _NVRAM_EF_MMI_CACHE_BYTE_KEY_LID                                      715
 _NVRAM_EF_MMI_CACHE_DOUBLE_KEY_LID                                    717
 _NVRAM_EF_MMI_CACHE_SHORT_KEY_LID                                     716
@@ -43139,8 +43120,6 @@ _NVRAM_EF_MSCAP_LID                                                   152
 _NVRAM_EF_MS_SECURITY_LID                                             164
 _NVRAM_EF_NET_PAR_LID                                                 128
 _NVRAM_EF_NITZ_NW_NAME_LID                                            601
-_NVRAM_EF_ORDER_INFO_LID                                              746
-_NVRAM_EF_ORDER_NUM_LID                                               745
 _NVRAM_EF_PHB_FIELDS_LID                                              543
 _NVRAM_EF_PHB_FIELDS_MASK_LID                                         544
 _NVRAM_EF_PHB_INFO_LID                                                550

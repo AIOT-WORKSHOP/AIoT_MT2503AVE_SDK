@@ -21,7 +21,7 @@
        194          0          0          0        192   br_GFH_parser.obj
       2650         60          0          4       1554   cache.obj
        408         28          4          0        337   combo_flash_init.obj
-      1242        152          0       2196        919   combo_flash_nor.obj
+      1090        152          0       2196        856   combo_flash_nor.obj
          0          0          0          0         18   cp15.obj
        100         13          0          0        485   custom_blconfig.obj
        650         88         56          4        657   custom_emi_MT6261.obj
@@ -50,5 +50,5 @@
          2          0          0          0         52   pmic_adpt_bl.obj
        178          0          0          0        187   pwic_cust.obj
       1680          0         68         26       1002   pwm.obj
-     18806        796        413      40220      20513   TOTAL
+     18654        796        413      40220      20450   TOTAL
 

@@ -13,6 +13,7 @@ mmi_rp_app_appmgr_test_3.c	app_appmgr_test_3.res
 mmi_rp_app_appmgr_test_4.c	app_appmgr_test_4.res
 mmi_rp_app_package_concurrent.c	.\mmi\inc\app_package_concurrent.res
 mmi_rp_app_audioplayer.c	.\mtkapp\audioplayer\audioplayerres\audioplayer.res
+mmi_rp_srv_aws.c	..\aiot_workshop\aiot_workshop_res\aws.res
 mmi_rp_srv_blecm.c	.\service\blecmsrv\res\blecmsrv.res
 mmi_rp_app_bluetooth.c	.\mtkapp\connectivity\connectivityres\bluetooth\bluetooth.res
 mmi_rp_app_bootup.c	.\mmi\bootup\bootupres\bootup.res
@@ -55,7 +56,6 @@ mmi_rp_srv_filemanager.c	.\service\filemgrsrv\filemgrsrvres\filemgrsrv.res
 mmi_rp_srv_flight_mode.c	.\mmi\setting\settingres\flightmode.res
 mmi_rp_app_font_effects.c	.\mmi\miscframework\miscframeworkres\fonteffects.res
 mmi_rp_app_font_manager.c	.\mmi\miscframework\miscframeworkres\fontmanager.res
-mmi_rp_app_adups.c	..\adups\res\fotasrv.res
 mmi_rp_framework_asm.c	.\framework\memmanager\memmanagerres\framework_asm.res
 mmi_rp_srv_fullscreen_editor.c	.\cui\fseditorcui\fseditorcui_res\fseditorcui.res
 mmi_rp_srv_gatt.c	.\service\gattsrv\gattsrv.res
@@ -74,7 +74,6 @@ mmi_rp_app_imageviewer.c	.\mtkapp\imageview\imageviewres\imgview.res
 mmi_rp_cui_imageviewer.c	.\cui\imageviewcui\res\imgviewcui.res
 mmi_rp_srv_inline_editor.c	.\cui\inlinecui\inlinecui_res\inlinecui.res
 mmi_rp_srv_input_method.c	..\plutommi\framework\inputmethod\res\input_method.res
-mmi_rp_srv_iot_lock.c	..\iotlock\res\iotlock.res
 mmi_rp_app_lunar_query.c	.\mmi\organizer\organizerres\lunarquery.res
 mmi_rp_app_mainmenu.c	.\mmi\mainmenu\mainmenures\mainmenures.res
 mmi_rp_srv_mdi.c	.\service\mdi\mdires\mdi.res

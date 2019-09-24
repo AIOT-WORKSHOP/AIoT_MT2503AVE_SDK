@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_MMI_CBM_APP = 43097 + 1, /* BASE_ID + 1 */
+    GRP_ID_MMI_CBM_APP = 43046 + 1, /* BASE_ID + 1 */
     SCR_ID_MMI_CBM_NOTIFY,
     MMI_RP_APP_CBM_SCR_MAX
 }mmi_rp_app_cbm_scr_enum;

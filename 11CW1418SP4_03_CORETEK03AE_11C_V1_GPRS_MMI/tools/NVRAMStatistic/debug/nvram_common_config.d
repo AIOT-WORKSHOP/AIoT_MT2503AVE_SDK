@@ -256,7 +256,6 @@
   ../../../custom/common/custom_wap_config.h \
   ../../../custom/common/hal_public/customer_ps_inc.h \
   ../../../custom/common/customer_email_num.h \
-  ../../../applib/misc/include/app_datetime.h \
   ../../../custom/common/custom_nvram_config.h \
   ../../../interface/middleware/nvram_config.h \
   ../../../interface/middleware/nvram_editor_data_item.h \

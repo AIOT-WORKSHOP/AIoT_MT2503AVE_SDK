@@ -943,7 +943,6 @@ MMI_FRM_CB_REG(mmi_nw_info_on_status_changed)
 MMI_FRM_CB_REG_END(EVT_ID_SRV_NW_INFO_STATUS_CHANGED)
 
 MMI_FRM_CB_REG_BEGIN(EVT_ID_SRV_NW_INFO_SERVICE_AVAILABILITY_CHANGED)
-MMI_FRM_CB_REG(iot_lock_sr_nw_availability_changed_notify)
 MMI_FRM_CB_REG(mmi_nw_adp_sim1_service_availability_changed)
 MMI_FRM_CB_REG(mmi_nw_info_signal_on_service_avai_changed)
 MMI_FRM_CB_REG(srv_nw_name_main_evt_hdlr)
@@ -1139,7 +1138,6 @@ MMI_FRM_CB_REG_END(EVT_ID_SRV_SIM_CTRL_NO_SIM_AVAILABLE)
 
 MMI_FRM_CB_REG_BEGIN(EVT_ID_SRV_SIM_CTRL_HOME_PLMN_CHANGED)
 MMI_FRM_CB_REG(mmi_dtcnt_on_home_plmn_changed)
-MMI_FRM_CB_REG(iot_lock_sim_imsi_changed_notify)
 MMI_FRM_CB_REG(mmi_nw_adp_on_home_plmn_changed)
 MMI_FRM_CB_REG_END(EVT_ID_SRV_SIM_CTRL_HOME_PLMN_CHANGED)
 

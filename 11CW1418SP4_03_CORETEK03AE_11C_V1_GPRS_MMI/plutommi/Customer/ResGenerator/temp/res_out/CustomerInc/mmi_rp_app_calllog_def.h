@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_CLOG_DIALED_CALL = 34900 + 1, /* BASE_ID + 1 */
+    MENU_ID_CLOG_DIALED_CALL = 34849 + 1, /* BASE_ID + 1 */
     MENU_ID_CLOG_MISSED_CALL,
     MENU_ID_CLOG_RECVED_CALL,
     MENU_ID_CLOG_ALL_CALL,
@@ -88,7 +88,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_CLOG_CALL_LOG = 34900 + 1, /* BASE_ID + 1 */
+    STR_ID_CLOG_CALL_LOG = 34849 + 1, /* BASE_ID + 1 */
     STR_ID_CLOG_ALL_CALL,
     STR_ID_CLOG_DIALED_CALL,
     STR_ID_CLOG_RECVED_CALL,
@@ -120,7 +120,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_CLOG_BEGIN = 34900 + 1, /* BASE_ID + 1 */
+    GRP_ID_CLOG_BEGIN = 34849 + 1, /* BASE_ID + 1 */
     GRP_ID_CLOG_ROOT,
     GRP_ID_CLOG_LAYOUT,
     GRP_ID_CLOG_LAYOUT_MARK,
@@ -151,7 +151,7 @@ typedef enum
 /******************** Events resource IDs - begin ********************/
 typedef enum
 {
-    EVT_ID_MMI_CLOG_ACT_START_APPLY = 34900 + 1, /* BASE_ID + 1 */
+    EVT_ID_MMI_CLOG_ACT_START_APPLY = 34849 + 1, /* BASE_ID + 1 */
     EVT_ID_MMI_CLOG_ACT_APPLY_DONE,
     EVT_ID_MMI_CLOG_LT_EXIST,
     EVT_ID_MMI_CLOG_VR_EXIT,
@@ -165,7 +165,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_CLOG_MAIN_ICON = 34900 + 1, /* BASE_ID + 1 */
+    IMG_ID_CLOG_MAIN_ICON = 34849 + 1, /* BASE_ID + 1 */
     IMG_ID_CLOG_DELETE_BOX,
     IMG_ID_CLOG_ALL_CALL,
     IMG_ID_CLOG_DIALED_CALL,

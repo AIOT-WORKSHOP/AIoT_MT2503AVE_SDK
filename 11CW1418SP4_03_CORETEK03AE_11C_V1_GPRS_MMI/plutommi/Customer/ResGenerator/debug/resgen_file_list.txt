@@ -34,7 +34,6 @@ plutommi\Customer\CustResource\mmi_rp_menu_misc_data.c	plutommi\Customer\ResGene
 plutommi\Customer\CustResource\mmi_rp_menu_shortcut_data.c	plutommi\Customer\ResGenerator\ResgenXML\ResgenSrc\mmi_rp_menu.c
 plutommi\Customer\CustResource\mmi_rp_native_app_package_data.c	plutommi\Customer\ResGenerator\ResgenXML\ResgenSrc\mmi_rp_xml.c
 plutommi\Customer\CustResource\mte_img_resource.h	plutommi\Customer\ResGenerator\mte_excel_gen.pl
-plutommi\Customer\CustomerInc\mmi_rp_app_adups_def.h	adups\res\fotasrv.res
 plutommi\Customer\CustomerInc\mmi_rp_app_alarm_def.h	plutommi\mmi\organizer\organizerres\alarmres\alarm.res
 plutommi\Customer\CustomerInc\mmi_rp_app_am_def.h	plutommi\mtkapp\mreapp\mreappres\am_int.res
 plutommi\Customer\CustomerInc\mmi_rp_app_apn_control_def.h	plutommi\mmi\setting\settingres\apncontrol.res
@@ -162,6 +161,7 @@ plutommi\Customer\CustomerInc\mmi_rp_framework_asm_def.h	plutommi\framework\memm
 plutommi\Customer\CustomerInc\mmi_rp_motion_sensor_def.h	plutommi\mmi\setting\settingres\motionsensor.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_alarm_def.h	plutommi\service\alarmsrv\res\alarmsrv.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_appmgr_def.h	plutommi\service\appmgrsrv\appmgrsrvres\appmgrsrv.res
+plutommi\Customer\CustomerInc\mmi_rp_srv_aws_def.h	aiot_workshop\aiot_workshop_res\aws.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_blecm_def.h	plutommi\service\blecmsrv\res\blecmsrv.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_bootup_def.h	plutommi\service\bootupsrv\bootupsrvres\bootupsrv.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_btcm_def.h	plutommi\service\btcmsrv\res\btcmsrv.res
@@ -187,7 +187,6 @@ plutommi\Customer\CustomerInc\mmi_rp_srv_gpio_def.h	plutommi\service\gpiosrv\gpi
 plutommi\Customer\CustomerInc\mmi_rp_srv_gps_def.h	plutommi\mtkapp\gps\gpsres\gpsres.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_inline_editor_def.h	plutommi\cui\inlinecui\inlinecui_res\inlinecui.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_input_method_def.h	plutommi\framework\inputmethod\res\input_method.res
-plutommi\Customer\CustomerInc\mmi_rp_srv_iot_lock_def.h	iotlock\res\iotlock.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_mdi_aud_info_def.h	plutommi\service\mdi\mdires\mdi_mem.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_mdi_audply_def.h	plutommi\service\mdi\mdires\mdi_mem.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_mdi_def.h	plutommi\service\mdi\mdires\mdi.res
@@ -232,7 +231,6 @@ plutommi\Customer\CustomerInc\mmi_rp_srv_vobject_def.h	plutommi\mtkapp\vobjects\
 plutommi\Customer\CustomerInc\mmi_rp_srv_wallpaper_def.h	plutommi\mmi\setting\settingres\wallpaper.res
 plutommi\Customer\CustomerInc\mmi_rp_srv_wgtmgr_def.h	plutommi\service\wgtmgrsrv\wgtmgrsrvres\wgtmgrsrv.res
 plutommi\Customer\CustomerInc\mmi_rp_vapp_video_player_cp_def.h	venusmmi\app\common\cp\res\vapp_video_player_cp.res
-plutommi\Customer\ResGenerator\debug\res\mmi_rp_app_adups.c	adups\res\fotasrv.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_app_alarm.c	plutommi\mmi\organizer\organizerres\alarmres\alarm.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_app_am.c	plutommi\mtkapp\mreapp\mreappres\am_int.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_app_apn_control.c	plutommi\mmi\setting\settingres\apncontrol.res
@@ -360,6 +358,7 @@ plutommi\Customer\ResGenerator\debug\res\mmi_rp_framework_asm.c	plutommi\framewo
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_motion_sensor.c	plutommi\mmi\setting\settingres\motionsensor.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_alarm.c	plutommi\service\alarmsrv\res\alarmsrv.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_appmgr.c	plutommi\service\appmgrsrv\appmgrsrvres\appmgrsrv.res
+plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_aws.c	aiot_workshop\aiot_workshop_res\aws.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_blecm.c	plutommi\service\blecmsrv\res\blecmsrv.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_bootup.c	plutommi\service\bootupsrv\bootupsrvres\bootupsrv.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_btcm.c	plutommi\service\btcmsrv\res\btcmsrv.res
@@ -385,7 +384,6 @@ plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_gpio.c	plutommi\service\gpio
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_gps.c	plutommi\mtkapp\gps\gpsres\gpsres.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_inline_editor.c	plutommi\cui\inlinecui\inlinecui_res\inlinecui.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_input_method.c	plutommi\framework\inputmethod\res\input_method.res
-plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_iot_lock.c	iotlock\res\iotlock.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_mdi.c	plutommi\service\mdi\mdires\mdi.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_mdi_aud_info.c	plutommi\service\mdi\mdires\mdi_mem.res
 plutommi\Customer\ResGenerator\debug\res\mmi_rp_srv_mdi_audply.c	plutommi\service\mdi\mdires\mdi_mem.res

@@ -9,4 +9,7 @@ debug/obj/mtk_resgenerator_core/FontRes.o: ../CustResource/FontRes.c \
   ../../../venusmmi/visual/cp/res/vcp_res_range.h \
   ../../mmi/inc/vector_font_lang_memory_card_config.h \
   ../../mmi/inc/MMI_features_lang_memory_card_config.h \
-  ../../../vendor/font/inc/L_gMTKProprietaryFont_small.h
+  ../../../vendor/font/inc/L_English_small.h \
+  ../../../vendor/font/inc/L_gMTKProprietaryFont_small.h \
+  ../../../vendor/font/inc/L_English_medium.h \
+  ../../../vendor/font/inc/L_English_dialling.h

@@ -68,10 +68,10 @@
       2764          0          0          0       2072   GCallSrvPsInterface.obj
       4028          0          0       1312       2688   GCallSrvStructMgmt.obj
        824         26          0          0        985   GCallSrvUtil.obj
-      3602       1249        684      10564       1607   GattServicesFactorySrv.obj
+      3602        978        544      10564       1607   GattServicesFactorySrv.obj
       2334          0          0         40       1207   GattSrv.obj
       4742          0          0          0       3131   GattcSrv.obj
-      3416         27          0          0       2533   GattsSrv.obj
+      3352         27          0          0       2415   GattsSrv.obj
       1284          0          0          2       1229   GeneralSettingSrv.obj
       1240          3          0         20       1574   Gpiosrv.obj
        212          0          0         17        302   ImeiSrv.obj
@@ -98,7 +98,7 @@
       1332          0          0          0        907   NwInfoSrvAttach.obj
        586          0          0          2        445   NwInfoSrvSignal.obj
        748          0          0          0        439   NwNameSrvCphs.obj
-      3456         48          0        552       1920   NwNameSrvMain.obj
+      3380         48          0        552       1920   NwNameSrvMain.obj
        826          0          0          0        398   NwNameSrvSpdi.obj
        312          0          0          1        380   NwUsabSrv.obj
          0          0          0          0          0   PdmsSrv.obj
@@ -123,7 +123,7 @@
          0          0          0          0          0   PhbTcardSrv.obj
       2310        478          0          0       2183   PhbUtilSrv.obj
       3234        730          0       7232       2723   PhbXmgntSrv.obj
-     10398          0          1       1632       5104   ProfilesSrvMain.obj
+     10410          0          0       1632       5006   ProfilesSrvMain.obj
        208          0          0          0        205   ProvisioningSrvMain.obj
       3418          0        152         36       1722   PrxmSrv.obj
       2742          0        100         64       1153   PrxrSrv.obj
@@ -138,7 +138,7 @@
       6750        308          2        676       4964   SatSrv.obj
       1320          0          0         16        472   SecSetSrvPhone.obj
       8512        708         32        896       3150   SensorSrv.obj
-       772          0          0         20        601   ShutdownSrv.obj
+       684          0          0         20        542   ShutdownSrv.obj
       1434          0          0        244        687   SimAccessSrv.obj
       1980          0          1         41       1864   SimCtrlSrv.obj
        100          0          0          0        185   SimCtrlSrvAdp.obj
@@ -208,5 +208,5 @@
          0       4680          0          0          0   plmnname.obj
       2500          2          4         16       2620   usbsrv.obj
          0          0          0          0          0   vCalSrv.obj
-    384512      10955       1685      89278     241708   TOTAL
+    384296      10684       1544      89278     241433   TOTAL
 

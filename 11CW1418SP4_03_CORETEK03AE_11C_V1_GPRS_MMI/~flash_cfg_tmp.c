@@ -17149,20 +17149,7 @@ INDX_MTKTASKEND,
 
 #line 3588 "config\\include\\app\\app_task_config.h"
 
-#line 3615 "config\\include\\app\\app_task_config.h"
-INDX_ADUPS,
-
-
-
-
-
-
-
-
-
-
-
-
+#line 3628 "config\\include\\app\\app_task_config.h"
 
  
  
@@ -23707,20 +23694,7 @@ MOD_MTKTASKEND,
 
 #line 3588 "config\\include\\app\\app_task_config.h"
 
-#line 3615 "config\\include\\app\\app_task_config.h"
-
-MOD_ADUPS,
-
-
-
-
-
-
-
-
-
-
-
+#line 3628 "config\\include\\app\\app_task_config.h"
 
  
  
@@ -29792,20 +29766,7 @@ MOD_INET,
 
 #line 3588 "config\\include\\app\\app_task_config.h"
 
-#line 3615 "config\\include\\app\\app_task_config.h"
-
-
-
-
-
-
-
-
-
-
-
-
-
+#line 3628 "config\\include\\app\\app_task_config.h"
 
  
  

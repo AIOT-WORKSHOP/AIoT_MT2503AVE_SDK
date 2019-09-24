@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_SETTING_FLIGHT_MODE = 36269 + 1, /* BASE_ID + 1 */
+    MENU_SETTING_FLIGHT_MODE = 36218 + 1, /* BASE_ID + 1 */
     MMI_RP_SRV_FLIGHT_MODE_MENU_MAX
 }mmi_rp_srv_flight_mode_menu_enum;
 /******************** Menu resource IDs - finish ********************/
@@ -71,7 +71,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_MENU_FLIGHT_MODE = 36269 + 1, /* BASE_ID + 1 */
+    STR_MENU_FLIGHT_MODE = 36218 + 1, /* BASE_ID + 1 */
     STR_FLIGHT_MODE_NORMAL,
     STR_FLIGHT_MODE_SILENT,
     STR_FLIGHT_MODE_PROGRESS,
@@ -83,7 +83,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_FLIGHT_MODE_PROGRESS = 36269 + 1, /* BASE_ID + 1 */
+    SCR_FLIGHT_MODE_PROGRESS = 36218 + 1, /* BASE_ID + 1 */
     MMI_RP_SRV_FLIGHT_MODE_SCR_MAX
 }mmi_rp_srv_flight_mode_scr_enum;
 /******************** Screen resource IDs - finish ********************/

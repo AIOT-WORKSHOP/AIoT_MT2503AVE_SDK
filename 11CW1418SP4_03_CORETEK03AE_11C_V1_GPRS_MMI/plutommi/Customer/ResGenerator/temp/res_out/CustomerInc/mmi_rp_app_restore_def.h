@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_SETTING_RESTORE = 37396 + 1, /* BASE_ID + 1 */
+    MENU_SETTING_RESTORE = 37345 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_RESTORE_MENU_MAX
 }mmi_rp_app_restore_menu_enum;
 /******************** Menu resource IDs - finish ********************/
@@ -71,7 +71,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_SETTING_RESTORE_CONFIRM = 37396 + 1, /* BASE_ID + 1 */
+    STR_SETTING_RESTORE_CONFIRM = 37345 + 1, /* BASE_ID + 1 */
     STR_SETTING_RESTORE_PROCESSING,
     STR_ID_RESTORE_TITLE,
     MMI_RP_APP_RESTORE_STR_MAX
@@ -82,7 +82,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_RESTORE = 37396 + 1, /* BASE_ID + 1 */
+    SCR_RESTORE = 37345 + 1, /* BASE_ID + 1 */
     SCR_RESTORE_PROCESSING,
     SCR_SETTING_RESTORE_CONFIRM,
     GRP_ID_PHNSET_RESTORE,
@@ -96,7 +96,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_SETTING_STORE = 37396 + 1, /* BASE_ID + 1 */
+    IMG_SETTING_STORE = 37345 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_RESTORE_IMG_MAX
 }mmi_rp_app_restore_img_enum;
 /******************** Image resource IDs - finish ********************/

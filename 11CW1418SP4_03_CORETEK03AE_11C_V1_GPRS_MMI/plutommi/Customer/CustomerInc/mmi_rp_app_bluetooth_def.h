@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_CONN_BT_POWER = 30586 + 1, /* BASE_ID + 1 */
+    MENU_CONN_BT_POWER = 30535 + 1, /* BASE_ID + 1 */
     MENU_CONN_BT_SCH_AUDIO_DEV,
     MENU_CONN_BT_MYDEV,
     MENU_CONN_BT_SET_NAME,
@@ -82,7 +82,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_BT_MENU_TITLE = 30586 + 1, /* BASE_ID + 1 */
+    STR_BT_MENU_TITLE = 30535 + 1, /* BASE_ID + 1 */
     STR_BT_POWER,
     STR_BT_SWITCHING,
     STR_BT_RELEASE_ALL_CONN,
@@ -147,7 +147,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_EXTDEV_BT_BEGIN = 30586 + 1, /* BASE_ID + 1 */
+    SCR_EXTDEV_BT_BEGIN = 30535 + 1, /* BASE_ID + 1 */
     GRP_ID_BT_CM,
     GRP_ID_BT_CM_POWER_ON_CNF,
     GRP_ID_BT_CM_SELECT_DEVICE,
@@ -343,7 +343,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    BT_LP2_TESTING_TIMER = 30586 + 1, /* BASE_ID + 1 */
+    BT_LP2_TESTING_TIMER = 30535 + 1, /* BASE_ID + 1 */
     BT_LP2_DELAY_TIMER,
     BT_MMI_MAP_CONNECT_TIMER,
     BT_AUTHORIZE_SCREEN_OPP_TIMER,
@@ -368,7 +368,7 @@ typedef enum
 /******************** Events resource IDs - begin ********************/
 typedef enum
 {
-    EVT_ID_SPPC_CONNECT_CNF = 30586 + 1, /* BASE_ID + 1 */
+    EVT_ID_SPPC_CONNECT_CNF = 30535 + 1, /* BASE_ID + 1 */
     EVT_ID_SPPC_DISCONNECT_CNF,
     EVT_ID_SPPC_READY_TO_READ,
     EVT_ID_SPPC_READY_TO_WRITE,
@@ -386,7 +386,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    NVRAM_BT_RECEIVE_DRIVE = 30586 + 1, /* BASE_ID + 1 */       /*         BYTE */ 
+    NVRAM_BT_RECEIVE_DRIVE = 30535 + 1, /* BASE_ID + 1 */       /*         BYTE */ 
     NVRAM_BT_RECEIVE_DRIVE_ASK,                                 /*         BYTE */ 
     NVRAM_BT_POWER_STATUS,                                      /*         BYTE */ 
     MMI_RP_APP_BLUETOOTH_MMI_CACHE_MAX
@@ -397,7 +397,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_BT_MENU_TITLE = 30586 + 1, /* BASE_ID + 1 */
+    IMG_BT_MENU_TITLE = 30535 + 1, /* BASE_ID + 1 */
     IMG_BT_SCH_TITLE,
     IMG_BT_DEV_PRT,
     IMG_BT_DEV_LAP,

@@ -11,4 +11,4 @@ make CORETEK03AE_11C GPRS remake
 
 make CORETEK03AE_11C GPRS remake xxx_module
 
-Last update 2019.5.9
+

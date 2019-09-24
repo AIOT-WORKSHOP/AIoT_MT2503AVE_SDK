@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_CALLSET_CALL_CENTER = 33808 + 1, /* BASE_ID + 1 */
+    MENU_ID_CALLSET_CALL_CENTER = 33757 + 1, /* BASE_ID + 1 */
     MENU_ID_CALLSET_CALL_LOG,
     MENU_ID_CALLSET_CALL_WAIT,
     MENU_ID_CALLSET_CALL_SETTING,
@@ -108,7 +108,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_CALLSET_CALL_CENTER = 33808 + 1, /* BASE_ID + 1 */
+    STR_ID_CALLSET_CALL_CENTER = 33757 + 1, /* BASE_ID + 1 */
     STR_ID_CALLSET_CALL_SETTING,
     STR_ID_CALLSET_MORE,
     STR_ID_CALLSET_CALLFWD,
@@ -144,7 +144,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_CALLSET_COMMON = 33808 + 1, /* BASE_ID + 1 */
+    GRP_ID_CALLSET_COMMON = 33757 + 1, /* BASE_ID + 1 */
     GRP_ID_CALLSET_CF,
     MMI_RP_APP_CALLSET_SCR_MAX
 }mmi_rp_app_callset_scr_enum;
@@ -156,7 +156,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_CALLSET_CALL_SETTING = 33808 + 1, /* BASE_ID + 1 */
+    IMG_ID_CALLSET_CALL_SETTING = 33757 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_CALLSET_IMG_MAX
 }mmi_rp_app_callset_img_enum;
 /******************** Image resource IDs - finish ********************/

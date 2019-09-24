@@ -3,6 +3,5 @@ gFS_ExtQuotaSet[]
 { Z:\@Xml\             ,     0 ,       1024 , 0xf1f2f3f4 , 0x1 },
 { Z:\@bt\              ,     0 ,       3072 , 0xf1f2f3f4 , 0x1 },
 { Z:\@Dtcnt\           ,     0 ,      31744 , 0xf1f2f3f4 , 0x1 },
-{ Z:\@fota_adups\      ,     0 ,       2048 , 0xf1f2f3f4 , 0x1 },
 { Z:\@BTMre\           ,     0 ,      57344 , 0xf1f2f3f4 , 0x1 },
 { Z:\@EPO\             ,     0 ,     153600 , 0xf1f2f3f4 , 0x1 },

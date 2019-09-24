@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_SEARCH_WEB_DUMMY = 42290 + 1, /* BASE_ID + 1 */
+    SCR_ID_SEARCH_WEB_DUMMY = 42239 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_SEARCH_WEB_SCR_MAX
 }mmi_rp_app_search_web_scr_enum;
 /******************** Screen resource IDs - finish ********************/

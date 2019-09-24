@@ -115,15 +115,6 @@
  735                           NVRAM_EF_QUICKTEST_LID          PACK           LID                                      (null)      0x0000      0x0200
  737                NVRAM_EF_MOTION_SENSOR_SWITCH_LID          PACK           LID                                      (null)      0x0000      0x0280
  739                       NVRAM_EF_USB_FOTA_INFO_LID          PACK           LID                                      (null)      0x0000      0x0280
- 740                            NVRAM_EF_BLE_BKSS_LID          PACK           LID                                      (null)      0x0000      0x0280
- 741                            NVRAM_EF_IOT_LOCK_LID          PACK           LID                                      (null)      0x0000      0x0280
- 742                        NVRAM_EF_IOT_LOCK_MSG_LID          MPLK           000                                      (null)      0x0000      0x0000
- 743                          NVRAM_EF_LOCK_COUNT_LID          PACK           LID                                      (null)      0x0000      0x0280
- 744                          NVRAM_EF_LOCK_AGING_LID          PACK           LID                                      (null)      0x0000      0x0280
- 745                           NVRAM_EF_ORDER_NUM_LID          PACK           LID                                      (null)      0x0000      0x0280
- 746                          NVRAM_EF_ORDER_INFO_LID          PACK           LID                                      (null)      0x0000      0x0280
- 747                          NVRAM_EF_IOT_BACKUP_LID          PACK           LID                                      (null)      0x0000      0x0280
- 748                                NVRAM_EF_FOTA_LID          PACK           LID                                      (null)      0x0000      0x0280
 1536                  NVRAM_EF_CUST_ACOUSTIC_DATA_LID          PACK           LID                                      (null)      0x0000      0x2240
 1537                         NVRAM_EF_AUDIO_PARAM_LID          MT6B           010                                      (null)      0x0000      0x0000
 1545                NVRAM_EF_AUDIO_DC_CALIBRATION_LID          PACK           LID                                      (null)      0x0000      0x0200

@@ -28,7 +28,7 @@
  533        34                                  NVRAM_EF_DCC_SENSOR_LK_LID                    
  534        10                                 NVRAM_EF_DCC_SENSOR_SRV_LID                    
    6      2570                                  NVRAM_EF_SYS_EXCEPTION_LID                    
-   7      1814                                 NVRAM_EF_SYS_STATISTICS_LID                    
+   7      1802                                 NVRAM_EF_SYS_STATISTICS_LID                    
  121         0                                      NVRAM_EF_BAND_INFO_LID                    
  122      1382                                     NVRAM_EF_TST_FILTER_LID                    
  123         0                                   NVRAM_EF_PORT_SETTING_LID                    
@@ -114,15 +114,6 @@
  735         0                                      NVRAM_EF_QUICKTEST_LID                    
  737         0                           NVRAM_EF_MOTION_SENSOR_SWITCH_LID                    
  739         0                                  NVRAM_EF_USB_FOTA_INFO_LID                    
- 740         0                                       NVRAM_EF_BLE_BKSS_LID                    
- 741         0                                       NVRAM_EF_IOT_LOCK_LID                    
- 742     15720                                   NVRAM_EF_IOT_LOCK_MSG_LID                    
- 743         0                                     NVRAM_EF_LOCK_COUNT_LID                    
- 744         0                                     NVRAM_EF_LOCK_AGING_LID                    
- 745         0                                      NVRAM_EF_ORDER_NUM_LID                    
- 746         0                                     NVRAM_EF_ORDER_INFO_LID                    
- 747         0                                     NVRAM_EF_IOT_BACKUP_LID                    
- 748         0                                           NVRAM_EF_FOTA_LID                    
 1536         0                             NVRAM_EF_CUST_ACOUSTIC_DATA_LID                    
 1537      1854                                    NVRAM_EF_AUDIO_PARAM_LID                    
 1545         0                           NVRAM_EF_AUDIO_DC_CALIBRATION_LID                    
@@ -140,9 +131,9 @@
 1805         0                             NVRAM_EM_MINIGPS_UP_SETTING_LID                    
 2048         0                               NVRAM_EF_SRV_PROF_SETTING_LID                    
 2049      1566                            NVRAM_EF_SRV_PROF_EXT_MELODY_LID                    
- 139     22424                       Package file size
- 140      2200                             Info file A
- 141      2200                             Info file B
- 142      1536                              Extra size
+ 130     21435                       Package file size
+ 131      2024                             Info file A
+ 132      2024                             Info file B
+ 133      1536                              Extra size
 --------------------------------------------------------------------------
 NVRAM_COMPRESS=0

@@ -6,7 +6,7 @@
          0          0          0          0          0   SPI_NAND_MTD_FDM50.obj
          0          0          0          0          0   bl_STT_SNAND.obj
        146          0          0          0        533   flash_cfi.obj
-      1668          0          0          4       1261   flash_disk.obj
+       868          0          0          0        816   flash_disk.obj
          0          0          0          0          0   flash_mtd.amd.obj
          0          0          0          0          0   flash_mtd.intel.obj
        574          0          8         22        488   flash_mtd.obj
@@ -16,5 +16,5 @@
       3228         13          4          5       1325   flash_mtd_sf_dal.obj
          0          0          0          0          0   flash_mtd_sf_ut.obj
         76          0          0          0         65   flash_user.obj
-      6798         13         12         32       4546   TOTAL
+      5998         13         12         28       4101   TOTAL
 

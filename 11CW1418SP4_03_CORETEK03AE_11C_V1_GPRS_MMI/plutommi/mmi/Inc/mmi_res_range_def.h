@@ -3145,8 +3145,8 @@ RESOURCE_BASE_RANGE(SRV_GATT_APP, 6),
 	RESOURCE_BASE_RANGE(SRV_IOT_LOCK, 300),
 #endif
 
-#ifdef __AIOT_ECU__
-	RESOURCE_BASE_RANGE(SRV_AIOT_ECU, 300),
+#ifdef __AIOT_WORKSHOP__
+	RESOURCE_BASE_RANGE(SRV_AWS, 300),
 #endif
     /**************************************************************************************
      * Declare resource ID range above 
@@ -5866,12 +5866,12 @@ RESOURCE_BASE_TABLE_ITEM_PATH(SRV_IOT_LOCK, "..\\iotlock\\res\\")
 #endif 
 
 /****************************************************************************
-* SRV_AIOT_ECU
+* SRV_AWS
 *****************************************************************************/
-#ifdef __AIOT_ECU__
-#define SRV_AIOT_ECU_BASE                ((U16) GET_RESOURCE_BASE(SRV_AIOT_ECU))
-#define SRV_AIOT_ECU_BASE_MAX            ((U16) GET_RESOURCE_MAX(SRV_AIOT_ECU))
-RESOURCE_BASE_TABLE_ITEM_PATH(SRV_AIOT_ECU, "..\\aiot_ecu\\ecu_res\\")
+#ifdef __AIOT_WORKSHOP__
+#define SRV_AWS_BASE                ((U16) GET_RESOURCE_BASE(SRV_AWS))
+#define SRV_AWS_BASE_MAX            ((U16) GET_RESOURCE_MAX(SRV_AWS))
+RESOURCE_BASE_TABLE_ITEM_PATH(SRV_AWS, "..\\aiot_workshop\\aiot_workshop_res\\")
 #endif
 
 

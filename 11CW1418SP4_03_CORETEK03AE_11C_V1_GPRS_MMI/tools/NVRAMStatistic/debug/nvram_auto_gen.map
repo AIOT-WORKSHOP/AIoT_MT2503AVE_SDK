@@ -212,151 +212,151 @@ LOAD d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V
                 0x00408d50                NVRAM_TOUCHPANEL_DEFAULT
  .text          0x00408ef0      0x6e0 ../debug/nvram_user_config.o
                 0x00408ef0                NVRAM_EF_CUST_HW_LEVEL_TBL_DEFAULT
- .text          0x004095d0      0x9a0 ../debug/nvram_common_config.o
- .text          0x00409f70      0x860 ../debug/audio_nvram_def.o
- .text          0x0040a7d0      0x2c0 ../debug/mmi_gps_nvram_def.o
- .text          0x0040aa90      0x200 ../debug/userprofile_nvram_def.o
-                0x0040aa90                NVRAM_PROFILES_DEFAULT
- .text          0x0040ac90       0x60 ../debug/fs_quota.o
-                0x0040acd0                fs_quota_init
- .text          0x0040acf0       0x70 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc.o)
-                0x0040ad30                _pei386_runtime_relocator
- .text          0x0040ad60       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRT_fp10.o)
-                0x0040ad60                _fpreset
-                0x0040ad60                fpreset
- .text          0x0040ad70       0xb0 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(gccmain.o)
-                0x0040ae00                __main
-                0x0040ad70                __do_global_dtors
-                0x0040ada0                __do_global_ctors
- .text          0x0040ae20      0x320 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
-                0x0040aee0                __w32_sharedptr_initialize
- .text          0x0040b140       0x30 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(_chkstk.o)
-                0x0040b140                __chkstk
-                0x0040b140                _alloca
- .text          0x0040b170        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o)
-                0x0040b170                access
+ .text          0x004095d0      0x880 ../debug/nvram_common_config.o
+ .text          0x00409e50      0x860 ../debug/audio_nvram_def.o
+ .text          0x0040a6b0      0x2c0 ../debug/mmi_gps_nvram_def.o
+ .text          0x0040a970      0x200 ../debug/userprofile_nvram_def.o
+                0x0040a970                NVRAM_PROFILES_DEFAULT
+ .text          0x0040ab70       0x50 ../debug/fs_quota.o
+                0x0040aba0                fs_quota_init
+ .text          0x0040abc0       0x70 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc.o)
+                0x0040ac00                _pei386_runtime_relocator
+ .text          0x0040ac30       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRT_fp10.o)
+                0x0040ac30                _fpreset
+                0x0040ac30                fpreset
+ .text          0x0040ac40       0xb0 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(gccmain.o)
+                0x0040acd0                __main
+                0x0040ac40                __do_global_dtors
+                0x0040ac70                __do_global_ctors
+ .text          0x0040acf0      0x320 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+                0x0040adb0                __w32_sharedptr_initialize
+ .text          0x0040b010       0x30 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(_chkstk.o)
+                0x0040b010                __chkstk
+                0x0040b010                _alloca
+ .text          0x0040b040        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00000.o)
+                0x0040b040                access
+ *fill*         0x0040b048        0x8 00
+ .text          0x0040b050        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00084.o)
+                0x0040b050                stricmp
+ *fill*         0x0040b058        0x8 00
+ .text          0x0040b060        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00078.o)
+                0x0040b060                __set_app_type
+ *fill*         0x0040b068        0x8 00
+ .text          0x0040b070        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00118.o)
+                0x0040b070                _cexit
+ *fill*         0x0040b078        0x8 00
+ .text          0x0040b080        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00059.o)
+                0x0040b080                __p__environ
+ *fill*         0x0040b088        0x8 00
+ .text          0x0040b090        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00633.o)
+                0x0040b090                signal
+ *fill*         0x0040b098        0x8 00
+ .text          0x0040b0a0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00061.o)
+                0x0040b0a0                __p__fmode
+ *fill*         0x0040b0a8        0x8 00
+ .text          0x0040b0b0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00373.o)
+                0x0040b0b0                _setmode
+ *fill*         0x0040b0b8        0x8 00
+ .text          0x0040b0c0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00039.o)
+                0x0040b0c0                __getmainargs
+ *fill*         0x0040b0c8        0x8 00
+ .text          0x0040b0d0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00663.o)
+                0x0040b0d0                system
+ *fill*         0x0040b0d8        0x8 00
+ .text          0x0040b0e0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00636.o)
+                0x0040b0e0                sprintf
+ *fill*         0x0040b0e8        0x8 00
+ .text          0x0040b0f0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00648.o)
+                0x0040b0f0                strlen
+ *fill*         0x0040b0f8        0x8 00
+ .text          0x0040b100        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00603.o)
+                0x0040b100                malloc
+ *fill*         0x0040b108        0x8 00
+ .text          0x0040b110        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00534.o)
+                0x0040b110                fclose
+ *fill*         0x0040b118        0x8 00
+ .text          0x0040b120        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00616.o)
+                0x0040b120                printf
+ *fill*         0x0040b128        0x8 00
+ .text          0x0040b130        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00653.o)
+                0x0040b130                strrchr
+ *fill*         0x0040b138        0x8 00
+ .text          0x0040b140        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00655.o)
+                0x0040b140                strstr
+ *fill*         0x0040b148        0x8 00
+ .text          0x0040b150        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00641.o)
+                0x0040b150                strchr
+ *fill*         0x0040b158        0x8 00
+ .text          0x0040b160        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00540.o)
+                0x0040b160                fgets
+ *fill*         0x0040b168        0x8 00
+ .text          0x0040b170        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00147.o)
+                0x0040b170                _errno
  *fill*         0x0040b178        0x8 00
- .text          0x0040b180        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmoldname.a(ds00084.o)
-                0x0040b180                stricmp
+ .text          0x0040b180        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00646.o)
+                0x0040b180                strerror
  *fill*         0x0040b188        0x8 00
- .text          0x0040b190        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00078.o)
-                0x0040b190                __set_app_type
+ .text          0x0040b190        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00545.o)
+                0x0040b190                fopen
  *fill*         0x0040b198        0x8 00
- .text          0x0040b1a0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00118.o)
-                0x0040b1a0                _cexit
+ .text          0x0040b1a0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00531.o)
+                0x0040b1a0                exit
  *fill*         0x0040b1a8        0x8 00
- .text          0x0040b1b0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00059.o)
-                0x0040b1b0                __p__environ
+ .text          0x0040b1b0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00546.o)
+                0x0040b1b0                fprintf
  *fill*         0x0040b1b8        0x8 00
- .text          0x0040b1c0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00633.o)
-                0x0040b1c0                signal
+ .text          0x0040b1c0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00611.o)
+                0x0040b1c0                memset
  *fill*         0x0040b1c8        0x8 00
- .text          0x0040b1d0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00061.o)
-                0x0040b1d0                __p__fmode
+ .text          0x0040b1d0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00642.o)
+                0x0040b1d0                strcmp
  *fill*         0x0040b1d8        0x8 00
- .text          0x0040b1e0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00373.o)
-                0x0040b1e0                _setmode
+ .text          0x0040b1e0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00552.o)
+                0x0040b1e0                free
  *fill*         0x0040b1e8        0x8 00
- .text          0x0040b1f0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00039.o)
-                0x0040b1f0                __getmainargs
+ .text          0x0040b1f0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00510.o)
+                0x0040b1f0                abort
  *fill*         0x0040b1f8        0x8 00
- .text          0x0040b200        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00663.o)
-                0x0040b200                system
+ .text          0x0040b200        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o)
+                0x0040b200                SetUnhandledExceptionFilter@4
  *fill*         0x0040b208        0x8 00
- .text          0x0040b210        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00636.o)
-                0x0040b210                sprintf
+ .text          0x0040b210        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00131.o)
+                0x0040b210                ExitProcess@4
  *fill*         0x0040b218        0x8 00
- .text          0x0040b220        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00648.o)
-                0x0040b220                strlen
+ .text          0x0040b220        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00148.o)
+                0x0040b220                FindAtomA@4
  *fill*         0x0040b228        0x8 00
- .text          0x0040b230        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00603.o)
-                0x0040b230                malloc
+ .text          0x0040b230        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00000.o)
+                0x0040b230                AddAtomA@4
  *fill*         0x0040b238        0x8 00
- .text          0x0040b240        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00534.o)
-                0x0040b240                fclose
+ .text          0x0040b240        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00193.o)
+                0x0040b240                GetAtomNameA@12
  *fill*         0x0040b248        0x8 00
- .text          0x0040b250        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00616.o)
-                0x0040b250                printf
- *fill*         0x0040b258        0x8 00
- .text          0x0040b260        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00653.o)
-                0x0040b260                strrchr
- *fill*         0x0040b268        0x8 00
- .text          0x0040b270        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00655.o)
-                0x0040b270                strstr
- *fill*         0x0040b278        0x8 00
- .text          0x0040b280        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00641.o)
-                0x0040b280                strchr
- *fill*         0x0040b288        0x8 00
- .text          0x0040b290        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00540.o)
-                0x0040b290                fgets
- *fill*         0x0040b298        0x8 00
- .text          0x0040b2a0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00147.o)
-                0x0040b2a0                _errno
- *fill*         0x0040b2a8        0x8 00
- .text          0x0040b2b0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00646.o)
-                0x0040b2b0                strerror
- *fill*         0x0040b2b8        0x8 00
- .text          0x0040b2c0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00545.o)
-                0x0040b2c0                fopen
- *fill*         0x0040b2c8        0x8 00
- .text          0x0040b2d0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00531.o)
-                0x0040b2d0                exit
- *fill*         0x0040b2d8        0x8 00
- .text          0x0040b2e0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00546.o)
-                0x0040b2e0                fprintf
- *fill*         0x0040b2e8        0x8 00
- .text          0x0040b2f0        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00611.o)
-                0x0040b2f0                memset
- *fill*         0x0040b2f8        0x8 00
- .text          0x0040b300        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00642.o)
-                0x0040b300                strcmp
- *fill*         0x0040b308        0x8 00
- .text          0x0040b310        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00552.o)
-                0x0040b310                free
- *fill*         0x0040b318        0x8 00
- .text          0x0040b320        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmsvcrt.a(ds00510.o)
-                0x0040b320                abort
- *fill*         0x0040b328        0x8 00
- .text          0x0040b330        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00660.o)
-                0x0040b330                SetUnhandledExceptionFilter@4
- *fill*         0x0040b338        0x8 00
- .text          0x0040b340        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00131.o)
-                0x0040b340                ExitProcess@4
- *fill*         0x0040b348        0x8 00
- .text          0x0040b350        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00148.o)
-                0x0040b350                FindAtomA@4
- *fill*         0x0040b358        0x8 00
- .text          0x0040b360        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00000.o)
-                0x0040b360                AddAtomA@4
- *fill*         0x0040b368        0x8 00
- .text          0x0040b370        0x8 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libkernel32.a(ds00193.o)
-                0x0040b370                GetAtomNameA@12
- *fill*         0x0040b378        0x8 00
- .text          0x0040b380       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtend.o
+ .text          0x0040b250       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtend.o
  *(SORT(.text$*))
  *(.glue_7t)
  *(.glue_7)
-                0x0040b390                ___CTOR_LIST__ = .
-                0x0040b390                __CTOR_LIST__ = .
-                0x0040b390        0x4 LONG 0xffffffff
+                0x0040b260                ___CTOR_LIST__ = .
+                0x0040b260                __CTOR_LIST__ = .
+                0x0040b260        0x4 LONG 0xffffffff
  *(SORT(.ctors.*))
  *(.ctors)
- .ctors         0x0040b394        0x4 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtend.o
+ .ctors         0x0040b264        0x4 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/crtend.o
  *(.ctor)
-                0x0040b398        0x4 LONG 0x0
-                0x0040b39c                ___DTOR_LIST__ = .
-                0x0040b39c                __DTOR_LIST__ = .
-                0x0040b39c        0x4 LONG 0xffffffff
+                0x0040b268        0x4 LONG 0x0
+                0x0040b26c                ___DTOR_LIST__ = .
+                0x0040b26c                __DTOR_LIST__ = .
+                0x0040b26c        0x4 LONG 0xffffffff
  *(SORT(.dtors.*))
  *(.dtors)
  *(.dtor)
-                0x0040b3a0        0x4 LONG 0x0
+                0x0040b270        0x4 LONG 0x0
  *(.fini)
  *(.gcc_exc)
-                0x0040b3a4                etext = .
+                0x0040b274                etext = .
  *(.gcc_except_table)
 
-.data           0x0040c000      0xa00
+.data           0x0040c000      0x800
                 0x0040c000                __data_start__ = .
  *(.data)
  .data          0x0040c000       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../crt2.o
@@ -365,24 +365,24 @@ LOAD d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V
  .data          0x0040c010       0x10 ../debug/nvram_auto_gen.o
  .data          0x0040c020      0x400 ../debug/nvram_data_items.o
                 0x0040c020                nvram_sys_cache
- .data          0x0040c420      0x300 ../debug/nvram_common_config.o
-                0x0040c700                nvram_ltable_comm_app
- .data          0x0040c720       0x20 ../debug/custom_nvram_cat.o
-                0x0040c720                nvram_cat_replace_tbl
- .data          0x0040c740       0x80 ../debug/fs_quota.o
-                0x0040c740                gFS_ExtQuotaSet
- .data          0x0040c7c0       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRTglob.o)
-                0x0040c7c0                _CRT_glob
- .data          0x0040c7d0       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRTfmode.o)
-                0x0040c7d0                _CRT_fmode
- .data          0x0040c7e0       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(txtmode.o)
-                0x0040c7e0                _fmode
- .data          0x0040c7f0       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(gccmain.o)
- .data          0x0040c800       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc-list.o)
- .data          0x0040c810       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
+ .data          0x0040c420      0x160 ../debug/nvram_common_config.o
+                0x0040c574                nvram_ltable_comm_app
+ .data          0x0040c580       0x20 ../debug/custom_nvram_cat.o
+                0x0040c580                nvram_cat_replace_tbl
+ .data          0x0040c5a0       0x80 ../debug/fs_quota.o
+                0x0040c5a0                gFS_ExtQuotaSet
+ .data          0x0040c620       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRTglob.o)
+                0x0040c620                _CRT_glob
+ .data          0x0040c630       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(CRTfmode.o)
+                0x0040c630                _CRT_fmode
+ .data          0x0040c640       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(txtmode.o)
+                0x0040c640                _fmode
+ .data          0x0040c650       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(gccmain.o)
+ .data          0x0040c660       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/../../../libmingw32.a(pseudo-reloc-list.o)
+ .data          0x0040c670       0x10 d:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/Tools/MinGW/bin/../lib/gcc-lib/mingw32/3.3.1/libgcc.a(w32-shared-ptr.o)
  *(.data2)
  *(SORT(.data$*))
-                0x0040c820                __data_end__ = .
+                0x0040c680                __data_end__ = .
  *(.data_cygwin_nocopy)
 
 .rdata          0x0040d000        0x0
@@ -714,21 +714,21 @@ NVRAM_LTABLE    0x0040f000     0x1600
                 0x0040fc08                logical_data_item_table_adc
  _nvram_ltable  0x0040fc30       0x28 ../debug/touchpanel_nvram_def.o
                 0x0040fc30                logical_data_item_table_touchpanel
- _nvram_ltable  0x0040fc58      0x6b8 ../debug/nvram_common_config.o
+ _nvram_ltable  0x0040fc58      0x550 ../debug/nvram_common_config.o
                 0x0040fc58                logical_data_item_table_common_app
- _nvram_ltable  0x00410310       0x78 ../debug/audio_nvram_def.o
-                0x00410310                logical_data_item_table_audio
- _nvram_ltable  0x00410388      0x1e0 ../debug/mmi_gps_nvram_def.o
-                0x00410388                logical_data_item_table_mmi_gps
- _nvram_ltable  0x00410568       0x50 ../debug/userprofile_nvram_def.o
-                0x00410568                logical_data_item_table_userprofile
-                0x004105b8                _nvram_ltable_end = .
-                0x004105b8                _indirect_init_begin = .
+ _nvram_ltable  0x004101a8       0x78 ../debug/audio_nvram_def.o
+                0x004101a8                logical_data_item_table_audio
+ _nvram_ltable  0x00410220      0x1e0 ../debug/mmi_gps_nvram_def.o
+                0x00410220                logical_data_item_table_mmi_gps
+ _nvram_ltable  0x00410400       0x50 ../debug/userprofile_nvram_def.o
+                0x00410400                logical_data_item_table_userprofile
+                0x00410450                _nvram_ltable_end = .
+                0x00410450                _indirect_init_begin = .
  *(_indirect_init)
  _indirect_init
-                0x004105b8        0x4 ../debug/fs_quota.o
-                0x004105b8                g_fs_quota_init
-                0x004105bc                _indirect_init_end = .
+                0x00410450        0x4 ../debug/fs_quota.o
+                0x00410450                g_fs_quota_init
+                0x00410454                _indirect_init_end = .
 LOAD ../debug/nvram_auto_gen.o
 LOAD ../debug/nvram_gen_util.o
 LOAD ../debug/nvram_factory_config.o

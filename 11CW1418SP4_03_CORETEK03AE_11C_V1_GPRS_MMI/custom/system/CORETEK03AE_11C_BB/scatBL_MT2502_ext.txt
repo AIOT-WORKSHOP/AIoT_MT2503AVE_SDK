@@ -53,7 +53,7 @@
 ; *
 ; * Auto Generated Date:
 ; * -------
-; *   2019/9/22
+; *   2019/9/24
 ; *
 ; * Revision History:
 ; * -------
@@ -79,7 +79,7 @@
 ;=========================================================================
 ;
 
-EXT_BOOTLOADER 0x10003400 0x0001c400
+EXT_BOOTLOADER 0x10003400 0x00009c00
 {
     EXT_BL_GFH_SECTION +0x0 
     {
@@ -145,10 +145,7 @@ EXT_BOOTLOADER 0x10003400 0x0001c400
     }   
     
 
-    EXT_BL_ADUPS_FOTA_WORKING_BUF 0x00072000 EMPTY 0x380000
-    {
-         
-    }
+
 
 
 

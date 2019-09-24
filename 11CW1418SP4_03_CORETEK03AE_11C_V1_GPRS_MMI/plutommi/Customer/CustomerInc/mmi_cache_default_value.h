@@ -56,7 +56,7 @@
  *  Please do not modify it here manually 
  ***********************************************************/
 /********************************************************
- *  The count of byte configuration:   94 
+ *  The count of byte configuration:   93 
  *  The count of short configuration:  25 
  *  The count of double configuration: 30 
  ***********************************************************/
@@ -68,50 +68,50 @@ const kal_uint8 NVRAM_EF_MMI_CACHE_BYTE_DEFAULT[NVRAM_CACHE_SIZE] =
 {
     0xFF,          /*   0 : 23600 : NVRAM_BYTE_COVER_CLOSE_BACK_TO_IDLE */
     0x01,          /*   1 :  9578 : NVRAM_CALLSET_FLIP_TO_MUTE_CALL */
-    0xFF,          /*   2 : 33612 : NVRAM_WC_DST */
+    0xFF,          /*   2 : 33561 : NVRAM_WC_DST */
     0x00,          /*   3 : 24502 : NVRAM_SETTING_LANG */
     0x01,          /*   4 : 23623 : NVRAM_SETTING_PICTURE_QUALITY */
     0x1B,          /*   5 :  9468 : NVRAM_SMS_MISCELL_SETTING */
     0x00,          /*   6 : 24601 : GPS_TIME_SYNC_MODE */
     0x01,          /*   7 : 23472 : NVRAM_IME_ALPHABETIC_WORD_PREDICTION_FLAG */
     0x00,          /*   8 :  4811 : NVRAM_MRE_SRV_DA_IS_WIFI_ONLY */
-    0x01,          /*   9 : 30589 : NVRAM_BT_POWER_STATUS */
+    0x00,          /*   9 : 30538 : NVRAM_BT_POWER_STATUS */
     0xFF,          /*  10 : 29387 : NVRAM_PHB_SAVE_CONTACT_NOTIFY */
     0x01,          /*  11 : 23656 : NVRAM_NETSET_3G_CAPACITY_SIM */
-    0xFF,          /*  12 : 31535 : NVRAM_IMGVIEW_VIEW_SYTLE */
-    0x00,          /*  13 : 35972 : NVRAM_PHNSET_LIVE_WALLPAPER */
+    0xFF,          /*  12 : 31484 : NVRAM_IMGVIEW_VIEW_SYTLE */
+    0x00,          /*  13 : 35921 : NVRAM_PHNSET_LIVE_WALLPAPER */
     0x00,          /*  14 : 25628 : NVRAM_SETTING_AUTOKEYPADLOCK_TIME */
-    0x07,          /*  15 : 33608 : CURRENT_CITY */
+    0x07,          /*  15 : 33557 : CURRENT_CITY */
     0x01,          /*  16 : 23471 : NVRAM_IME_AUTO_COMPLETION_FLAG */
     0x00,          /*  17 : 23485 : NVRAM_SETTING_HANDWRITING_ON */
     0xFF,          /*  18 : 11877 : NVRAM_EF_FMGR_SORT_OPTION_LID */
-    0x00,          /*  19 : 35971 : NVRAM_WALLPAPER_ROTATE_STATUS */
+    0x00,          /*  19 : 35920 : NVRAM_WALLPAPER_ROTATE_STATUS */
     0xFF,          /*  20 : 29388 : NVRAM_SSC_DISABLE_FLAG */
     0x01,          /*  21 : 27497 : NVRAM_REMINDER_TURNOVER_SENSOR_STATE */
     0x00,          /*  22 : 29390 : NVRAM_SETTING_SPEED_DIAL */
-    0x00,          /*  23 : 37197 : RESTORE_DEFAULT_OWNER_NO */
+    0x00,          /*  23 : 37146 : RESTORE_DEFAULT_OWNER_NO */
     0x00,          /*  24 :  9575 : NVRAM_CALLSET_QUICK_END_FLAG */
     0xFF,          /*  25 : 23597 : NVRAM_BYTE_LED_SETTING */
     0x00,          /*  26 : 29378 : NVRAM_PHB_SPEAK_NAME_ON_OFF */
     0x01,          /*  27 : 23487 : NVRAM_SETTING_STROKE_COLOR_INDEX */
-    0xFF,          /*  28 : 31878 : NVRAM_AUDPLY_SINGLE_VOL */
+    0xFF,          /*  28 : 31827 : NVRAM_AUDPLY_SINGLE_VOL */
     0x00,          /*  29 :  9574 : NVRAM_CALLSET_REDIAL */
     0xFF,          /*  30 :  7608 : NVRAM_GPS_PAYLOAD_STORAGE */
     0x01,          /*  31 : 29383 : NVRAM_PHB_NAME_DISPLAY_TYPE */
     0x01,          /*  32 :  9573 : NVRAM_CALLSET_CALL_TIME_DISPLAY */
     0x00,          /*  33 :  9467 : NVRAM_SMS_ACTIVE_PROFILE_INDEX */
     0xFF,          /*  34 : 27550 : NVRAM_SRV_SNDREC_QUALITY */
-    0x00,          /*  35 : 33609 : FOREIGN_CITY */
+    0x00,          /*  35 : 33558 : FOREIGN_CITY */
     0x00,          /*  36 : 24497 : TIME_FORMAT */
     0x00,          /*  37 : 24499 : RESTORE_DEFAULT_TIME_FORMAT */
-    0x00,          /*  38 : 33610 : NVRAM_SETTING_DT_DST */
+    0x00,          /*  38 : 33559 : NVRAM_SETTING_DT_DST */
     0xFF,          /*  39 : 23601 : NVRAM_BYTE_COVER_CLOSE_REJECT_CALL */
-    0x00,          /*  40 : 39345 : RESTORE_DEFAULT_AUTOUPDATE_TIME */
+    0x00,          /*  40 : 39294 : RESTORE_DEFAULT_AUTOUPDATE_TIME */
     0xFF,          /*  41 : 23483 : NVRAM_SETTING_PEN_SPEED */
     0xFF,          /*  42 : 23486 : NVRAM_SETTING_PEN_WIDTH */
     0x00,          /*  43 : 23655 : NVRAM_NETSET_PREFERRED_MODE_PREV_RF_MODE */
     0x01,          /*  44 : 29389 : NVRAM_IDLE_DIALER_SEARCH_SETTING */
-    0x01,          /*  45 : 37202 : NVRAM_PHNSET_MAIN_MENU_STYLE */
+    0x01,          /*  45 : 37151 : NVRAM_PHNSET_MAIN_MENU_STYLE */
     0x07,          /*  46 : 23593 : NVRAM_SETTING_CONTRAST_SUBLCD_LEVEL */
     0x02,          /*  47 : 24498 : DATE_FORMAT */
     0x00,          /*  48 : 24500 : RESTORE_DEFAULT_DATE_FORMAT */
@@ -122,14 +122,14 @@ const kal_uint8 NVRAM_EF_MMI_CACHE_BYTE_DEFAULT[NVRAM_CACHE_SIZE] =
     0x01,          /*  53 : 23477 : NVRAM_IME_INPUT_PATTERN */
     0x01,          /*  54 :  9579 : NVRAM_CALLSET_TAP_TAP_TO_RECORD_IN_CALL */
     0x00,          /*  55 : 29379 : NVRAM_PHB_STARTUP_COPY_SIM */
-    0x00,          /*  56 : 37200 : NVRAM_UPDATE_DATETIME_MODE */
+    0x00,          /*  56 : 37149 : NVRAM_UPDATE_DATETIME_MODE */
     0xFF,          /*  57 :  7765 : NVRAM_PROFILES_LASTACTIVATED */
     0x02,          /*  58 : 23484 : NVRAM_SETTING_LANGUAGE_FOLLOW_VK */
     0xFF,          /*  59 : 23598 : NVRAM_BYTE_BL_SETTING_LEVEL */
-    0x00,          /*  60 : 37196 : NVRAM_SETTING_OWNER_NO */
+    0x00,          /*  60 : 37145 : NVRAM_SETTING_OWNER_NO */
     0x00,          /*  61 :  9571 : NVRAM_CALLSET_CTR_MODE */
-    0x01,          /*  62 : 33614 : NVRAM_DOWNLOAD_CITY1 */
-    0x00,          /*  63 : 33615 : NVRAM_DOWNLOAD_CITY2 */
+    0x01,          /*  62 : 33563 : NVRAM_DOWNLOAD_CITY1 */
+    0x00,          /*  63 : 33564 : NVRAM_DOWNLOAD_CITY2 */
     0x00,          /*  64 : 12686 : NVRAM_DEFAULT_USB_APP */
     0x01,          /*  65 : 27475 : NVRAM_EF_SENSOR_UI_ROTATION_SWITCH */
     0x01,          /*  66 : 23469 : NVRAM_IME_SMART_MODE_CONFIG */
@@ -143,23 +143,23 @@ const kal_uint8 NVRAM_EF_MMI_CACHE_BYTE_DEFAULT[NVRAM_CACHE_SIZE] =
     0x01,          /*  74 : 23476 : NVRAM_IME_SOUND_FEEDBACK_FLAG */
     0xFF,          /*  75 : 23654 : NVRAM_NETSET_PREFERRED_MODE */
     0x04,          /*  76 : 23596 : NVRAM_HDSET_MODE_VOICE_LEVEL */
-    0xFF,          /*  77 : 30587 : NVRAM_BT_RECEIVE_DRIVE */
+    0xFF,          /*  77 : 30536 : NVRAM_BT_RECEIVE_DRIVE */
     0x00,          /*  78 : 27551 : NVRAM_AUTO_VM_SETTING_AUTO_VM */
     0x04,          /*  79 : 23595 : NVRAM_LDSPK_MODE_VOICE_LEVEL */
-    0x00,          /*  80 : 30588 : NVRAM_BT_RECEIVE_DRIVE_ASK */
+    0x00,          /*  80 : 30537 : NVRAM_BT_RECEIVE_DRIVE_ASK */
     0x00,          /*  81 : 25627 : NVRAM_SETTING_AUTOKEYPADLOCK */
     0x04,          /*  82 : 23594 : NVRAM_NORMAL_MODE_VOICE_LEVEL */
     0x30,          /*  83 : 24602 : SRV_DT_TIME_ZONE */
-    0x01,          /*  84 : 37198 : NVRAM_SETTING_STATUS_DT_TIME */
+    0x01,          /*  84 : 37147 : NVRAM_SETTING_STATUS_DT_TIME */
     0x00,          /*  85 :  7764 : NVRAM_PROFILES_ACTIVATED */
     0x01,          /*  86 : 23470 : NVRAM_IME_AUTO_CAPITALIZATION_FLAG */
     0x01,          /*  87 : 23474 : NVRAM_IME_AUTO_SPACE_FLAG */
     0x02,          /*  88 : 29564 : NVRAM_SETTING_AUTOUPDATE_DT_TIME_STATUS */
-    0x00,          /*  89 : 30200 : NVRAM_ADUPS_SETTING_LID */
-    0xFF,          /*  90 : 23602 : NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK */
-    0x00,          /*  91 : 37199 : NVRAM_AUTOUPDATE_DT_STATUS */
-    0x01,          /*  92 : 25658 : NVRAM_IDLE_DIALER_TTS_SETTING */
-    0x00,          /*  93 :  9572 : NVRAM_CALLSET_ANSWER_MODE */
+    0xFF,          /*  89 : 23602 : NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK */
+    0x00,          /*  90 : 37148 : NVRAM_AUTOUPDATE_DT_STATUS */
+    0x01,          /*  91 : 25658 : NVRAM_IDLE_DIALER_TTS_SETTING */
+    0x00,          /*  92 :  9572 : NVRAM_CALLSET_ANSWER_MODE */
+    0xFF,
     0xFF,
     0xFF,
     0xFF,
@@ -578,29 +578,29 @@ const kal_uint8 NVRAM_EF_MMI_CACHE_SHORT_DEFAULT[NVRAM_CACHE_SIZE] =
 {
     0x0D,0x00,          /*   0 : 23478 : NVRAM_SETTING_PREFER_INPUT_METHOD */
     0xFF,0xFF,          /*   1 :  9469 : NVRAM_SMS_CONCAT_MSG_REF_VALUE */
-    0x01,0x00,          /*   2 : 36172 : NVRAM_CURRENT_POWER_OFF_DISPLAY */
+    0x01,0x00,          /*   2 : 36121 : NVRAM_CURRENT_POWER_OFF_DISPLAY */
     0xFF,0xFF,          /*   3 : 23480 : NVRAM_SETTING_WRITING_LANG */
-    0x01,0x00,          /*   4 : 36171 : NVRAM_CURRENT_POWER_ON_DISPLAY */
+    0x01,0x00,          /*   4 : 36120 : NVRAM_CURRENT_POWER_ON_DISPLAY */
     0xFF,0xFF,          /*   5 :  9577 : NVRAM_CALLSET_QUICK_END_TIME */
     0x02,0x00,          /*   6 : 29384 : NVRAM_PHB_STORAGE_LOCATION */
-    0xFF,0xFF,          /*   7 : 33613 : NVRAM_FRN_TIMEZONE */
+    0xFF,0xFF,          /*   7 : 33562 : NVRAM_FRN_TIMEZONE */
     0x0D,0x00,          /*   8 : 23479 : RESTORE_PREFER_INPUT_METHOD */
-    0x01,0x00,          /*   9 : 35976 : RESTORE_DEFAULT_SETWALLPAPER_SUB */
+    0x01,0x00,          /*   9 : 35925 : RESTORE_DEFAULT_SETWALLPAPER_SUB */
     0x00,0x2D,          /*  10 : 23599 : NVRAM_BYTE_BL_SETTING_HFTIME */
     0xFF,0xFF,          /*  11 : 29386 : NVRAM_PHB_VCARD_VERSION */
     0xFF,0xFF,          /*  12 : 23482 : NVRAM_SETTING_ENABLED_WRITING_LANGUAGE */
-    0x01,0x00,          /*  13 : 36170 : NVRAM_RESTORE_POWER_OFF_DISPLAY */
+    0x01,0x00,          /*  13 : 36119 : NVRAM_RESTORE_POWER_OFF_DISPLAY */
     0xFF,0xFF,          /*  14 : 29385 : NVRAM_PHB_NAME_LIST_FILTER */
-    0xFF,0xFF,          /*  15 : 31038 : NVRAM_POWER_ON_DISPLAY_SUCCESS */
+    0xFF,0xFF,          /*  15 : 30987 : NVRAM_POWER_ON_DISPLAY_SUCCESS */
     0xFF,0xFF,          /*  16 :  9576 : NVRAM_CALLSET_CTR_TIME */
-    0x01,0x00,          /*  17 : 35974 : RESTORE_DEFAULT_FUNANDGAMES_SETWALLPAPER */
-    0xFF,0xFF,          /*  18 : 33611 : NVRAM_TIMEZONE */
-    0x01,0x00,          /*  19 : 36169 : NVRAM_RESTORE_POWER_ON_DISPLAY */
+    0x01,0x00,          /*  17 : 35923 : RESTORE_DEFAULT_FUNANDGAMES_SETWALLPAPER */
+    0xFF,0xFF,          /*  18 : 33560 : NVRAM_TIMEZONE */
+    0x01,0x00,          /*  19 : 36118 : NVRAM_RESTORE_POWER_ON_DISPLAY */
     0xFF,0xFF,          /*  20 : 23481 : NVRAM_SETTING_WRITING_LANG_SUB */
-    0xFF,0xFF,          /*  21 : 31536 : NVRAM_IMGVIEW_STORAGE */
+    0xFF,0xFF,          /*  21 : 31485 : NVRAM_IMGVIEW_STORAGE */
     0x11,0x11,          /*  22 : 29391 : NVRAM_PHB_PBAPC_NAME_ORDER */
-    0x01,0x00,          /*  23 : 35973 : NVRAM_FUNANDGAMES_SETWALLPAPER */
-    0x01,0x00,          /*  24 : 35975 : NVRAM_SETWALLPAPER_SUB */
+    0x01,0x00,          /*  23 : 35922 : NVRAM_FUNANDGAMES_SETWALLPAPER */
+    0x01,0x00,          /*  24 : 35924 : NVRAM_SETWALLPAPER_SUB */
     0xFF,0xFF,
     0xFF,0xFF,
     0xFF,0xFF,
@@ -834,8 +834,8 @@ const kal_uint8 NVRAM_EF_MMI_CACHE_SHORT_DEFAULT[NVRAM_CACHE_SIZE] =
 
 const kal_uint8 NVRAM_EF_MMI_CACHE_DOUBLE_DEFAULT[NVRAM_CACHE_SIZE] =
 {
-    0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,          /*   0 : 37201 : NVRAM_RTC_TIME */
-    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*   1 : 35970 : NVRAM_DISPCHAR_AVATAR_ONOFF_SERIALNUM */
+    0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,          /*   0 : 37150 : NVRAM_RTC_TIME */
+    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*   1 : 35919 : NVRAM_DISPCHAR_AVATAR_ONOFF_SERIALNUM */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*   2 : 24466 : NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE1 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*   3 : 24467 : NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE2 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*   4 : 24468 : NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE3 */
@@ -844,12 +844,12 @@ const kal_uint8 NVRAM_EF_MMI_CACHE_DOUBLE_DEFAULT[NVRAM_CACHE_SIZE] =
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*   7 : 24471 : NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE6 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*   8 : 24472 : NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE7 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*   9 : 24473 : NVRAM_RESTORE_DEFAULT_PEN_CALIBRATION_VALUE8 */
-    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  10 : 35968 : NARAM_DISPCHAR_AVATAR_ONOFF */
+    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  10 : 35917 : NARAM_DISPCHAR_AVATAR_ONOFF */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  11 :  4803 : NVRAM_MRE_SRV_DA_SIM1 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  12 :  4805 : NVRAM_MRE_SRV_DA_SIM2 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  13 :  4807 : NVRAM_MRE_SRV_DA_SIM3 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  14 :  4809 : NVRAM_MRE_SRV_DA_SIM4 */
-    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  15 : 35967 : NVRAM_DISPCHAR_AVATAR_WPSS */
+    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  15 : 35916 : NVRAM_DISPCHAR_AVATAR_WPSS */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  16 :  7766 : NVRAM_SRV_PROF_EXT_MELODY_BITS */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  17 : 24474 : NVRAM_PEN_CALIBRATION_VALUE1 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  18 : 24475 : NVRAM_PEN_CALIBRATION_VALUE2 */
@@ -859,7 +859,7 @@ const kal_uint8 NVRAM_EF_MMI_CACHE_DOUBLE_DEFAULT[NVRAM_CACHE_SIZE] =
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  22 : 24479 : NVRAM_PEN_CALIBRATION_VALUE6 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  23 : 24480 : NVRAM_PEN_CALIBRATION_VALUE7 */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  24 : 24481 : NVRAM_PEN_CALIBRATION_VALUE8 */
-    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  25 : 35969 : NVRAM_DISPCHAR_AVATAR_WPSS_SERIALNUM */
+    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  25 : 35918 : NVRAM_DISPCHAR_AVATAR_WPSS_SERIALNUM */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  26 :  4804 : NVRAM_MRE_SRV_DA_SIM1_PX */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  27 :  4806 : NVRAM_MRE_SRV_DA_SIM2_PX */
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,          /*  28 :  4808 : NVRAM_MRE_SRV_DA_SIM3_PX */

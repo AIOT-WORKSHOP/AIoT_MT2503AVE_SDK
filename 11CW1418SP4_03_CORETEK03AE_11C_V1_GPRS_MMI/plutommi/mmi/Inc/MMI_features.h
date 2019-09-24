@@ -1892,7 +1892,7 @@
 #endif
 
 
-#if (!defined(__MMI_BTBOX_NOLCD__) && !defined(__IOT__) && !defined(__IOT_LOCK__))
+#if (!defined(__MMI_BTBOX_NOLCD__) && !defined(__IOT__) && !defined(__IOT_LOCK__) && !defined(__AIOT_WORKSHOP__))
 	#ifndef __MMI_FACTORY_MODE__
 	#define __MMI_FACTORY_MODE__
 	#endif
@@ -15190,7 +15190,7 @@
 #endif
 
 
-#if (!defined(__UNIFIED_MESSAGE_LOW_MEMORY_SUPPORT__) && (defined(__PLUTO_MMI_PACKAGE__)  || !defined(LOW_COST_SUPPORT)))|| defined(__IOT_LOCK__)
+#if (!defined(__UNIFIED_MESSAGE_LOW_MEMORY_SUPPORT__) && (defined(__PLUTO_MMI_PACKAGE__)  || !defined(LOW_COST_SUPPORT)))|| defined(__IOT_LOCK__) || defined(__AIOT_WORKSHOP__) 
 	#ifndef __SRV_SMS_MSG_INFO_CONTENT__
 	#define __SRV_SMS_MSG_INFO_CONTENT__
 	#endif

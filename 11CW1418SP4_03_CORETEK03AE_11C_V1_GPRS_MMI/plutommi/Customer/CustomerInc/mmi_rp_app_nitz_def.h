@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_NITZ_APP = 39344 + 1, /* BASE_ID + 1 */
+    MENU_ID_NITZ_APP = 39293 + 1, /* BASE_ID + 1 */
     MENU_ID_NITZ_APP_OFF,
     MENU_ID_NITZ_APP_CONFIRM_FIRST,
     MENU_ID_NITZ_APP_ON,
@@ -74,7 +74,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_NITZ_BASE = 39344 + 1, /* BASE_ID + 1 */
+    STR_ID_NITZ_BASE = 39293 + 1, /* BASE_ID + 1 */
     STR_ID_NITZ_APP,
     STR_ID_NITZ_APP_CONFIRM_FIRST,
     STR_ID_NITZ_CONFIRM_TITLE,
@@ -88,7 +88,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_NITZ_APP = 39344 + 1, /* BASE_ID + 1 */
+    GRP_ID_NITZ_APP = 39293 + 1, /* BASE_ID + 1 */
     GRP_ID_NITZ_INDICATION,
     SCR_ID_NITZ_BASE,
     SCR_ID_SETTINGS_NITZ,
@@ -104,7 +104,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    RESTORE_DEFAULT_AUTOUPDATE_TIME = 39344 + 1, /* BASE_ID + 1 */      /*         BYTE */ 
+    RESTORE_DEFAULT_AUTOUPDATE_TIME = 39293 + 1, /* BASE_ID + 1 */      /*         BYTE */ 
     MMI_RP_APP_NITZ_MMI_CACHE_MAX
 } mmi_rp_app_nitz_mmi_cache_enum;
 /******************** MMI Cache IDs - End ********************/
@@ -113,7 +113,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_NITZ_CONFIRM = 39344 + 1, /* BASE_ID + 1 */
+    IMG_ID_NITZ_CONFIRM = 39293 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_NITZ_IMG_MAX
 }mmi_rp_app_nitz_img_enum;
 /******************** Image resource IDs - finish ********************/

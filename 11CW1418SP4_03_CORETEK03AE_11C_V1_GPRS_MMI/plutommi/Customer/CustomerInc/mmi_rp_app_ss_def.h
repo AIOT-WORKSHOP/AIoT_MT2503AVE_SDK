@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_SS_SIM1 = 33959 + 1, /* BASE_ID + 1 */
+    MENU_ID_SS_SIM1 = 33908 + 1, /* BASE_ID + 1 */
     MENU_ID_SS_SIM2,
     MENU_ID_SS_TYPE_SELECT,
     MMI_RP_APP_SS_MENU_MAX
@@ -73,7 +73,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_SS_TITLE = 33959 + 1, /* BASE_ID + 1 */
+    STR_ID_SS_TITLE = 33908 + 1, /* BASE_ID + 1 */
     STR_ID_SS_REQUESTING,
     STR_ID_SS_USSD_MSG,
     STR_ID_SS_PERIOD,
@@ -88,7 +88,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_SS_COMMON = 33959 + 1, /* BASE_ID + 1 */
+    GRP_ID_SS_COMMON = 33908 + 1, /* BASE_ID + 1 */
     GRP_ID_SS_SIM1,
     GRP_ID_SS_SIM1_USSR,
     GRP_ID_SS_SIM2,
@@ -109,7 +109,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    USSR_SESSION_TIMER = 33959 + 1, /* BASE_ID + 1 */
+    USSR_SESSION_TIMER = 33908 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_SS_TIMER_MAX
 }mmi_rp_app_ss_timer_enum;
 /******************** Timer resource IDs - finish ********************/

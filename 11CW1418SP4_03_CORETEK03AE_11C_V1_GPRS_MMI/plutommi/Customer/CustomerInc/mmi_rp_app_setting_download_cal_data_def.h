@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_PHNSET_DOWNLOAD_DATA_INVALID = 37851 + 1, /* BASE_ID + 1 */
+    STR_ID_PHNSET_DOWNLOAD_DATA_INVALID = 37800 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_SETTING_DOWNLOAD_CAL_DATA_STR_MAX
 }mmi_rp_app_setting_download_cal_data_str_enum;
 /******************** String resource IDs - finish ********************/

@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    ORGANIZER_ALARM_MENU = 39293 + 1, /* BASE_ID + 1 */
+    ORGANIZER_ALARM_MENU = 39242 + 1, /* BASE_ID + 1 */
     MENU_ID_ALM_REPEAT_TYPE_MAIN,
     MENU_ID_ALM_REPEAT_TYPE_ONCE,
     MENU_ID_ALM_REPEAT_TYPE_EVREYDAY,
@@ -79,7 +79,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    ALARMS_SNOOZE_STRINGID = 39293 + 1, /* BASE_ID + 1 */
+    ALARMS_SNOOZE_STRINGID = 39242 + 1, /* BASE_ID + 1 */
     ALARM_REPEAT_STRING,
     ALARM_ONCE_STRING,
     ALARM_EVREYDAY_STRING,
@@ -97,7 +97,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_ALM_LIST = 39293 + 1, /* BASE_ID + 1 */
+    SCR_ID_ALM_LIST = 39242 + 1, /* BASE_ID + 1 */
     SCR_ID_ALM_SAVE_CONFIRM,
     SCR_ID_ALM_INDICATION,
     SCR_ID_ALM_PWRON_CONFIRM,
@@ -131,7 +131,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    ALARM_ALERT_NOTIFYDURATION_TIMER = 39293 + 1, /* BASE_ID + 1 */
+    ALARM_ALERT_NOTIFYDURATION_TIMER = 39242 + 1, /* BASE_ID + 1 */
     ALARM_TIMER_WAIT_FOR_CALL,
     MMI_RP_APP_ALARM_TIMER_MAX
 }mmi_rp_app_alarm_timer_enum;
@@ -143,7 +143,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    ALARMS_EDIT_SOFTKEY_IMAGEID = 39293 + 1, /* BASE_ID + 1 */
+    ALARMS_EDIT_SOFTKEY_IMAGEID = 39242 + 1, /* BASE_ID + 1 */
     IMG_ALM_AUD_OPT,
     MMI_RP_APP_ALARM_IMG_MAX
 }mmi_rp_app_alarm_img_enum;

@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MAIN_MENU_ORGANIZER_NO_SIM_MENUID = 39487 + 1, /* BASE_ID + 1 */
+    MAIN_MENU_ORGANIZER_NO_SIM_MENUID = 39436 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_ORGANIZER_MENU_MAX
 }mmi_rp_app_organizer_menu_enum;
 /******************** Menu resource IDs - finish ********************/
@@ -71,7 +71,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    ORGANIZER_SCREENID = 39487 + 1, /* BASE_ID + 1 */
+    ORGANIZER_SCREENID = 39436 + 1, /* BASE_ID + 1 */
     GRP_ID_ORG,
     MMI_RP_APP_ORGANIZER_SCR_MAX
 }mmi_rp_app_organizer_scr_enum;
@@ -83,7 +83,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    ORGANIZER_TITLE_IMAGEID = 39487 + 1, /* BASE_ID + 1 */
+    ORGANIZER_TITLE_IMAGEID = 39436 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_ORGANIZER_IMG_MAX
 }mmi_rp_app_organizer_img_enum;
 /******************** Image resource IDs - finish ********************/

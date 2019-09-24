@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_VIEW_SETTING_COMMON_FILE_PREVIEW = 43075 + 1, /* BASE_ID + 1 */
+    SCR_ID_VIEW_SETTING_COMMON_FILE_PREVIEW = 43024 + 1, /* BASE_ID + 1 */
     SCR_ID_VIEW_SETTING_COMMON_WAITING_POPUP,
     GRP_ID_VIEW_SETTING_COMMON_FMGR,
     GRP_ID_VIEW_SETTING_FILE_COMMON_PREVIEW,

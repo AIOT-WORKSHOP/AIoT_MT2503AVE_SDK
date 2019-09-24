@@ -612,29 +612,23 @@ LID_BIT VER_LID(NVRAM_EF_CACHE_BYTE_LID)
         };
         Cachebyte[ 89]
         {
-            NVRAM_ADUPS_SETTING_LID_byte0:8 "ADUPS REMIDER SET"
+            NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK_byte0:8 "Byte Cache"
             {
             };
         };
         Cachebyte[ 90]
         {
-            NVRAM_BYTE_COVER_CLOSE_KEYPAD_LOCK_byte0:8 "Byte Cache"
+            NVRAM_AUTOUPDATE_DT_STATUS_byte0:8 "Byte Cache"
             {
             };
         };
         Cachebyte[ 91]
         {
-            NVRAM_AUTOUPDATE_DT_STATUS_byte0:8 "Byte Cache"
-            {
-            };
-        };
-        Cachebyte[ 92]
-        {
             NVRAM_IDLE_DIALER_TTS_SETTING_byte0:8 "TTS setting on / off"
             {
             };
         };
-        Cachebyte[ 93]
+        Cachebyte[ 92]
         {
             NVRAM_CALLSET_ANSWER_MODE_byte0:8 "Answer mode"
             {

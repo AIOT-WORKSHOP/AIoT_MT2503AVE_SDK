@@ -62,7 +62,7 @@
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    SOGPS_SET_CONN_INTERVAL_TIMER_ID = 30261 + 1, /* BASE_ID + 1 */
+    SOGPS_SET_CONN_INTERVAL_TIMER_ID = 30210 + 1, /* BASE_ID + 1 */
     MMI_RP_SRV_SOGPS_TIMER_MAX
 }mmi_rp_srv_sogps_timer_enum;
 /******************** Timer resource IDs - finish ********************/
@@ -71,7 +71,7 @@ typedef enum
 /******************** Events resource IDs - begin ********************/
 typedef enum
 {
-    EVT_ID_SOGPS_CONNECT_IND = 30261 + 1, /* BASE_ID + 1 */
+    EVT_ID_SOGPS_CONNECT_IND = 30210 + 1, /* BASE_ID + 1 */
     EVT_ID_SOGPS_DISCONNECT_IND,
     EVT_ID_SOGPS_READY_TO_READ,
     EVT_ID_SOGPS_READY_TO_WRITE,

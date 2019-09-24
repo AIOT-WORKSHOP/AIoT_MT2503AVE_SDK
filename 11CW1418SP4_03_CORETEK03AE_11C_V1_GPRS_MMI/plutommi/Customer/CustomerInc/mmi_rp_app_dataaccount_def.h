@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_DTCNT_SIM_1 = 34334 + 1, /* BASE_ID + 1 */
+    MENU_ID_DTCNT_SIM_1 = 34283 + 1, /* BASE_ID + 1 */
     MENU_ID_DATA_CONNECTION_SIM,
     SERVICES_DATA_CONNECT_MAIN_MENU_ID,
     MENU_ID_DTCNT_OPT_ADD_GPRS,
@@ -84,7 +84,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_DTCNT_RENAME = 34334 + 1, /* BASE_ID + 1 */
+    STR_ID_DTCNT_RENAME = 34283 + 1, /* BASE_ID + 1 */
     STR_ID_DTCNT_ADVANCED_SETTING,
     STR_ID_DTCNT_HOME_PAGE,
     STR_ID_DTCNT_CONNECTION_TYPE,
@@ -122,7 +122,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_DTCNT = 34334 + 1, /* BASE_ID + 1 */
+    GRP_ID_DTCNT = 34283 + 1, /* BASE_ID + 1 */
     GRP_ID_DTCNT_PROV,
     GRP_ID_DATA_CONNECTION_SIM,
     SCR_ID_DTCNT_LIST,
@@ -162,7 +162,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_DTCNT_CHECKMARK = 34334 + 1, /* BASE_ID + 1 */
+    IMG_ID_DTCNT_CHECKMARK = 34283 + 1, /* BASE_ID + 1 */
     SERVICES_DATA_CONNECT_IMAGE_ID,
     MMI_RP_APP_DATAACCOUNT_IMG_MAX
 }mmi_rp_app_dataaccount_img_enum;

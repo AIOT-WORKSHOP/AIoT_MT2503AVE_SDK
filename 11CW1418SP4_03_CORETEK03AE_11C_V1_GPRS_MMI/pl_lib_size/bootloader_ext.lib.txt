@@ -4,17 +4,13 @@
          0          0          0          0          0   SPI_NAND_DAL.obj
          0          0          0          0          0   SPI_NAND_DevConfig.obj
          0          0          0          0          0   SPI_NAND_MTD_FDM50.obj
-      3368       1164          2       1718       1245   adups_bl_main.obj
-       520        134          0          0        898   adups_file.obj
-        48          0          0          0        392   adups_flash.obj
-       146          5         40          0        115   adups_mcu.obj
        976          0          0          0       1388   arm_unaligned.obj
          8         40          0          0        104   bl_Alg.obj
         96          0          4       4096       1124   bl_BOOTARM.obj
         70          0          0      16384        274   bl_Cache.obj
        574          0          1        554        330   bl_DBGPRINT.obj
          0          0          0          0          0   bl_FOTA.obj
-       418          0         48          1        758   bl_FTL.obj
+       410          0         48          1        744   bl_FTL.obj
          0          0          0          0          0   bl_FUDIFFNET.obj
          0          0          0          0          0   bl_FUNET.obj
         16        128          0          0         52   bl_GFH_body.obj
@@ -22,7 +18,7 @@
        492          0          0        193         63   bl_ImageLoaderCommon.obj
        854         16          4          4        605   bl_ImageLoader_v5.obj
        480          0         40        128       1038   bl_Init.obj
-      2670        158          8      35193       2281   bl_Main.obj
+      2642        191          8      35193       2281   bl_Main.obj
          0          0          0          0          0   bl_NFI.obj
          0          0          0          0          0   bl_NFI_V3.obj
          0          0          0          0          0   bl_NFI_V31.obj
@@ -38,58 +34,44 @@
        124        244          0          0        125   bmt_hw.obj
        204          0          0          0        118   br_GFH_file_info.obj
        194          0          0          0        192   br_GFH_parser.obj
-      1140        997          0          0        399   brom_base.obj
-      1772        101         13          0        167   brom_mt3301.obj
       2650         60          0          4       1554   cache.obj
         72          0          0       2052         63   cbr_util.obj
        408         28          4          0        337   combo_flash_init.obj
-      1242        152          0       2196        919   combo_flash_nor.obj
+      1090        152          0       2196        856   combo_flash_nor.obj
          0          0          0          0         18   cp15.obj
          8          0          0          0        104   custom_SNAND.obj
        104         13          0          0        537   custom_blconfig.obj
-       400          0          0          0        186   custom_equipment.obj
         56         19          0          0        319   custom_flash.obj
        168         35        120        152         65   custom_hw_default.obj
          0          0          0          0          0   custom_img_config.obj
        324        160          4         24        249   custom_sfi.obj
-        48         35         28          0        274   custom_uem.obj
-      2304       1946          0          0        379   da_cmd.obj
        488          0          0          4        462   dcl_f32k_clk.obj
        674          0         28          0        453   dcl_gpio.obj
         82          0         28          8        423   dcl_pmu.obj
       2524       1702          0         80       1541   dcl_pmu6261.obj
        304          0          0          0         61   dcl_pmu6261_init.obj
        468          0          0          0        378   dcl_pmu_common.obj
-       392          0          0         18        620   dcl_pw.obj
        738          0         28         24        687   dcl_pwm.obj
       1194          0          0        132        587   dcl_rtc.obj
         52          0          0          0        156   drv_comm_bl.obj
        182          0          0          4        342   emi.obj
        876          0          0          0        738   f32k_clk.obj
        146          0          0          0        533   flash_cfi.obj
-      2358          0         11        200       1336   flash_disk.obj
+      1502          0         11        196        887   flash_disk.obj
          0          0          0          0          0   flash_mtd.amd.obj
          0          0          0          0          0   flash_mtd.intel.obj
        526          0          8         22        444   flash_mtd.obj
          0          0          0          0          0   flash_mtd_pf_dal.obj
        976          0          0          1        667   flash_mtd_sf_common.obj
       2780          0          4          5       1145   flash_mtd_sf_dal.obj
-      2824        164      11900          0        689   flashtool.obj
-      1288          0          0          0        851   gdi_image_alpha_bmp_v2_core.obj
-       970        512          0          0        698   gdi_image_alpha_bmp_v2_internal.obj
       1048        104          0          2       1467   gpio.obj
          8          0          0          1         59   gpio_drv.obj
        512        180         16          0        908   gpio_setting.obj
          0       1332          0          0          0   gpio_var.obj
-      1114         26          0          4        896   gps_uart.obj
        166         20          0          0        426   init_comm.obj
        264          0          1          8        359   keypad_bl.obj
         24          4         65          0        156   keypad_def.obj
-      3826          0         86         14       1704   lcd.obj
          0          0          0          0          0   lcd_display.obj
-         0          0          0          0          0   lcd_fota.obj
-      3482          0          0         20        741   lcd_if_manager.obj
-        72          0          4          8         52   lcm_proxy.obj
         14          0          0          0        364   lpwr.obj
          0          0          0          0          0   msdc_adap_bl.obj
          0          0          0          0          0   msdc_dma_bl.obj
@@ -100,12 +82,8 @@
        236          0          0          0        130   pmu_custom.obj
        178          0          0          0        187   pwic_cust.obj
       1680          0         68         26       1002   pwm.obj
-        34          0          0          0         59   pwmdrv.obj
       3146          0          0         16       2468   rtc.obj
-         0          0          0          0          0   rwg.obj
       1396          0          0         14        843   sw_keypad.obj
-         0        227         84          1          0   uem_drv.obj
-       120          0          0          0        219   uem_gpio.obj
         84        194         36       7680        423   usb_custom.obj
          2          0          0          0         52   usbdl_debug_tool.obj
        216          0          0          0        406   usbdl_pmu.obj
@@ -115,5 +93,5 @@
          0          0          0          0          0   usbdl_usb_resource.obj
          0          0          0          0          0   usbdl_usbacm_adap.obj
          0          0          0          0          0   usbdl_usbacm_drv.obj
-     74346      11053      12779      72179      49752   TOTAL
+     49434       5775        622      70392      38642   TOTAL
 

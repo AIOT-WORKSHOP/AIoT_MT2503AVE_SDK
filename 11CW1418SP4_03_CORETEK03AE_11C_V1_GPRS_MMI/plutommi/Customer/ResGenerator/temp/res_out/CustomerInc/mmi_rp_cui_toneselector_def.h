@@ -62,7 +62,7 @@
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    CUI_TONE_SELECTOR_PLAY_TIMER = 31866 + 1, /* BASE_ID + 1 */
+    CUI_TONE_SELECTOR_PLAY_TIMER = 31815 + 1, /* BASE_ID + 1 */
     MMI_RP_CUI_TONESELECTOR_TIMER_MAX
 }mmi_rp_cui_toneselector_timer_enum;
 /******************** Timer resource IDs - finish ********************/

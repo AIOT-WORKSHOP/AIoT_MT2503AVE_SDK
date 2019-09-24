@@ -27,16 +27,17 @@ debug/obj/mtk_resgenerator_core/PopulateRes.o:  \
   ../../../venusmmi/visual/cp/res/vcp_res_range.h \
   ../../mmi/inc/mmi_features.h ../../mmi/inc/CustDataProts.h \
   offlineresgenerator/inc/OfflineResPopCAPI.h ../../mmi/inc/custmenures.h \
-  ../../mmi/inc/FontDCL.h ../../../custom/common/hal_public/lcd_sw_rnd.h \
-  ../../../custom/drv/lcd/coretek03ae_11c_lcm/lcd_hw.h \
-  ../../../kal/include/kal_general_types.h ../../../kal/include/clib.h \
-  ../../../kal/include/clib_list.h \
-  ../../../custom/common/hal_public/lcd_sw_inc.h \
-  ../../mmi/resource/inc/ABMLoader.h \
+  ../../mmi/inc/FontDCL.h ../../mmi/inc/GlobalResDef.h \
+  ../customerinc/CustResDef.h ../../mmi/setting/settinginc/SettingDefs.h \
   ../../mmi/resource/inc/WriteResUtil.h ../../mmi/inc/CustDataRes.h \
   ../../framework/gui/gui_inc/gui_resource_type.h \
   ../../framework/gdi/gdiinc/gdi_const.h \
   ../../framework/gdi/gdiinc/gdi_lcd_config.h \
+  ../../../custom/common/hal_public/lcd_sw_inc.h \
+  ../../../custom/drv/lcd/coretek03ae_11c_lcm/lcd_hw.h \
+  ../../../kal/include/kal_general_types.h ../../../kal/include/clib.h \
+  ../../../kal/include/clib_list.h \
+  ../../../custom/common/hal_public/lcd_sw_rnd.h \
   ../../framework/gdi/gdiinc/gdi_features.h \
   ../../../interface/hal/drv_sw_def/drv_sw_features_display.h \
   ../../../hal/drv_def/drv_features_chip_select.h \
@@ -56,8 +57,6 @@ debug/obj/mtk_resgenerator_core/PopulateRes.o:  \
   ../../../hal/mdp/include/mt6252/idp_mem.h \
   ../../../hal/graphics/jpeg/common/inc/jpeg_mem_6235_series.h \
   ../../../hal/graphics/jpeg/common/inc/jpeg_mem_sw.h \
-  ../../mmi/inc/GlobalResDef.h ../customerinc/CustResDef.h \
-  ../../mmi/setting/settinginc/SettingDefs.h \
   ../../mmi/resource/inc/LegacyResPopService.h \
   resgenlog/inc/ResgenLogCAPI.h resgenlog/inc/ResgenLogConfig.h \
   offlineresgenerator/inc/ExternalCMDManagerCAPI.h

@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_NTP_APP = 39365 + 1, /* BASE_ID + 1 */
+    MENU_ID_NTP_APP = 39314 + 1, /* BASE_ID + 1 */
     MENU_ID_NTP_SET_ON_OFF,
     MENU_ID_NTP_DATA_ACCT,
     MMI_RP_APP_NTP_MENU_MAX
@@ -73,7 +73,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_NTP_APP = 39365 + 1, /* BASE_ID + 1 */
+    STR_ID_NTP_APP = 39314 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_NTP_STR_MAX
 }mmi_rp_app_ntp_str_enum;
 /******************** String resource IDs - finish ********************/
@@ -82,7 +82,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_NTP_APP = 39365 + 1, /* BASE_ID + 1 */
+    GRP_ID_NTP_APP = 39314 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_NTP_SCR_MAX
 }mmi_rp_app_ntp_scr_enum;
 /******************** Screen resource IDs - finish ********************/
@@ -93,7 +93,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_ID_NTP_ICON = 39365 + 1, /* BASE_ID + 1 */
+    IMG_ID_NTP_ICON = 39314 + 1, /* BASE_ID + 1 */
     MMI_RP_APP_NTP_IMG_MAX
 }mmi_rp_app_ntp_img_enum;
 /******************** Image resource IDs - finish ********************/

@@ -62,7 +62,7 @@
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_PHNSET_POWER_ON = 36168 + 1, /* BASE_ID + 1 */
+    SCR_ID_PHNSET_POWER_ON = 36117 + 1, /* BASE_ID + 1 */
     SCR_ID_PHNSET_POWER_ON_SYSTEM_LIST,
     SCR_ID_PHNSET_POWER_ON_SYSTEM_VIEW,
     SCR_ID_PHNSET_POWER_ON_SYSTEM_VIEW_2,
@@ -86,7 +86,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    NVRAM_RESTORE_POWER_ON_DISPLAY = 36168 + 1, /* BASE_ID + 1 */     /*        SHORT */ 
+    NVRAM_RESTORE_POWER_ON_DISPLAY = 36117 + 1, /* BASE_ID + 1 */     /*        SHORT */ 
     NVRAM_RESTORE_POWER_OFF_DISPLAY,                            /*        SHORT */ 
     NVRAM_CURRENT_POWER_ON_DISPLAY,                             /*        SHORT */ 
     NVRAM_CURRENT_POWER_OFF_DISPLAY,                            /*        SHORT */ 

@@ -1342,8 +1342,8 @@ MMI_BOOTUP_INIT_REG_BEGIN(EVT_ID_SRV_BOOTUP_COMPLETED)
     MMI_BOOTUP_INIT_REG(mmi_iot_init)
 #endif
 
-#ifdef __AIOT_ECU__
-    MMI_BOOTUP_INIT_REG(AIOT_ECU_Init)
+#ifdef __AIOT_WORKSHOP__
+    MMI_BOOTUP_INIT_REG(AWS_Init)
 #endif
 
     /*****************please add before this line*********************************/

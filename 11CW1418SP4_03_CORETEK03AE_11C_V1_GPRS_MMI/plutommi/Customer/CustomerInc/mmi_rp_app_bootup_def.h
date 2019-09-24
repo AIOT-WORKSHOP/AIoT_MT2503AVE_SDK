@@ -62,7 +62,7 @@
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_BOOTUP_NAND_NOT_SUPPORTED = 31037 + 1, /* BASE_ID + 1 */
+    STR_ID_BOOTUP_NAND_NOT_SUPPORTED = 30986 + 1, /* BASE_ID + 1 */
     STR_ID_BOOTUP_USER_DRIVE_CORRUPTED,
     STR_ID_BOOTUP_SYSTEM_DRIVE_CORRUPTED,
     STR_ID_BOOTUP_NAND_VERSION_MISMATCH,
@@ -94,7 +94,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_BOOTUP = 31037 + 1, /* BASE_ID + 1 */
+    GRP_ID_BOOTUP = 30986 + 1, /* BASE_ID + 1 */
     SCR_ID_BOOTUP_BASE,
     SCR_ID_BOOTUP_DISK_CHECK_FORMAT_QUERY,
     SCR_ID_BOOTUP_DISK_CHECK_FORMATTING,
@@ -119,7 +119,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    BOOTUP_WAITING_EVENT_TIMER = 31037 + 1, /* BASE_ID + 1 */
+    BOOTUP_WAITING_EVENT_TIMER = 30986 + 1, /* BASE_ID + 1 */
     BOOTUP_ANIMATION_TIMER,
     BOOTUP_WAITING_SCREEN_TIMER,
     MMI_RP_APP_BOOTUP_TIMER_MAX
@@ -132,7 +132,7 @@ typedef enum
 /******************** MMI Cache IDs - Begin ********************/
 typedef enum
 {
-    NVRAM_POWER_ON_DISPLAY_SUCCESS = 31037 + 1, /* BASE_ID + 1 */     /*        SHORT */ 
+    NVRAM_POWER_ON_DISPLAY_SUCCESS = 30986 + 1, /* BASE_ID + 1 */     /*        SHORT */ 
     MMI_RP_APP_BOOTUP_MMI_CACHE_MAX
 } mmi_rp_app_bootup_mmi_cache_enum;
 /******************** MMI Cache IDs - End ********************/

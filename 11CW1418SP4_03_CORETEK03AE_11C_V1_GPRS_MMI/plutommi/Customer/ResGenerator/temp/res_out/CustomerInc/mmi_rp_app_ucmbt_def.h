@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_UCM_BT_INCALL_OPTION = 41293 + 1, /* BASE_ID + 1 */
+    MENU_ID_UCM_BT_INCALL_OPTION = 41242 + 1, /* BASE_ID + 1 */
     MENU_ID_UCM_BT_INCALL_OPTION_HOLD,
     MENU_ID_UCM_BT_INCALL_OPTION_RETRIEVE,
     MENU_ID_UCM_BT_INCALL_OPTION_SWAP,
@@ -83,7 +83,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_UCM_BT_CALLING = 41293 + 1, /* BASE_ID + 1 */
+    STR_ID_UCM_BT_CALLING = 41242 + 1, /* BASE_ID + 1 */
     STR_ID_UCM_BT_REJECT,
     STR_ID_UCM_BT_ANSWER,
     STR_ID_UCM_BT_RETRIEVE,
@@ -116,7 +116,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    GRP_ID_UCM_BT_PRE_MO = 41293 + 1, /* BASE_ID + 1 */
+    GRP_ID_UCM_BT_PRE_MO = 41242 + 1, /* BASE_ID + 1 */
     GRP_ID_UCM_BT_MO,
     GRP_ID_UCM_BT_MT,
     GRP_ID_UCM_BT_INCALL,
@@ -140,7 +140,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    UCM_NOTIFY_DURATION_TIMER_BT = 41293 + 1, /* BASE_ID + 1 */
+    UCM_NOTIFY_DURATION_TIMER_BT = 41242 + 1, /* BASE_ID + 1 */
     UCM_TONE_AFTER_VIBRATION_BT,
     UCM_MO_PROCESSING_TIMER_BT,
     UCM_FORCE_REFRESH_TIMER_BT,

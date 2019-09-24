@@ -62,7 +62,7 @@
 /******************** Menu resource IDs - begin ********************/
 typedef enum
 {
-    MENU_ID_SMS_VM_VMAIL_MENUID = 41537 + 1, /* BASE_ID + 1 */
+    MENU_ID_SMS_VM_VMAIL_MENUID = 41486 + 1, /* BASE_ID + 1 */
     MENU_ID_SMS_VM_ITEM_VOICE_MAIL_OPTION,
     MENU_ID_SMS_VM_ITEM_VM_1_EDIT,
     MENU_ID_SMS_VM_ITEM_VM_3_CONNECT_TO_VOICE,
@@ -125,7 +125,7 @@ typedef enum
 /******************** String resource IDs - begin ********************/
 typedef enum
 {
-    STR_ID_SMS_VM_VMAIL_MENUENTRY = 41537 + 1, /* BASE_ID + 1 */
+    STR_ID_SMS_VM_VMAIL_MENUENTRY = 41486 + 1, /* BASE_ID + 1 */
     STR_ID_SMS_VM_VOICE_MAIL_NAME,
     STR_ID_SMS_VM_VOICE_MAIL_NUM,
     STR_ID_SMS_VM_DEFAULT_VM_MAILBOX,
@@ -222,7 +222,7 @@ typedef enum
 /******************** Screen resource IDs - begin ********************/
 typedef enum
 {
-    SCR_ID_MSG_DELIVER_REPORT = 41537 + 1, /* BASE_ID + 1 */
+    SCR_ID_MSG_DELIVER_REPORT = 41486 + 1, /* BASE_ID + 1 */
     SCR_ID_MSG_CLASS0_MSG,
     SCR_ID_MSG_MSG_WAITING_IND,
     SCR_ID_MSG_EXCEED_IND,
@@ -262,7 +262,7 @@ typedef enum
 /******************** Timer resource IDs - begin ********************/
 typedef enum
 {
-    MESSAGES_SUBLCD_TIMER_ID = 41537 + 1, /* BASE_ID + 1 */
+    MESSAGES_SUBLCD_TIMER_ID = 41486 + 1, /* BASE_ID + 1 */
     MESSAGES_INPROGRESS_TIMER_ID,
     MESSAGES_EMS_OBJECT_PLAY_TIMER_ID,
     MMI_RP_APP_SMS_TIMER_MAX
@@ -275,7 +275,7 @@ typedef enum
 /******************** Image resource IDs - begin ********************/
 typedef enum
 {
-    IMG_SMS_VMAIL_MENUENTRY = 41537 + 1, /* BASE_ID + 1 */
+    IMG_SMS_VMAIL_MENUENTRY = 41486 + 1, /* BASE_ID + 1 */
     IMG_ID_SMS_MSG_SETTINGS_MENUENTRY,
     IMG_ID_SMS_PROFILE_NAME,
     IMG_ID_SMS_PROFILE_SC,

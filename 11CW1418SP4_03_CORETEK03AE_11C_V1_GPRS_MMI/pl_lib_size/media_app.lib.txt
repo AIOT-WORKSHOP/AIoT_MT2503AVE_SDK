@@ -12,7 +12,7 @@
          0          0          0          0          0   ImgViewerCacheMgr.obj
          0          0          0          0          0   ImgViewerSkin.obj
       1218          0          0        740       1431   ImgviewCui.obj
-      4758         96          0          8       2538   ImgviewCuiScrn.obj
+      4754         96          0          8       2538   ImgviewCuiScrn.obj
          0          0          0          0          0   JavaAgencyEMPerformance.obj
          0          0          0          0          0   JavaAgencyManager.obj
          0          0          0          0          0   JavaAgencyNCenter.obj
@@ -43,5 +43,5 @@
          0          0          0          0          0   pictureeditorhandler.obj
          0          0          0          0          0   swflashdlsrc.obj
          0          0          0          0          0   swflashplayer.obj
-     11526        136          2       1924       9436   TOTAL
+     11522        136          2       1924       9436   TOTAL
 

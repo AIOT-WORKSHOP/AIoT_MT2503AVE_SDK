@@ -214,8 +214,7 @@ debug/obj/mtk_resgenerator_xml/mmi_rp_app_callset.o:  \
   ../customerinc/mmi_rp_srv_gdi_def.h \
   ../customerinc/mmi_rp_srv_venus_theme_def.h \
   ../customerinc/mmi_rp_app_am_def.h \
-  ../customerinc/mmi_rp_app_adups_def.h \
   ../customerinc/mmi_rp_srv_fullscreen_editor_def.h \
   ../customerinc/mmi_rp_srv_sogps_def.h \
   ../customerinc/mmi_rp_srv_gatt_def.h \
-  ../customerinc/mmi_rp_srv_iot_lock_def.h
+  ../customerinc/mmi_rp_srv_aws_def.h

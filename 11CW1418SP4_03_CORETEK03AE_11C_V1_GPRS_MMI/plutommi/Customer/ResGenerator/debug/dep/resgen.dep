@@ -278,7 +278,10 @@ FontRes.obj:	plutommi\Customer\ResGenerator\..\CustResource\FontRes.c \
 	plutommi\Customer\ResGenerator\..\..\..\venusmmi\visual\cp\res\vcp_res_range.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\vector_font_lang_memory_card_config.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\MMI_features_lang_memory_card_config.h \
-	plutommi\Customer\ResGenerator\..\..\..\vendor\font\inc\L_gMTKProprietaryFont_small.h
+	plutommi\Customer\ResGenerator\..\..\..\vendor\font\inc\L_English_small.h \
+	plutommi\Customer\ResGenerator\..\..\..\vendor\font\inc\L_gMTKProprietaryFont_small.h \
+	plutommi\Customer\ResGenerator\..\..\..\vendor\font\inc\L_English_medium.h \
+	plutommi\Customer\ResGenerator\..\..\..\vendor\font\inc\L_English_dialling.h
 FontResFile.obj:	plutommi\Customer\ResGenerator\..\FontResgen\FontResFile.cpp \
 	plutommi\Customer\ResGenerator\..\FontResgen\stdafx.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\mmi_features.h \
@@ -361,11 +364,6 @@ inftrees.obj:	plutommi\Customer\ResGenerator\zlib\inftrees.c \
 	plutommi\Customer\ResGenerator\zlib\zlib.h \
 	plutommi\Customer\ResGenerator\zlib\zconf.h \
 	plutommi\Customer\ResGenerator\zlib\inftrees.h
-mmi_rp_app_adups.obj:	plutommi\Customer\ResGenerator\..\Res_MMI_XML\mmi_rp_app_adups.c \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\CustDataProts.h \
-	plutommi\Customer\ResGenerator\inc\ResgenDataType.h \
-	plutommi\Customer\ResGenerator\offlineresgenerator\inc\OfflineResPopCAPI.h \
-	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_app_adups_def.h
 mmi_rp_app_alarm.obj:	plutommi\Customer\ResGenerator\..\Res_MMI_XML\mmi_rp_app_alarm.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\CustDataProts.h \
 	plutommi\Customer\ResGenerator\inc\ResgenDataType.h \
@@ -710,11 +708,10 @@ mmi_rp_app_callset.obj:	plutommi\Customer\ResGenerator\..\Res_MMI_XML\mmi_rp_app
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_gdi_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_venus_theme_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_app_am_def.h \
-	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_app_adups_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_fullscreen_editor_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_sogps_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_gatt_def.h \
-	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_iot_lock_def.h
+	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_aws_def.h
 mmi_rp_app_connectivity_mainmenu.obj:	plutommi\Customer\ResGenerator\..\Res_MMI_XML\mmi_rp_app_connectivity_mainmenu.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\CustDataProts.h \
 	plutommi\Customer\ResGenerator\inc\ResgenDataType.h \
@@ -1173,11 +1170,10 @@ mmi_rp_app_mainmenu.obj:	plutommi\Customer\ResGenerator\..\Res_MMI_XML\mmi_rp_ap
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_gdi_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_venus_theme_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_app_am_def.h \
-	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_app_adups_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_fullscreen_editor_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_sogps_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_gatt_def.h \
-	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_iot_lock_def.h
+	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_aws_def.h
 mmi_rp_app_netset.obj:	plutommi\Customer\ResGenerator\..\Res_MMI_XML\mmi_rp_app_netset.c \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\CustDataProts.h \
 	plutommi\Customer\ResGenerator\inc\ResgenDataType.h \
@@ -2172,18 +2168,20 @@ PopulateRes.obj:	plutommi\Customer\ResGenerator\..\..\MMI\Resource\PopulateRes.c
 	plutommi\Customer\ResGenerator\offlineresgenerator\inc\OfflineResPopCAPI.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\custmenures.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\FontDCL.h \
-	plutommi\Customer\ResGenerator\..\..\..\custom\common\hal_public\lcd_sw_rnd.h \
-	plutommi\Customer\ResGenerator\..\..\..\custom\drv\lcd\coretek03ae_11c_lcm\lcd_hw.h \
-	plutommi\Customer\ResGenerator\..\..\..\kal\include\kal_general_types.h \
-	plutommi\Customer\ResGenerator\..\..\..\kal\include\clib.h \
-	plutommi\Customer\ResGenerator\..\..\..\kal\include\clib_list.h \
-	plutommi\Customer\ResGenerator\..\..\..\custom\common\hal_public\lcd_sw_inc.h \
-	plutommi\Customer\ResGenerator\..\..\mmi\resource\inc\ABMLoader.h \
+	plutommi\Customer\ResGenerator\..\..\mmi\inc\GlobalResDef.h \
+	plutommi\Customer\ResGenerator\..\customerinc\CustResDef.h \
+	plutommi\Customer\ResGenerator\..\..\mmi\setting\settinginc\SettingDefs.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\resource\inc\WriteResUtil.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\CustDataRes.h \
 	plutommi\Customer\ResGenerator\..\..\framework\gui\gui_inc\gui_resource_type.h \
 	plutommi\Customer\ResGenerator\..\..\framework\gdi\gdiinc\gdi_const.h \
 	plutommi\Customer\ResGenerator\..\..\framework\gdi\gdiinc\gdi_lcd_config.h \
+	plutommi\Customer\ResGenerator\..\..\..\custom\common\hal_public\lcd_sw_inc.h \
+	plutommi\Customer\ResGenerator\..\..\..\custom\drv\lcd\coretek03ae_11c_lcm\lcd_hw.h \
+	plutommi\Customer\ResGenerator\..\..\..\kal\include\kal_general_types.h \
+	plutommi\Customer\ResGenerator\..\..\..\kal\include\clib.h \
+	plutommi\Customer\ResGenerator\..\..\..\kal\include\clib_list.h \
+	plutommi\Customer\ResGenerator\..\..\..\custom\common\hal_public\lcd_sw_rnd.h \
 	plutommi\Customer\ResGenerator\..\..\framework\gdi\gdiinc\gdi_features.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\hal\drv_sw_def\drv_sw_features_display.h \
 	plutommi\Customer\ResGenerator\..\..\..\hal\drv_def\drv_features_chip_select.h \
@@ -2203,9 +2201,6 @@ PopulateRes.obj:	plutommi\Customer\ResGenerator\..\..\MMI\Resource\PopulateRes.c
 	plutommi\Customer\ResGenerator\..\..\..\hal\mdp\include\mt6252\idp_mem.h \
 	plutommi\Customer\ResGenerator\..\..\..\hal\graphics\jpeg\common\inc\jpeg_mem_6235_series.h \
 	plutommi\Customer\ResGenerator\..\..\..\hal\graphics\jpeg\common\inc\jpeg_mem_sw.h \
-	plutommi\Customer\ResGenerator\..\..\mmi\inc\GlobalResDef.h \
-	plutommi\Customer\ResGenerator\..\customerinc\CustResDef.h \
-	plutommi\Customer\ResGenerator\..\..\mmi\setting\settinginc\SettingDefs.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\resource\inc\LegacyResPopService.h \
 	plutommi\Customer\ResGenerator\resgenlog\inc\ResgenLogCAPI.h \
 	plutommi\Customer\ResGenerator\resgenlog\inc\ResgenLogConfig.h \
@@ -3299,11 +3294,10 @@ res_Setting.obj:	plutommi\Customer\ResGenerator\..\Res_MMI\res_Setting.c \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_gdi_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_venus_theme_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_app_am_def.h \
-	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_app_adups_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_fullscreen_editor_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_sogps_def.h \
 	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_gatt_def.h \
-	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_iot_lock_def.h
+	plutommi\Customer\ResGenerator\..\customerinc\mmi_rp_srv_aws_def.h
 res_SoftwareTracer.obj:	plutommi\Customer\ResGenerator\..\Res_MMI\res_SoftwareTracer.c \
 	plutommi\Customer\ResGenerator\..\..\mtkapp\softwaretracer\softwaretracerinc\SoftwareTracerDef.h \
 	plutommi\Customer\ResGenerator\..\..\framework\interface\MMIDataType.h \
