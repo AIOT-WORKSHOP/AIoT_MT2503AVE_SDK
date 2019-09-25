@@ -300,11 +300,11 @@ UPDATE_MODS_TEMP = $(foreach mod,$(call Upper,$(UPDATE_MODS)), \
 endif
 UPDATE_MODS := $(strip $(UPDATE_MODS_TEMP))
 
-ifdef REMAKE_MODS
-REMAKE_MODS_TEMP = $(foreach mod,$(call Upper,$(REMAKE_MODS)), \
-  $(if $(filter $($(mod)),TRUE),$($(mod)_CHILD),$(call lc,$(mod))))
-endif
-REMAKE_MODS := $(REMAKE_MODS_TEMP)
+#ifdef REMAKE_MODS
+#REMAKE_MODS_TEMP = $(foreach mod,$(call Upper,$(REMAKE_MODS)), \
+#  $(if $(filter $($(mod)),TRUE),$($(mod)_CHILD),$(call lc,$(mod))))
+#endif
+#REMAKE_MODS := $(REMAKE_MODS_TEMP)
 
 ifdef SCAN_MODS
 SCAN_MODS_TEMP = $(foreach mod,$(call Upper,$(SCAN_MODS)), \
