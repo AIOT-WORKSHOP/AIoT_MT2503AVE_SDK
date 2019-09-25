@@ -1073,6 +1073,7 @@ typedef enum {
  * Customer add message sap id here,
  * and maximum allow 10 sap id which limited by MAX_CUSTOM_SAP_ID
  *************************************************************************/
+   AWS_SAP,/*AIOT WORKSHOP:User could use SAP ID to identify if this message comes from AWS task*/
 
    LAST_SAP_CODE = (CUSTOM_SAP_BEGIN + MAX_CUSTOM_SAP_ID) 
 } sap_type;

@@ -1349,3 +1349,12 @@
 
 /************************************************************/
 
+#ifdef KAL_MSGID_EXPANSION
+#if defined(__AIOT_WORKSHOP__)
+    #include "aws_sap.h"
+#endif
+    MSG_ID_NAME(AWS)
+#else/*KAL_MSGID_EXPANSION*/
+    MODULE_MSGID_RANGE(AWS_MSG, 100)
+    MSG_ID_OVERFLOW_CHECK(AWS, AWS_MSG, 100)
+#endif

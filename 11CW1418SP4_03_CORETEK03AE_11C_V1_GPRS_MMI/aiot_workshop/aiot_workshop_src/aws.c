@@ -82,6 +82,60 @@ void AWS_UT_Case1_timer(void)
 
 /*****************************************************************************
  * FUNCTION
+ *  UT_Case2_msg
+ * DESCRIPTION
+ *  Unit testing Case: send msg from here(MOD_MMI) to MOD_AWS
+ * PARAMETERS
+ * 	void
+ * RETURNS
+ *  void
+ *****************************************************************************/
+
+void UT_Case2_msg(void)
+{
+	/*----------------------------------------------------------------*/
+	/* Local Variables                                                */
+	/*----------------------------------------------------------------*/
+
+	/*----------------------------------------------------------------*/
+	/* Code Body                                                      */
+ 	/*----------------------------------------------------------------*/
+
+	module_send_msg(MOD_MMI, MOD_AWS, AWS_SAP, MSG_ID_AWS_UT_MMI_REQ, NULL);
+	StartTimer(AWS_UT_TIMER, AWS_UT_TIMER_TIME, UT_Case2_msg);
+}
+
+/*****************************************************************************
+ * FUNCTION
+ *  module_send_msg
+ * DESCRIPTION
+ *  Unit testing Case: send msg from src_mod to dest_mod
+ * PARAMETERS
+ * 	void
+ * RETURNS
+ *  void
+ *****************************************************************************/
+
+void module_send_msg(module_type  src_mod, module_type  dest_mod, sap_type sap_id, msg_type msg_id, void *local_param_ptr)
+{
+    /*----------------------------------------------------------------*/
+    /* Local Variables                                                */
+    /*----------------------------------------------------------------*/
+    ilm_struct  *ilm_ptr;
+    /*----------------------------------------------------------------*/
+    /* Code Body                                                      */
+    /*----------------------------------------------------------------*/
+    ilm_ptr = allocate_ilm(src_mod);
+    ilm_ptr->src_mod_id = src_mod;
+    ilm_ptr->dest_mod_id = dest_mod;
+    ilm_ptr->sap_id = sap_id;
+    ilm_ptr->msg_id = msg_id;
+    ilm_ptr->local_para_ptr = (local_para_struct*) local_param_ptr;
+    ilm_ptr->peer_buff_ptr = (peer_buff_struct*) NULL;
+    msg_send_ext_queue(ilm_ptr);
+}
+/*****************************************************************************
+ * FUNCTION
  *  AWS_Init
  * DESCRIPTION
  *  The main fuction of AIOT WORKSHOP 
@@ -102,8 +156,8 @@ void AWS_Init(void)
 	
 
 #ifdef AWS_UT
-	StartTimer(AWS_UT_TIMER, AWS_UT_TIMER_TIME, AWS_UT_Case1_timer);
-
+	//StartTimer(AWS_UT_TIMER, AWS_UT_TIMER_TIME, AWS_UT_Case1_timer);
+	StartTimer(AWS_UT_TIMER, AWS_UT_TIMER_TIME, UT_Case2_msg);
 #endif
 }
 

@@ -1539,6 +1539,10 @@
 #define TASK_PRIORITY_DNSSRVQ      (KAL_PRIORITY_CLASS17 + 2)
 #endif
 
+#ifdef __AIOT_WORKSHOP__
+#define TASK_PRIORITY_AWS          (KAL_PRIORITY_CLASS17 + 2)
+#endif//__AIOT_WORKSHOP__
+
 #ifdef __MULTI_THREAD_SUPPORT__
 #define TASK_PRIORITY_APP_LOW1     (KAL_PRIORITY_CLASS17 + 3)
 #endif
@@ -3611,6 +3615,7 @@ task_external_queue_size(58)
 task_internal_queue_size(0)
 task_boot_mode(NORMAL_M)
 #endif/*M2M_MTHL_TASK_HANDLE*/
+
 #ifdef __ADUPS_FOTA_SOC__
 task_index(INDX_ADUPS)
 task_module_map(INDX_ADUPS, MOD_ADUPS)
@@ -3625,6 +3630,28 @@ task_external_queue_size(50)
 task_internal_queue_size(0)
 task_boot_mode(NORMAL_M)
 #endif
+
+/****config AIOT WORKSHOP task  ******/
+/*************************Task CFG Begin****************/
+#ifdef __AIOT_WORKSHOP__
+task_index(INDX_AWS)
+task_module_map(INDX_AWS, MOD_AWS)
+task_name("AWS")
+task_queue_name("AWS Q")
+task_priority(TASK_PRIORITY_AWS)
+task_stack_size(8192)
+#if 1
+task_create_function(aws_create)
+#else
+null_task_create_entry(NULL)
+#endif
+task_stack_internalRAM(KAL_FALSE)
+task_external_queue_size(50)
+task_internal_queue_size(0)
+task_boot_mode(NORMAL_M)
+#endif/*__AIOT_WORKSHOP__*/
+/*************************Task CFG END******************/ 
+
 
 /****config customer task at the end of this file ******/
 /*************************Task CFG Begin****************/

@@ -13719,5 +13719,6 @@ ifdef AIOT_WORKSHOP
        COM_DEFS += __POPULATE_NO_STRING_DATA__
        COMPLIST += aiot_workshop
        CUS_REL_SRC_COMP += aiot_workshop
+       COMMINCDIRS += aiot_workshop\aiot_workshop_inc
     endif
 endif
