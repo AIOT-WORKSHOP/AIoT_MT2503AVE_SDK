@@ -49,6 +49,7 @@
 /***************************************************************************** 
  * interface 
  ****************************************************************************/
+kal_bool aws_create(comptask_handler_struct **handle);
 void aws_task_send_msg(module_type  dest_mod, sap_type sap_id, msg_type msg_id, void *local_param_ptr);
 /***************************************************************************** 
  * Extern Variable

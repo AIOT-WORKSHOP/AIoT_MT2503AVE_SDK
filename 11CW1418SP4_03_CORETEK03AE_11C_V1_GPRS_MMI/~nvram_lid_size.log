@@ -28,7 +28,7 @@
  533        34                                  NVRAM_EF_DCC_SENSOR_LK_LID                    
  534        10                                 NVRAM_EF_DCC_SENSOR_SRV_LID                    
    6      2570                                  NVRAM_EF_SYS_EXCEPTION_LID                    
-   7      1802                                 NVRAM_EF_SYS_STATISTICS_LID                    
+   7      1814                                 NVRAM_EF_SYS_STATISTICS_LID                    
  121         0                                      NVRAM_EF_BAND_INFO_LID                    
  122      1382                                     NVRAM_EF_TST_FILTER_LID                    
  123         0                                   NVRAM_EF_PORT_SETTING_LID                    

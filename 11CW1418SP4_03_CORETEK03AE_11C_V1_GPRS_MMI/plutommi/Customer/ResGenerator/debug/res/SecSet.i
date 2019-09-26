@@ -11201,7 +11201,7 @@ INDX_KMP_APP,
 
 # 1224 "../../../config/include/hal/stack_config.h" 2
 # 1 "../../../config/include/app/app_task_config.h" 1
-# 1634 "../../../config/include/app/app_task_config.h"
+# 1638 "../../../config/include/app/app_task_config.h"
 INDX_FMT,
 
 
@@ -11297,16 +11297,16 @@ INDX_MMI,
 
 
 
-# 1753 "../../../config/include/app/app_task_config.h"
+# 1757 "../../../config/include/app/app_task_config.h"
 
-# 1764 "../../../config/include/app/app_task_config.h"
-
-
+# 1768 "../../../config/include/app/app_task_config.h"
 
 
 
 
-# 1778 "../../../config/include/app/app_task_config.h"
+
+
+# 1782 "../../../config/include/app/app_task_config.h"
      
 
 
@@ -11315,7 +11315,7 @@ INDX_MMI,
 
 
 
-# 1810 "../../../config/include/app/app_task_config.h"
+# 1814 "../../../config/include/app/app_task_config.h"
 INDX_ABM,
 
 
@@ -11363,7 +11363,7 @@ INDX_TCPIP,
 
 
 
-# 1867 "../../../config/include/app/app_task_config.h"
+# 1871 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -11621,7 +11621,7 @@ INDX_GDD,
 
 
 
-# 2151 "../../../config/include/app/app_task_config.h"
+# 2155 "../../../config/include/app/app_task_config.h"
 INDX_IMPS,
 
 
@@ -11816,7 +11816,7 @@ INDX_IPERF2,
 
 
 
-# 2390 "../../../config/include/app/app_task_config.h"
+# 2394 "../../../config/include/app/app_task_config.h"
 INDX_RTSP,
 
 
@@ -11882,7 +11882,7 @@ INDX_DRMT,
 
 
 
-# 2479 "../../../config/include/app/app_task_config.h"
+# 2483 "../../../config/include/app/app_task_config.h"
 INDX_CMMB,
 
 
@@ -12242,7 +12242,7 @@ INDX_NMC,
 
 
 
-# 2862 "../../../config/include/app/app_task_config.h"
+# 2866 "../../../config/include/app/app_task_config.h"
 INDX_MTP,
 
 
@@ -12318,7 +12318,7 @@ INDX_MED_V,
 
 
 
-# 2962 "../../../config/include/app/app_task_config.h"
+# 2966 "../../../config/include/app/app_task_config.h"
 INDX_BEE,
 
 
@@ -12408,7 +12408,7 @@ INDX_IDLE,
 
 
 
-# 3075 "../../../config/include/app/app_task_config.h"
+# 3079 "../../../config/include/app/app_task_config.h"
 INDX_IRDA,
 
 
@@ -12520,8 +12520,24 @@ INDX_GPSADAPTOR,
 
 
 
-# 3214 "../../../config/include/app/app_task_config.h"
+# 3218 "../../../config/include/app/app_task_config.h"
 INDX_MTKTASKEND,
+
+
+
+
+
+
+
+
+
+
+
+# 3637 "../../../config/include/app/app_task_config.h"
+INDX_AWS,
+
+
+
 
 
 
@@ -13905,7 +13921,7 @@ MOD_TIMER_HISR,
     MOD_APP_BEGIN = (MOD_HISR_BEGIN + 20 + 1),
 # 1265 "../../../config/include/hal/stack_config.h"
 # 1 "../../../config/include/app/app_task_config.h" 1
-# 1634 "../../../config/include/app/app_task_config.h"
+# 1638 "../../../config/include/app/app_task_config.h"
 
 
 MOD_FMT,
@@ -14001,16 +14017,16 @@ MOD_MMI,
 
 
 
-# 1753 "../../../config/include/app/app_task_config.h"
+# 1757 "../../../config/include/app/app_task_config.h"
 
-# 1764 "../../../config/include/app/app_task_config.h"
-
-
+# 1768 "../../../config/include/app/app_task_config.h"
 
 
 
 
-# 1778 "../../../config/include/app/app_task_config.h"
+
+
+# 1782 "../../../config/include/app/app_task_config.h"
      
 
 
@@ -14019,7 +14035,7 @@ MOD_MMI,
 
 
 
-# 1810 "../../../config/include/app/app_task_config.h"
+# 1814 "../../../config/include/app/app_task_config.h"
 
 
 MOD_ABM,
@@ -14067,7 +14083,7 @@ MOD_TCPIP,
 
 
 
-# 1867 "../../../config/include/app/app_task_config.h"
+# 1871 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -14325,7 +14341,7 @@ MOD_GDD,
 
 
 
-# 2151 "../../../config/include/app/app_task_config.h"
+# 2155 "../../../config/include/app/app_task_config.h"
 
 
 MOD_IMPS,
@@ -14520,7 +14536,7 @@ MOD_IPERF2,
 
 
 
-# 2390 "../../../config/include/app/app_task_config.h"
+# 2394 "../../../config/include/app/app_task_config.h"
 
 
 MOD_RTSP,
@@ -14586,7 +14602,7 @@ MOD_DRMT,
 
 
 
-# 2479 "../../../config/include/app/app_task_config.h"
+# 2483 "../../../config/include/app/app_task_config.h"
 
 
 MOD_CMMB,
@@ -14946,7 +14962,7 @@ MOD_NMC,
 
 
 
-# 2862 "../../../config/include/app/app_task_config.h"
+# 2866 "../../../config/include/app/app_task_config.h"
 
 
 MOD_MTP,
@@ -15022,7 +15038,7 @@ MOD_MED_V,
 
 
 
-# 2962 "../../../config/include/app/app_task_config.h"
+# 2966 "../../../config/include/app/app_task_config.h"
 
 
 MOD_BEE,
@@ -15112,7 +15128,7 @@ MOD_IDLE,
 
 
 
-# 3075 "../../../config/include/app/app_task_config.h"
+# 3079 "../../../config/include/app/app_task_config.h"
 
 
 MOD_LAP,
@@ -15224,10 +15240,26 @@ MOD_GPSADAPTOR,
 
 
 
-# 3214 "../../../config/include/app/app_task_config.h"
+# 3218 "../../../config/include/app/app_task_config.h"
 
 
 MOD_MTKTASKEND,
+
+
+
+
+
+
+
+
+
+# 3637 "../../../config/include/app/app_task_config.h"
+
+MOD_AWS,
+
+
+
+
 
 
 
@@ -16557,7 +16589,7 @@ MOD_DCL_COMMON,
 MOD_INET,
 # 1286 "../../../config/include/hal/stack_config.h" 2
 # 1 "../../../config/include/app/app_task_config.h" 1
-# 1634 "../../../config/include/app/app_task_config.h"
+# 1638 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -16653,16 +16685,16 @@ MOD_INET,
 
 
 
-# 1753 "../../../config/include/app/app_task_config.h"
+# 1757 "../../../config/include/app/app_task_config.h"
 
-# 1764 "../../../config/include/app/app_task_config.h"
+# 1768 "../../../config/include/app/app_task_config.h"
 
 
 
 
 
 
-# 1778 "../../../config/include/app/app_task_config.h"
+# 1782 "../../../config/include/app/app_task_config.h"
      
 
 
@@ -16671,7 +16703,7 @@ MOD_INET,
 
 
 
-# 1810 "../../../config/include/app/app_task_config.h"
+# 1814 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -16719,7 +16751,7 @@ MOD_INET,
 
 
 
-# 1867 "../../../config/include/app/app_task_config.h"
+# 1871 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -16977,7 +17009,7 @@ MOD_INET,
 
 
 
-# 2151 "../../../config/include/app/app_task_config.h"
+# 2155 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -17172,7 +17204,7 @@ MOD_INET,
 
 
 
-# 2390 "../../../config/include/app/app_task_config.h"
+# 2394 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -17238,7 +17270,7 @@ MOD_INET,
 
 
 
-# 2479 "../../../config/include/app/app_task_config.h"
+# 2483 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -17598,7 +17630,7 @@ MOD_INET,
 
 
 
-# 2862 "../../../config/include/app/app_task_config.h"
+# 2866 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -17674,7 +17706,7 @@ MOD_INET,
 
 
 
-# 2962 "../../../config/include/app/app_task_config.h"
+# 2966 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -17764,7 +17796,7 @@ MOD_INET,
 
 
 
-# 3075 "../../../config/include/app/app_task_config.h"
+# 3079 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -17876,7 +17908,23 @@ MOD_INET,
 
 
 
-# 3214 "../../../config/include/app/app_task_config.h"
+# 3218 "../../../config/include/app/app_task_config.h"
+
+
+
+
+
+
+
+
+
+
+
+
+# 3637 "../../../config/include/app/app_task_config.h"
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, RVCT3.1 [Build 569]: Last Updated: Tue Sep 24 17:06:32 2019
+;#<FEEDBACK># ARM Linker, RVCT3.1 [Build 569]: Last Updated: Wed Sep 25 12:42:13 2019
 ;VERSION 0.2
 ;FILE ADIE_Eint.obj
 ADIE_EINT_Get_Mask <= USED 0
@@ -3019,6 +3019,8 @@ AUDLP_SetDSPBufferThreshold_Short <= USED 0
 AUDLP_Set_ClkSwitch26M_Flag <= USED 0
 AUDLP_Time_Expire_function <= USED 0
 ;FILE aws.obj
+AWS_UT_Case1_timer <= USED 0
+;FILE aws_main.obj
 ;FILE besloud_control.o
 ;FILE besloud_gainadjust.o
 ;FILE besloud_main.o

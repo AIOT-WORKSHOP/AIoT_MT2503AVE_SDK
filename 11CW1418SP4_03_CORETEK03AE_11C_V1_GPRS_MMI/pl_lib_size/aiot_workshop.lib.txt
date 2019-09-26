@@ -1,5 +1,6 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-       124          0          0          2        118   aws.obj
-       124          0          0          2        118   TOTAL
+       200          0          0          2        240   aws.obj
+       322         20          0          4        361   aws_main.obj
+       522         20          0          6        601   TOTAL
 

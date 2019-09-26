@@ -11045,12 +11045,16 @@ typedef enum
 
 #line 1541 "config\\include\\app\\app_task_config.h"
 
-#line 1549 "config\\include\\app\\app_task_config.h"
-
-#line 1559 "config\\include\\app\\app_task_config.h"
 
 
-#line 1570 "config\\include\\app\\app_task_config.h"
+
+
+#line 1553 "config\\include\\app\\app_task_config.h"
+
+#line 1563 "config\\include\\app\\app_task_config.h"
+
+
+#line 1574 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -11084,9 +11088,9 @@ typedef enum
 
 
 
-#line 1619 "config\\include\\app\\app_task_config.h"
+#line 1623 "config\\include\\app\\app_task_config.h"
 
-#line 1628 "config\\include\\app\\app_task_config.h"
+#line 1632 "config\\include\\app\\app_task_config.h"
 
 #line 1200 "config\\include\\hal\\stack_config.h"
 
@@ -15700,7 +15704,7 @@ INDX_KMP_APP,
 
 
  
-#line 1630 "config\\include\\app\\app_task_config.h"
+#line 1634 "config\\include\\app\\app_task_config.h"
 
  
 
@@ -15801,17 +15805,17 @@ INDX_MMI,
 
 
 
-#line 1752 "config\\include\\app\\app_task_config.h"
+#line 1756 "config\\include\\app\\app_task_config.h"
  
 
-#line 1764 "config\\include\\app\\app_task_config.h"
+#line 1768 "config\\include\\app\\app_task_config.h"
 
 
 
 
 
 
-#line 1778 "config\\include\\app\\app_task_config.h"
+#line 1782 "config\\include\\app\\app_task_config.h"
       
 
 
@@ -15823,7 +15827,7 @@ INDX_MMI,
  
 
  
-#line 1806 "config\\include\\app\\app_task_config.h"
+#line 1810 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -15860,7 +15864,7 @@ INDX_TCPIP,
 
 
 
-#line 1849 "config\\include\\app\\app_task_config.h"
+#line 1853 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -15870,7 +15874,7 @@ INDX_TCPIP,
 
 
 
-#line 1867 "config\\include\\app\\app_task_config.h"
+#line 1871 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -16133,7 +16137,7 @@ INDX_GDD,
 
 
  
-#line 2147 "config\\include\\app\\app_task_config.h"
+#line 2151 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -16213,7 +16217,7 @@ INDX_DHCP,
 
 
 
-#line 2233 "config\\include\\app\\app_task_config.h"
+#line 2237 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -16330,11 +16334,11 @@ INDX_IPERF2,
  
 
  
-#line 2366 "config\\include\\app\\app_task_config.h"
+#line 2370 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 2386 "config\\include\\app\\app_task_config.h"
+#line 2390 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -16407,7 +16411,7 @@ INDX_DRMT,
  
     
  
-#line 2475 "config\\include\\app\\app_task_config.h"
+#line 2479 "config\\include\\app\\app_task_config.h"
  
  
  
@@ -16774,7 +16778,7 @@ INDX_NMC,
  
 
  
-#line 2858 "config\\include\\app\\app_task_config.h"
+#line 2862 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -16857,7 +16861,7 @@ INDX_MED_V,
 
  
  
-#line 2957 "config\\include\\app\\app_task_config.h"
+#line 2961 "config\\include\\app\\app_task_config.h"
   
 
 
@@ -16955,7 +16959,7 @@ INDX_IDLE,
  
 
  
-#line 3071 "config\\include\\app\\app_task_config.h"
+#line 3075 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -17074,7 +17078,7 @@ INDX_GPSADAPTOR,
 
 
  
-#line 3207 "config\\include\\app\\app_task_config.h"
+#line 3211 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -17097,63 +17101,87 @@ INDX_MTKTASKEND,
 
 
  
-#line 3246 "config\\include\\app\\app_task_config.h"
+#line 3250 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3270 "config\\include\\app\\app_task_config.h"
+#line 3274 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3294 "config\\include\\app\\app_task_config.h"
+#line 3298 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3318 "config\\include\\app\\app_task_config.h"
+#line 3322 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3342 "config\\include\\app\\app_task_config.h"
+#line 3346 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3366 "config\\include\\app\\app_task_config.h"
+#line 3370 "config\\include\\app\\app_task_config.h"
  
  
-#line 3389 "config\\include\\app\\app_task_config.h"
+#line 3393 "config\\include\\app\\app_task_config.h"
  
  
-#line 3412 "config\\include\\app\\app_task_config.h"
+#line 3416 "config\\include\\app\\app_task_config.h"
  
  
-#line 3435 "config\\include\\app\\app_task_config.h"
+#line 3439 "config\\include\\app\\app_task_config.h"
  
  
-#line 3458 "config\\include\\app\\app_task_config.h"
- 
-
- 
-#line 3482 "config\\include\\app\\app_task_config.h"
+#line 3462 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3506 "config\\include\\app\\app_task_config.h"
+#line 3486 "config\\include\\app\\app_task_config.h"
+ 
+
+ 
+#line 3510 "config\\include\\app\\app_task_config.h"
  
 
 
  
-#line 3531 "config\\include\\app\\app_task_config.h"
+#line 3535 "config\\include\\app\\app_task_config.h"
  
 
-#line 3570 "config\\include\\app\\app_task_config.h"
+#line 3574 "config\\include\\app\\app_task_config.h"
 
-#line 3588 "config\\include\\app\\app_task_config.h"
+#line 3592 "config\\include\\app\\app_task_config.h"
 
-#line 3628 "config\\include\\app\\app_task_config.h"
+#line 3618 "config\\include\\app\\app_task_config.h"
+
+#line 3633 "config\\include\\app\\app_task_config.h"
 
  
  
-#line 3648 "config\\include\\app\\app_task_config.h"
+
+INDX_AWS,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
+ 
+#line 3675 "config\\include\\app\\app_task_config.h"
   
 
 #line 1225 "config\\include\\hal\\stack_config.h"
@@ -22245,7 +22273,7 @@ MOD_TIMER_HISR,
 
 
  
-#line 1630 "config\\include\\app\\app_task_config.h"
+#line 1634 "config\\include\\app\\app_task_config.h"
 
  
 
@@ -22346,17 +22374,17 @@ MOD_MMI,
 
 
 
-#line 1752 "config\\include\\app\\app_task_config.h"
+#line 1756 "config\\include\\app\\app_task_config.h"
  
 
-#line 1764 "config\\include\\app\\app_task_config.h"
+#line 1768 "config\\include\\app\\app_task_config.h"
 
 
 
 
 
 
-#line 1778 "config\\include\\app\\app_task_config.h"
+#line 1782 "config\\include\\app\\app_task_config.h"
       
 
 
@@ -22368,7 +22396,7 @@ MOD_MMI,
  
 
  
-#line 1806 "config\\include\\app\\app_task_config.h"
+#line 1810 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -22405,7 +22433,7 @@ MOD_TCPIP,
 
 
 
-#line 1849 "config\\include\\app\\app_task_config.h"
+#line 1853 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -22415,7 +22443,7 @@ MOD_TCPIP,
 
 
 
-#line 1867 "config\\include\\app\\app_task_config.h"
+#line 1871 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -22678,7 +22706,7 @@ MOD_GDD,
 
 
  
-#line 2147 "config\\include\\app\\app_task_config.h"
+#line 2151 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -22758,7 +22786,7 @@ MOD_DHCP,
 
 
 
-#line 2233 "config\\include\\app\\app_task_config.h"
+#line 2237 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -22875,11 +22903,11 @@ MOD_IPERF2,
  
 
  
-#line 2366 "config\\include\\app\\app_task_config.h"
+#line 2370 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 2386 "config\\include\\app\\app_task_config.h"
+#line 2390 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -22952,7 +22980,7 @@ MOD_DRMT,
  
     
  
-#line 2475 "config\\include\\app\\app_task_config.h"
+#line 2479 "config\\include\\app\\app_task_config.h"
  
  
  
@@ -23319,7 +23347,7 @@ MOD_NMC,
  
 
  
-#line 2858 "config\\include\\app\\app_task_config.h"
+#line 2862 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -23402,7 +23430,7 @@ MOD_MED_V,
 
  
  
-#line 2957 "config\\include\\app\\app_task_config.h"
+#line 2961 "config\\include\\app\\app_task_config.h"
   
 
 
@@ -23500,7 +23528,7 @@ MOD_IDLE,
  
 
  
-#line 3071 "config\\include\\app\\app_task_config.h"
+#line 3075 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -23619,7 +23647,7 @@ MOD_GPSADAPTOR,
 
 
  
-#line 3207 "config\\include\\app\\app_task_config.h"
+#line 3211 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -23642,63 +23670,87 @@ MOD_MTKTASKEND,
 
 
  
-#line 3246 "config\\include\\app\\app_task_config.h"
+#line 3250 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3270 "config\\include\\app\\app_task_config.h"
+#line 3274 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3294 "config\\include\\app\\app_task_config.h"
+#line 3298 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3318 "config\\include\\app\\app_task_config.h"
+#line 3322 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3342 "config\\include\\app\\app_task_config.h"
+#line 3346 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3366 "config\\include\\app\\app_task_config.h"
+#line 3370 "config\\include\\app\\app_task_config.h"
  
  
-#line 3389 "config\\include\\app\\app_task_config.h"
+#line 3393 "config\\include\\app\\app_task_config.h"
  
  
-#line 3412 "config\\include\\app\\app_task_config.h"
+#line 3416 "config\\include\\app\\app_task_config.h"
  
  
-#line 3435 "config\\include\\app\\app_task_config.h"
+#line 3439 "config\\include\\app\\app_task_config.h"
  
  
-#line 3458 "config\\include\\app\\app_task_config.h"
- 
-
- 
-#line 3482 "config\\include\\app\\app_task_config.h"
+#line 3462 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3506 "config\\include\\app\\app_task_config.h"
+#line 3486 "config\\include\\app\\app_task_config.h"
+ 
+
+ 
+#line 3510 "config\\include\\app\\app_task_config.h"
  
 
 
  
-#line 3531 "config\\include\\app\\app_task_config.h"
+#line 3535 "config\\include\\app\\app_task_config.h"
  
 
-#line 3570 "config\\include\\app\\app_task_config.h"
+#line 3574 "config\\include\\app\\app_task_config.h"
 
-#line 3588 "config\\include\\app\\app_task_config.h"
+#line 3592 "config\\include\\app\\app_task_config.h"
 
-#line 3628 "config\\include\\app\\app_task_config.h"
+#line 3618 "config\\include\\app\\app_task_config.h"
+
+#line 3633 "config\\include\\app\\app_task_config.h"
 
  
  
-#line 3648 "config\\include\\app\\app_task_config.h"
+
+
+MOD_AWS,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
+ 
+#line 3675 "config\\include\\app\\app_task_config.h"
   
 
 #line 1266 "config\\include\\hal\\stack_config.h"
@@ -28317,7 +28369,7 @@ MOD_INET,
 
 
  
-#line 1630 "config\\include\\app\\app_task_config.h"
+#line 1634 "config\\include\\app\\app_task_config.h"
 
  
 
@@ -28418,17 +28470,17 @@ MOD_INET,
 
 
 
-#line 1752 "config\\include\\app\\app_task_config.h"
+#line 1756 "config\\include\\app\\app_task_config.h"
  
 
-#line 1764 "config\\include\\app\\app_task_config.h"
+#line 1768 "config\\include\\app\\app_task_config.h"
 
 
 
 
 
 
-#line 1778 "config\\include\\app\\app_task_config.h"
+#line 1782 "config\\include\\app\\app_task_config.h"
       
 
 
@@ -28440,7 +28492,7 @@ MOD_INET,
  
 
  
-#line 1806 "config\\include\\app\\app_task_config.h"
+#line 1810 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -28477,7 +28529,7 @@ MOD_INET,
 
 
 
-#line 1849 "config\\include\\app\\app_task_config.h"
+#line 1853 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -28487,35 +28539,7 @@ MOD_INET,
 
 
 
-#line 1867 "config\\include\\app\\app_task_config.h"
-
-
-
-
- 
-
- 
- 
- 
- 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#line 1871 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -28527,8 +28551,14 @@ MOD_INET,
  
  
 
+
  
- 
+
+
+
+
+
+
 
 
 
@@ -28546,37 +28576,10 @@ MOD_INET,
 
  
  
-              
- 
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
- 
-
-    
  
  
-              
+
  
-
-
  
 
 
@@ -28619,6 +28622,55 @@ MOD_INET,
 
  
 
+    
+ 
+ 
+              
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+              
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+ 
+
  
  
               
@@ -28750,7 +28802,7 @@ MOD_INET,
 
 
  
-#line 2147 "config\\include\\app\\app_task_config.h"
+#line 2151 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -28830,7 +28882,7 @@ MOD_INET,
 
 
 
-#line 2233 "config\\include\\app\\app_task_config.h"
+#line 2237 "config\\include\\app\\app_task_config.h"
 
 
 
@@ -28947,11 +28999,11 @@ MOD_INET,
  
 
  
-#line 2366 "config\\include\\app\\app_task_config.h"
+#line 2370 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 2386 "config\\include\\app\\app_task_config.h"
+#line 2390 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -29024,7 +29076,7 @@ MOD_INET,
  
     
  
-#line 2475 "config\\include\\app\\app_task_config.h"
+#line 2479 "config\\include\\app\\app_task_config.h"
  
  
  
@@ -29391,7 +29443,7 @@ MOD_INET,
  
 
  
-#line 2858 "config\\include\\app\\app_task_config.h"
+#line 2862 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -29474,7 +29526,7 @@ MOD_INET,
 
  
  
-#line 2957 "config\\include\\app\\app_task_config.h"
+#line 2961 "config\\include\\app\\app_task_config.h"
   
 
 
@@ -29572,7 +29624,7 @@ MOD_INET,
  
 
  
-#line 3071 "config\\include\\app\\app_task_config.h"
+#line 3075 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -29691,7 +29743,7 @@ MOD_INET,
 
 
  
-#line 3207 "config\\include\\app\\app_task_config.h"
+#line 3211 "config\\include\\app\\app_task_config.h"
  
 
  
@@ -29714,63 +29766,87 @@ MOD_INET,
 
 
  
-#line 3246 "config\\include\\app\\app_task_config.h"
+#line 3250 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3270 "config\\include\\app\\app_task_config.h"
+#line 3274 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3294 "config\\include\\app\\app_task_config.h"
+#line 3298 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3318 "config\\include\\app\\app_task_config.h"
+#line 3322 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3342 "config\\include\\app\\app_task_config.h"
+#line 3346 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3366 "config\\include\\app\\app_task_config.h"
+#line 3370 "config\\include\\app\\app_task_config.h"
  
  
-#line 3389 "config\\include\\app\\app_task_config.h"
+#line 3393 "config\\include\\app\\app_task_config.h"
  
  
-#line 3412 "config\\include\\app\\app_task_config.h"
+#line 3416 "config\\include\\app\\app_task_config.h"
  
  
-#line 3435 "config\\include\\app\\app_task_config.h"
+#line 3439 "config\\include\\app\\app_task_config.h"
  
  
-#line 3458 "config\\include\\app\\app_task_config.h"
- 
-
- 
-#line 3482 "config\\include\\app\\app_task_config.h"
+#line 3462 "config\\include\\app\\app_task_config.h"
  
 
  
-#line 3506 "config\\include\\app\\app_task_config.h"
+#line 3486 "config\\include\\app\\app_task_config.h"
+ 
+
+ 
+#line 3510 "config\\include\\app\\app_task_config.h"
  
 
 
  
-#line 3531 "config\\include\\app\\app_task_config.h"
+#line 3535 "config\\include\\app\\app_task_config.h"
  
 
-#line 3570 "config\\include\\app\\app_task_config.h"
+#line 3574 "config\\include\\app\\app_task_config.h"
 
-#line 3588 "config\\include\\app\\app_task_config.h"
+#line 3592 "config\\include\\app\\app_task_config.h"
 
-#line 3628 "config\\include\\app\\app_task_config.h"
+#line 3618 "config\\include\\app\\app_task_config.h"
+
+#line 3633 "config\\include\\app\\app_task_config.h"
 
  
  
-#line 3648 "config\\include\\app\\app_task_config.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+ 
+ 
+#line 3675 "config\\include\\app\\app_task_config.h"
   
 
 #line 1287 "config\\include\\hal\\stack_config.h"
@@ -30882,6 +30958,7 @@ typedef enum {
 
 
  
+   AWS_SAP, 
 
    LAST_SAP_CODE = (CUSTOM_SAP_BEGIN + 10) 
 } sap_type;
@@ -32825,7 +32902,7 @@ typedef enum {
 
  
 
-#line 1105 "config\\include\\hal\\stack_msgs.h"
+#line 1106 "config\\include\\hal\\stack_msgs.h"
 #line 1 "config\\include\\app\\user_msgid_app.h"
 
 
@@ -34032,7 +34109,10 @@ typedef enum {
 
  
 
-#line 1106 "config\\include\\hal\\stack_msgs.h"
+#line 1358 "config\\include\\app\\user_msgid_app.h"
+    MSG_ID_AWS_MSG_CODE_BEGIN, MSG_ID_AWS_MSG_CODE_TAIL = MSG_ID_AWS_MSG_CODE_BEGIN + 100,
+    DUMMY_AWS_TAIL,
+#line 1107 "config\\include\\hal\\stack_msgs.h"
    MSG_ID_CODE_END,
 
 } MSG_ID_CODE_BEGIN;
@@ -53162,7 +53242,7 @@ MSG_ID_BCM_END,
 #line 2209 "config\\include\\hal\\user_msgid_hal.h"
  
 
-#line 1123 "config\\include\\hal\\stack_msgs.h"
+#line 1124 "config\\include\\hal\\stack_msgs.h"
 #line 1 "config\\include\\app\\user_msgid_app.h"
 
 
@@ -62526,7 +62606,53 @@ MSG_ID_GPSADAPTOR_MSG_CODE_END,
 
  
 
-#line 1124 "config\\include\\hal\\stack_msgs.h"
+#line 1 "aiot_workshop\\aiot_workshop_inc\\aws_sap.h"
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+  
+
+MSG_ID_AWS_UT_MMI_REQ=MSG_ID_AWS_MSG_CODE_BEGIN,
+MSG_ID_AWS_UT_MMI_CNF,
+
+MSG_ID_AWS_MSG_CODE_END,
+
+
+#line 1355 "config\\include\\app\\user_msgid_app.h"
+
+    MSG_ID_AWS_CODE_CHECK_POINT,
+#line 1125 "config\\include\\hal\\stack_msgs.h"
 
    MSG_ID_CUSTOM2_CUSTOM1,
    MSG_ID_CUSTOM1_CUSTOM2,
@@ -64500,7 +64626,7 @@ typedef unsigned int tst_ctrl_buf_limiation[13153 - 8 * LAST_SAP_CODE - 17 * END
 
  
 
-#line 1183 "config\\include\\hal\\stack_msgs.h"
+#line 1184 "config\\include\\hal\\stack_msgs.h"
 #line 1 "config\\include\\app\\user_msgid_app.h"
 
 
@@ -65707,7 +65833,10 @@ typedef unsigned int tst_ctrl_buf_limiation[13153 - 8 * LAST_SAP_CODE - 17 * END
 
  
 
-#line 1184 "config\\include\\hal\\stack_msgs.h"
+#line 1358 "config\\include\\app\\user_msgid_app.h"
+    
+    typedef unsigned int CHECK_AWSBOUND[MSG_ID_AWS_MSG_CODE_BEGIN + 100 - MSG_ID_AWS_CODE_CHECK_POINT];
+#line 1185 "config\\include\\hal\\stack_msgs.h"
 
  
 

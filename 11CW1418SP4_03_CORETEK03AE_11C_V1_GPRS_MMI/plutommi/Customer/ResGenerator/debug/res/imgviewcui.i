@@ -6050,7 +6050,7 @@ INDX_KMP_APP,
 
 # 1224 "../../../config/include/hal/stack_config.h" 2
 # 1 "../../../config/include/app/app_task_config.h" 1
-# 1634 "../../../config/include/app/app_task_config.h"
+# 1638 "../../../config/include/app/app_task_config.h"
 INDX_FMT,
 
 
@@ -6146,16 +6146,16 @@ INDX_MMI,
 
 
 
-# 1753 "../../../config/include/app/app_task_config.h"
+# 1757 "../../../config/include/app/app_task_config.h"
 
-# 1764 "../../../config/include/app/app_task_config.h"
-
-
+# 1768 "../../../config/include/app/app_task_config.h"
 
 
 
 
-# 1778 "../../../config/include/app/app_task_config.h"
+
+
+# 1782 "../../../config/include/app/app_task_config.h"
      
 
 
@@ -6164,7 +6164,7 @@ INDX_MMI,
 
 
 
-# 1810 "../../../config/include/app/app_task_config.h"
+# 1814 "../../../config/include/app/app_task_config.h"
 INDX_ABM,
 
 
@@ -6212,7 +6212,7 @@ INDX_TCPIP,
 
 
 
-# 1867 "../../../config/include/app/app_task_config.h"
+# 1871 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -6470,7 +6470,7 @@ INDX_GDD,
 
 
 
-# 2151 "../../../config/include/app/app_task_config.h"
+# 2155 "../../../config/include/app/app_task_config.h"
 INDX_IMPS,
 
 
@@ -6665,7 +6665,7 @@ INDX_IPERF2,
 
 
 
-# 2390 "../../../config/include/app/app_task_config.h"
+# 2394 "../../../config/include/app/app_task_config.h"
 INDX_RTSP,
 
 
@@ -6731,7 +6731,7 @@ INDX_DRMT,
 
 
 
-# 2479 "../../../config/include/app/app_task_config.h"
+# 2483 "../../../config/include/app/app_task_config.h"
 INDX_CMMB,
 
 
@@ -7091,7 +7091,7 @@ INDX_NMC,
 
 
 
-# 2862 "../../../config/include/app/app_task_config.h"
+# 2866 "../../../config/include/app/app_task_config.h"
 INDX_MTP,
 
 
@@ -7167,7 +7167,7 @@ INDX_MED_V,
 
 
 
-# 2962 "../../../config/include/app/app_task_config.h"
+# 2966 "../../../config/include/app/app_task_config.h"
 INDX_BEE,
 
 
@@ -7257,7 +7257,7 @@ INDX_IDLE,
 
 
 
-# 3075 "../../../config/include/app/app_task_config.h"
+# 3079 "../../../config/include/app/app_task_config.h"
 INDX_IRDA,
 
 
@@ -7369,8 +7369,24 @@ INDX_GPSADAPTOR,
 
 
 
-# 3214 "../../../config/include/app/app_task_config.h"
+# 3218 "../../../config/include/app/app_task_config.h"
 INDX_MTKTASKEND,
+
+
+
+
+
+
+
+
+
+
+
+# 3637 "../../../config/include/app/app_task_config.h"
+INDX_AWS,
+
+
+
 
 
 
@@ -8754,7 +8770,7 @@ MOD_TIMER_HISR,
     MOD_APP_BEGIN = (MOD_HISR_BEGIN + 20 + 1),
 # 1265 "../../../config/include/hal/stack_config.h"
 # 1 "../../../config/include/app/app_task_config.h" 1
-# 1634 "../../../config/include/app/app_task_config.h"
+# 1638 "../../../config/include/app/app_task_config.h"
 
 
 MOD_FMT,
@@ -8850,16 +8866,16 @@ MOD_MMI,
 
 
 
-# 1753 "../../../config/include/app/app_task_config.h"
+# 1757 "../../../config/include/app/app_task_config.h"
 
-# 1764 "../../../config/include/app/app_task_config.h"
-
-
+# 1768 "../../../config/include/app/app_task_config.h"
 
 
 
 
-# 1778 "../../../config/include/app/app_task_config.h"
+
+
+# 1782 "../../../config/include/app/app_task_config.h"
      
 
 
@@ -8868,7 +8884,7 @@ MOD_MMI,
 
 
 
-# 1810 "../../../config/include/app/app_task_config.h"
+# 1814 "../../../config/include/app/app_task_config.h"
 
 
 MOD_ABM,
@@ -8916,7 +8932,7 @@ MOD_TCPIP,
 
 
 
-# 1867 "../../../config/include/app/app_task_config.h"
+# 1871 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -9174,7 +9190,7 @@ MOD_GDD,
 
 
 
-# 2151 "../../../config/include/app/app_task_config.h"
+# 2155 "../../../config/include/app/app_task_config.h"
 
 
 MOD_IMPS,
@@ -9369,7 +9385,7 @@ MOD_IPERF2,
 
 
 
-# 2390 "../../../config/include/app/app_task_config.h"
+# 2394 "../../../config/include/app/app_task_config.h"
 
 
 MOD_RTSP,
@@ -9435,7 +9451,7 @@ MOD_DRMT,
 
 
 
-# 2479 "../../../config/include/app/app_task_config.h"
+# 2483 "../../../config/include/app/app_task_config.h"
 
 
 MOD_CMMB,
@@ -9795,7 +9811,7 @@ MOD_NMC,
 
 
 
-# 2862 "../../../config/include/app/app_task_config.h"
+# 2866 "../../../config/include/app/app_task_config.h"
 
 
 MOD_MTP,
@@ -9871,7 +9887,7 @@ MOD_MED_V,
 
 
 
-# 2962 "../../../config/include/app/app_task_config.h"
+# 2966 "../../../config/include/app/app_task_config.h"
 
 
 MOD_BEE,
@@ -9961,7 +9977,7 @@ MOD_IDLE,
 
 
 
-# 3075 "../../../config/include/app/app_task_config.h"
+# 3079 "../../../config/include/app/app_task_config.h"
 
 
 MOD_LAP,
@@ -10073,10 +10089,26 @@ MOD_GPSADAPTOR,
 
 
 
-# 3214 "../../../config/include/app/app_task_config.h"
+# 3218 "../../../config/include/app/app_task_config.h"
 
 
 MOD_MTKTASKEND,
+
+
+
+
+
+
+
+
+
+# 3637 "../../../config/include/app/app_task_config.h"
+
+MOD_AWS,
+
+
+
+
 
 
 
@@ -11406,7 +11438,7 @@ MOD_DCL_COMMON,
 MOD_INET,
 # 1286 "../../../config/include/hal/stack_config.h" 2
 # 1 "../../../config/include/app/app_task_config.h" 1
-# 1634 "../../../config/include/app/app_task_config.h"
+# 1638 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -11502,16 +11534,16 @@ MOD_INET,
 
 
 
-# 1753 "../../../config/include/app/app_task_config.h"
+# 1757 "../../../config/include/app/app_task_config.h"
 
-# 1764 "../../../config/include/app/app_task_config.h"
+# 1768 "../../../config/include/app/app_task_config.h"
 
 
 
 
 
 
-# 1778 "../../../config/include/app/app_task_config.h"
+# 1782 "../../../config/include/app/app_task_config.h"
      
 
 
@@ -11520,7 +11552,7 @@ MOD_INET,
 
 
 
-# 1810 "../../../config/include/app/app_task_config.h"
+# 1814 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -11568,7 +11600,7 @@ MOD_INET,
 
 
 
-# 1867 "../../../config/include/app/app_task_config.h"
+# 1871 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -11826,7 +11858,7 @@ MOD_INET,
 
 
 
-# 2151 "../../../config/include/app/app_task_config.h"
+# 2155 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -12021,7 +12053,7 @@ MOD_INET,
 
 
 
-# 2390 "../../../config/include/app/app_task_config.h"
+# 2394 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -12087,7 +12119,7 @@ MOD_INET,
 
 
 
-# 2479 "../../../config/include/app/app_task_config.h"
+# 2483 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -12447,7 +12479,7 @@ MOD_INET,
 
 
 
-# 2862 "../../../config/include/app/app_task_config.h"
+# 2866 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -12523,7 +12555,7 @@ MOD_INET,
 
 
 
-# 2962 "../../../config/include/app/app_task_config.h"
+# 2966 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -12613,7 +12645,7 @@ MOD_INET,
 
 
 
-# 3075 "../../../config/include/app/app_task_config.h"
+# 3079 "../../../config/include/app/app_task_config.h"
 
 
 
@@ -12725,7 +12757,23 @@ MOD_INET,
 
 
 
-# 3214 "../../../config/include/app/app_task_config.h"
+# 3218 "../../../config/include/app/app_task_config.h"
+
+
+
+
+
+
+
+
+
+
+
+
+# 3637 "../../../config/include/app/app_task_config.h"
+
+
+
 
 
 
@@ -13219,10 +13267,11 @@ typedef enum {
 
 
 
+   AWS_SAP,
 
    LAST_SAP_CODE = (CUSTOM_SAP_BEGIN + 10)
 } sap_type;
-# 1101 "../../../config/include/hal/stack_msgs.h"
+# 1102 "../../../config/include/hal/stack_msgs.h"
 typedef enum {
    MSG_ID_XXX_CODE_BASE = 500,
 # 1 "../../../config/include/hal/user_msgid_hal.h" 1
@@ -13584,7 +13633,7 @@ typedef enum {
     MSG_ID_RABBISH_CODE23 = MSG_ID_BCM_CODE_TAIL,
 
     DUMMY_BCM_TAIL,
-# 1104 "../../../config/include/hal/stack_msgs.h" 2
+# 1105 "../../../config/include/hal/stack_msgs.h" 2
 # 1 "../../../config/include/app/user_msgid_app.h" 1
 # 984 "../../../config/include/app/user_msgid_app.h"
     MSG_ID_MMIAPI_CODE_BEGIN, MSG_ID_MMIAPI_CODE_TAIL = MSG_ID_MMIAPI_CODE_BEGIN + 500,
@@ -13672,11 +13721,14 @@ typedef enum {
 # 1346 "../../../config/include/app/user_msgid_app.h"
     MSG_ID_GPSADAPTOR_MSG_CODE_BEGIN, MSG_ID_GPSADAPTOR_MSG_CODE_TAIL = MSG_ID_GPSADAPTOR_MSG_CODE_BEGIN + 20,
     DUMMY_GPSADAPTOR_TAIL,
-# 1105 "../../../config/include/hal/stack_msgs.h" 2
+# 1358 "../../../config/include/app/user_msgid_app.h"
+    MSG_ID_AWS_MSG_CODE_BEGIN, MSG_ID_AWS_MSG_CODE_TAIL = MSG_ID_AWS_MSG_CODE_BEGIN + 100,
+    DUMMY_AWS_TAIL,
+# 1106 "../../../config/include/hal/stack_msgs.h" 2
    MSG_ID_CODE_END,
 
 } MSG_ID_CODE_BEGIN;
-# 1119 "../../../config/include/hal/stack_msgs.h"
+# 1120 "../../../config/include/hal/stack_msgs.h"
 typedef enum {
    MSG_ID_INVALID_TYPE = 0,
 # 1 "../../../config/include/hal/user_msgid_hal.h" 1
@@ -21158,7 +21210,7 @@ MSG_ID_BCM_PBAP_RESULT_IND,
 MSG_ID_BCM_END,
 # 2201 "../../../config/include/hal/user_msgid_hal.h" 2
     MSG_ID_BCM_CODE_CHECK_POINT,
-# 1122 "../../../config/include/hal/stack_msgs.h" 2
+# 1123 "../../../config/include/hal/stack_msgs.h" 2
 # 1 "../../../config/include/app/user_msgid_app.h" 1
 # 980 "../../../config/include/app/user_msgid_app.h"
 # 1 "../../../interface/mmi/mmiapi_sap.h" 1
@@ -25180,7 +25232,17 @@ MSG_ID_GPSADAPTOR_MSG_CODE_END,
 # 1343 "../../../config/include/app/user_msgid_app.h" 2
 
     MSG_ID_GPSADAPTOR_CODE_CHECK_POINT,
-# 1123 "../../../config/include/hal/stack_msgs.h" 2
+# 1354 "../../../config/include/app/user_msgid_app.h"
+# 1 "../../../aiot_workshop/aiot_workshop_inc/aws_sap.h" 1
+# 37 "../../../aiot_workshop/aiot_workshop_inc/aws_sap.h"
+MSG_ID_AWS_UT_MMI_REQ=MSG_ID_AWS_MSG_CODE_BEGIN,
+MSG_ID_AWS_UT_MMI_CNF,
+
+MSG_ID_AWS_MSG_CODE_END,
+# 1355 "../../../config/include/app/user_msgid_app.h" 2
+
+    MSG_ID_AWS_CODE_CHECK_POINT,
+# 1124 "../../../config/include/hal/stack_msgs.h" 2
 
    MSG_ID_CUSTOM2_CUSTOM1,
    MSG_ID_CUSTOM1_CUSTOM2,
@@ -25203,7 +25265,7 @@ typedef unsigned int check_msg_type[65535 - MSG_ID_END];
 
 
 typedef unsigned int tst_ctrl_buf_limiation[13153 - 8 * LAST_SAP_CODE - 17 * END_OF_MOD_ID];
-# 1181 "../../../config/include/hal/stack_msgs.h"
+# 1182 "../../../config/include/hal/stack_msgs.h"
 # 1 "../../../config/include/hal/user_msgid_hal.h" 1
 # 963 "../../../config/include/hal/user_msgid_hal.h"
     typedef unsigned int CHECK_GPUBOUND[MSG_ID_GPU_CODE_BEGIN + 100 - MSG_ID_GPU_CODE_CHECK_POINT];
@@ -25563,7 +25625,7 @@ typedef unsigned int tst_ctrl_buf_limiation[13153 - 8 * LAST_SAP_CODE - 17 * END
    
 
     typedef unsigned int CHECK_BCMBOUND[MSG_ID_BCM_CODE_BEGIN + 100 - MSG_ID_BCM_CODE_CHECK_POINT];
-# 1182 "../../../config/include/hal/stack_msgs.h" 2
+# 1183 "../../../config/include/hal/stack_msgs.h" 2
 # 1 "../../../config/include/app/user_msgid_app.h" 1
 # 984 "../../../config/include/app/user_msgid_app.h"
     typedef unsigned int CHECK_MMIAPIBOUND[MSG_ID_MMIAPI_CODE_BEGIN + 500 - MSG_ID_MMIAPI_CODE_CHECK_POINT];
@@ -25651,7 +25713,10 @@ typedef unsigned int tst_ctrl_buf_limiation[13153 - 8 * LAST_SAP_CODE - 17 * END
 # 1346 "../../../config/include/app/user_msgid_app.h"
    
     typedef unsigned int CHECK_GPSADAPTORBOUND[MSG_ID_GPSADAPTOR_MSG_CODE_BEGIN + 20 - MSG_ID_GPSADAPTOR_CODE_CHECK_POINT];
-# 1183 "../../../config/include/hal/stack_msgs.h" 2
+# 1358 "../../../config/include/app/user_msgid_app.h"
+   
+    typedef unsigned int CHECK_AWSBOUND[MSG_ID_AWS_MSG_CODE_BEGIN + 100 - MSG_ID_AWS_CODE_CHECK_POINT];
+# 1184 "../../../config/include/hal/stack_msgs.h" 2
 # 130 "../../../kal/include/kal_public_defs.h" 2
 
 

@@ -149,7 +149,7 @@
         <DEFAULT_VALUE defaultByteFill="0xFF"></DEFAULT_VALUE>
         <DESCRIPTION> NVRAM_EF_SYS_EXCEPTION_LID </DESCRIPTION>
     </NVRAMITEM>
-    <NVRAMITEM id="NVRAM_EF_SYS_STATISTICS_LID" prefix="MT04" version="000" record_size="1800" total_record="1">
+    <NVRAMITEM id="NVRAM_EF_SYS_STATISTICS_LID" prefix="MT04" version="000" record_size="1812" total_record="1">
  	   <SYMBOL_NAME>NVRAM_EF_ZERO_DEFAULT</SYMBOL_NAME>
         <DEFAULT_VALUE defaultByteFill="0x00"></DEFAULT_VALUE>
         <DESCRIPTION> NVRAM_EF_SYS_STATISTICS_LID </DESCRIPTION>

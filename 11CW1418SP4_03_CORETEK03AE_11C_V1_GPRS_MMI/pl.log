@@ -1,5 +1,5 @@
-2019/09/24 周二 
-17:06
+2019/09/25 周三 
+12:42
 [tools\partialLink.pl:main:2495] [tools\partialLink.pl --armlink=C:\ARM\RVCT\Programs\3.1\569\win_32-pentium\armlink.exe --armar=C:\ARM\RVCT\Programs\3.1\569\win_32-pentium\armar.exe --lib-dir=.\build\CORETEK03AE_11C\gprs\MT2502o\lib --lib-dir=mtk_lib\MT2502\S00\gprs\KAL_TRACE_OUTPUT\FULL --no-update --scatter-file=custom\system\CORETEK03AE_11C_BB\scatCORETEK03AE_11C.txt --link-option-file=.\make\~sortedLibs.tmp --readelf=.\tools\MinGW\bin\arm-none-eabi-readelf.exe --nm=.\tools\MinGW\bin\arm-none-eabi-nm.exe --link-err-file=.\build\CORETEK03AE_11C\MT2502.log --strip=.\tools\MinGW\bin\arm-none-eabi-strip.exe]
 [tools\partialLink.pl:main:2497] Dumping options...
 [tools\partialLink.pl:dumpOpt:1967] -> stripDebugCount
@@ -193,9 +193,7 @@ $VAR1 = '__PARTIAL_LINK_DBG';
 [tools\partialLink.pl:dumpOpt:1967] -> ptrHahNoDbgLib
 $VAR1 = {};
 [tools\partialLink.pl:dumpOpt:1967] -> ptrHahLibNew
-$VAR1 = {
-          'aiot_workshop.lib' => 1
-        };
+$VAR1 = {};
 [tools\partialLink.pl:dumpOpt:1967] -> ptrHahLibUsage
 $VAR1 = {};
 [tools\partialLink.pl:dumpOpt:1967] -> suffix
@@ -210,6 +208,7 @@ $VAR1 = 'D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_1
 $VAR1 = {
           'xyssl_adp.lib' => 1,
           'l4misc.lib' => 1,
+          'aiot_workshop.lib' => 1,
           'mpl.lib' => 1,
           'usb.lib' => 1,
           'mmi_service.lib' => 1,
@@ -236,8 +235,8 @@ $VAR1 = {
           'video_codec.lib' => 1,
           'vendorapp.lib' => 1,
           'fs.lib' => 1,
-          'audio.lib' => 1,
           'media.lib' => 1,
+          'audio.lib' => 1,
           'video_sec.lib' => 1,
           'applib_asn1.lib' => 1,
           'gdi_arm.lib' => 1,
@@ -269,5 +268,5 @@ $VAR1 = {
 [tools\partialLink.pl:parseErrorFile:1414] Parsing linking error from D:/github/AIOT_WORKSHOP/AIoT_MT2503AVE_SDK/11CW1418SP4_03_CORETEK03AE_11C_V1_GPRS_MMI/pl_error_normal.log
 [tools\partialLink.pl:main:2656] Succeed to link
 [tools\partialLink.pl:generateLibTimestamp:2416] Generating library timestamp
-2019/09/24 周二 
-17:06
+2019/09/25 周三 
+12:42

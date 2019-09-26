@@ -1270,6 +1270,7 @@ AVK_PLUTO_TIMER_TEST_BASE                                             234
 AVK_PLUTO_TIMER_TEST_MAX                                              243
 AWB_GAIN_B_INDEX                                                      31
 AWB_GAIN_R_INDEX                                                      30
+AWS_SAP                                                               352
 Access_information_discarded                                          43
 AdditionalSB                                                          0
 AliceCorrupted                                                        6
@@ -5411,6 +5412,7 @@ DUAL_TP_SORTING_2__enum                                               87031984
 DUAL_TP_SORTING_RESULT__enum                                          87031985
 DUAL_TP_VERTICAL_DELTA__enum                                          87031979
 DUMMY_AUDIO_TAIL                                                      7412
+DUMMY_AWS_TAIL                                                        24894
 DUMMY_BCM_TAIL                                                        18616
 DUMMY_BLK                                                             3
 DUMMY_BT_TAIL                                                         17626
@@ -8651,6 +8653,7 @@ INDIV_PARA_HDL_NC_OK_ENH_OK                                           4
 INDIV_PARA_HDL_NOT_DECODED                                            0
 INDX_ABM                                                              55
 INDX_AUX                                                              30
+INDX_AWS                                                              108
 INDX_BEE                                                              98
 INDX_BMT                                                              29
 INDX_BRT                                                              33
@@ -10501,7 +10504,7 @@ LAST_EQ_ACTION                                                        106
 LAST_EQ_IND                                                           41
 LAST_GPRS_ACTION                                                      122
 LAST_GPRS_IND                                                         43
-LAST_MOD_ID                                                           177
+LAST_MOD_ID                                                           178
 LAST_NW_ACTION                                                        141
 LAST_NW_IND                                                           47
 LAST_PHB_ACTION                                                       160
@@ -17284,6 +17287,7 @@ MOD_AS                                                                29
 MOD_ATCI                                                              18
 MOD_AUD                                                               163
 MOD_AUX                                                               49
+MOD_AWS                                                               177
 MOD_BACKLIGHT                                                         340
 MOD_BEE                                                               165
 MOD_BMT                                                               48
@@ -18056,6 +18060,12 @@ MSG_ID_AUX_ID                                                         22493
 MSG_ID_AUX_PLUGIN                                                     22487
 MSG_ID_AUX_PLUGOUT                                                    22488
 MSG_ID_AVI_FILE_WRITER_DATA_IND                                       23980
+MSG_ID_AWS_CODE_CHECK_POINT                                           24796
+MSG_ID_AWS_MSG_CODE_BEGIN                                             24793
+MSG_ID_AWS_MSG_CODE_END                                               24795
+MSG_ID_AWS_MSG_CODE_TAIL                                              24893
+MSG_ID_AWS_UT_MMI_CNF                                                 24794
+MSG_ID_AWS_UT_MMI_REQ                                                 24793
 MSG_ID_BCM_BONDING_CNF                                                18516
 MSG_ID_BCM_BONDING_REQ                                                18515
 MSG_ID_BCM_BONDING_RSP_CNF                                            18518
@@ -18630,7 +18640,7 @@ MSG_ID_CMUX_VP_RESET_BUFF_CONFIG_CNF                                  11947
 MSG_ID_CMUX_VP_RESET_BUFF_CONFIG_REQ                                  11946
 MSG_ID_CMUX_VP_SET_BUFF_CONFIG_CNF                                    11945
 MSG_ID_CMUX_VP_SET_BUFF_CONFIG_REQ                                    11944
-MSG_ID_CODE_END                                                       24793
+MSG_ID_CODE_END                                                       24895
 MSG_ID_CSCE_CODE_BEGIN                                                7939
 MSG_ID_CSCE_CODE_TAIL                                                 8039
 MSG_ID_CSD_ACTIVATE_REQ                                               4432
@@ -18681,8 +18691,8 @@ MSG_ID_CTM_SUPPORT_16_BEGIN                                           14334
 MSG_ID_CTM_SUPPORT_16_END                                             14334
 MSG_ID_CTRL_UART_READY_TO_READ_IND                                    22532
 MSG_ID_CTRL_UART_READY_TO_WRITE_IND                                   22533
-MSG_ID_CUSTOM1_CUSTOM2                                                24788
-MSG_ID_CUSTOM2_CUSTOM1                                                24787
+MSG_ID_CUSTOM1_CUSTOM2                                                24798
+MSG_ID_CUSTOM2_CUSTOM1                                                24797
 MSG_ID_DATA_CODE_CHECK_POINT                                          4288
 MSG_ID_DBME_CODE_BEGIN                                                8746
 MSG_ID_DBME_CODE_TAIL                                                 8766
@@ -18944,7 +18954,7 @@ MSG_ID_EM_CODE_TAIL                                                   15740
 MSG_ID_EM_MODE_11_BEGIN                                               14290
 MSG_ID_EM_MODE_11_END                                                 14292
 MSG_ID_ENCODER_DATA_IND                                               23878
-MSG_ID_END                                                            24789
+MSG_ID_END                                                            24799
 MSG_ID_ENG_CODE_BEGIN                                                 2791
 MSG_ID_ENG_CODE_TAIL                                                  2891
 MSG_ID_EPODOWNLOAD_BT_CONNECT_IND                                     13180
@@ -30248,8 +30258,8 @@ ROOT_PUBLIC_KEY_PARTY                                                 2
 ROTATE_MODE_NUM                                                       2
 ROUTER_OPT                                                            3
 ROUTER_SOLICITATION_ADDRESS_OPT                                       32
-RPS_TOTAL_STACK_MODULES                                               177
-RPS_TOTAL_STACK_TASKS                                                 108
+RPS_TOTAL_STACK_MODULES                                               178
+RPS_TOTAL_STACK_TASKS                                                 109
 RP_1                                                                  0
 RP_2                                                                  1
 RP_3                                                                  2

@@ -1,51 +1,51 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      1284          0          0          0     424241   ADIE_Eint.obj
-       846          4          0         16     330780   ADIE_intrCtrl.obj
+      1284          0          0          0     424498   ADIE_Eint.obj
+       846          4          0         16     331037   ADIE_intrCtrl.obj
          0          0          0          0       1430   AP_BtSS_callbacks.obj
-      2544          0          2        972     474688   Eint.obj
-       224          0         48          1     487763   FTL.obj
+      2544          0          2        972     474945   Eint.obj
+       224          0         48          1     488020   FTL.obj
          0          0          0          0       1430   arm11_pmu_montr.obj
        976          0          0          0       1388   arm_unaligned.obj
-       490          0          4          8     338010   armlibc_rt.obj
-       720          0          0         32     321181   armlibc_rt_heap.obj
-       396         23         12         12     307810   armlibc_rt_io.obj
-         0          0          0          0     279054   boot_cert_pattern.obj
+       490          0          4          8     338267   armlibc_rt.obj
+       720          0          0         32     321438   armlibc_rt_heap.obj
+       396         23         12         12     308067   armlibc_rt_io.obj
+         0          0          0          0     279311   boot_cert_pattern.obj
        784          0         20       5688        482   bootarm.obj
        204          0          0          0      11781   br_GFH_file_info.obj
        194          0          0          0      13813   br_GFH_parser.obj
-      2750         60          0         32     319968   cache.obj
-      9534        128         20       1180     345752   cbr.obj
-       156          0          0       2052     293253   cbr_util.obj
+      2750         60          0         32     320225   cache.obj
+      9534        128         20       1180     346009   cbr.obj
+       156          0          0       2052     293510   cbr_util.obj
          2          0          0          0       5752   code_decompression_hal.obj
          0          0          0          0         18   cp15.obj
-       450          0          4         16     487665   dcm.obj
-        80          0          0          0     287647   dcm_service.obj
-        14          0          0          0     290463   dcmgr_pl.obj
-      2978         24         36         40     490314   dma.obj
-       246         12          0         24     284978   emi.obj
+       450          0          4         16     487922   dcm.obj
+        80          0          0          0     287904   dcm_service.obj
+        14          0          0          0     290720   dcmgr_pl.obj
+      2978         24         36         40     490571   dma.obj
+       246         12          0         24     285235   emi.obj
         28          0          0          0       6321   event_timer.obj
-         4          0          0          4     279897   excep_hdlr.obj
-        26          0          0          0     342755   fault.obj
-        52         20          0          4     319695   idle_task.obj
-       196          0          0          0     429672   info.obj
-      1716         11         13        148     546958   init.obj
-       644         20          0          0     528372   init_comm.obj
-       630          0          0        376     290255   init_memory_stack.obj
-       216          0          0          0     286139   init_trc.obj
-      1958         55          2        164     426570   intrCtrl.obj
+         4          0          0          4     280154   excep_hdlr.obj
+        26          0          0          0     343012   fault.obj
+        52         20          0          4     319952   idle_task.obj
+       196          0          0          0     429929   info.obj
+      1716         11         13        148     547215   init.obj
+       644         20          0          0     528629   init_comm.obj
+       630          0          0        376     290512   init_memory_stack.obj
+       216          0          0          0     286396   init_trc.obj
+      1958         55          2        164     426827   intrCtrl.obj
        288          0          0          0        848   irq.obj
-       598          0          2        760     460872   isrentry.obj
-        16        552          0          0     418582   maui_GFH_body.obj
+       598          0          2        760     461129   isrentry.obj
+        16        552          0          0     418839   maui_GFH_body.obj
          0          0          0          0         18   misc.obj
-         0          0          0          0     436978   nfb_loader.obj
-         2          0          0          0     285737   pdn.obj
-         0          0          0          0     285310   pdnoldarch.obj
-       228          0          0          0     289171   pll.obj
+         0          0          0          0     437235   nfb_loader.obj
+         2          0          0          0     285994   pdn.obj
+         0          0          0          0     285567   pdnoldarch.obj
+       228          0          0          0     289428   pll.obj
       1412          0          0          0        422   regioninit_ads.obj
-       152          0          0         16     478679   sleep.obj
+       152          0          0         16     478936   sleep.obj
        104          0          0          0        394   stack.obj
-         0          0          0          0     278719   third_rom_res.obj
-       172          0          0         16     275948   uscounter.obj
-     33314        909        163      11561   12467973   TOTAL
+         0          0          0          0     278976   third_rom_res.obj
+       172          0          0         16     276205   uscounter.obj
+     33314        909        163      11561   12476711   TOTAL
 

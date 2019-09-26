@@ -402,6 +402,7 @@ BTphonebook.obj:	plutommi\Customer\ResGenerator\temp\res\BTphonebook.c \
 	plutommi\Customer\ResGenerator\..\..\..\interface\hal\video\vfile_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\mmi\fmt_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\gps\gpsadaptor_sap.h \
+	plutommi\Customer\ResGenerator\..\..\..\aiot_workshop\aiot_workshop_inc\aws_sap.h \
 	plutommi\Customer\ResGenerator\..\..\framework\interface\MMIDataType.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\stdafx.h \
 	plutommi\Customer\ResGenerator\inc\ResgenDataType.h \
@@ -714,6 +715,7 @@ calendar.obj:	plutommi\Customer\ResGenerator\temp\res\calendar.c \
 	plutommi\Customer\ResGenerator\..\..\..\interface\hal\video\vfile_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\mmi\fmt_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\gps\gpsadaptor_sap.h \
+	plutommi\Customer\ResGenerator\..\..\..\aiot_workshop\aiot_workshop_inc\aws_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\include\kal_public_api.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\adaptation\include\app_ltlcom.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\adaptation\include\stack_ltlcom.h \
@@ -1597,6 +1599,7 @@ imgview.obj:	plutommi\Customer\ResGenerator\temp\res\imgview.c \
 	plutommi\Customer\ResGenerator\..\..\..\interface\hal\video\vfile_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\mmi\fmt_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\gps\gpsadaptor_sap.h \
+	plutommi\Customer\ResGenerator\..\..\..\aiot_workshop\aiot_workshop_inc\aws_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\include\kal_public_api.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\adaptation\include\stack_common.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\adaptation\include\app_ltlcom.h \
@@ -1937,6 +1940,7 @@ imgviewcui.obj:	plutommi\Customer\ResGenerator\temp\res\imgviewcui.c \
 	plutommi\Customer\ResGenerator\..\..\..\interface\hal\video\vfile_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\mmi\fmt_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\gps\gpsadaptor_sap.h \
+	plutommi\Customer\ResGenerator\..\..\..\aiot_workshop\aiot_workshop_inc\aws_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\include\kal_public_api.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\adaptation\include\stack_common.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\adaptation\include\app_ltlcom.h \
@@ -2892,6 +2896,7 @@ phonebook.obj:	plutommi\Customer\ResGenerator\temp\res\phonebook.c \
 	plutommi\Customer\ResGenerator\..\..\..\interface\hal\video\vfile_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\mmi\fmt_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\gps\gpsadaptor_sap.h \
+	plutommi\Customer\ResGenerator\..\..\..\aiot_workshop\aiot_workshop_inc\aws_sap.h \
 	plutommi\Customer\ResGenerator\..\..\framework\interface\MMIDataType.h \
 	plutommi\Customer\ResGenerator\..\..\mmi\inc\stdafx.h \
 	plutommi\Customer\ResGenerator\inc\ResgenDataType.h \
@@ -3389,6 +3394,7 @@ ScrLocker.obj:	plutommi\Customer\ResGenerator\temp\res\ScrLocker.c \
 	plutommi\Customer\ResGenerator\..\..\..\interface\hal\video\vfile_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\mmi\fmt_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\gps\gpsadaptor_sap.h \
+	plutommi\Customer\ResGenerator\..\..\..\aiot_workshop\aiot_workshop_inc\aws_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\include\kal_public_api.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\adaptation\include\app_ltlcom.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\adaptation\include\stack_ltlcom.h \
@@ -4193,6 +4199,7 @@ VenusTheme.obj:	plutommi\Customer\ResGenerator\temp\res\VenusTheme.c \
 	plutommi\Customer\ResGenerator\..\..\..\interface\hal\video\vfile_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\mmi\fmt_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\interface\gps\gpsadaptor_sap.h \
+	plutommi\Customer\ResGenerator\..\..\..\aiot_workshop\aiot_workshop_inc\aws_sap.h \
 	plutommi\Customer\ResGenerator\..\..\..\kal\include\kal_public_api.h \
 	plutommi\Customer\ResGenerator\..\..\..\fs\common\include\fs_iprot.h
 version.obj:	plutommi\Customer\ResGenerator\temp\res\version.c \

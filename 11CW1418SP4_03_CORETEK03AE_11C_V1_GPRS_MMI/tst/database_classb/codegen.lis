@@ -20,3 +20,13 @@ make\~inc_def.tmp
 .\build\CORETEK03AE_11C\gprs\MT2502r\codegen_dep\codegen.det 
 .\tst\database_classb\cgen.cfg 
 .\tst\database_classb\BPLGUInfoCustomAppSrcP_MT2502_S00_AIOT_WORKSHOP_SW_V0_0_1 
+make\~inc_def.tmp 
+.\tst\database_classb\pstrace_db\codegen_single.ptr 
+.\tst\database_classb\pstrace_db\codegen_single.h 
+.\build\CORETEK03AE_11C\gprs\MT2502r\codegen_dep\codegen_single.det 
+.\build\CORETEK03AE_11C\gprs\MT2502r\codegen_dep\cgen_ps.det 
+.\tst\database_classb\pstrace_db\ps_trace.h 
+.\build\CORETEK03AE_11C\gprs\MT2502r\codegen_dep\cgen_cfg.det 
+.\build\CORETEK03AE_11C\gprs\MT2502r\codegen_dep\codegen.det 
+.\tst\database_classb\cgen.cfg 
+.\tst\database_classb\BPLGUInfoCustomAppSrcP_MT2502_S00_AIOT_WORKSHOP_SW_V0_0_1 

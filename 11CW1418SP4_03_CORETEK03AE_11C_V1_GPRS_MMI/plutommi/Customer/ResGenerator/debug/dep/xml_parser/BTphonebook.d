@@ -121,6 +121,7 @@ BTphonebook.o: temp/res/BTphonebook.c ../../mmi/inc/mmi_features.h \
   ../../../interface/hal/video/vfile_sap.h \
   ../../../interface/mmi/fmt_sap.h \
   ../../../interface/gps/gpsadaptor_sap.h \
+  ../../../aiot_workshop/aiot_workshop_inc/aws_sap.h \
   ../../framework/interface/MMIDataType.h ../../mmi/inc/stdafx.h \
   inc/ResgenDataType.h ../../mmi/inc/mmi_res_range_def.h \
   ../../mmi/inc/mmi_lib_res_range_def.h \

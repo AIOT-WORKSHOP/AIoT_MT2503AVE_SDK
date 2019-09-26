@@ -129,6 +129,7 @@ calendar.o: temp/res/calendar.c ../../mmi/inc/MMI_features.h \
   ../../../interface/hal/video/vfile_sap.h \
   ../../../interface/mmi/fmt_sap.h \
   ../../../interface/gps/gpsadaptor_sap.h \
+  ../../../aiot_workshop/aiot_workshop_inc/aws_sap.h \
   ../../../kal/include/kal_public_api.h \
   ../../../kal/adaptation/include/app_ltlcom.h \
   ../../../kal/adaptation/include/stack_ltlcom.h \

@@ -238,5 +238,6 @@
  /I "..\..\plutommi\mtkapp\mtkappinc"
  /I "..\..\plutommi\mmi\datetime\datetimeinc"
  /I "..\..\plutommi\Framework\DebugLevels\debuglevelinc"
+ /I "..\..\aiot_workshop\aiot_workshop_inc"
  /I "..\..\rsva\interfaces\sap"
  

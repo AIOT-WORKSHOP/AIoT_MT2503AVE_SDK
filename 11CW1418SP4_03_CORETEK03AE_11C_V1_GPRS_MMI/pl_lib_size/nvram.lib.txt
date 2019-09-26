@@ -1,21 +1,21 @@
 
       Code    RO Data    RW Data    ZI Data      Debug   Object Name
-      2134          0          0          8     709661   nvram_drval_fat.obj
-         0          0          0          0     692501   nvram_ex_io.obj
-         0         47        768          0     796621   nvram_factory_config.obj
-       444          0          0          0     694968   nvram_handler_read.obj
-       496          0          0          0     696239   nvram_handler_reset.obj
-       228          0          0          0     694586   nvram_handler_startup.obj
-       460          0          0          0     694943   nvram_handler_write.obj
-       104          0          0          0     274221   nvram_ilm.obj
-      2346          0          0        512     717970   nvram_interface.obj
-      2692          0          0          0     735550   nvram_io.obj
-       350          0          0          0     704608   nvram_l1def.obj
-       712          4         64          8     835463   nvram_ltable.obj
-      3728         20          4        512     827458   nvram_main.obj
-       274          0          0          0     696876   nvram_msg_handler.obj
-       332         81         16          0     698491   nvram_multi_folder.obj
-      2844         34          0         36     719126   nvram_pseudo_merge.obj
-       560          0          0          0     742877   nvram_util.obj
-     17704        186        852       1076   11932159   TOTAL
+      2134          0          0          8     709918   nvram_drval_fat.obj
+         0          0          0          0     692758   nvram_ex_io.obj
+         0         47        768          0     796878   nvram_factory_config.obj
+       444          0          0          0     695225   nvram_handler_read.obj
+       496          0          0          0     696496   nvram_handler_reset.obj
+       228          0          0          0     694843   nvram_handler_startup.obj
+       460          0          0          0     695200   nvram_handler_write.obj
+       104          0          0          0     274478   nvram_ilm.obj
+      2350          0          0        512     718227   nvram_interface.obj
+      2692          0          0          0     735807   nvram_io.obj
+       350          0          0          0     704865   nvram_l1def.obj
+       712          4         64          8     835720   nvram_ltable.obj
+      3728         20          4        512     827715   nvram_main.obj
+       274          0          0          0     697133   nvram_msg_handler.obj
+       332         81         16          0     698748   nvram_multi_folder.obj
+      2844         34          0         36     719383   nvram_pseudo_merge.obj
+       560          0          0          0     743134   nvram_util.obj
+     17708        186        852       1076   11936528   TOTAL
 
