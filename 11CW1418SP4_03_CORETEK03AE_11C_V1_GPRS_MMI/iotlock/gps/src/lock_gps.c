@@ -122,12 +122,12 @@ static int strtoi(char *s)
 
 void gps_open()
 {
-	kal_prompt_trace(MOD_MMI, "nwow gps_open iotlock");
+	kal_prompt_trace(MOD_MMI, "AWS gps_open iotlock");
 	//if(g_gps_state == GPS_OFF && (g_need_open_gps || read_lock_state() == UNLOCKED)) {
 		g_gps_state = GPS_ON;
 		kal_prompt_trace(MOD_MMI, "iotlock: %s gps_open begin", __FUNCTION__);
 		gps_time = drv_get_current_time();
-		gps_state = 1; //´ò¿ª µ«Î´¶¨Î»
+		gps_state = 1; //ï¿½ï¿½ ï¿½ï¿½Î´ï¿½ï¿½Î»
 		mdi_gps_uart_open((U16)mdi_get_gps_port(), MDI_GPS_UART_MODE_RAW_DATA, gps_callback);
 		mdi_gps_uart_open((U16)mdi_get_gps_port(), MDI_GPS_UART_MODE_LOCATION, gps_callback);	
 		StartTimer(LOCK_GPS_CTL_TIMER, gps_preon_time*1000, start_lbs_and_off_gps);
@@ -164,7 +164,7 @@ void iot_ata_gps_sleep(void)
 	ata_gps_sleep();
 }
 
-//GPS²âÊÔ
+//GPSï¿½ï¿½ï¿½ï¿½
 kal_bool gps_open_test(void)
 {
 	 MDI_RESULT ret ;
@@ -182,7 +182,7 @@ kal_bool gps_open_test(void)
 
 void gps_sleep()
 {
-	kal_prompt_trace(MOD_MMI, "nwow gps_sleep iotlock");
+	kal_prompt_trace(MOD_MMI, "AWS gps_sleep iotlock");
 
 	memset(gps_satelitte_arry, 0 , 20);
 
@@ -205,9 +205,9 @@ void gps_callback(mdi_gps_parser_info_enum type, void *buffer, U32 length)
 	switch(type){
 	case MDI_GPS_PARSER_RAW_DATA:
 		{
-			//ÄÃµ½GPS¶¨Î»µÄµØÀíÎ»ÖÃÐÅÏ¢
+			//ï¿½Ãµï¿½GPSï¿½ï¿½Î»ï¿½Äµï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ï¢
 			//kal_prompt_trace(MOD_MMI,"iotlock: %s GPS RAW_DATA: %s", __FUNCTION__, buffer);
-			//½âÎöµØÀíÎ»ÖÃÐÅÏ¢
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ï¢
 			get_loc_msg_from_gps(buffer);
 		}
 		break;
@@ -224,9 +224,9 @@ void gps_callback_ext(mdi_gps_parser_info_enum type, void *buffer, U32 length)
 	case MDI_GPS_PARSER_RAW_DATA:
 		{
 			//char buffer1[128+1];
-			//ÄÃµ½GPS¶¨Î»µÄµØÀíÎ»ÖÃÐÅÏ¢
+			//ï¿½Ãµï¿½GPSï¿½ï¿½Î»ï¿½Äµï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ï¢
 			//kal_prompt_trace(MOD_MMI,"iotlock: %s raw data: %s", __FUNCTION__, buffer);
-			//½âÎöµØÀíÎ»ÖÃÐÅÏ¢
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ï¢
 			get_loc_msg_from_gps(buffer);
 		}
 		break;
@@ -349,7 +349,7 @@ void get_loc_msg_from_gps(char* buffer) {
 		if(state == 'A') {
 			gps_duration_time = drv_get_duration_ms(gps_time);
 			applib_dt_get_rtc_time(&g_gps_locate_time);
-			gps_state = 2; //´ò¿ª ÒÑ¶¨Î»
+			gps_state = 2; //ï¿½ï¿½ ï¿½Ñ¶ï¿½Î»
 			StopTimer(LOCK_GPS_CTL_TIMER);
 
 			g_comm_loc.state |= 0x2;
@@ -529,7 +529,7 @@ void open_gps_and_get_loc(DWord gap, LOC_REPORT_TYPE type){
 	kal_bool report = KAL_FALSE;
 
 	kal_prompt_trace(MOD_MMI,"iotlock: %s low_power: %d",__func__, g_lock_cntx.low_power);
-	if(g_lock_cntx.low_power == 1) return; //µÍ¹¦ºÄÄ£Ê½£¬²»¿ªGPS¶¨Î»
+	if(g_lock_cntx.low_power == 1) return; //ï¿½Í¹ï¿½ï¿½ï¿½Ä£Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½GPSï¿½ï¿½Î»
 
 	if(type == VIB_LOC_REPORT) {
 		report = g_report_vibrate;
@@ -602,7 +602,7 @@ void get_curr_time(BCD *datetime, kal_uint32 utc_sec)
 	datetime[5] = ((curr_time.nSec/10)<<4) + curr_time.nSec%10;
 }
 
-//»ñÈ¡Ð¡ÇøÐÅÏ¢
+//ï¿½ï¿½È¡Ð¡ï¿½ï¿½ï¿½ï¿½Ï¢
 void spconser_sal_stub_cell_reg_req(void)
 {
 	SetProtocolEventHandler(spconser_sal_cell_reg_rsp, MSG_ID_L4C_NBR_CELL_INFO_REG_CNF);
@@ -656,7 +656,7 @@ void spconser_sal_cell_reg_rsp(l4c_nbr_cell_info_ind_struct *msg_ptr)
 
 void get_loc()
 {
-	kal_prompt_trace(MOD_MMI,"nwow iotlock: %s ", __FUNCTION__);
+	kal_prompt_trace(MOD_MMI,"AWS GPS Open: %s ", __FUNCTION__);
 	gps_open();
 	spconser_sal_stub_cell_reg_req();
 }
@@ -808,7 +808,7 @@ void report_loc(kal_bool report_amend)
 
 	kal_prompt_trace(MOD_MMI, "iotlock:  %s ,begin", __func__);
 
-	//gps ¶¨Î»³É¹¦£¬ÅúÁ¿ÉÏ±¨±¨¾¯¶ÓÁÐÖÐµÄÊý¾Ý
+	//gps ï¿½ï¿½Î»ï¿½É¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½
 	while(node != NULL){
 		COMM_LOC comm_loc = {0};
 		ATTACH_LOC att_loc = {0};
@@ -1083,7 +1083,7 @@ void gen_location_and_state_info(Byte *body, kal_uint16 *body_len, order_info *o
 		{
 			memset(&s_order_num, 0, sizeof(ORDER_NUM));
 			s_order_num.id= 0xD1;
-			s_order_num.len = strlen(orderInfo->order_num);//LOCK_ORDER_NUM_MAX_LEN - 1; //¹Ì¶¨11×Ö½Ú
+			s_order_num.len = strlen(orderInfo->order_num);//LOCK_ORDER_NUM_MAX_LEN - 1; //ï¿½Ì¶ï¿½11ï¿½Ö½ï¿½
 			memcpy(s_order_num.order_num, orderInfo->order_num, s_order_num.len);
 			lock_debug_print(MOD_MMI, "iotlock: Line:%d, %s,order_num=%s",__LINE__, __func__, orderInfo->order_num);
 			memcpy(ptr, &s_order_num, s_order_num.len+2);

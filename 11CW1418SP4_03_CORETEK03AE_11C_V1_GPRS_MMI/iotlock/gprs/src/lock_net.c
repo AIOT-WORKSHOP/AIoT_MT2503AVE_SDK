@@ -727,7 +727,7 @@ kal_bool lock_socket_notify (void* msg_ptr)
 			{
 				if(lock_soc_notify->result == KAL_FALSE)    //connect to new server failed
 				{
-					//Á¬½ÓÐÂ·þÎñÆ÷Ê§°Ü£¬Ö±½Ó¹Ø±Õ
+					//ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½Ö±ï¿½Ó¹Ø±ï¿½
 					soc_close(g_lock_cntx.new_socket_id);
 				}
 				else if(lock_soc_notify->result == KAL_TRUE) //connect to new server ok
@@ -891,7 +891,7 @@ void handle_platform_com_ans(MESSAGE *msg)
 				}
 			}
 
-			//Ã¿¸ôÒ»¶ÎÊ±¼ä·¢ËÍÒ»´ÎÐÄÌø°ü
+			//Ã¿ï¿½ï¿½Ò»ï¿½ï¿½Ê±ï¿½ä·¢ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			feed_watchdog_work();
 			StartTimer(LOCK_HEART_BEAT_TIMER, g_lock_cntx.heart_beat_time_gap*1000, heart_beat);
 		}
@@ -902,9 +902,9 @@ void handle_platform_com_ans(MESSAGE *msg)
 		case TERMINAL_LOC_COM_ID:
 		case PLATFORM_CTRL_ANS_ID:
 		{
-			//È·ÈÏ·þÎñÆ÷ÒÑ¾­ÊÕµ½ÏûÏ¢
+			//È·ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½Õµï¿½ï¿½ï¿½Ï¢
 			remove_one_msg_from_list(KAL_TRUE, req->serial);
-			//½Ó×Å·¢ËÍ¶ÓÁÐÖÐµÄÏÂÒ»ÌõÊý¾Ý
+			//ï¿½ï¿½ï¿½Å·ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			resend_msg(NULL);
 		}
 		break;
@@ -1066,7 +1066,7 @@ void handle_command(const Byte *buffer)
 			kal_prompt_trace(MOD_MMI, "iotlock: %s msg_id = %x", __FUNCTION__, msg_header->id);
 			switch(msg_header->id) {
 			case TERMINAL_REGISTER_ANS_ID: 
-				//·þÎñÆ÷Ó¦´ðÐÅÏ¢
+				//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½Ï¢
 				handle_register_ans(&msg);
 				break;
 			case PLATFORM_COM_ANS_ID:
@@ -1093,14 +1093,14 @@ void handle_command(const Byte *buffer)
 			case QUERY_ONCE_GPS_REQ:
 				{
 					Byte flag = *msg.body;
-					if(flag == 1) 	//ÖØÐÂ¶¨Î»ÉÏ´«gpsÐÅÏ¢
+					if(flag == 1) 	//ï¿½ï¿½ï¿½Â¶ï¿½Î»ï¿½Ï´ï¿½gpsï¿½ï¿½Ï¢
 					{
 						g_need_open_gps = KAL_TRUE;
 						get_loc();
 						g_gps_serial_number = msg_header->serial_number;
 						StartTimer(LOCK_GPS_QUERY_TIMER, (gps_preon_time + 15)*1000, report_loc_gps_info);
 					}
-					else			//²éÑ¯´æ´¢µÄgpsÐÅÏ¢
+					else			//ï¿½ï¿½Ñ¯ï¿½æ´¢ï¿½ï¿½gpsï¿½ï¿½Ï¢
 					{
 						ans_saved_gps_attr(g_lock_cntx.socket_id,msg_header->serial_number);
 					}
@@ -1237,7 +1237,7 @@ void check_gprs_connect(void)
 		kal_uint32 no_data_time = 0;
 		applib_time_struct curr_time = {0};
 
-		applib_dt_get_rtc_time(&curr_time); //»ñÈ¡µ±Ç°Ê±¼ä´Á
+		applib_dt_get_rtc_time(&curr_time); //ï¿½ï¿½È¡ï¿½ï¿½Ç°Ê±ï¿½ï¿½ï¿½
 
 		if(applib_dt_is_valid(&g_connect_timestamp)) {
 			connect_time = applib_get_time_difference_ext_in_second(&curr_time, &g_connect_timestamp);
@@ -1353,7 +1353,7 @@ void LockTaskInit()
 	g_lock_cntx.ecg_update_data_time_gap = lock_info.ecg_update_data_time;
 	g_lock_cntx.ecg_curr_update_mode = lock_info.ecg_update_data_mode;
 	uart1_state_init();
-	//Ã¿¸ôÒ»¶ÎÊ±¼ä·¢ËÍÒ»´ÎÐÄÌø°ü
+	//Ã¿ï¿½ï¿½Ò»ï¿½ï¿½Ê±ï¿½ä·¢ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	StartTimer(LOCK_HEART_BEAT_TIMER, g_lock_cntx.heart_beat_time_gap*1000, heart_beat);
 	StartTimer(LOCK_KICK_DOG_TIMER, 4*60*1000, kick_dog);
 
@@ -1395,7 +1395,7 @@ mmi_ret iot_lock_sr_nw_availability_changed_notify(mmi_event_struct *evt) {
 				kal_prompt_trace(MOD_MMI, "iotlock: %s new status: SRV_NW_INFO_SA_FULL_SERVICE", __FUNCTION__);
 #ifdef __ADUPS_FOTA_SOC__
 				if(get_fota_upgrate_status()) {
-					//fota Éý¼¶Ê§°Ü£¬ÖØÐÂ¿ªÊ¼Éý¼¶
+					//fota ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½ï¿½Â¿ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½
 					kal_prompt_trace(MOD_MMI, "iotlock: %s to fota", __FUNCTION__);
 					adups_net_start_get_new_version();
 				}else
@@ -1456,7 +1456,7 @@ void my_lock_socket_create(void)
 	{
 		set_gsm_state(GSM_CONN_PPP);
 
-		//¼ÇÂ¼¿ªÊ¼Á¬½ÓÍøÂçµÄÊ±¼ä
+		//ï¿½ï¿½Â¼ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
 		applib_dt_get_rtc_time(&g_connect_timestamp);
 		lock_debug_print(MOD_MMI, "iotlock:  %s line:%d  no need reconnect", __FUNCTION__,__LINE__);
 		if(g_lock_cntx.socket_id>=0)
@@ -1948,7 +1948,7 @@ void check_file_exist_and_delete_temp_file(void)
 
 /**********************************download voice end*********************/
 
-void nwow_gsm_state_kpled_callback(void)
+void aws_gsm_state_kpled_callback(void)
 {
 	static kal_bool relay_ctrl = KAL_FALSE;
 
@@ -1971,12 +1971,12 @@ void nwow_gsm_state_kpled_callback(void)
 		spronser_led_ctrl(1, 500, 1);
 	}
 	
-	StartTimer(NWOW_GSM_STATE_LED_TIMER, 1000, nwow_gsm_state_kpled_callback);
+	StartTimer(AWS_GSM_STATE_LED_TIMER, 1000, aws_gsm_state_kpled_callback);
 }
 
-void nwow_gsm_state_kpled_init(void)
+void aws_gsm_state_kpled_init(void)
 {	
-	StartTimer(NWOW_GSM_STATE_LED_TIMER, 1000, nwow_gsm_state_kpled_callback);
+	StartTimer(AWS_GSM_STATE_LED_TIMER, 1000, aws_gsm_state_kpled_callback);
 }
 
 

@@ -198,7 +198,7 @@ void mmi_iot_init(void)
 	iot_init_backup_nv();
 	g_reboot_use_pre_gps_data = KAL_TRUE;
 
-	nwow_gsm_state_kpled_init();
+	aws_gsm_state_kpled_init();
 	StartTimer(LOCK_HEART_BEAT_TIMER, 10*1000, ecu_login_test);
 
 	
@@ -332,7 +332,7 @@ kal_int16 iot_get_battery_isense(void)		// get battery charge current
 	return isense;
 }
 
-//Ëø¶¨Ê±»Øµ÷
+//ï¿½ï¿½ï¿½ï¿½Ê±ï¿½Øµï¿½
 void lock_bike_callback()
 {
 	nvram_ef_iot_lock_struct info;
@@ -353,7 +353,7 @@ void lock_bike_callback()
 	StopTimer(LOCK_UPLOAD_ECG_BEGIN_TIMER);
 	ReadRecordIot(NVRAM_EF_IOT_LOCK_LID, 1, &info, NVRAM_EF_IOT_LOCK_SIZE);
 
-	//¼ÇÂ¼ÏÂ¹ØËøÊ±¼ä
+	//ï¿½ï¿½Â¼ï¿½Â¹ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
 	applib_dt_get_rtc_time(&curr_time);
 #if defined(__IOT_BLE_BKSS_SUPPORT__)
 	BkssSaveLocktime(curr_time);
