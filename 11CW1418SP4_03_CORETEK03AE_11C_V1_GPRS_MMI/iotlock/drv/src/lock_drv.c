@@ -474,6 +474,7 @@ void aiot_rs485_RE_enable(void)
 	GPIO_WriteIO(0, AIOT_GPIO_RS485_DE_RE);
 }
 
+#ifdef __NSK_ECG__
 void testcase_ECG_uart1(void)
 {
 	kal_uint8 uart1_write_len = 0;
@@ -488,6 +489,7 @@ void testcase_ECG_uart1(void)
 	Spconser_Delayms(100);
 	aiot_rs485_RE_enable();
 }
+#endif/*__NSK_ECG__*/
 
 void init_drv()
 {
@@ -629,7 +631,7 @@ void open_lock_capacitive_hisr()
 	StartTimer(LOCK_OPEN_HISR_TIMER, 10, open_lock_hisr);
 }
 
-/*²úÉú¹ØËøÖÐ¶ÏÊ±¸Ãº¯Êý±»µ÷ÓÃ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½Ê±ï¿½Ãºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 void close_lock_capacitive_hisr()
 {
 	StartTimer(LOCK_CLOSE_HISR_TIMER, 10, close_lock_hisr);
@@ -743,7 +745,7 @@ void gsensor_vib(void)
 		}
 	}
 }
-/*³µÁ¾ÇãÐ±Ê±²úÉúÖÐ¶Ïµ÷ÓÃ¸Ãº¯Êý*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ïµï¿½ï¿½Ã¸Ãºï¿½ï¿½ï¿½*/
 void gsensor_capacitive_hisr1(void)
 {
 	EINT_Mask(G_SENSOR_EINT1);
@@ -751,7 +753,7 @@ void gsensor_capacitive_hisr1(void)
 	EINT_UnMask(G_SENSOR_EINT1);
 }
 
-/*³µÁ¾Õð¶¯Ê±²úÉúÖÐ¶Ïµ÷ÓÃ¸Ãº¯Êý*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ïµï¿½ï¿½Ã¸Ãºï¿½ï¿½ï¿½*/
 void gsensor_capacitive_hisr2(void)
 {
 	EINT_Mask(G_SENSOR_EINT2);
@@ -807,19 +809,19 @@ void bike_break(){
 	}
 }
 
-/*³õÊ¼»¯·äÃùÆ÷*/
+/*ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 void init_beep(void)
 {
 	lock_debug_print(MOD_MMI, "iotlock_drv: %s", __FUNCTION__);
-	//GPIO_54Ê¹ÄÜ·äÃùÆ÷£¬ÉèÖÃ³ÉGPIOÄ£Ê½
+	//GPIO_54Ê¹ï¿½Ü·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã³ï¿½GPIOÄ£Ê½
 	GPIO_ModeSetup(54, 0);
-	//ÉèÖÃ³ÉÊä³ö
+	//ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½ï¿½
 	GPIO_InitIO(1, 54);
-	//Ä¬ÈÏµÍµçÆ½£¬¹Ø±Õ×´Ì¬
+	//Ä¬ï¿½ÏµÍµï¿½Æ½ï¿½ï¿½ï¿½Ø±ï¿½×´Ì¬
 	GPIO_WriteIO(0, 54);
 }
 
-/*ÈÃ·äÃùÆ÷·¢Éù*/
+/*ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 void open_beep_ms(kal_uint16 time, kal_uint8 count)
 {
 	kal_uint8 index = 0;
@@ -911,7 +913,7 @@ void stop_open_lock_normal()
 		info->state |= 1;
 	}
 	
-	//¼ÇÂ¼ÏÂ¿ªËøÊ±¼ä
+	//ï¿½ï¿½Â¼ï¿½Â¿ï¿½ï¿½ï¿½Ê±ï¿½ï¿½
 	info->unlock_timestamp = iotlock_srv_brw_get_current_utc_time();
 	save_open_lock_time_to_nvram(info->unlock_timestamp);
 	get_order_num_from_nvram(info->order_num);
@@ -1034,10 +1036,10 @@ void open_lock_test_start(void)
 
 }
 
-//µç»ú²âÊÔ
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 kal_bool open_lock_test(void)
 {
-	/*¿ªËø*/
+	/*ï¿½ï¿½ï¿½ï¿½*/
 	/*kal_uint8 i;
 	lock_debug_print(MOD_MMI, "iotlock: %s open lock", __FUNCTION__);
 	for (i=0; i<3; i++)
@@ -1068,7 +1070,7 @@ kal_bool open_lock_test(void)
 
 }
 
-//À®°È²âÊÔ
+//ï¿½ï¿½ï¿½È²ï¿½ï¿½ï¿½
 kal_bool close_lock_test(void)
 {
 	lock_debug_print(MOD_MMI, "iotlock: %s close lock", __FUNCTION__);
@@ -1079,7 +1081,7 @@ kal_bool close_lock_test(void)
 }
 
 
-//À®°È²âÊÔ
+//ï¿½ï¿½ï¿½È²ï¿½ï¿½ï¿½
  kal_bool open_beep_ms_test(void)
 {
 
@@ -1539,15 +1541,15 @@ kal_uint8 ECG_UART_Write(kal_uint8 *buf, kal_uint16 buflen, UART_PORT port, modu
 void ECG_PWR_ON(void)
 {
 	ECG_UART_Init();
-	GPIO_ModeSetup(41, 0);//ÉèÖÃ³ÉGPIOÄ£Ê½
-	GPIO_InitIO(1, 41);	 //ÉèÖÃ³ÉÊä³ö
+	GPIO_ModeSetup(41, 0);//ï¿½ï¿½ï¿½Ã³ï¿½GPIOÄ£Ê½
+	GPIO_InitIO(1, 41);	 //ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½ï¿½
 	GPIO_WriteIO(1, 41);	 // ON
 }
 
 void ECG_PWR_OFF(void)
 {
-	GPIO_ModeSetup(41, 0);//ÉèÖÃ³ÉGPIOÄ£Ê½
-	GPIO_InitIO(1, 41);	 //ÉèÖÃ³ÉÊä³ö
+	GPIO_ModeSetup(41, 0);//ï¿½ï¿½ï¿½Ã³ï¿½GPIOÄ£Ê½
+	GPIO_InitIO(1, 41);	 //ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½ï¿½
 	GPIO_WriteIO(0, 41);	// OFF
 	ECG_UART_DeInit();
 }
@@ -1576,7 +1578,7 @@ void ECG_UART_Init(void)
 	uart_handler = L1SM_GetHandle();
 	//L1SM_SleepDisable(uart_handler);
 
-	//¿ªÆôuart power
+	//ï¿½ï¿½ï¿½ï¿½uart power
 	//UART_TurnOnPower(ECG_UART_PORT, KAL_TRUE);  //open uart
 	status =  UART_Open(ECG_UART_PORT, ECG_OWNER_ID);
 	//kal_prompt_trace(MOD_MMI, "UART_Open return %d", status);
@@ -1585,10 +1587,10 @@ void ECG_UART_Init(void)
 	kal_prompt_trace(MOD_MMI,"Old gbUartOwnerId=%d",gbUartOwnerId);
 	//DCBdefault = (UART_CONFIG_T *)&UART_DefaultConfig;
 	U_SetOwner(ECG_UART_PORT, MOD_MMI);
-	//  Éè¶¨uart ²¨ÌØÂÊµÈÐÅÏ¢£¬×¢ÒâÔÚµ÷ÓÃ´Ëº¯ÊýÖ®Ç°ÐèÒªÏÈ³õÊ¼»¯Dcb½á¹¹Ìå
+	//  ï¿½è¶¨uart ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½Ï¢ï¿½ï¿½×¢ï¿½ï¿½ï¿½Úµï¿½ï¿½Ã´Ëºï¿½ï¿½ï¿½Ö®Ç°ï¿½ï¿½Òªï¿½È³ï¿½Ê¼ï¿½ï¿½Dcbï¿½á¹¹ï¿½ï¿½
 	//UART_SetDCBConfig(UART_LIN_PORT, DCBdefault, ECG_OWNER_ID);
 	U_SetBaudRate(ECG_UART_PORT, UART_BAUD_57600, MOD_MMI);
-	//ÉèÖÃMSG_ID_UART_READY_TO_READ_INDÏûÏ¢µÄÏìÓ¦º¯Êý
+	//ï¿½ï¿½ï¿½ï¿½MSG_ID_UART_READY_TO_READ_INDï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½
 	ClearProtocolEventHandler(MSG_ID_UART_READY_TO_READ_IND);
 	U_ClrTxBuffer(ECG_UART_PORT, MOD_MMI);
 	U_ClrRxBuffer(ECG_UART_PORT, MOD_MMI);
