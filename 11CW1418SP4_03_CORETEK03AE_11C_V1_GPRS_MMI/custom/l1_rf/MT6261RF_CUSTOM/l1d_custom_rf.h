@@ -31,7 +31,7 @@
 #ifndef  _L1D_CUSTOM_RF_H_
 #define  _L1D_CUSTOM_RF_H_
 /* ------------------------------------------------------------------------- */
-#define HS8269S_CUSTOM
+
 #if( (!defined(MT6261RF_RF)) && (!defined(MT2501RF_RF)) && (!defined(MT2502RF_RF)) )
    #error "rf files mismatch with compile option!"
 #endif
@@ -70,7 +70,7 @@
 /*MT6261RF*/ /*    PRCB : bit   pin                                    */
 /*MT6261RF*/ /*            0    BANDSW   - RF7176 GpCtrl0              */
 /*MT6261RF*/ /*            1    TX_EN    - RF7176 TX ENABLE            */
-/*MT6261RF*/ /*            2    not used                               */
+/*MT6261RF*/ /*            2    TR_SW_EN - RF7176 GpCtrl1              */
 /*MT6261RF*/ /*            3    not used                               */
 /*MT6261RF*/ /*            4    not used                               */
 /*MT6261RF*/ /*            5    not used                               */
@@ -80,71 +80,37 @@
 /*MT6261RF*/ /*            9    not used                               */
 /*MT6261RF*/ /*--------------------------------------------------------*/
 /*MT6261RF*/
-#ifdef HS8269S_CUSTOM
-/*MT6261RF*/ #define  PDATA_GSM850_PR1          0x004 //  5
-/*MT6261RF*/ #define  PDATA_GSM850_PR2          0x004 //   5
+/*MT6261RF*/ #define  PDATA_GSM850_PR1          0x000           
+/*MT6261RF*/ #define  PDATA_GSM850_PR2          0x005           
 /*MT6261RF*/ #define  PDATA_GSM850_PR3          0x000           
 /*MT6261RF*/ #define  PDATA_GSM850_PT1          0x000         
-/*MT6261RF*/ #define  PDATA_GSM850_PT2          0x004  // 5
-/*MT6261RF*/ #define  PDATA_GSM850_PT2B         0x006
+/*MT6261RF*/ #define  PDATA_GSM850_PT2          0x006           
+/*MT6261RF*/ #define  PDATA_GSM850_PT2B         0x006           
 /*MT6261RF*/ #define  PDATA_GSM850_PT3          0x000           
 /*MT6261RF*/
-/*MT6261RF*/ #define  PDATA_GSM_PR1             0x004  //  5
-/*MT6261RF*/ #define  PDATA_GSM_PR2             0x004  //  5
+/*MT6261RF*/ #define  PDATA_GSM_PR1             0x000                
+/*MT6261RF*/ #define  PDATA_GSM_PR2             0x005               
 /*MT6261RF*/ #define  PDATA_GSM_PR3             0x000                
 /*MT6261RF*/ #define  PDATA_GSM_PT1             0x000                
-/*MT6261RF*/ #define  PDATA_GSM_PT2             0x004   //  5
-/*MT6261RF*/ #define  PDATA_GSM_PT2B            0x006
+/*MT6261RF*/ #define  PDATA_GSM_PT2             0x006                
+/*MT6261RF*/ #define  PDATA_GSM_PT2B            0x006                      
 /*MT6261RF*/ #define  PDATA_GSM_PT3             0x000                
 /*MT6261RF*/
-/*MT6261RF*/ #define  PDATA_DCS_PR1             0x005   //   4
-/*MT6261RF*/ #define  PDATA_DCS_PR2             0x005   //  4
+/*MT6261RF*/ #define  PDATA_DCS_PR1             0x000             
+/*MT6261RF*/ #define  PDATA_DCS_PR2             0x004            
 /*MT6261RF*/ #define  PDATA_DCS_PR3             0x000             
 /*MT6261RF*/ #define  PDATA_DCS_PT1             0x000
-/*MT6261RF*/ #define  PDATA_DCS_PT2             0x005  //   4
+/*MT6261RF*/ #define  PDATA_DCS_PT2             0x007
 /*MT6261RF*/ #define  PDATA_DCS_PT2B            0x007
 /*MT6261RF*/ #define  PDATA_DCS_PT3             0x000
 /*MT6261RF*/
-/*MT6261RF*/ #define  PDATA_PCS_PR1             0x005  //   4
-/*MT6261RF*/ #define  PDATA_PCS_PR2             0x005  //  4
-/*MT6261RF*/ #define  PDATA_PCS_PR3             0x000
-/*MT6261RF*/ #define  PDATA_PCS_PT1             0x000
-/*MT6261RF*/ #define  PDATA_PCS_PT2             0x005  //   4
-/*MT6261RF*/ #define  PDATA_PCS_PT2B            0x007
-/*MT6261RF*/ #define  PDATA_PCS_PT3             0x000
-#else //AP6682_CUSTOM
-/*MT6261RF*/ #define  PDATA_GSM850_PR1          0x005
-/*MT6261RF*/ #define  PDATA_GSM850_PR2          0x005
-/*MT6261RF*/ #define  PDATA_GSM850_PR3          0x000
-/*MT6261RF*/ #define  PDATA_GSM850_PT1          0x000
-/*MT6261RF*/ #define  PDATA_GSM850_PT2          0x005
-/*MT6261RF*/ #define  PDATA_GSM850_PT2B         0x006
-/*MT6261RF*/ #define  PDATA_GSM850_PT3          0x000
-/*MT6261RF*/
-/*MT6261RF*/ #define  PDATA_GSM_PR1             0x005
-/*MT6261RF*/ #define  PDATA_GSM_PR2             0x005
-/*MT6261RF*/ #define  PDATA_GSM_PR3             0x000
-/*MT6261RF*/ #define  PDATA_GSM_PT1             0x000
-/*MT6261RF*/ #define  PDATA_GSM_PT2             0x005
-/*MT6261RF*/ #define  PDATA_GSM_PT2B            0x006
-/*MT6261RF*/ #define  PDATA_GSM_PT3             0x000
-/*MT6261RF*/
-/*MT6261RF*/ #define  PDATA_DCS_PR1             0x004
-/*MT6261RF*/ #define  PDATA_DCS_PR2             0x004
-/*MT6261RF*/ #define  PDATA_DCS_PR3             0x000
-/*MT6261RF*/ #define  PDATA_DCS_PT1             0x000
-/*MT6261RF*/ #define  PDATA_DCS_PT2             0x004
-/*MT6261RF*/ #define  PDATA_DCS_PT2B            0x007
-/*MT6261RF*/ #define  PDATA_DCS_PT3             0x000
-/*MT6261RF*/
-/*MT6261RF*/ #define  PDATA_PCS_PR1             0x004
+/*MT6261RF*/ #define  PDATA_PCS_PR1             0x000
 /*MT6261RF*/ #define  PDATA_PCS_PR2             0x004
 /*MT6261RF*/ #define  PDATA_PCS_PR3             0x000
 /*MT6261RF*/ #define  PDATA_PCS_PT1             0x000
-/*MT6261RF*/ #define  PDATA_PCS_PT2             0x004
+/*MT6261RF*/ #define  PDATA_PCS_PT2             0x007
 /*MT6261RF*/ #define  PDATA_PCS_PT2B            0x007
 /*MT6261RF*/ #define  PDATA_PCS_PT3             0x000
-#endif
 /*MT6261RF*/
 /*MT6261RF*/ #define  PDATA_INIT                0x000
 /*MT6261RF*/ #define  PDATA_IDLE                0x000
@@ -176,7 +142,7 @@
 /*MT6261RF*/ /*----------------------------------------------*/
 /*MT6261RF*/ /*   Crystal parameter                          */
 /*MT6261RF*/ /*----------------------------------------------*/
-/*MT6261RF*/ #define Custom_RF_XO_CapID      24
+/*MT6261RF*/ #define Custom_RF_XO_CapID      19
 /*MT6261RF*/
 /*MT6261RF*/ /*------------------------------------------------------------------------------------*/
 /*MT6261RF*/ /*   0: GSM850 Signal go through GSM850, GSM900 Signal go through GSM900  (default)   */
@@ -221,11 +187,11 @@
 /*MT6261RF*/ /*----------------------------------------------*/
 /*MT6261RF*/ /*   DCXO LPM parameter                         */
 /*MT6261RF*/ /*----------------------------------------------*/
-/*MT6261RF*/ #define CUSTOM_CLOAD_FREQ_OFFSET   61000 /*in unit of Hz*/
+/*MT6261RF*/ #define CUSTOM_CLOAD_FREQ_OFFSET   62790 /*in unit of Hz*/
 
 //*============================================================================== */
 /*MT6261RF*/ /* If you want to use calibration data in m12193.c, please DO NOT define __SLIM_CALIBRATION_DATA__ in l1d_custom_rf.h */
-/*MT6261RF*/ #define __SLIM_CALIBRATION_DATA__
+/*MT6261RF*/ //xx #define __SLIM_CALIBRATION_DATA__
 
 #endif
 
